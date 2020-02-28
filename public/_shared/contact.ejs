@@ -1,0 +1,70 @@
+<svg class="contact" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 45" style="enable-background:new 0 0 50 45;" xml:space="preserve">
+  <polygon class="shape" points="0,0 0,37 8,37 8,45 18,37 50,37 50,0 "/>
+</svg>
+
+<script>
+  function d(){
+    var body = document.getElementsByTagName("body");
+    var form = document.getElementById("contactForm");
+    var steps = form.getElementsByTagName("div");
+    var stepOne = form.childNodes[1];
+
+    [].forEach.call(steps, function(step) {
+        step.classList.remove("active");
+    });
+
+    body[0].classList.remove('open');
+    body[0].classList.remove('review');
+    body[0].classList.toggle('contact');
+    stepOne.classList.add("active");
+    stepOne.getElementsByTagName("input")[0].focus();
+}
+
+function step(step){
+    var form = document.getElementById("contactForm");
+    var currentStepNum = form.getElementsByClassName("active")[0];
+    if (typeof currentStepNum != "undefined") {
+    var nextStep = currentStepNum.nextElementSibling;
+
+    var stepNum = nextStep;
+    var f = document.getElementsByTagName("FORM")[0];
+    var divs = f.getElementsByTagName("div");
+    [].forEach.call(divs, function(div) {
+        div.classList.remove("active");
+    });
+    
+    if (nextStep.nextElementSibling !== null) {
+        stepNum.classList.add("active");
+    } else {
+        review();
+    }
+    var field = stepNum.getElementsByTagName("input")[0] || stepNum.getElementsByTagName("textarea")[0];
+    field.focus();
+    return false;
+    }
+}
+
+function checkTabPress(e) {
+    'use strict';
+    var ele = document.activeElement;
+    var body = document.getElementsByTagName("body")[0];
+
+    if (e.keyCode === 9 && body.classList.contains("contact"))     {
+        step();
+    }
+}
+
+document.addEventListener('keydown', function (e) {
+    checkTabPress(e);
+}, false);
+
+document.addEventListener('touchend', function (e) {
+    checkTabPress(e);
+}, false);
+
+    function review(){
+        var body = document.getElementsByTagName("body");
+        body[0].classList.add('review');
+        return false;
+    }
+</script>

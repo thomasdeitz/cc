@@ -1,0 +1,20 @@
+<% var navList = main_navigation; %>
+
+<nav id="mainNav">
+  <% for(var nav in navList) { %>
+    <% var thisNav = navList[nav]; %>
+    <% var isActive = (current.path[0] == thisNav.href) ? 'active' : ''; %>
+      <a  class="<%- isActive %>" 
+          href="<%- github_deploy %>/<%- thisNav.href %>" 
+          title="<%- thisNav.title %>"><%- thisNav.label %>
+      </a>
+  <% } %>
+</nav>
+
+<script>
+  c = function (){
+    var body = document.getElementsByTagName("body");
+    body[0].classList.remove('contact', 'review');
+    body[0].classList.toggle('open');
+}
+</script>
