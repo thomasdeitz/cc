@@ -12,8 +12,14 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: black;
-  color: white;
+}
+
+body *::-moz-selection {
+  background-color: #d7be69;
+}
+
+body *::selection {
+  background-color: #d7be69;
 }
 
 body header {
@@ -105,7 +111,7 @@ body small {
 
 body h1 {
   font-size: 4rem;
-  text-shadow: .2rem .2rem black;
+  color: #d7be69;
 }
 
 body h2 {

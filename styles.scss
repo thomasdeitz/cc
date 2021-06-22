@@ -10,8 +10,10 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: black;
-    color: white;
+
+    *::selection {
+        background-color: #d7be69;
+    }
 
     header {
         overflow: hidden;
@@ -91,7 +93,7 @@ body {
 
     h1 {
         font-size: 4rem;
-        text-shadow: .2rem .2rem black;
+        color: #d7be69;
     }
 
     h2 {
