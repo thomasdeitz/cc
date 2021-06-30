@@ -23,6 +23,12 @@ body *::selection {
   background-color: #d7be69;
 }
 
+.logo {
+  margin: 1rem;
+  height: 100px;
+  width: auto;
+}
+
 body header {
   overflow: hidden;
   display: -webkit-box;
