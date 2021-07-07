@@ -108,16 +108,23 @@ body footer section > *:first-child {
 body section {
   margin-left: auto;
   margin-right: auto;
-  padding: 4rem 0;
-  width: 60vw;
-  max-width: 800px;
+  padding: 4rem 20vw;
+}
+
+section.text-center {
+  text-align: center;
+}
+
+section.bg-gold {
+  color: white;
+  background-color: #d7be69;
 }
 
 body h1, body h2, body h3 {
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   transform-origin: bottom left;
-  transform: scaleX(.85);
+  transform: scaleY(1.15);
 }
 
 body small {
