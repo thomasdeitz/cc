@@ -39,8 +39,7 @@ body header {
   display: flex;
   text-align: center;
   width: 100vw;
-  height: 100vh;
-  max-height: 900px;
+  height: 75vw;
   background-image: url(./assets/CC-Promo.png);
   background-position: center;
   background-size: cover;
@@ -49,7 +48,7 @@ body header {
 
 @media only screen and (max-width: 600px) {
   body header {
-    max-height: 500px;
+    height: 75vh;
   }
 }
 
