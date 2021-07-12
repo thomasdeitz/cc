@@ -69,9 +69,9 @@
             <p class="text-center" v-if="shows.length == 0">{{message}}</p>
             <div>
                 <div v-for="show in shows" :key="show.datetime">
-                    <div><strong>{{show.datetime}}</strong></div>
+                    <div style="text-transform:uppercase"><strong>{{show.datetime}}</strong></div>
                     <div>{{show.venue}}</div>
-                    <div><strong>{{show.location}}</strong></div>
+                    <div style="text-transform:uppercase"><strong>{{show.location}}</strong></div>
                 </div>
             </div>
         </section>
