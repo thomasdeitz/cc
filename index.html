@@ -30,11 +30,61 @@
                   message: "There are currently no new shows scheduled... please check back soon.",
                   shows: [
                         {
-                            datetime: 'Sat, Sept 11, 2021 @ TBD',
+                            //datetime: 'Sat, July 25, 2021 @ Noon',
+                            //venue: 'Music & Motorcycles at the Mansion - Okauchee Lake Mansion',
+                            //location: 'Okauchee, WI'
+                            //notes: ''
+                            //ticketsUrl: ''
+                        },
+                        {
+                            //datetime: 'Fri, July 30, 2021 @ 7PM',
+                            //venue: 'Lac Le Belle Band Shell - Bands at the Beach',
+                            //location: 'Oconomowoc, WI',
+                            //notes: 'Opening for 5 Card Stud'
+                            //ticketsUrl: ''
+                        },
+                        {
+                            //datetime: 'Sat, July 31, 2021 @ Noon',
+                            //venue: 'The Mansion on Okauchee Lake',
+                            //location: 'Okauchee, WI'
+                            //notes: ''
+                            //ticketsUrl: ''
+                        },
+                        {
+                            datetime: 'Wed, Aug 4, 2021 @ 5 PM',
+                            venue: 'Sister Bay Performance Pavilion - Concert in the Park',
+                            location: 'Sister Bay, WI',
+                            notes: 'Opening for Unity the Band',
+                            //ticketsUrl: ''
+                        },
+                        {
+                            //datetime: 'Sat, Aug 21, 2021 @ 2PM',
+                            //venue: 'The Etcetera Bar and Grill',
+                            //location: 'Oconomowoc, WI',
+                            //notes: ''
+                            //ticketsUrl: ''
+                        },
+                        {
+                            //datetime: 'Fri, Aug 27, 2021 @ 7PM',
+                            //venue: 'Lac Le Belle Band Shell - Bands at the Beach',
+                            //location: 'Oconomowoc, WI',
+                            //notes: 'Opening for 52nd Street Band'
+                            //ticketsUrl: ''
+                        },
+                        {
+                            datetime: 'Sat, Sept 11, 2021 @ 2PM',
                             venue: 'Oconomowoc Fall Festival - Main Stage',
                             location: 'Oconomowoc, WI',
+                            //notes: ''
                             //ticketsUrl: ''
-                        }
+                        },
+                        {
+                            //datetime: 'Fri, Sept 12, 2021 @ 7PM',
+                            //venue: 'Lac Le Belle Band Shell - Bands at the Beach',
+                            //location: 'Oconomowoc, WI',
+                            //notes: 'Opening for Road Crew'
+                            //ticketsUrl: ''
+                        },
                     ],
                 }
               })
@@ -68,10 +118,11 @@
             <h2 class="text-center">{{heading}}</h2>
             <p class="text-center" v-if="shows.length == 0">{{message}}</p>
             <div>
-                <div v-for="show in shows" :key="show.datetime">
+                <div v-for="show in shows" :key="show.datetime" style="margin: 40px 0">
                     <div style="text-transform:uppercase"><strong>{{show.datetime}}</strong></div>
                     <div>{{show.venue}}</div>
                     <div style="text-transform:uppercase"><strong>{{show.location}}</strong></div>
+                    <div v-if="show.notes" style="opacity:.5">{{show.notes}}</div>
                 </div>
             </div>
         </section>
