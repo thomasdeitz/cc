@@ -30,6 +30,11 @@ body *::selection {
   margin: 1rem;
   height: 100px;
   width: auto;
+  color: white;
+}
+
+.cls-2 {
+  fill:currentColor;
 }
 
 body header {
@@ -41,7 +46,7 @@ body header {
   width: 100vw;
   height: 75vw;
   max-height: 100vh;
-  background-image: url(./assets/CC-Promo-OP-sm.png);
+  background-image: url(./assets/CandyCigarette.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
