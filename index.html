@@ -6,7 +6,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-K5VDC2FEB0"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@next"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -38,10 +38,16 @@
     <script>
       // when life is settled, load up the fun stuff
       document.addEventListener("DOMContentLoaded", function () {
-        new Vue({
+        const Counter = {
           el: "#app",
-          // define data - initial display text
-          data: {
+          methods: {
+            sortShows(arrays) {
+                    return arrays.sort((a, b) => new Date(a.datetime) - new Date(b.datetime) );
+                }
+          },
+          data() {
+          return {
+            today: new Date(),
             heading: "Upcoming Shows",
             message:
               "There are currently no new shows scheduled... please check back soon.",
@@ -276,87 +282,88 @@
             ],
             shows: [
               {
-                datetime: "Fri, Jan 28, 2022 @ 7:45 PM",
+                datetime: "2022-01-28T19:45",
                 venue: "Thirsty Bird Saloon",
                 location: "Oconomowoc, WI"
               },
               {
-                datetime: "Sat, Jan 29, 2022 @ 2 PM - 3 PM",
+                datetime: "2022-01-29T14:00",
                 venue: "The Etcetera - Chili Fest",
                 location: "Oconomowoc, WI"
               },
               {
-                datetime: "Fri, Feb 11, 2022 @ 7 PM - 8 PM",
+                datetime: "2022-02-11T19:00",
                 venue: "The Etcetera",
                 location: "Oconomowoc, WI",
               },
               {
-                datetime: "Sat, Feb 12, 2022 @ Noon",
+                datetime: "2022-02-12T12:00",
                 venue: "Private Event",
                 location: "Oconomowoc, WI" 
               },
               {
-                datetime: "Sat, Feb 12, 2022 @ 8 PM",
+                datetime: "2022-02-12T20:00",
                 venue: "Mad Steintist",
                 location: "Waukesha, WI",
                 notes: 'w/ Dropbear Collective, HoneyFingers, & Nick Bacardi and The Rum Runners' 
               },
               {
-                datetime: "Sat, Feb 19, 2022 @ 8 PM",
+                datetime: "2022-02-19T20:00",
                 venue: "Traditions Pub",
                 location: "Fillmore, WI"
               },
               {
-                datetime: "Fri, Feb 25, 2022 @ 7:45 PM",
+                datetime: "2022-02-25T19:45",
                 venue: "Thirsty Bird Saloon",
                 location: "Oconomowoc, WI"
               },
               {
-                datetime: "Fri, Mar 4, 2022",
+                datetime: "2022-03-04T20:00",
                 venue: "Henny's DugOut",
                 location: "Lanon, WI",
               },
               {
-                datetime: "Fri, Mar 11, 2022 @ 7 PM - 8 PM",
+                datetime: "2022-03-11T19:00",
                 venue: "The Etcetera",
                 location: "Oconomowoc, WI",
               },
               {
-                datetime: "Fri, April 1, 2022 @ 7:45 PM",
+                datetime: "2022-04-01T19:45",
                 venue: "Thirsty Bird Saloon",
                 location: "Oconomowoc, WI"
               },
               {
-                datetime: "Fri, Apr 8, 2022 @ 7 PM - 8 PM",
+                datetime: "2022-04-08T19:00",
                 venue: "The Etcetera",
                 location: "Oconomowoc, WI",
               },
               {
-                datetime: "Sat, Apr 9, 2022 @ 8 PM",
+                datetime: "2022-04-09T20:00",
                 venue: "D & J's Sports Bar & Grill",
                 location: "Watertown, WI",
                 notes: 'w/ Sammy Ray'
               },
               {
-                datetime: "Sat, Apr 16, 2022",
+                datetime: "2022-04-16T18:00",
                 venue: "Vino Etc",
                 location: "Oconomowoc, WI",
               },
               {
-                datetime: "Fri, April 22, 2022 @ 5 PM",
+                datetime: "2022-04-22T17:00",
                 venue: "The Pyramid Event Venue",
                 location: "Lake Mills, WI",
                 notes: 'w/ Jake WIlliams'
               },
               {
-                datetime: "Sat, April 23, 2022 @ 8 PM",
+                datetime: "2022-04-23T20:00",
                 venue: "Traditions Pub",
                 location: "Fillmore, WI"
               },
               {
-                datetime: "Sat, Apr 30, 2022 @ 8:00 PM",
+                datetime: "2022-04-30T20:00",
                 venue: "The Back Bar",
-                location: "Janesville, WI"
+                location: "Janesville, WI",
+                notes: "w/ The Rumours & Mickey Magnum"
               },
               //{
                 //datetime: "Sat, May 7, 2022",
@@ -364,7 +371,7 @@
                 //location: "Oconomowoc, WI",
               //},
               {
-                datetime: "Fri, May 13, 2022 @ 7 PM - 8 PM",
+                datetime: "2022-05-13T19:00",
                 venue: "The Etcetera",
                 location: "Oconomowoc, WI",
               },
@@ -375,22 +382,22 @@
                 //notes: 'w/ Myles Wangerin'
               //},
               {
-                datetime: "Sat, May 29, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-05-29T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
               {
-                datetime: "Sat, June 4, 2022 @ 8 PM",
+                datetime: "2022-06-04T20:00",
                 venue: "Traditions Pub",
                 location: "Fillmore, WI"
               },
               {
-                datetime: "Fri, June 17, 2022 @ 5 PM",
+                datetime: "2022-06-17T17:00",
                 venue: "Private Party",
                 location: "Okauchee, WI",
               },
               {
-                datetime: "Sat, June 18, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-06-18T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
@@ -400,81 +407,83 @@
                 //location: "Egg Harbor - Door County, WI"
               //},
               {
-                datetime: "Sat, July 2-3, 2022 @ TBD",
+                datetime: "2022-07-02T00:00",
                 venue: "Okauchee Lake Music Festival",
                 location: "Okauchee, WI",
               },
               {
-                datetime: "Sat, July 16, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-07-16T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
               {
-                datetime: "Sat, July 23, 2022 @ 3:30, 5:30, 7:30, & 9:30 PM",
+                datetime: "2022-07-23T14:00",
                 venue: "Cheelabration @ Daily Taco & Cantina",
                 location: "Thiensville, WI",
-                notes: 'w/ Buffalo Gospel, Reverend Raven and the Chain Smokin\' Altar Boys feat. Westside Andy, Maple Road Blues Band, & Mississippi Leg Hounds'
+                notes: 'During breaks 3:30, 5:30, 7:30, & 9:30 PM - w/ Buffalo Gospel, Reverend Raven and the Chain Smokin\' Altar Boys feat. Westside Andy, Maple Road Blues Band, & Mississippi Leg Hounds'
               },
               {
-                datetime: "Sat, Aug 6, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-08-06T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
               {
-                datetime: "Wed, Aug 3, 2022 @ 4:30 PM",
+                datetime: "2022-08-03T16:30",
                 venue: "Sister Bay Performance Pavilion - Concert in the Park",
                 location: "Sister Bay, WI",
                 notes: 'w/ TBD'
               },
               {
-                datetime: "Tue, Aug 9, 2022 @ 1 PM",
+                datetime: "2022-08-09T13:00",
                 venue: "State Fair - Saz's BBQ Stage",
                 location: "West Allis, WI",
                 notes: 'w/ Sammy Ray'
               },
               {
-                datetime: "Sun, Aug 22, 2022 @ 4 PM",
+                datetime: "2022-08-22T16:00",
                 venue: "the baaree",
                 location: "Theinsville, WI"
               },
               {
-                datetime: "Sat, Aug 27, 2022 @ Noon",
+                datetime: "2022-08-27T12:00",
                 venue: "The Antidote",
                 location: "West Bend, WI"
               },
               {
-                datetime: "Sat, Sept 10, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-09-10T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
               {
-                datetime: "Sat, Sept 24, 2022 @ Noon",
+                datetime: "2022-09-24T12:00",
                 venue: "The Antidote",
                 location: "West Bend, WI"
               },
               {
-                datetime: "Sat, Oct 1, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-10-01T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
               {
-                datetime: "Sat, Oct 15, 2022 @ 2 PM - 5 PM",
+                datetime: "2022-10-15T14:00",
                 venue: "Hubbleton Brewing",
                 location: "Waterloo, WI"
               },
               {
-                datetime: "Sun, Oct 16, 2022 @ Noon - 3 PM",
+                datetime: "2022-10-16T12:00",
                 venue: "M & T's Gibbsville Orchard - Hallo-Apple-Ween Festival",
                 location: "Sheboygan Falls, WI"
               },
               {
-                datetime: "Sat, Oct 29, 2022 @ 8 AM - 11 AM",
+                datetime: "2022-10-29T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
             ],
-          },
-        });
+          }
+        }
+    };
+        Vue.createApp(Counter).mount('#app')
       });
     </script>
   </head>
@@ -571,26 +580,37 @@
     <!-- <aside></aside> -->
     <section id="shows" class="bg-dark">
       <h2 class="text-center">{{heading}}</h2>
-      <p class="text-center" v-if="shows.length == 0">{{message}}</p>
       <div>
-        <div v-for="show in shows" :key="show.datetime" style="margin: 40px 0">
-          <div style="text-transform: uppercase">
-            <strong>{{show.datetime}}</strong>
+        <div v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 40px 0;">
+          <div v-if="new Date(show.datetime) > today">
+            <div style="text-transform: uppercase">
+              <strong>{{new Date(show.datetime).toLocaleDateString(
+                  'en',
+                  {   
+                      weekday: 'short',
+                      month: 'short',
+                      day: 'numeric',
+                      year: 'numeric',
+                      hour: 'numeric',
+                      minute: 'numeric'
+                  }
+                )}}</strong>
+            </div>
+            <div>{{show.venue}}</div>
+            <div style="text-transform: uppercase">
+              <strong>{{show.location}}</strong>
+            </div>
+            <div v-if="show.notes" style="opacity: 0.5">{{show.notes}}</div>
           </div>
-          <div>{{show.venue}}</div>
-          <div style="text-transform: uppercase">
-            <strong>{{show.location}}</strong>
-          </div>
-          <div v-if="show.notes" style="opacity: 0.5">{{show.notes}}</div>
         </div>
       </div>
       <br />
       <br />
-      <hr />
+      <hr style="display:none;" />
       <br />
       <br />
-      <h2 class="text-center">Past Shows</h2>
-      <div>
+      <h2 class="text-center" style="display:none;">Past Shows</h2>
+      <div style="display:none;">
         <div
           style="opacity:.5; margin: 40px 0"
           v-for="pastShow in pastShows"
