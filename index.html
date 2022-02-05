@@ -43,6 +43,9 @@
           methods: {
             sortShows(arrays) {
                     return arrays.sort((a, b) => new Date(a.datetime) - new Date(b.datetime) );
+                },
+                sortPastShows(arrays) {
+                    return arrays.sort((a, b) => new Date(a.datetime) + new Date(b.datetime) );
                 }
           },
           data() {
@@ -127,157 +130,6 @@
               {
                 name: 'The Stone',
                 artist: 'Original'
-              }
-            ],
-            pastShows: [
-              {
-                datetime: "Sat, Jan 22, 2022 @ 1 PM",
-                venue: "West Bend Winter Warm-up - Old Settlers Park",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Fri, Jan 14, 2022 @ 7 PM - 8 PM",
-                venue: "The Etcetera",
-                location: "Oconomowoc, WI",
-              },
-              {
-                datetime: "Sat, Jan 8, 2022 @ 6 PM",
-                venue: "Woods Liquor Landing",
-                location: "Randolph, WI",
-                notes: 'w/ Sammy Ray'
-              },
-              {
-                datetime: "Fri, Dec 10, 2021 @ 7:45 PM",
-                venue: "Thirsty Bird Saloon",
-                location: "Oconomowoc, WI"
-              },
-              {
-                datetime: "Sat, Dec 4, 2021 @ 7:45 PM",
-                venue: "Thirsty Bird Saloon",
-                location: "Oconomowoc, WI",
-                notes: 'w/ Retrosonic'
-              },
-              {
-                datetime: "Sat, Dec 4, 2021 @ 1 PM",
-                venue: "Washington County Humane Society - Festival of Trees",
-                location: "Slinger, WI",
-              },
-              {
-                datetime: "Fri, Nov 26, 2021 @ 6 PM - 7 PM",
-                venue: "Vino Etc.",
-                location: "Oconomowoc, WI"
-              },
-              {
-                datetime: "Sat, Nov 27, 2021 @ 7 PM - 8 PM",
-                venue: "The Etcetera",
-                location: "Oconomowoc, WI",
-              },
-              {
-                datetime: "Sat, Oct 23, 2021 @ 8 AM - 11 AM",
-                venue: "West Bend Farmers Market - The Antidote",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Sun, Oct 17, 2021 @ 10:30 AM & 1:15 PM",
-                venue: "M & T's Gibbsville Orchard - Hallo-Apple-Ween Festival",
-                location: "Sheboygan Falls, WI"
-              },
-              {
-                datetime: "Fri, Oct 15, 2021 @ 8 PM",
-                venue: "The Back Bar",
-                location: "Janesville, WI",
-                notes: 'w/ The Other LA, Solar, & Common Threads'
-              },
-              {
-                datetime: "Tues, Oct 12, 2021 @ 6:30",
-                venue: "the BCKYRD",
-                location: "Fitchburg, WI",
-                notes: 'w/ Jeffrey Dallet, & The Lonesome Cobras'
-              },
-              {
-                datetime: "Sat, Oct 9, 2021 @ 7:45 PM",
-                venue: "Thirsty Bird Saloon",
-                location: "Oconomowoc, WI",
-                notes: 'w/ Dirty Boogie'
-              },
-              {
-                datetime: "Fri, Sept 24, 2021 @ 6 PM - 8 PM",
-                venue: "Wide Open Wisconsin - Washington County Fair Park",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Sat, Sept 25, 2021 @ 11 AM - 2 PM",
-                venue: "Wide Open Wisconsin - Washington County Fair Park",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Sat, Sept 18, 2021 @ 430 PM - 5:30 PM",
-                venue: "The Hive Taproom",
-                location: "East Troy, WI",
-                notes: 'w/ Indigo Canyon'
-              },
-              {
-                datetime: "Sat, Sept 18, 2021 @ Noon - 2 PM",
-                venue: "Recovery Month Picnic - Grandview Park",
-                location: "Waukesha, WI",
-              },
-              {
-                datetime: "Sat, Sept 11, 2021 @ 1 PM",
-                venue: "Fall Fest - Oconomowoc",
-                location: "Oconomowoc, WI"
-              },
-              {
-                datetime: "Sun, Sept 5, 2021 @ 10 AM - NOON",
-                venue: "Wheels on Main - The Antidote",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Sat, Sept 4, 2021 @ Noon",
-                venue: "Oconomowoc Skatepark - Grand Opening Celebration",
-                location: "Oconomowoc, WI"
-              },
-              {
-                datetime: "Sat, Aug 28, 2021 @ 6:30 PM",
-                venue: "Private Event",
-                location: "Oconomowoc, WI",
-              },
-              {
-                datetime: "Sat, Aug 28, 2021 @ 8 AM - 11 AM",
-                venue: "West Bend Farmers Market - Old Settlers Park",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Thu, Aug 5, 2021 @ 4 PM",
-                venue: "One Barrel Brewing",
-                location: "Egg Harbor - Door County, WI"
-              },
-              {
-                datetime: "Wed, Aug 4, 2021 @ 5 PM",
-                venue: "Sister Bay Performance Pavilion - Concert in the Park",
-                location: "Sister Bay - Door County, WI",
-                notes: "w/ Unity The Band"
-
-              },
-              {
-                datetime: "Sat, July 31, 2021 @ 8 AM - 11 AM",
-                venue: "West Bend Farmers Market - The Antidote",
-                location: "West Bend, WI",
-              },
-              {
-                datetime: "Fri, July 30, 2021 @ 7 PM",
-                venue: "Lac La Belle Band Shell - Bands at the Beach",
-                location: "Oconomowoc, WI",
-                notes: "w/ 5 Card Studs",
-              },
-              {
-                datetime: "Sat, July 3, 2021 @ Noon",
-                venue: "Okauchee Lions Park - Okauchee Lake Music Festival",
-                location: "Okauchee, WI",
-              },
-              {
-                datetime: "Fri, June 18, 2021 @ 6:30 PM",
-                venue: "EP Release Party - Private Event",
-                location: "Oconomowoc, WI",
               }
             ],
             shows: [
@@ -479,6 +331,154 @@
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
+              {
+                datetime: "2022-01-22T13:00",
+                venue: "West Bend Winter Warm-up - Old Settlers Park",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2022-01-14T19:00",
+                venue: "The Etcetera",
+                location: "Oconomowoc, WI",
+              },
+              {
+                datetime: "2022-01-08T18:00",
+                venue: "Woods Liquor Landing",
+                location: "Randolph, WI",
+                notes: 'w/ Sammy Ray'
+              },
+              {
+                datetime: "2021-12-10T19:45",
+                venue: "Thirsty Bird Saloon",
+                location: "Oconomowoc, WI"
+              },
+              {
+                datetime: "2021-12-04T19:45",
+                venue: "Thirsty Bird Saloon",
+                location: "Oconomowoc, WI",
+                notes: 'w/ Retrosonic'
+              },
+              {
+                datetime: "2021-12-04T13:00",
+                venue: "Washington County Humane Society - Festival of Trees",
+                location: "Slinger, WI",
+              },
+              {
+                datetime: "2021-11-26T18:00",
+                venue: "Vino Etc.",
+                location: "Oconomowoc, WI"
+              },
+              {
+                datetime: "2021-11-27T19:00",
+                venue: "The Etcetera",
+                location: "Oconomowoc, WI",
+              },
+              {
+                datetime: "2021-10-23T08:00",
+                venue: "West Bend Farmers Market - The Antidote",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-10-17T10:30",
+                venue: "M & T's Gibbsville Orchard - Hallo-Apple-Ween Festival",
+                location: "Sheboygan Falls, WI"
+              },
+              {
+                datetime: "2021-10-15T20:00",
+                venue: "The Back Bar",
+                location: "Janesville, WI",
+                notes: 'w/ The Other LA, Solar, & Common Threads'
+              },
+              {
+                datetime: "2021-10-12T18:30",
+                venue: "the BCKYRD",
+                location: "Fitchburg, WI",
+                notes: 'w/ Jeffrey Dallet, & The Lonesome Cobras'
+              },
+              {
+                datetime: "2021-10-09T19:45",
+                venue: "Thirsty Bird Saloon",
+                location: "Oconomowoc, WI",
+                notes: 'w/ Dirty Boogie'
+              },
+              {
+                datetime: "2021-09-24T18:00",
+                venue: "Wide Open Wisconsin - Washington County Fair Park",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-09-25T11:00",
+                venue: "Wide Open Wisconsin - Washington County Fair Park",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-09-18T06:30",
+                venue: "The Hive Taproom",
+                location: "East Troy, WI",
+                notes: 'w/ Indigo Canyon'
+              },
+              {
+                datetime: "2021-09-18T12:00",
+                venue: "Recovery Month Picnic - Grandview Park",
+                location: "Waukesha, WI",
+              },
+              {
+                datetime: "2021-09-11T13:00",
+                venue: "Fall Fest - Oconomowoc",
+                location: "Oconomowoc, WI"
+              },
+              {
+                datetime: "2021-09-05T10:00",
+                venue: "Wheels on Main - The Antidote",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-09-04T12:00",
+                venue: "Oconomowoc Skatepark - Grand Opening Celebration",
+                location: "Oconomowoc, WI"
+              },
+              {
+                datetime: "2021-08-28T18:30",
+                venue: "Private Event",
+                location: "Oconomowoc, WI",
+              },
+              {
+                datetime: "2021-08-28T08:00",
+                venue: "West Bend Farmers Market - Old Settlers Park",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-08-05T16:00",
+                venue: "One Barrel Brewing",
+                location: "Egg Harbor - Door County, WI"
+              },
+              {
+                datetime: "2021-08-04T17:00 Wed, Aug 4, 2021 @ 5 PM",
+                venue: "Sister Bay Performance Pavilion - Concert in the Park",
+                location: "Sister Bay - Door County, WI",
+                notes: "w/ Unity The Band"
+              },
+              {
+                datetime: "2021-07-31T08:00",
+                venue: "West Bend Farmers Market - The Antidote",
+                location: "West Bend, WI",
+              },
+              {
+                datetime: "2021-07-30T19:00",
+                venue: "Lac La Belle Band Shell - Bands at the Beach",
+                location: "Oconomowoc, WI",
+                notes: "w/ 5 Card Studs",
+              },
+              {
+                datetime: "2021-07-03T12:00",
+                venue: "Okauchee Lions Park - Okauchee Lake Music Festival",
+                location: "Okauchee, WI",
+              },
+              {
+                datetime: "2021-06-18T18:30",
+                venue: "EP Release Party - Private Event",
+                location: "Oconomowoc, WI",
+              }
             ],
           }
         }
@@ -581,7 +581,7 @@
     <section id="shows" class="bg-dark">
       <h2 class="text-center">{{heading}}</h2>
       <div>
-        <div v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 40px 0;">
+        <div v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 30px 0;">
           <div v-if="new Date(show.datetime) > today">
             <div style="text-transform: uppercase">
               <strong>{{new Date(show.datetime).toLocaleDateString(
@@ -606,24 +606,32 @@
       </div>
       <br />
       <br />
-      <hr style="display:none;" />
+      <hr />
       <br />
       <br />
-      <h2 class="text-center" style="display:none;">Past Shows</h2>
-      <div style="display:none;">
-        <div
-          style="opacity:.5; margin: 40px 0"
-          v-for="pastShow in pastShows"
-          :key="pastShow.datetime"
-        >
-          <div style="text-transform: uppercase">
-            <strong>{{pastShow.datetime}}</strong>
+      <h2 class="text-center">Past Shows</h2>
+      <div>
+        <div v-for="show in sortPastShows(shows)"  :key="show.datetime" style="margin: 30px 0; opacity:.5;">
+          <div v-if="new Date(show.datetime) <= today">
+            <div style="text-transform: uppercase">
+              <strong>{{new Date(show.datetime).toLocaleDateString(
+                  'en',
+                  {   
+                      weekday: 'short',
+                      month: 'short',
+                      day: 'numeric',
+                      year: 'numeric',
+                      hour: 'numeric',
+                      minute: 'numeric'
+                  }
+                )}}</strong>
+            </div>
+            <div>{{show.venue}}</div>
+            <div style="text-transform: uppercase">
+              <strong>{{show.location}}</strong>
+            </div>
+            <div v-if="show.notes" style="opacity: 0.5">{{show.notes}}</div>
           </div>
-          <div>{{pastShow.venue}}</div>
-          <div style="text-transform: uppercase">
-            <strong>{{pastShow.location}}</strong>
-          </div>
-          <div v-if="pastShow.notes" style="opacity: 0.5">{{pastShow.notes}}</div>
         </div>
       </div>
     </section>
