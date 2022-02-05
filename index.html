@@ -581,9 +581,9 @@
     <section id="shows" class="bg-dark">
       <h2 class="text-center">{{heading}}</h2>
       <div>
-        <div v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 30px 0;">
+        <div class="show" v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 30px 0;">
           <div v-if="new Date(show.datetime) > today">
-            <div style="text-transform: uppercase">
+            <small style="text-transform: uppercase">
               <strong>{{new Date(show.datetime).toLocaleDateString(
                   'en',
                   {   
@@ -595,12 +595,12 @@
                       minute: 'numeric'
                   }
                 )}}</strong>
-            </div>
+                </small>
             <div>{{show.venue}}</div>
-            <div style="text-transform: uppercase">
+            <small style="text-transform: uppercase">
               <strong>{{show.location}}</strong>
-            </div>
-            <div v-if="show.notes" style="opacity: 0.5">{{show.notes}}</div>
+            </small><br/>
+            <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
           </div>
         </div>
       </div>
@@ -609,11 +609,11 @@
       <hr />
       <br />
       <br />
-      <h2 class="text-center">Past Shows</h2>
+      <h2 class="text-center" style="opacity: 0.5">Past Shows</h2>
       <div>
-        <div v-for="show in sortPastShows(shows)"  :key="show.datetime" style="margin: 30px 0; opacity:.5;">
+        <div class="show" v-for="show in sortPastShows(shows)"  :key="show.datetime" style="margin: 30px 0; opacity:.5;">
           <div v-if="new Date(show.datetime) <= today">
-            <div style="text-transform: uppercase">
+            <small style="text-transform: uppercase">
               <strong>{{new Date(show.datetime).toLocaleDateString(
                   'en',
                   {   
@@ -625,12 +625,12 @@
                       minute: 'numeric'
                   }
                 )}}</strong>
-            </div>
+                </small>
             <div>{{show.venue}}</div>
-            <div style="text-transform: uppercase">
+            <small style="text-transform: uppercase">
               <strong>{{show.location}}</strong>
-            </div>
-            <div v-if="show.notes" style="opacity: 0.5">{{show.notes}}</div>
+            </small><br/>
+            <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
           </div>
         </div>
       </div>
