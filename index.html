@@ -42,11 +42,11 @@
           el: "#app",
           methods: {
             sortShows(arrays) {
-                    return arrays.sort((a, b) => new Date(a.datetime) - new Date(b.datetime) );
-                },
-                sortPastShows(arrays) {
-                    return arrays.sort((a, b) => new Date(a.datetime) + new Date(b.datetime) );
-                }
+                return arrays.sort((a, b) => new Date(a.datetime) - new Date(b.datetime) );
+            },
+            sortPastShows(arrays) {
+                return arrays.sort((a, b) => new Date(b.datetime) - new Date(a.datetime) );
+            }
           },
           data() {
           return {
@@ -188,7 +188,7 @@
                 datetime: "2022-04-02T18:30",
                 venue: "The Guitar For Life Cafe",
                 location: "Waukesha, WI",
-                notes: "w/ TBD" //The Glamps"
+                notes: "w/ The Glamps"
               },
               {
                 datetime: "2022-04-08T19:00",
@@ -229,7 +229,7 @@
                 location: "Oconomowoc, WI",
               },
               {
-                datetime: "2022-05-29T08:00",
+                datetime: "2022-05-28T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
               },
