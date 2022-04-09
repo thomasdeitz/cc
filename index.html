@@ -675,9 +675,9 @@
       <hr />
       <br />
       <br />
-      <h2 class="text-center" style="opacity: 0.5">Past Shows</h2>
+      <h2 class="text-center" style="opacity: 0.5; display: none;">Past Shows</h2>
       <div>
-        <div class="show" v-for="show in sortPastShows(shows)"  :key="show.datetime" style="margin: 30px 0; opacity:.5;">
+        <div class="show" v-for="show in sortPastShows(shows)"  :key="show.datetime" style="margin: 30px 0; opacity:.5; display: none;">
           <div v-if="new Date(show.datetime) < today">
             <small style="text-transform: uppercase">
               <strong>{{new Date(show.datetime).toLocaleDateString(
