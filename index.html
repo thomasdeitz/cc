@@ -48,6 +48,14 @@
                 return arrays.sort((a, b) => new Date(b.datetime) - new Date(a.datetime) );
             }
           },
+          computed: {
+            // a computed getter
+            sortedShows: function () {
+              let shows = this.sortShows(this.shows.filter((show) => {return new Date(show.datetime) >= this.today}));
+              shows = this.showAllShows ? shows : shows.slice(0, 5);
+              return shows;
+            }
+          },
           data() {
           return {
             today: new Date(),
@@ -140,6 +148,7 @@
                 artist: 'Original'
               }
             ],
+            showAllShows: false,
             shows: [
               {
                 datetime: "2022-01-28T19:45",
@@ -269,8 +278,9 @@
               },
               {
                 datetime: "2022-06-12T16:30",
-                venue: "Mainstreet Music",
-                location: "Brooklynn, WI"
+                venue: "Mainstreet Music - Main Street Blues Jam",
+                location: "Brooklynn, WI",
+                notes: "w/ the BA Blues Band Featuring Candy Cigarette"
               },
               //{
                 //datetime: "2022-06-09T18:00",
@@ -658,28 +668,27 @@
     <section id="shows" class="bg-dark">
       <h2 class="text-center">{{heading}}</h2>
       <div>
-        <div class="show" v-for="show in sortShows(shows)"  :key="show.datetime" style="margin: 30px 0;">
-          <div v-if="new Date(show.datetime) >= today">
-            <small style="text-transform: uppercase">
-              <strong>{{new Date(show.datetime).toLocaleDateString(
-                  'en',
-                  {   
-                      weekday: 'short',
-                      month: 'short',
-                      day: 'numeric',
-                      year: 'numeric',
-                      hour: 'numeric',
-                      minute: 'numeric'
-                  }
-                )}}</strong>
-                </small>
-            <div>{{show.venue}}</div>
-            <small style="text-transform: uppercase">
-              <strong>{{show.location}}</strong>
-            </small><br/>
-            <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
-          </div>
+        <div class="show" v-for="show in sortedShows"  :key="show.datetime" style="margin: 30px 0;">
+          <small style="text-transform: uppercase">
+            <strong>{{new Date(show.datetime).toLocaleDateString(
+                'en',
+                {   
+                    weekday: 'short',
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric',
+                    hour: 'numeric',
+                    minute: 'numeric'
+                }
+              )}}</strong>
+          </small>
+          <div>{{show.venue}}</div>
+          <small style="text-transform: uppercase">
+            <strong>{{show.location}}</strong>
+          </small><br/>
+          <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
         </div>
+        <button style="background:transparent; color:white; cursor: pointer; border:1px solid white; padding: 1em 2em; line-height: 1em; border-radius: 1.5em;" v-on:click="showAllShows = !showAllShows">{{ showAllShows ? 'Show Less' : 'Show More' }}</button>
       </div>
       <br style="display: none;" />
       <br style="display: none;" />
