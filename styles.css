@@ -25,8 +25,8 @@ body *::selection {
 
 .logo {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 40px;
+  left: 40px;
   margin: 1rem;
   height: 100px;
   width: auto;
@@ -42,6 +42,7 @@ body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position:relative;
   text-align: center;
   width: 100vw;
   height: 75vw;
@@ -50,6 +51,16 @@ body header {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+body header:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  right:20px;
+  top:20px;
+  bottom: 20px;
+  box-shadow: 0 0 0 10px inset white;;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,6 +125,12 @@ body section {
   margin-left: auto;
   margin-right: auto;
   padding: 4rem 20vw;
+}
+
+@media only screen and (max-width: 600px) {
+  body section {
+    padding: 4rem 5vw;
+  }
 }
 
 .text-center {
@@ -183,3 +200,53 @@ body a:hover {
   color: grey;
 }
 /*# sourceMappingURL=styles.css.map */
+/*.show {
+  display: grid;
+  font-size: 14px;
+  grid-template-areas: "month . ." "day . text1" "day . text2" "year . .";
+  grid-template-columns: 60px 2em 1fr;
+  grid-template-rows: 1.5em 1.25em 1.25em auto;
+  line-height: .8;
+}
+
+.show > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.month {
+  grid-area: month;
+  text-transform: uppercase;
+  box-shadow: 0 0 0 1px inset white;
+  border-radius: 4px 4px 0 0;
+}
+.day {
+  grid-area: day;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5em;
+  line-height: .5;
+  background: white;
+  color: slategrey;
+}
+.year {
+  grid-area: year;
+  font-size: .75em;
+  text-transform: uppercase;
+  color: lightsteelblue;
+  background: white;
+  border-radius: 0 0 4px 4px;
+}
+.name-location {
+  grid-area: text1;
+  justify-content: flex-start;
+  font-weight: 900;
+}
+.notes {
+  grid-area: text2;
+  justify-content: flex-start;
+}Z*/
+
+button { margin: auto; }

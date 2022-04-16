@@ -235,10 +235,22 @@
                 location: "Fillmore, WI"
               },
               {
+                datetime: "2022-04-28T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                notes: "w/ John Gay"
+              },
+              {
                 datetime: "2022-04-30T20:00",
                 venue: "The Back Bar",
                 location: "Janesville, WI",
                 notes: "w/ The Rumours, Un-Broken, Let Fate Decide & Mickey Magnum"
+              },
+              {
+                datetime: "2022-05-05T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                notes: "w/ Jay Matthes"
               },
               {
                 datetime: "2022-05-07T11:00",
@@ -257,6 +269,12 @@
                 notes: "w/ Sammy Ray & Friends"
               },
               {
+                datetime: "2022-05-19T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                notes: "w/ Joshua Michael & The Startlight Troubadors"
+              },
+              {
                 datetime: "2022-05-21T19:00",
                 venue: "Henny's DugOut",
                 location: "Lanon, WI",
@@ -265,6 +283,12 @@
                 datetime: "2022-05-28T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
+              },
+              {
+                datetime: "2022-06-02T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                notes: "w/ Rogue"
               },
               {
                 datetime: "2022-06-04T20:00",
@@ -308,11 +332,12 @@
                 venue: "Blues From The Top Music Festival",
                 location: "Winter Park, CO",
               },
-              //{
-                //datetime: "Sun, June 26, 2022 @ TBD",
-                //venue: "One Barrel Brewing",
-                //location: "Egg Harbor - Door County, WI"
-              //},
+              {
+                datetime: "2022-06-30T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
+              },
               {
                 datetime: "2022-07-02T12:00",
                 venue: "A Surprise for Now",
@@ -322,6 +347,12 @@
                 datetime: "2022-07-03T00:00",
                 venue: "Okauchee Lake Music Festival",
                 location: "Okauchee, WI",
+              },
+              {
+                datetime: "2022-07-14T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
               },
               {
                 datetime: "2022-07-16T08:00",
@@ -344,6 +375,12 @@
                 venue: "Crawfish Junction",
                 location: "Johnson Creek, WI",
                 notes: 'w/ The Roadhouse Chiefs'
+              },
+              {
+                datetime: "2022-07-28T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
               },
               {
                 datetime: "2022-07-29T19:00",
@@ -373,6 +410,18 @@
                 notes: 'w/ Sammy Ray'
               },
               {
+                datetime: "2022-08-11T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
+              },
+              {
+                datetime: "2022-08-18T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
+              },
+              {
                 datetime: "2022-08-22T16:00",
                 venue: "the baaree",
                 location: "Theinsville, WI"
@@ -388,9 +437,21 @@
                 location: "West Bend, WI"
               },
               {
+                datetime: "2022-09-01T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
+              },
+              {
                 datetime: "2022-09-10T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
+              },
+              {
+                datetime: "2022-09-15T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
               },
               {
                 datetime: "2022-09-24T12:00",
@@ -401,6 +462,12 @@
                 datetime: "2022-10-01T08:00",
                 venue: "West Bend Farmers Market",
                 location: "West Bend, WI",
+              },
+              {
+                datetime: "2022-10-06T17:00",
+                venue: "Kranky's - Bike Night",
+                location: "Pewaukee, WI",
+                //notes: "w/ John Gay"
               },
               {
                 datetime: "2022-10-15T14:00",
@@ -669,6 +736,12 @@
       <h2 class="text-center">{{heading}}</h2>
       <div>
         <div class="show" v-for="show in sortedShows"  :key="show.datetime" style="margin: 30px 0;">
+          <div style="display: none;"class="month">{{new Date(show.datetime).toLocaleDateString('en', {month: 'short'})}}</div>
+          <div style="display: none;"class="day">{{new Date(show.datetime).getDate()}}</div>
+          <div style="display: none;"class="year">{{new Date(show.datetime).getFullYear()}}</div>
+          <div style="display: none;"class="name-location">{{show.venue}} | {{show.location}} | {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</div>
+          <div style="display: none;"class="notes">{{show.notes}}</div>
+          <div >
           <small style="text-transform: uppercase">
             <strong>{{new Date(show.datetime).toLocaleDateString(
                 'en',
@@ -688,8 +761,11 @@
           </small><br/>
           <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
         </div>
+        </div>
+        <div style="text-align: center;">
         <button style="background:transparent; color:white; cursor: pointer; border:1px solid white; padding: 1em 2em; line-height: 1em; border-radius: 1.5em;" v-on:click="showAllShows = !showAllShows">{{ showAllShows ? 'Show Less' : 'Show More' }}</button>
-      </div>
+      
+      </div></div>
       <br style="display: none;" />
       <br style="display: none;" />
       <hr style="display: none;" />
