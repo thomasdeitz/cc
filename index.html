@@ -734,7 +734,7 @@
       </section>
     </main>
     <div style="margin-bottom: -10px">
-      <iframe style="height:56.3vw; width:100vw; background: black;"  src="https://www.youtube.com/embed/fSp1kbXYaNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe style="filter: grayscale(100); height:56.3vw; width:100vw; background: black;"  src="https://www.youtube.com/embed/fSp1kbXYaNA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!-- <aside></aside> -->
     <section id="shows" class="bg-dark">
@@ -810,10 +810,10 @@
       </p>
     </section>
     <section class="bg-black">
-      <h2>Setlist</h2>
-      <div>
+      <h2 class="text-center">Setlist</h2>
+      <div style="display:grid; grid-template-columns: 1fr;">
         <div
-          style="opacity:.5; margin: 40px 0"
+          style="margin: 10px 0"
           v-for="song in setlist"
           :key="song.name"
         >
