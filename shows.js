@@ -172,10 +172,15 @@ const shows = [
       //notes: "w/ Devon Huckstep and Catelyn Pico"
     //},
     {
-      datetime: "2022-06-30T18:00",
-      venue: "Hot Rod Car Show at Boozhag's Clubhouse",
-      location: "Nashotah, WI"
+        datetime: "2022-06-10T19:30",
+        venue: "Camp Northern Lights",
+        location: "Campbellsport, WI"
     },
+    //{
+      //datetime: "2022-06-15T18:00",
+      //venue: "Hot Rod Car Show at Boozhag's Clubhouse",
+      //location: "Nashotah, WI"
+    //},
     {
       datetime: "2022-06-17T17:00",
       venue: "Private Party",
@@ -331,6 +336,11 @@ const shows = [
       datetime: "2022-09-24T12:00",
       venue: "The Antidote",
       location: "West Bend, WI"
+    },
+    {
+        datetime: "2022-09-24T15:30",
+        venue: "Wide Open Wisconsin",
+        location: "West Bend, WI"
     },
     {
       datetime: "2022-10-01T08:00",
