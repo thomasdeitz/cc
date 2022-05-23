@@ -135,7 +135,7 @@ const shows = [
     },
     {
       datetime: "2022-05-28T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
     },
     {
@@ -188,7 +188,7 @@ const shows = [
     },
     {
       datetime: "2022-06-18T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Antidote",
       location: "West Bend, WI",
     },
     {
@@ -225,7 +225,7 @@ const shows = [
     },
     {
       datetime: "2022-07-16T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
     },
     {
@@ -274,7 +274,7 @@ const shows = [
     },
     {
       datetime: "2022-08-06T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Antidote",
       location: "West Bend, WI",
     },
     {
@@ -323,7 +323,7 @@ const shows = [
     },
     {
       datetime: "2022-09-10T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
     },
     {
@@ -344,7 +344,7 @@ const shows = [
     },
     {
       datetime: "2022-10-01T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
     },
     {
@@ -365,7 +365,7 @@ const shows = [
     },
     {
       datetime: "2022-10-29T08:00",
-      venue: "West Bend Farmers Market",
+      venue: "West Bend Farmers Market - Antidote",
       location: "West Bend, WI",
     },
     {
