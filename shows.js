@@ -176,11 +176,11 @@ const shows = [
         venue: "Camp Northern Lights",
         location: "Campbellsport, WI"
     },
-    //{
-      //datetime: "2022-06-15T18:00",
-      //venue: "Hot Rod Car Show at Boozhag's Clubhouse",
-      //location: "Nashotah, WI"
-    //},
+    {
+      datetime: "2022-06-15T17:00",
+      venue: "Hot Rod Car Show at Boozhag's Clubhouse",
+      location: "Nashotah, WI"
+    },
     {
       datetime: "2022-06-17T17:00",
       venue: "Private Party",
