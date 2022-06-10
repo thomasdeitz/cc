@@ -322,15 +322,22 @@ const shows = [
       //notes: "w/ John Gay"
     },
     {
+      datetime: "2022-09-08T17:00",
+      venue: "Bike Night at Boozhag's Clubhouse",
+      location: "Nashotah, WI",
+      //notes: "w/ John Gay"
+    },
+    {
       datetime: "2022-09-10T08:00",
       venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
     },
+    
     {
       datetime: "2022-09-15T17:00",
-      venue: "Bike Night at Boozhag's Clubhouse",
-      location: "Nashotah, WI",
-      //notes: "w/ John Gay"
+      venue: "TBD",
+      location: "WI",
+      //notes: "w/ Kristine Kabbes & The Skallywags"
     },
     {
       datetime: "2022-09-24T12:00",

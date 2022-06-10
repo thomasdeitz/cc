@@ -98,5 +98,13 @@ const songs = [
     {
         name: 'The Devil Wears a Suit and Tie',
         artist: 'Colter Wall'
+    },
+    {
+        name: 'Summertime',
+        artist: 'Doc and Merle Watson'
+    },
+    {
+        name: 'Three Little Birds',
+        artist: 'Bob Marley & The Wailers'
     }
 ];
