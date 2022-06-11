@@ -213,11 +213,6 @@ const shows = [
       location: "Milwaukee, WI",
     },
     {
-      datetime: "2022-07-03T00:00",
-      venue: "Okauchee Lake Music Festival",
-      location: "Okauchee, WI",
-    },
-    {
       datetime: "2022-07-14T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
@@ -325,14 +320,13 @@ const shows = [
       datetime: "2022-09-08T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
-      //notes: "w/ John Gay"
+      notes: "w/ Rogue"
     },
     {
       datetime: "2022-09-10T08:00",
       venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
-    },
-    
+    }, 
     {
       datetime: "2022-09-15T17:00",
       venue: "TBD",
