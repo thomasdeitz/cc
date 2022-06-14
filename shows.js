@@ -160,21 +160,15 @@ const shows = [
       location: "New Berlin, WI"
     },
     {
-      datetime: "2022-06-12T16:30",
-      venue: "Mainstreet Music - Main Street Blues Jam",
-      location: "Brooklynn, WI",
-      notes: "w/ the BA Blues Band Featuring Candy Cigarette"
-    },
-    //{
-      //datetime: "2022-06-09T18:00",
-      //venue: "Nixon Park Beer Graden",
-      //location: "Hartland, WI",
-      //notes: "w/ Devon Huckstep and Catelyn Pico"
-    //},
-    {
         datetime: "2022-06-10T19:30",
         venue: "Camp Northern Lights",
         location: "Campbellsport, WI"
+    },
+    {
+      datetime: "2022-06-12T16:30",
+      venue: "Mainstreet Music - Main Street Blues Jam",
+      location: "Brooklynn, WI",
+      notes: "w/ the BA Band Featuring Candy Cigarette"
     },
     {
       datetime: "2022-06-15T17:00",
@@ -213,10 +207,15 @@ const shows = [
       location: "Milwaukee, WI",
     },
     {
+      datetime: "2022-07-13T18:00",
+      venue: "Red Rooster",
+      location: "Madison, WI",
+      notes: "w/ TBA"
+    },
+    {
       datetime: "2022-07-14T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
-      //notes: "w/ John Gay"
     },
     {
       datetime: "2022-07-16T08:00",
@@ -282,7 +281,6 @@ const shows = [
       datetime: "2022-08-11T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
-      //notes: "w/ John Gay"
     },
     {
       datetime: "2022-08-13T13:00",
@@ -293,7 +291,6 @@ const shows = [
       datetime: "2022-08-18T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
-      //notes: "w/ John Gay"
     },
     {
       datetime: "2022-08-22T16:00",
@@ -352,7 +349,6 @@ const shows = [
       datetime: "2022-10-06T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
-      //notes: "w/ John Gay"
     },
     {
       datetime: "2022-10-15T14:00",
