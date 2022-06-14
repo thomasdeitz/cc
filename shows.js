@@ -210,7 +210,7 @@ const shows = [
       datetime: "2022-07-13T18:00",
       venue: "Red Rooster",
       location: "Madison, WI",
-      notes: "w/ TBA"
+      notes: "w/ Tommy Bentz"
     },
     {
       datetime: "2022-07-14T17:00",
