@@ -29,8 +29,9 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
   <script src="./main.vue.js"></script>
+  <script src="./presskit.vue.js"></script>
   <script src="./shows.vue.js"></script>
-  <script src="./logo.vue.js"></script>
+  <script src="./components/logo.vue.js"></script>
   <script src="./shows.js"></script>
   <script src="./songs.js"></script>
   <script>
@@ -38,11 +39,15 @@
     const routes = [
       {
         path: "/",
+        component: Main,
+      },
+      {
+        path: "/shows",
         component: ShowsPage,
       },
       {
-        path: "/content",
-        component: Content,
+        path: "/presskit",
+        component: Presskit,
       },
     ];
     
@@ -54,7 +59,7 @@
 
     // when life is settled, load up the fun stuff
     document.addEventListener("DOMContentLoaded", function () {
-      const Counter = {
+      const CandyCigarette = {
         el: "#app",
         components: {
           'logo': Logo,
@@ -87,7 +92,7 @@
           }
         }
       };
-      Vue.createApp(Counter).use(router).mount('#app')
+      Vue.createApp(CandyCigarette).use(router).mount('#app')
     });
   </script>
 </head>

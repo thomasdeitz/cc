@@ -216,11 +216,17 @@ const shows = [
       datetime: "2022-07-14T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
+      notes: "w/ Ira Deboer"
     },
     {
       datetime: "2022-07-16T08:00",
       venue: "West Bend Farmers Market - Old Settlers Gazebo",
       location: "West Bend, WI",
+    },
+    {
+      datetime: "2022-07-16T17:30",
+      venue: "6th Annual ORA/Pink Heals Charity Ride - Okauchee Lions Park",
+      location: "Okauchee, WI",
     },
     {
       datetime: "2022-07-19T11:00",
