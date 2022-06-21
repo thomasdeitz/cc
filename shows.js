@@ -262,6 +262,11 @@ const shows = [
       location: "Lanon, WI",
     },
     {
+      datetime: "2022-07-30T16:00",
+      venue: "Private Party",
+      location: "West Bend, WI",
+    },
+    {
       datetime: "2022-07-31T14:20",
       venue: "Washington County Fair - Why Go By Stage",
       location: "West Bend, WI"
