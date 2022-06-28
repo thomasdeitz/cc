@@ -198,13 +198,17 @@ const shows = [
     {
       datetime: "2022-06-30T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
-      location: "Nashotah, WI",
-      //notes: "w/ John Gay"
+      location: "Nashotah, WI"
     },
     {
       datetime: "2022-07-02T12:00",
       venue: "Summerfest - The 2nd Floor Stage",
       location: "Milwaukee, WI",
+    },
+    {
+      datetime: "2022-07-03T15:30",
+      venue: "Private Party",
+      location: "Dousman, WI",
     },
     {
       datetime: "2022-07-13T18:00",
