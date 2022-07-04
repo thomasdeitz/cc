@@ -48,7 +48,7 @@ body header {
   height: 75vw;
   max-height: 100vh;
   background-image: url(./assets/CC-Summer2022-P1-S.jpeg);
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
   filter: grayscale(100);
