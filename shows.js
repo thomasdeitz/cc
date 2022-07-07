@@ -376,9 +376,19 @@ const shows = [
       location: "Sheboygan Falls, WI"
     },
     {
+      datetime: "2022-10-23T13:00",
+      venue: "Boondocks Bbq & Brew",
+      location: "Oconomowoc, WI"
+    },
+    {
       datetime: "2022-10-29T08:00",
       venue: "West Bend Farmers Market - Antidote",
       location: "West Bend, WI",
+    },
+    {
+      datetime: "2022-12-17T20:00",
+      venue: "Knucklehead Pub",
+      location: "Eagle, WI"
     },
     {
       datetime: "2022-01-22T13:00",
