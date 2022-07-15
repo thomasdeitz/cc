@@ -276,6 +276,11 @@ const shows = [
       location: "West Bend, WI"
     },
     {
+      datetime: "2022-08-03T09:30",
+      venue: "Camp Good Times",
+      location: "Waukesha, WI"
+    },
+    {
       datetime: "2022-08-03T16:30",
       venue: "Sister Bay Performance Pavilion - Concert in the Park",
       location: "Sister Bay, WI",
@@ -291,6 +296,11 @@ const shows = [
       venue: "State Fair - Saz's BBQ Stage",
       location: "West Allis, WI",
       notes: 'w/ Sammy Ray'
+    },
+    {
+      datetime: "2022-08-10T11:00",
+      venue: "State Fair - Knucklehead Stage",
+      location: "West Allis, WI",
     },
     {
       datetime: "2022-08-11T17:00",
@@ -340,10 +350,16 @@ const shows = [
       location: "West Bend, WI",
     }, 
     {
+      datetime: "2022-09-10T14:00",
+      venue: "TBD",
+      location: "WI",
+      //notes: "Fall Fest"
+    },
+    {
       datetime: "2022-09-15T17:00",
       venue: "TBD",
       location: "WI",
-      //notes: "w/ Kristine Kabbes & The Skallywags"
+      //notes: "Interstate Music"
     },
     {
       datetime: "2022-09-24T12:00",
@@ -384,6 +400,11 @@ const shows = [
       datetime: "2022-10-29T08:00",
       venue: "West Bend Farmers Market - Antidote",
       location: "West Bend, WI",
+    },
+    {
+      datetime: "2022-11-02T18:30",
+      venue: "Red Rooster",
+      location: "Madison, WI"
     },
     {
       datetime: "2022-12-17T20:00",
