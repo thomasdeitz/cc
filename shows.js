@@ -350,14 +350,13 @@ const shows = [
       location: "West Bend, WI",
     }, 
     {
-      datetime: "2022-09-10T14:00",
-      venue: "TBD",
-      location: "WI",
-      //notes: "Fall Fest"
+      datetime: "2022-09-10T13:00",
+      venue: "11th Annual Fall Festival",
+      location: "Oconomowoc, WI",
     },
     {
       datetime: "2022-09-15T17:00",
-      venue: "TBD",
+      venue: "TBA",
       location: "WI",
       //notes: "Interstate Music"
     },
@@ -374,6 +373,11 @@ const shows = [
     {
       datetime: "2022-10-01T08:00",
       venue: "West Bend Farmers Market - Old Settlers Gazebo",
+      location: "West Bend, WI",
+    },
+    {
+      datetime: "2022-10-01T15:00",
+      venue: "TBA",
       location: "West Bend, WI",
     },
     {

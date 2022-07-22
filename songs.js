@@ -106,5 +106,9 @@ const songs = [
     {
         name: 'Three Little Birds',
         artist: 'Bob Marley & The Wailers'
+    },
+    {
+        name: 'Blue on Black',
+        artist: 'Kenny Wayne Shepherd Band'
     }
 ];
