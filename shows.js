@@ -313,6 +313,11 @@ const shows = [
       location: "Egg Harbor, WI ",
     },
     {
+      datetime: "2022-08-14T15:00",
+      venue: "North Lake Bear Trap",
+      location: "Hartland, WI ",
+    },
+    {
       datetime: "2022-08-18T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
