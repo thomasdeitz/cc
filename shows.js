@@ -321,6 +321,7 @@ const shows = [
       datetime: "2022-08-18T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
+      notes: 'w/ Two Dragons'
     },
     {
       datetime: "2022-08-21T16:00",
