@@ -323,7 +323,7 @@ const shows = [
       location: "Nashotah, WI",
     },
     {
-      datetime: "2022-08-22T16:00",
+      datetime: "2022-08-21T16:00",
       venue: "the baaree",
       location: "Theinsville, WI"
     },
