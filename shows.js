@@ -422,6 +422,11 @@ const shows = [
       location: "Eagle, WI"
     },
     {
+      datetime: "2022-11-20T15:30",
+      venue: "Bilda's Friess Lake Pub",
+      location: "Hubertus, WI"
+    },
+    {
       datetime: "2022-01-22T13:00",
       venue: "West Bend Winter Warm-up - Old Settlers Park",
       location: "West Bend, WI",
