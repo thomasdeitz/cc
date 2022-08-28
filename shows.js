@@ -356,15 +356,25 @@ const shows = [
       location: "West Bend, WI",
     }, 
     {
-      datetime: "2022-09-10T13:00",
+      datetime: "2022-09-10T13:30",
       venue: "11th Annual Fall Festival",
       location: "Oconomowoc, WI",
     },
     {
-      datetime: "2022-09-15T17:00",
-      venue: "TBA",
-      location: "WI",
+      datetime: "2021-09-11T18:30",
+      venue: "Martifest",
+      location: "Oconomowoc, WI"
+    },
+    //{
+      //datetime: "2022-09-15T17:00",
+      //venue: "TBA",
+      //location: "WI",
       //notes: "Interstate Music"
+    //},
+    {
+      datetime: "2021-09-17T11:30",
+      venue: "SOFA Softball Tournament - Banting Park",
+      location: "Waukesha, WI",
     },
     {
       datetime: "2022-09-24T12:00",
