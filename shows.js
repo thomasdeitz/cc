@@ -361,7 +361,7 @@ const shows = [
       location: "West Bend, WI",
     }, 
     {
-      datetime: "2022-09-10T13:30",
+      datetime: "2022-09-10T14:30",
       venue: "11th Annual Fall Festival",
       location: "Oconomowoc, WI",
     },
