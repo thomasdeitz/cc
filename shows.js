@@ -345,6 +345,11 @@ const shows = [
       //notes: "w/ John Gay"
     },
     {
+      datetime: "2022-09-05T12:30",
+      venue: "Hagfest at Boozhag's Clubhouse",
+      location: "Nashotah, WI",
+    },
+    {
       datetime: "2022-09-08T17:00",
       venue: "Bike Night at Boozhag's Clubhouse",
       location: "Nashotah, WI",
