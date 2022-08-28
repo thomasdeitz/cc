@@ -366,7 +366,7 @@ const shows = [
       location: "Oconomowoc, WI",
     },
     {
-      datetime: "2021-09-11T18:30",
+      datetime: "2022-09-10T18:30",
       venue: "Martifest",
       location: "Oconomowoc, WI"
     },
