@@ -377,7 +377,7 @@ const shows = [
       //notes: "Interstate Music"
     //},
     {
-      datetime: "2021-09-17T11:30",
+      datetime: "2022-09-17T11:30",
       venue: "SOFA Softball Tournament - Banting Park",
       location: "Waukesha, WI",
     },
