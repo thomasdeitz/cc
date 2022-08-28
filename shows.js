@@ -407,6 +407,11 @@ const shows = [
       location: "Nashotah, WI",
     },
     {
+      datetime: "2022-10-08T20:00",
+      venue: "Heileman's",
+      location: "West Bend, WI",
+    },
+    {
       datetime: "2022-10-15T14:00",
       venue: "Hubbleton Brewing",
       location: "Waterloo, WI"
