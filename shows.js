@@ -437,14 +437,24 @@ const shows = [
       location: "Madison, WI"
     },
     {
+      datetime: "2022-11-20T15:30",
+      venue: "Bilda's Friess Lake Pub",
+      location: "Hubertus, WI"
+    },
+    {
       datetime: "2022-12-17T20:00",
       venue: "Knucklehead Pub",
       location: "Eagle, WI"
     },
     {
-      datetime: "2022-11-20T15:30",
-      venue: "Bilda's Friess Lake Pub",
-      location: "Hubertus, WI"
+      datetime: "2023-01-13T18:00",
+      venue: "Wisconsin Brewing Company",
+      location: "Verona, WI"
+    },
+    {
+      datetime: "2023-06-02T18:00",
+      venue: "Wisconsin Brewing Company",
+      location: "Verona, WI"
     },
     {
       datetime: "2022-01-22T13:00",
