@@ -596,11 +596,11 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  {
-    datetime: "2022-12-17T20:00",
-    venue: "Knucklehead Pub",
-    location: "Eagle, WI"
-  },
+  //{ - Canceled due to double booking by venue
+    //datetime: "2022-12-17T20:00",
+    //venue: "Knucklehead Pub",
+    //location: "Eagle, WI"
+  //},
   /***** ^ 2022 ^ v 2023 v *****/
   {
     datetime: "2023-01-13T18:00",
