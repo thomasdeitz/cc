@@ -608,6 +608,11 @@ const shows = [
     location: "Verona, WI"
   },
   {
+    datetime: "2023-05-20T15:00",
+    venue: "St. Killian FunFest - Hartford Town Hall",
+    location: "Hartford, WI"
+  },
+  {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
