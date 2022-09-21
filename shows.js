@@ -492,7 +492,6 @@ const shows = [
     datetime: "2022-09-01T18:00",
     venue: "Bike Night at Boozhag's Clubhouse",
     location: "Nashotah, WI",
-    //notes: "w/ John Gay"
   },
   {
     datetime: "2022-09-05T12:30",
@@ -522,9 +521,9 @@ const shows = [
   },
   //{
     //datetime: "2022-09-15T17:00",
-    //venue: "TBA",
-    //location: "WI",
-    //notes: "Interstate Music"
+    //venue: "Interstate Music",
+    //location: "Butler, WI",
+    //notes: "w/ Kristine Kabbes & The Skallywags"
   //},
   {
     datetime: "2022-09-17T11:30",
@@ -542,9 +541,14 @@ const shows = [
     location: "West Bend, WI"
   },
   {
-      datetime: "2022-09-24T15:30",
-      venue: "Wide Open Wisconsin",
-      location: "West Bend, WI"
+    datetime: "2022-09-24T15:00",
+    venue: "Wide Open Wisconsin",
+    location: "West Bend, WI"
+  },
+  {
+    datetime: "2022-09-28T17:00",
+    venue: "Belfrē Kitchen",
+    location: "Delafield, WI",
   },
   {
     datetime: "2022-10-01T08:00",
@@ -553,8 +557,9 @@ const shows = [
   },
   {
     datetime: "2022-10-01T15:00",
-    venue: "TBA",
+    venue: "An Afternoon in the Park - Regner Park",
     location: "West Bend, WI",
+    notes: "w/ Batteries Not Included"
   },
   {
     datetime: "2022-10-06T17:00",
@@ -592,6 +597,11 @@ const shows = [
     location: "Madison, WI"
   },
   {
+    datetime: "2022-11-11T19:00",
+    venue: "Henny's DugOut",
+    location: "Lanon, WI",
+  },
+  {
     datetime: "2022-11-20T15:30",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -601,6 +611,11 @@ const shows = [
     //venue: "Knucklehead Pub",
     //location: "Eagle, WI"
   //},
+  {
+    datetime: "2022-12-30T19:00",
+    venue: "Henny's DugOut",
+    location: "Lanon, WI",
+  },
   /***** ^ 2022 ^ v 2023 v *****/
   {
     datetime: "2023-01-13T18:00",
