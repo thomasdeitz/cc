@@ -612,6 +612,11 @@ const shows = [
     //location: "Eagle, WI"
   //},
   {
+    datetime: "2022-12-04T13:00",
+    venue: "Washington County Humane Society - Festival of Trees",
+    location: "Slinger, WI",
+  },
+  {
     datetime: "2022-12-30T19:00",
     venue: "Henny's DugOut",
     location: "Lanon, WI",
