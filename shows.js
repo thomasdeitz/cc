@@ -545,11 +545,11 @@ const shows = [
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
   },
-  {
-    datetime: "2022-09-28T17:00",
-    venue: "Belfrē Kitchen",
-    location: "Delafield, WI",
-  },
+  // { - Canceled due to cancelled vendors
+  //   datetime: "2022-09-28T17:00",
+  //   venue: "Belfrē Kitchen",
+  //   location: "Delafield, WI",
+  // },
   {
     datetime: "2022-10-01T08:00",
     venue: "West Bend Farmers Market - Old Settlers Gazebo",
