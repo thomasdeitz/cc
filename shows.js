@@ -582,6 +582,16 @@ const shows = [
     location: "Sheboygan Falls, WI"
   },
   {
+    datetime: "2022-10-22T11:00",
+    venue: "Benefit 4 Mike, Jen & Kenny - Boozhag's Clubhouse",
+    location: "Nashotah, WI"
+  },
+  {
+    datetime: "2022-10-22T16:00",
+    venue: "Private Party",
+    location: "West Bend, WI"
+  },
+  {
     datetime: "2022-10-23T13:00",
     venue: "Boondocks Bbq & Brew",
     location: "Oconomowoc, WI"
