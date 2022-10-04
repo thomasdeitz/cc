@@ -573,8 +573,8 @@ const shows = [
   },
   {
     datetime: "2022-10-15T14:00",
-    venue: "Hubbleton Brewing",
-    location: "Waterloo, WI"
+    venue: "Hubbleton Brewing Taproom & Grill",
+    location: "Watertown, WI"
   },
   {
     datetime: "2022-10-16T12:00",
