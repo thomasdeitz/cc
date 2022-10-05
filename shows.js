@@ -572,7 +572,7 @@ const shows = [
     location: "West Bend, WI",
   },
   {
-    datetime: "2022-10-15T14:00",
+    datetime: "2022-10-15T15:00",
     venue: "Hubbleton Brewing Taproom & Grill",
     location: "Watertown, WI"
   },
