@@ -561,11 +561,11 @@ const shows = [
     location: "West Bend, WI",
     notes: "w/ Batteries Not Included"
   },
-  {
-    datetime: "2022-10-06T17:00",
-    venue: "Bike Night at Boozhag's Clubhouse",
-    location: "Nashotah, WI",
-  },
+  //{ - Canceled - weather i think
+    //datetime: "2022-10-06T17:00",
+    //venue: "Bike Night at Boozhag's Clubhouse",
+    //location: "Nashotah, WI",
+  //},
   {
     datetime: "2022-10-08T20:00",
     venue: "Heileman's",
