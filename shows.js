@@ -617,7 +617,7 @@ const shows = [
     location: "Lanon, WI",
   },
   {
-    datetime: "2022-11-20T15:30",
+    datetime: "2022-11-20T12:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
