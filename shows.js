@@ -606,11 +606,11 @@ const shows = [
     venue: "West Bend Farmers Market - Antidote",
     location: "West Bend, WI",
   },
-  {
-    datetime: "2022-11-02T18:30",
-    venue: "Red Rooster",
-    location: "Madison, WI"
-  },
+  //{ - Cancelled due to Isaac Illness
+    //datetime: "2022-11-02T18:30",
+    //venue: "Red Rooster",
+    //location: "Madison, WI"
+  //},
   {
     datetime: "2022-11-11T19:00",
     venue: "Henny's DugOut",
@@ -641,6 +641,16 @@ const shows = [
     datetime: "2023-01-13T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
+  },
+  {
+    datetime: "2023-02-17T12:00",
+    venue: "Big Turn Music Festival - Mandy's",
+    location: "Red Wing, MN"
+  },
+  {
+    datetime: "2023-02-25T19:00",
+    venue: "Private Event",
+    location: "Madison, WI"
   },
   {
     datetime: "2023-05-20T15:00",
