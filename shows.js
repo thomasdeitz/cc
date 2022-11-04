@@ -632,6 +632,11 @@ const shows = [
     location: "Slinger, WI",
   },
   {
+    datetime: "2022-12-10T16:00",
+    venue: "Private Party",
+    location: "Nashotah, WI",
+  },
+  {
     datetime: "2022-12-14T17:00",
     venue: "A+ Power Sports - Annual Customer Appreciation Holiday Party",
     location: "Elkhorn, WI",
