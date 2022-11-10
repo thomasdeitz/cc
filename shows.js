@@ -648,20 +648,35 @@ const shows = [
   },
   /***** ^ 2022 ^ v 2023 v *****/
   {
+    datetime: "2023-01-06T18:00",
+    venue: "West Bend Moose Lodge",
+    location: "West Bend, WI"
+  },
+  {
     datetime: "2023-01-13T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
   },
   {
-    datetime: "2023-02-17T12:00",
-    venue: "Big Turn Music Festival - Mandy's",
-    location: "Red Wing, MN"
+    datetime: "2023-01-27T17:00",
+    venue: "Lilliput Records",
+    location: "Milwaukee, WI"
   },
   {
-    datetime: "2023-02-25T19:00",
-    venue: "Private Event",
-    location: "Madison, WI"
+    datetime: "2023-02-11T19:00",
+    venue: "The Other Bar",
+    location: "Dousman, WI"
   },
+  {
+    datetime: "2023-02-17T12:00",
+    venue: "TBA", //"Big Turn Music Festival - Mandy's",
+    location: "MN" //"Red Wing, MN"
+  },
+  //{ TBA
+    //datetime: "2023-02-25T19:00",
+    //venue: "Private Event",
+    //location: "Madison, WI"
+  //},
   {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
