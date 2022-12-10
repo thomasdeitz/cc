@@ -642,6 +642,11 @@ const shows = [
     location: "Elkhorn, WI",
   },
   {
+    datetime: "2022-12-20T17:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2022-12-30T19:00",
     venue: "Henny's DugOut",
     location: "Lanon, WI",
@@ -658,6 +663,16 @@ const shows = [
     location: "Verona, WI"
   },
   {
+    datetime: "2023-01-14T18:00",
+    venue: "Miramar Theatre - New Year Kick Off",
+    location: "Milwaukee, WI"
+  },
+  {
+    datetime: "2023-01-18T18:30",
+    venue: "Red Rooster",
+    location: "Madison, WI"
+  },
+  {
     datetime: "2023-01-27T17:00",
     venue: "Lilliput Records",
     location: "Milwaukee, WI"
@@ -669,14 +684,19 @@ const shows = [
   },
   {
     datetime: "2023-02-17T12:00",
-    venue: "TBA", //"Big Turn Music Festival - Mandy's",
-    location: "MN" //"Red Wing, MN"
+    venue: "Big Turn Music Festival",
+    location: "Red Wing, MN"
   },
-  //{ TBA
-    //datetime: "2023-02-25T19:00",
-    //venue: "Private Event",
-    //location: "Madison, WI"
-  //},
+  {
+    datetime: "2023-02-25T20:00",
+    venue: "Thirsty Bird Saloon",
+    location: "Oconomowoc, WI"
+  },
+   {
+    datetime: "2023-04-29T16:00",
+    venue: "The Drafty Cellar",
+    location: "Watertown, WI"
+  },
   {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
@@ -686,5 +706,16 @@ const shows = [
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
+  },
+  {
+    datetime: "2023-06-03T19:00",
+    venue: "River Bend RV Resort",
+    location: "Watertown, WI"
+  },
+  {
+    datetime: "2023-07-22T14:00",
+    venue: "Cheelabration - Daily Taco & Cantina - Set Breaks",
+    location: "Thiensville, WI",
+    notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
 ];
