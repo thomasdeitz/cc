@@ -1,0 +1,6 @@
+
+const DatesPage = {
+    template: `
+      <Dates />
+    `
+}

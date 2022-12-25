@@ -545,11 +545,11 @@ const shows = [
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
   },
-  {
-    datetime: "2022-09-28T17:00",
-    venue: "Belfrē Kitchen",
-    location: "Delafield, WI",
-  },
+  // { - Canceled due to cancelled vendors
+  //   datetime: "2022-09-28T17:00",
+  //   venue: "Belfrē Kitchen",
+  //   location: "Delafield, WI",
+  // },
   {
     datetime: "2022-10-01T08:00",
     venue: "West Bend Farmers Market - Old Settlers Gazebo",
@@ -561,25 +561,40 @@ const shows = [
     location: "West Bend, WI",
     notes: "w/ Batteries Not Included"
   },
-  {
-    datetime: "2022-10-06T17:00",
-    venue: "Bike Night at Boozhag's Clubhouse",
-    location: "Nashotah, WI",
-  },
+  //{ - Canceled - weather i think
+    //datetime: "2022-10-06T17:00",
+    //venue: "Bike Night at Boozhag's Clubhouse",
+    //location: "Nashotah, WI",
+  //},
   {
     datetime: "2022-10-08T20:00",
     venue: "Heileman's",
     location: "West Bend, WI",
   },
   {
-    datetime: "2022-10-15T14:00",
-    venue: "Hubbleton Brewing",
-    location: "Waterloo, WI"
+    datetime: "2022-10-15T11:00",
+    venue: "Rux Stadium - National Anthem",
+    location: "Oconomowoc, WI",
+  },
+  {
+    datetime: "2022-10-15T15:00",
+    venue: "Hubbleton Brewing Taproom & Grill",
+    location: "Watertown, WI"
   },
   {
     datetime: "2022-10-16T12:00",
     venue: "M & T's Gibbsville Orchard - Hallo-Apple-Ween Festival",
     location: "Sheboygan Falls, WI"
+  },
+  {
+    datetime: "2022-10-22T11:00",
+    venue: "Benefit 4 Mike, Jen & Kenny - Boozhag's Clubhouse",
+    location: "Nashotah, WI"
+  },
+  {
+    datetime: "2022-10-22T16:00",
+    venue: "Private Party",
+    location: "West Bend, WI"
   },
   {
     datetime: "2022-10-23T13:00",
@@ -591,18 +606,18 @@ const shows = [
     venue: "West Bend Farmers Market - Antidote",
     location: "West Bend, WI",
   },
-  {
-    datetime: "2022-11-02T18:30",
-    venue: "Red Rooster",
-    location: "Madison, WI"
-  },
+  //{ - Cancelled due to Isaac Illness
+    //datetime: "2022-11-02T18:30",
+    //venue: "Red Rooster",
+    //location: "Madison, WI"
+  //},
   {
     datetime: "2022-11-11T19:00",
     venue: "Henny's DugOut",
     location: "Lanon, WI",
   },
   {
-    datetime: "2022-11-20T15:30",
+    datetime: "2022-11-20T12:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
@@ -612,15 +627,75 @@ const shows = [
     //location: "Eagle, WI"
   //},
   {
+    datetime: "2022-12-04T13:00",
+    venue: "Washington County Humane Society - Festival of Trees",
+    location: "Slinger, WI",
+  },
+  {
+    datetime: "2022-12-10T16:00",
+    venue: "Private Party",
+    location: "Nashotah, WI",
+  },
+  {
+    datetime: "2022-12-14T17:00",
+    venue: "A+ Power Sports - Annual Customer Appreciation Holiday Party",
+    location: "Elkhorn, WI",
+  },
+  {
+    datetime: "2022-12-20T17:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2022-12-30T19:00",
     venue: "Henny's DugOut",
     location: "Lanon, WI",
   },
   /***** ^ 2022 ^ v 2023 v *****/
   {
+    datetime: "2023-01-06T18:00",
+    venue: "West Bend Moose Lodge",
+    location: "West Bend, WI"
+  },
+  {
     datetime: "2023-01-13T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
+  },
+  {
+    datetime: "2023-01-14T18:00",
+    venue: "Miramar Theatre - New Year Kick Off",
+    location: "Milwaukee, WI"
+  },
+  {
+    datetime: "2023-01-18T18:30",
+    venue: "Red Rooster",
+    location: "Madison, WI"
+  },
+  {
+    datetime: "2023-01-27T17:00",
+    venue: "Lilliput Records",
+    location: "Milwaukee, WI"
+  },
+  {
+    datetime: "2023-02-11T19:00",
+    venue: "The Other Bar",
+    location: "Dousman, WI"
+  },
+  {
+    datetime: "2023-02-17T12:00",
+    venue: "Big Turn Music Festival",
+    location: "Red Wing, MN"
+  },
+  {
+    datetime: "2023-02-25T20:00",
+    venue: "Thirsty Bird Saloon",
+    location: "Oconomowoc, WI"
+  },
+   {
+    datetime: "2023-04-29T16:00",
+    venue: "The Drafty Cellar",
+    location: "Watertown, WI"
   },
   {
     datetime: "2023-05-20T15:00",
@@ -631,5 +706,16 @@ const shows = [
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
+  },
+  {
+    datetime: "2023-06-03T19:00",
+    venue: "River Bend RV Resort",
+    location: "Watertown, WI"
+  },
+  {
+    datetime: "2023-07-22T14:00",
+    venue: "Cheelabration - Daily Taco & Cantina - Set Breaks",
+    location: "Thiensville, WI",
+    notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
 ];

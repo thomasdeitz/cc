@@ -22,35 +22,61 @@
       prove rock & roll is far from dead." />
   <meta name="keywords"
     content="Candy Cigarette, Candy Cigarettes, Candy Cigarette Band, Band, Acoustic, Blues, Country, Rock, Southern, Southern Rock, Heavy Blues, Isaac, Lucas, Deitz, WI, Wisconsin, Waukesha, Oconomowoc, Milwaukee, West Bend, Watertown, East Troy" />
-  <link rel="shortcut icon" href="favicon.png" />
+  <link rel="shortcut icon" href="./assets/Candy_Cigarette_Band_EP_Stickers.png" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Playfair+Display:wght@700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
-  <script src="./main.vue.js"></script>
-  <script src="./presskit.vue.js"></script>
-  <script src="./shows.vue.js"></script>
+
+  <!-- pages -->
+  <script src="./pages/bio.vue.js"></script>
+  <script src="./pages/contact.vue.js"></script>
+  <script src="./pages/dates.vue.js"></script>
+  <script src="./pages/home.vue.js"></script>
+  <script src="./pages/music.vue.js"></script>
+
+  <!-- components -->
+  <script src="./components/header.vue.js"></script>
+  <script src="./components/footer.vue.js"></script>
+  <script src="./components/section.vue.js"></script>
+  <script src="./components/icons.vue.js"></script>
   <script src="./components/logo.vue.js"></script>
-  <script src="./shows.js"></script>
-  <script src="./songs.js"></script>
+  <script src="./components/connections.vue.js"></script>
+  <script src="./components/hero.vue.js"></script>
+  <script src="./components/dates.vue.js"></script>
+  <script src="./components/contacts.vue.js"></script>
+  <script src="./components/setlist.vue.js"></script>
+  <script src="./components/videos.vue.js"></script>
+
+  <!-- data -->
+  <script src="./data/shows.js"></script>
+  <script src="./data/songs.js"></script>
   <script>
 
     const routes = [
       {
         path: "/",
-        component: Main,
+        component: HomePage,
       },
       {
-        path: "/shows",
-        component: ShowsPage,
+        path: "/dates",
+        component: DatesPage,
       },
       {
-        path: "/presskit",
-        component: Presskit,
+        path: "/music",
+        component: MusicPage,
       },
+      {
+        path: "/bio",
+        component: BioPage,
+      },
+      {
+        path: "/contact",
+        component: ContactPage
+      }
     ];
-    
+
     const router = VueRouter.createRouter({
       // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
       history: VueRouter.createWebHashHistory(),
@@ -59,40 +85,30 @@
 
     // when life is settled, load up the fun stuff
     document.addEventListener("DOMContentLoaded", function () {
-      const CandyCigarette = {
-        el: "#app",
-        components: {
-          'logo': Logo,
-        },
-        methods: {
-          sortShows(arrays) {
-            return arrays.sort((a, b) => new Date(a.datetime) - new Date(b.datetime));
-          },
-          sortPastShows(arrays) {
-            return arrays.sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
-          }
-        },
-        computed: {
-          // a computed getter
-          sortedShows: function () {
-            let shows = this.sortShows(this.shows.filter((show) => { return new Date(show.datetime) >= this.today }));
-            shows = this.showAllShows ? shows : shows.slice(0, 5);
-            return shows;
-          }
-        },
-        data() {
-          return {
-            today: new Date(),
-            heading: "Upcoming Shows",
-            message:
-              "There are currently no new shows scheduled... please check back soon.",
-            setlist: songs,
-            showAllShows: false,
-            shows: shows
-          }
-        }
+      const CandyCigarette = { 
+        el: "#app"
       };
-      Vue.createApp(CandyCigarette).use(router).mount('#app')
+
+      const app = Vue.createApp(CandyCigarette);
+      app.component("Contacts", Contacts);
+      app.component("Connections", Connections);
+      app.component("Hero", Hero);
+      app.component("Logo", Logo);
+      app.component("Videos", Videos);
+      app.component("Dates", Dates);
+      app.component("Setlist", Setlist);
+      app.component("Pageheader", Pageheader);
+      app.component("Pagefooter", Pagefooter);
+      app.component("Section", Section);
+      app.component("Facebook", Facebook);
+      app.component("Instagram", Instagram);
+      app.component("AppleMusic", AppleMusic);
+      app.component("Spotify", Spotify);
+      app.component("SoundCloud", SoundCloud);
+      app.component("Bandcamp", Bandcamp);
+      app.component("YouTube", YouTube);
+      app.use(router);
+      app.mount("#app");
     });
   </script>
 </head>
@@ -129,170 +145,11 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
   <div id="app">
-
-    <nav></nav>
-    <header>
-      <logo />
-      <section>
-        <h1>Candy Cigarette</h1>
-      </section>
-    </header>
+    <Pageheader></Pageheader>
     <main>
-      <section>
-        <router-view></router-view>
-        <h2>About the Band</h2>
-        <p>Formed in 2019 by then 10 year old identical twins Isaac and Lucas Deitz, Wisconsin based blues rock 3 piece Candy Cigarette takes sonic cues from groups ranging from Black Sabbath and Rival Sons to The Allman Brothers and Blackberry Smoke. After self releasing their quarantine fueled debut EP in 2021 the Deitz twins began playing live shows across the state, racking up over 100 performances in 2022. The boys are grateful to have  had the opportunity to play venues and festivals like The Back Bar, Blues from the Top, Summerfest, and Big Turn Music Festival supporting artists like The Other LA, Larkin Poe, Sue Foley, and Big Head Todd. In late 2022 drummer Evan Sterken stepped into the group and now with a more dynamic show than ever this group is poised to chase down their rock and roll dreams.
-        </p>
-      </section>
+      <router-view></router-view>
     </main>
-    <div style="margin-bottom: -10px">
-      <iframe style="filter: grayscale(100); height:56.3vw; width:100vw; background: black;"
-        src="https://www.youtube.com/embed/fSp1kbXYaNA" title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <!-- <aside></aside> -->
-    <section id="shows" class="bg-dark">
-      <h2 class="text-center">{{heading}}</h2>
-      <div>
-        <div class="show" v-for="show in sortedShows" :key="show.datetime" style="margin: 30px 0;">
-          <div style="display: none;" class="month">{{new Date(show.datetime).toLocaleDateString('en', {month:
-            'short'})}}</div>
-          <div style="display: none;" class="day">{{new Date(show.datetime).getDate()}}</div>
-          <div style="display: none;" class="year">{{new Date(show.datetime).getFullYear()}}</div>
-          <div style="display: none;" class="name-location">{{show.venue}} | {{show.location}} | {{new
-            Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</div>
-          <div style="display: none;" class="notes">{{show.notes}}</div>
-          <div>
-            <small style="text-transform: uppercase">
-              <strong>{{new Date(show.datetime).toLocaleDateString(
-                'en',
-                {
-                weekday: 'short',
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric',
-                hour: 'numeric',
-                minute: 'numeric'
-                }
-                )}}</strong>
-            </small>
-            <div>{{show.venue}}</div>
-            <small style="text-transform: uppercase">
-              <strong>{{show.location}}</strong>
-            </small><br />
-            <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
-          </div>
-        </div>
-        <div style="text-align: center;">
-          <button
-            style="background:transparent; color:white; cursor: pointer; border:1px solid white; padding: 1em 2em; line-height: 1em; border-radius: 1.5em;"
-            v-on:click="showAllShows = !showAllShows">{{ showAllShows ? 'Show Less' : 'Show More' }}</button>
-
-        </div>
-      </div>
-      <br style="display: none;" />
-      <br style="display: none;" />
-      <hr style="display: none;" />
-      <br style="display: none;" />
-      <br style="display: none;" />
-      <h2 class="text-center" style="opacity: 0.5; display: none;">Past Shows</h2>
-      <div>
-        <div class="show" v-for="show in sortPastShows(shows)" :key="show.datetime"
-          style="margin: 30px 0; opacity:.5; display: none;">
-          <div v-if="new Date(show.datetime) < today">
-            <small style="text-transform: uppercase">
-              <strong>{{new Date(show.datetime).toLocaleDateString(
-                'en',
-                {
-                weekday: 'short',
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric',
-                hour: 'numeric',
-                minute: 'numeric'
-                }
-                )}}</strong>
-            </small>
-            <div>{{show.venue}}</div>
-            <small style="text-transform: uppercase">
-              <strong>{{show.location}}</strong>
-            </small><br />
-            <small v-if="show.notes" style="opacity: 0.5">{{show.notes}}</small>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bg-gold text-center">
-      <h2>Booking Information</h2>
-      <p>
-        Reach out via <a href="mailto:candycigaretteband@gmail.com">Email</a> or
-        Call <a href="tel:2625678114">262.567.8114.</a>
-      </p>
-    </section>
-    <section class="bg-black">
-      <h2 class="text-center">Setlist</h2>
-      <div style="display:grid; grid-template-columns: 1fr;">
-        <div style="margin: 10px 0" v-for="song in setlist" :key="song.name">
-          <div style="text-transform: uppercase">
-            <strong>{{song.name}}</strong> - {{song.artist}}
-          </div>
-        </div>
-    </section>
-    <footer>
-      <section>
-        <small>© 2020 Candy Cigarette</small>
-        <a href="https://music.apple.com/us/artist/candy-cigarette/1549856474" title="Candy Cigarette on Apple Music"
-          target="_blank">
-          <svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1em" height="1em" viewBox="0 0 122.88 122.88">
-            <path id="a"
-              d="M18.43 0h86.02c10.18 0 18.43 8.25 18.43 18.43v86.02c0 10.18-8.25 18.43-18.43 18.43H18.43C8.25 122.88 0 114.63 0 104.45V18.43C0 8.25 8.25 0 18.43 0z"
-              fill="currentColor"></path>
-            <path
-              d="M47.76 86.16v-38.4c0-1.44.8-2.32 2.4-2.64l33.12-6.72c1.76-.32 2.72.48 2.88 2.4v29.28c0 2.4-3.6 4-10.8 4.8-13.68 2.16-11.52 25.2 7.2 18.96 7.2-2.64 8.4-9.6 8.4-16.56V21.12s0-4.8-4.08-3.6l-40.8 8.4s-3.12.48-3.12 4.32v48.72c0 2.4-3.6 4-10.8 4.8-13.68 2.16-11.52 25.2 7.2 18.96 7.2-2.64 8.4-9.6 8.4-16.56z"
-              fill="#000"></path>
-          </svg>
-        </a>
-        <a href="https://open.spotify.com/artist/5maVQrBwrq5t6SoOiUsfVk" title="Candy Cigarette on Spotify"
-          target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1333.33 1333.3" shape-rendering="geometricPrecision"
-            width="1em" height="1em" fill="currentColor" text-rendering="geometricPrecision"
-            image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
-            <path
-              d="M666.66 0C298.48 0 0 298.47 0 666.65c0 368.19 298.48 666.65 666.66 666.65 368.22 0 666.67-298.45 666.67-666.65C1333.33 298.49 1034.88.03 666.65.03l.01-.04zm305.73 961.51c-11.94 19.58-37.57 25.8-57.16 13.77-156.52-95.61-353.57-117.26-585.63-64.24-22.36 5.09-44.65-8.92-49.75-31.29-5.12-22.37 8.84-44.66 31.26-49.75 253.95-58.02 471.78-33.04 647.51 74.35 19.59 12.02 25.8 37.57 13.77 57.16zm81.6-181.52c-15.05 24.45-47.05 32.17-71.49 17.13-179.2-110.15-452.35-142.05-664.31-77.7-27.49 8.3-56.52-7.19-64.86-34.63-8.28-27.49 7.22-56.46 34.66-64.82 242.11-73.46 543.1-37.88 748.89 88.58 24.44 15.05 32.16 47.05 17.12 71.46V780zm7.01-189.02c-214.87-127.62-569.36-139.35-774.5-77.09-32.94 9.99-67.78-8.6-77.76-41.55-9.98-32.96 8.6-67.77 41.56-77.78 235.49-71.49 626.96-57.68 874.34 89.18 29.69 17.59 39.41 55.85 21.81 85.44-17.52 29.63-55.89 39.4-85.42 21.8h-.03z"
-              fill-rule="nonzero"></path>
-          </svg>
-        </a>
-        <a href="https://www.facebook.com/candycigaretteband" title="facebook" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-facebook"
-            viewBox="0 0 16 16">
-            <path
-              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-          </svg>
-        </a>
-        <a href="https://www.instagram.com/candycigaretteband/" title="instagram" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-instagram"
-            viewBox="0 0 16 16">
-            <path
-              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-          </svg>
-        </a>
-        <a href="https://twitter.com/CandyCigBand" title="twitter" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-twitter"
-            viewBox="0 0 16 16">
-            <path
-              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
-          </svg>
-        </a>
-        <a href="https://www.youtube.com/channel/UCdnSeFSD42YX3xyTl2iNKKg" title="youtube" target="_blank">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-youtube"
-            viewBox="0 0 16 16">
-            <path
-              d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.122C.002 7.343.01 6.6.064 5.78l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
-          </svg>
-        </a>
-      </section>
-    </footer>
+    <Pagefooter></Pagefooter>
   </div>
 </body>
 

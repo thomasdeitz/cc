@@ -1,0 +1,45 @@
+section {
+    padding: 4vw 0;
+    background-color: var(--white);
+    position: relative;
+    z-index: 1000;
+
+    &#hero {
+        z-index: auto;
+    }
+
+    a {    
+        &:hover {
+            color: var(--primary);
+        } 
+    }
+
+    &.primary {
+        background-color: var(--primary);
+        color: var(--black);
+
+        a {    
+            &:hover {
+                color: var(--white);
+            } 
+        }
+    }
+
+    &.black {
+        background-color: var(--black);
+        color: var(--white);
+
+        a {    
+            &:hover {
+                color: var(--primary);
+            } 
+        }
+    }
+
+    .videos {
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 20px;
+    }
+}

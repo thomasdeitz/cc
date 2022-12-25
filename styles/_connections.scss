@@ -1,0 +1,26 @@
+.connections {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    a {
+        line-height: 10px;
+        background-color: var(--black);
+        color: var(--white);
+        display: inline-block;
+        padding: 14px;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: var(--primary);
+            color: var(--white);
+        }
+    }
+
+    svg {
+        fill: currentColor;
+        height: 18px;
+        width: auto;
+    }
+}

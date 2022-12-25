@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 150px;
+        width: auto;
+    }
+
+    svg {
+        height: 50px;
+        width: auto;
+        fill:var(--black);
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &, a {
+        color: var(--white);
+    }
+
+    a { display: inline-block;
+        text-decoration: none;
+        padding: .7vw 1.2vw;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        &:hover {
+            color: var(--primary);
+        }
+
+        span {
+            display: none;
+        }
+    }
+}

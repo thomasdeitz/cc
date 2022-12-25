@@ -1,0 +1,6 @@
+
+const ContactPage = {
+    template: `
+        <Contacts />
+    `
+}

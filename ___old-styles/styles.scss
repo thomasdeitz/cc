@@ -1,0 +1,112 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+    *::selection {
+        background-color: #d7be69;
+    }
+
+    header {
+        overflow: hidden;
+        display: flex;
+        text-align: center;
+        width: 100vw;
+        height: 100vh; 
+        max-height: 900px;
+        background-image: url(./assets/CC-YT-Banner.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width: 600px) {
+            max-height: 500px;
+        }
+
+        section {
+            align-self: flex-end;
+        }
+    }
+
+    main {
+        overflow: hidden;
+        background-color: white;
+        color: black;
+    }
+
+    aside {
+        overflow: hidden;
+        text-align: center;
+        width: 100vw;
+        height: 500px;
+        background-image: url(./assets/CC-2.JPG);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        @media only screen and (max-width: 600px) {
+            max-height: 300px;
+        }
+    }
+
+    footer {
+        overflow: hidden;
+        background-color: black;
+        color: white;
+
+        section {
+            display: flex;
+
+            & > * {
+                margin-right: 20px;
+
+                &:first-child {
+                    flex-grow: 1;
+                }
+            }
+        }
+    }
+
+    section {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4rem 0;
+        width: 60vw;
+        max-width: 800px;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Antic Slab', serif;
+    }
+
+    small {
+        font-size: .5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        color: #d7be69;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    a,
+    a:visited,
+    a:active {
+        color: white;
+    }
+
+    a:hover {
+        color: grey;
+    }
+}

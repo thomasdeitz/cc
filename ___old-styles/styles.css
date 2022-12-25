@@ -1,0 +1,102 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body *::-moz-selection {
+  background-color: #d7be69;
+}
+body *::selection {
+  background-color: #d7be69;
+}
+body header {
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  max-height: 900px;
+  background-image: url(./assets/CC-YT-Banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  body header {
+    max-height: 500px;
+  }
+}
+body header section {
+  align-self: flex-end;
+}
+body main {
+  overflow: hidden;
+  background-color: white;
+  color: black;
+}
+body aside {
+  overflow: hidden;
+  text-align: center;
+  width: 100vw;
+  height: 500px;
+  background-image: url(./assets/CC-2.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  body aside {
+    max-height: 300px;
+  }
+}
+body footer {
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+body footer section {
+  display: flex;
+}
+body footer section > * {
+  margin-right: 20px;
+}
+body footer section > *:first-child {
+  flex-grow: 1;
+}
+body section {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0;
+  width: 60vw;
+  max-width: 800px;
+}
+body h1, body h2, body h3 {
+  font-family: "Antic Slab", serif;
+}
+body small {
+  font-size: 0.5rem;
+}
+body h1 {
+  font-size: 4rem;
+  color: #d7be69;
+}
+body h2 {
+  font-size: 2rem;
+}
+body a,
+body a:visited,
+body a:active {
+  color: white;
+}
+body a:hover {
+  color: grey;
+}/*# sourceMappingURL=styles.css.map */

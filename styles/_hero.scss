@@ -1,0 +1,21 @@
+#hero {
+    position: relative;
+    height: 90vh;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.5) 50px, rgba(0,0,0,0) 150px);
+    padding: 0px;
+    //background-color: transparent !important;
+
+    &:after {
+        content: '';
+        background-image: url(././assets/CC3sm.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        top:0px;
+        height: 90vh;
+        left: 0px;
+        right: 0px;
+        position: fixed;
+        z-index: -1;
+    }
+}

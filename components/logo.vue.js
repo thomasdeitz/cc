@@ -1,5 +1,6 @@
 const Logo = {
-    template: `<svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 18 22.06">
+    template: `<img src="././assets/Candy_Cigarette_Band_EP_Stickers.png" />`
+    /*template: `<svg xmlns="http://www.w3.org/2000/svg" class="logo" viewBox="0 0 18 22.06">
         <defs>
             <style>
             .cls-1 {
@@ -19,5 +20,5 @@ const Logo = {
                 transform="translate(-3 -0.97)" />
             </g>
         </g>
-    </svg>`
+    </svg>`*/
 }
