@@ -1,5 +1,6 @@
 header {
-    position: fixed;
+    position: relative;
+    background-color: var(--black);
     z-index: 100;
     width: 100%;
     display: flex;
@@ -41,4 +42,11 @@ header {
             display: none;
         }
     }
+
+
+    .home & {
+        background-color: transparent;
+        position: fixed;
+    }
 }
+

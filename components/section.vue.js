@@ -1,7 +1,7 @@
 const Section = {
     props: [
         'heading',
-        'background'
+        'background',
     ],
     template: `
         <section :class="{ primary: background === 'primary', black: background === 'black' }">

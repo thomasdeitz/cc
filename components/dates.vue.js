@@ -53,7 +53,9 @@ const Dates = {
         </div> -->
 
       </div>
-      <!-- <router-link v-if="length" to="/dates">Dates</router-link> -->
+      <br v-if="length" />
+      <br v-if="length" />
+      <router-link v-if="length" to="/dates" class="button">View All</router-link>
     </div>
     `
 }

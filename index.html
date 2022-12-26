@@ -57,23 +57,39 @@
     const routes = [
       {
         path: "/",
+        name: "Home",
         component: HomePage,
+        meta: {
+          props: {bodyClass: "home"}
+        },
       },
       {
         path: "/dates",
         component: DatesPage,
+        meta: {
+          props: {bodyClass: ""}
+        },
       },
       {
         path: "/music",
         component: MusicPage,
+        meta: {
+          props: {bodyClass: ""}
+        },
       },
       {
         path: "/bio",
         component: BioPage,
+        meta: {
+          props: {bodyClass: ""}
+        },
       },
       {
         path: "/contact",
-        component: ContactPage
+        component: ContactPage,
+        meta: {
+          props: {bodyClass: ""}
+        },
       }
     ];
 
@@ -90,25 +106,25 @@
       };
 
       const app = Vue.createApp(CandyCigarette);
-      app.component("Contacts", Contacts);
-      app.component("Connections", Connections);
-      app.component("Hero", Hero);
-      app.component("Logo", Logo);
-      app.component("Videos", Videos);
-      app.component("Dates", Dates);
-      app.component("Setlist", Setlist);
-      app.component("Pageheader", Pageheader);
-      app.component("Pagefooter", Pagefooter);
-      app.component("Section", Section);
-      app.component("Facebook", Facebook);
-      app.component("Instagram", Instagram);
-      app.component("AppleMusic", AppleMusic);
-      app.component("Spotify", Spotify);
-      app.component("SoundCloud", SoundCloud);
-      app.component("Bandcamp", Bandcamp);
-      app.component("YouTube", YouTube);
-      app.use(router);
-      app.mount("#app");
+        app.component("Contacts", Contacts);
+        app.component("Connections", Connections);
+        app.component("Hero", Hero);
+        app.component("Logo", Logo);
+        app.component("Videos", Videos);
+        app.component("Dates", Dates);
+        app.component("Setlist", Setlist);
+        app.component("Pageheader", Pageheader);
+        app.component("Pagefooter", Pagefooter);
+        app.component("Section", Section);
+        app.component("Facebook", Facebook);
+        app.component("Instagram", Instagram);
+        app.component("AppleMusic", AppleMusic);
+        app.component("Spotify", Spotify);
+        app.component("SoundCloud", SoundCloud);
+        app.component("Bandcamp", Bandcamp);
+        app.component("YouTube", YouTube);
+        app.use(router);
+        app.mount("#app");
     });
   </script>
 </head>
@@ -145,11 +161,13 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
   <div id="app">
-    <Pageheader></Pageheader>
-    <main>
-      <router-view></router-view>
-    </main>
-    <Pagefooter></Pagefooter>
+    <div :class="$route.meta.props.bodyClass">
+      <Pageheader></Pageheader>
+      <main>
+        <router-view></router-view>
+      </main>
+      <Pagefooter></Pagefooter>
+    </div>
   </div>
 </body>
 

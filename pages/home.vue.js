@@ -9,7 +9,7 @@ const HomePage = {
             <Videos />
         </Section>
         <Section heading="Upcoming Dates" background="primary">
-            <Dates length=15  />
+            <Dates length=5  />
         </Section>
         <Section heading="Contact Us">
             <Contacts />

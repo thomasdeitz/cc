@@ -22,9 +22,13 @@
 @media only screen and (max-width: 800px) {
   :root {
     font-size: 3vw;
-    line-height: 1;
+    line-height: 1.5;
   }
 }
+h1, h2, h4 {
+  text-transform: uppercase;
+}
+
 a {
   color: currentColor;
   font-weight: 700;
@@ -35,7 +39,8 @@ a:hover {
 }
 
 header {
-  position: fixed;
+  position: relative;
+  background-color: var(--black);
   z-index: 100;
   width: 100%;
   display: flex;
@@ -71,6 +76,10 @@ header a:hover {
 }
 header a span {
   display: none;
+}
+.home header {
+  background-color: transparent;
+  position: fixed;
 }
 
 section {
@@ -110,6 +119,7 @@ footer {
   padding: 5vw 0;
   background-color: var(--black);
   color: var(--white);
+  box-shadow: 50vh 0 0 50vh var(--black);
 }
 
 #hero {
@@ -130,6 +140,14 @@ footer {
   right: 0px;
   position: fixed;
   z-index: -1;
+}
+@media only screen and (max-width: 800px) {
+  #hero {
+    height: 70vh;
+  }
+  #hero:after {
+    height: 70vh;
+  }
 }
 
 .connections {
@@ -163,7 +181,6 @@ body {
 
 .container {
   margin: auto;
-  text-align: center;
   width: 90%;
   max-width: 1200px;
 }
@@ -171,6 +188,28 @@ body {
   .container {
     max-width: 90%;
   }
+}
+.home .container {
+  text-align: center;
+}
+
+a.button, .button, button {
+  text-decoration: none;
+  height: 40px;
+  padding: 0 40px;
+  border-radius: 3px;
+  align-items: center;
+  display: inline-flex;
+  background-color: var(--black);
+  color: var(--white);
+}
+a.button:hover, .button:hover, button:hover {
+  color: currentColor;
+  opacity: 0.8;
+}
+section.black a.button, section.black .button, section.black button {
+  background-color: var(--primary);
+  color: var(--black);
 }
 
 .show {

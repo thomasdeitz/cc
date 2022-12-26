@@ -1,6 +1,8 @@
 
 const DatesPage = {
     template: `
-      <Dates />
+      <Section heading="All Dates">
+        <Dates />
+      </Section>
     `
 }

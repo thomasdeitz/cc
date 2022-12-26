@@ -628,39 +628,39 @@ const shows = [
   //},
   {
     datetime: "2022-12-04T13:00",
-    venue: "Washington County Humane Society - Festival of Trees",
+    venue: "Duo - Washington County Humane Society - Festival of Trees",
     location: "Slinger, WI",
   },
   {
     datetime: "2022-12-10T16:00",
-    venue: "Private Party",
+    venue: "Duo - Private Party",
     location: "Nashotah, WI",
   },
   {
     datetime: "2022-12-14T17:00",
-    venue: "A+ Power Sports - Annual Customer Appreciation Holiday Party",
+    venue: "Duo - A+ Power Sports - Annual Customer Appreciation Holiday Party",
     location: "Elkhorn, WI",
   },
   {
     datetime: "2022-12-20T17:00",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Duo - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2022-12-30T19:00",
-    venue: "Henny's DugOut",
+    venue: "Duo - Henny's DugOut",
     location: "Lanon, WI",
   },
   /***** ^ 2022 ^ v 2023 v *****/
   {
     datetime: "2023-01-06T18:00",
-    venue: "West Bend Moose Lodge",
-    location: "West Bend, WI"
+    venue: "Duo - West Bend Moose Lodge",
+    location: "West Bend, WI",
   },
   {
     datetime: "2023-01-13T18:00",
-    venue: "Wisconsin Brewing Company",
-    location: "Verona, WI"
+    venue: "Duo - Wisconsin Brewing Company",
+    location: "Verona, WI",
   },
   {
     datetime: "2023-01-14T18:00",
@@ -679,8 +679,8 @@ const shows = [
   },
   {
     datetime: "2023-02-11T19:00",
-    venue: "The Other Bar",
-    location: "Dousman, WI"
+    venue: "Duo - The Other Bar",
+    location: "Dousman, WI",
   },
   {
     datetime: "2023-02-17T12:00",
@@ -689,13 +689,23 @@ const shows = [
   },
   {
     datetime: "2023-02-25T20:00",
-    venue: "Thirsty Bird Saloon",
-    location: "Oconomowoc, WI"
+    venue: "Duo - Thirsty Bird Saloon",
+    location: "Oconomowoc, WI",
   },
-   {
+  {
+    datetime: "2022-04-04T14:30",
+    venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
+    location: "Thiensville, WI",
+  },
+  {
+    datetime: "2022-04-29T16:30",
+    venue: "Duo - Private Party",
+    location: "Milwaukee, WI",
+  },
+  {
     datetime: "2023-04-29T16:00",
-    venue: "The Drafty Cellar",
-    location: "Watertown, WI"
+    venue: "Duo - The Drafty Cellar",
+    location: "Watertown, WI",
   },
   {
     datetime: "2023-05-20T15:00",
