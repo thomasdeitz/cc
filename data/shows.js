@@ -693,12 +693,12 @@ const shows = [
     location: "Oconomowoc, WI",
   },
   {
-    datetime: "2022-04-04T14:30",
+    datetime: "2023-04-04T14:30",
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
     location: "Thiensville, WI",
   },
   {
-    datetime: "2022-04-29T16:30",
+    datetime: "2023-04-29T16:30",
     venue: "Duo - Private Party",
     location: "Milwaukee, WI",
   },
