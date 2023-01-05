@@ -648,7 +648,7 @@ const shows = [
   },
   {
     datetime: "2022-12-30T19:00",
-    venue: "Duo - Henny's DugOut",
+    venue: "Henny's DugOut",
     location: "Lanon, WI",
   },
   /***** ^ 2022 ^ v 2023 v *****/
@@ -673,9 +673,26 @@ const shows = [
     location: "Madison, WI"
   },
   {
+    datetime: "2023-01-21T12:00",
+    venue: "Regner Park - Winter Warm Up Fat Bike Race",
+    location: "West Bend, WI",
+    notes: "Hugh Jass Extra Credit"
+  },
+  {
     datetime: "2023-01-27T17:00",
     venue: "Lilliput Records",
     location: "Milwaukee, WI"
+  },
+  //{
+    //datetime: "2023-01-28T18:30",
+    //venue: "Miramar Theatre",
+    //location: "Milwaukee, WI",
+    //notes: "Supporting Jared James Nichols"
+  //},
+  {
+    datetime: "2023-02-04T19:00",
+    venue: "Henny's DugOut",
+    location: "Lanon, WI",
   },
   {
     datetime: "2023-02-11T19:00",
@@ -693,12 +710,29 @@ const shows = [
     location: "Oconomowoc, WI",
   },
   {
-    datetime: "2023-04-04T14:30",
+    datetime: "2023-03-04T14:30",
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
     location: "Thiensville, WI",
   },
+  //{
+    //datetime: "2023-03-17T19:00",
+    //venue: "Main Street Music",
+    //location: "Brooklyn, WI",
+    //notes: "Supporting The Katie Scullin Band"
+  //},
   {
-    datetime: "2023-04-29T16:30",
+    datetime: "2023-04-22T16:00",
+    venue: "Private Party",
+    location: "TBD",
+  },
+  //{
+    //datetime: "2023-04-23T14:00",
+    //venue: "Paramount Music Association",
+    //location: "Cedarburg, WI",
+    //notes: "w/ TBA"
+  //},
+  {
+    datetime: "2023-04-28T16:30",
     venue: "Duo - Private Party",
     location: "Milwaukee, WI",
   },
@@ -706,6 +740,11 @@ const shows = [
     datetime: "2023-04-29T16:00",
     venue: "Duo - The Drafty Cellar",
     location: "Watertown, WI",
+  },
+  {
+    datetime: "2023-05-06T20:00",
+    venue: "Rustic Woods Campground Bar",
+    location: "Waupaca, WI"
   },
   {
     datetime: "2023-05-20T15:00",
@@ -723,9 +762,36 @@ const shows = [
     location: "Watertown, WI"
   },
   {
+    datetime: "2023-06-17T14:00",
+    venue: "Private Party",
+    location: "Hartford, WI"
+  },
+  //{
+    //datetime: "2023-07-02T14:00",
+    //venue: "Dundee's Roadhouse",
+    //location: "Dundee, WI",
+    //notes: "w/ TBA"
+  //},
+  {
     datetime: "2023-07-22T14:00",
     venue: "Cheelabration - Daily Taco & Cantina - Set Breaks",
     location: "Thiensville, WI",
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
+  //{
+   //datetime: "2023-07-23T14:00",
+    //venue: "Brothers' Pub",
+    //location: "Shawano, WI",
+    //notes: "w/ The Champ Jaxon Band"
+  //},
+  //{
+   //datetime: "2023-10-09T19:00",
+    //venue: "Martifest",
+    //location: "Oconomowoc, WI",
+  //},
+  //{
+   //datetime: "2023-10-23T15:00",
+    //venue: "Wide Open Wisconsin",
+    //location: "West Bend, WI"
+  //},
 ];
