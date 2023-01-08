@@ -683,12 +683,12 @@ const shows = [
     venue: "Lilliput Records",
     location: "Milwaukee, WI"
   },
-  //{
-    //datetime: "2023-01-28T18:30",
-    //venue: "Miramar Theatre",
-    //location: "Milwaukee, WI",
-    //notes: "Supporting Jared James Nichols"
-  //},
+  {
+    datetime: "2023-01-28T18:30",
+    venue: "Miramar Theatre",
+    location: "Milwaukee, WI",
+    notes: "Supporting Jared James Nichols & Bourbon House"
+  },
   {
     datetime: "2023-02-04T19:00",
     venue: "Henny's DugOut",
@@ -765,6 +765,11 @@ const shows = [
     datetime: "2023-06-17T14:00",
     venue: "Private Party",
     location: "Hartford, WI"
+  },
+  {
+    datetime: "2023-06-16T17:30",
+    venue: "SoLu Estate Winery",
+    location: "Cascade, WI"
   },
   //{
     //datetime: "2023-07-02T14:00",
