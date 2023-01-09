@@ -684,7 +684,7 @@ const shows = [
     location: "Milwaukee, WI"
   },
   {
-    datetime: "2023-01-28T18:30",
+    datetime: "2023-01-28T17:00",
     venue: "Miramar Theatre",
     location: "Milwaukee, WI",
     notes: "Supporting Jared James Nichols & Bourbon House"
