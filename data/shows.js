@@ -771,12 +771,12 @@ const shows = [
     venue: "SoLu Estate Winery",
     location: "Cascade, WI"
   },
-  //{
-    //datetime: "2023-07-02T14:00",
-    //venue: "Dundee's Roadhouse",
-    //location: "Dundee, WI",
+  {
+    datetime: "2023-07-02T16:00",
+    venue: "Dundee's Roadhouse",
+    location: "Dundee, WI",
     //notes: "w/ TBA"
-  //},
+  },
   {
     datetime: "2023-07-22T14:00",
     venue: "Cheelabration - Daily Taco & Cantina - Set Breaks",
