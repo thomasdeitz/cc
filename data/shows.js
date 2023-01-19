@@ -721,6 +721,11 @@ const shows = [
     //notes: "Supporting The Katie Scullin Band"
   //},
   {
+    datetime: "2023-04-19T19:00",
+    venue: "Red Rooster",
+    location: "Madison, WI"
+  },
+  {
     datetime: "2023-04-22T16:00",
     venue: "Private Party",
     location: "TBD",
@@ -751,6 +756,11 @@ const shows = [
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
+  // {
+  //   datetime: "2023-05-21T16:00",
+  //   venue: "Blues Event - Foundry 45",
+  //   location: "Kewaskum, WI"
+  // },
   {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
@@ -789,6 +799,11 @@ const shows = [
     //location: "Shawano, WI",
     //notes: "w/ The Champ Jaxon Band"
   //},
+  {
+    datetime: "2023-07-26T19:00",
+    venue: "Red Rooster",
+    location: "Madison, WI"
+  },
   //{
    //datetime: "2023-10-09T19:00",
     //venue: "Martifest",
