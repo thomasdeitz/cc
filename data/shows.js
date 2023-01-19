@@ -765,7 +765,7 @@ const shows = [
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
-  },
+  }, 
   {
     datetime: "2023-06-03T19:00",
     venue: "River Bend RV Resort",
