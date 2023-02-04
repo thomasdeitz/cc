@@ -730,12 +730,6 @@ const shows = [
     venue: "Private Party",
     location: "TBD",
   },
-  //{
-    //datetime: "2023-04-23T14:00",
-    //venue: "Paramount Music Association",
-    //location: "Cedarburg, WI",
-    //notes: "w/ TBA"
-  //},
   {
     datetime: "2023-04-28T16:30",
     venue: "Duo - Private Party",
@@ -756,11 +750,11 @@ const shows = [
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
-  // {
-  //   datetime: "2023-05-21T16:00",
-  //   venue: "Blues Event - Foundry 45",
-  //   location: "Kewaskum, WI"
-  // },
+  {
+     datetime: "2023-05-21T12:00",
+     venue: "Duo - TBD",
+     location: "Kewaskum, WI"
+  },
   {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
@@ -782,10 +776,19 @@ const shows = [
     location: "Cascade, WI"
   },
   {
+    datetime: "2023-06-30T16:00",
+    venue: "Grassway Organics - Pizza on the Farm",
+    location: "East Troy, WI"
+  },
+  {
     datetime: "2023-07-02T16:00",
     venue: "Dundee's Roadhouse",
-    location: "Dundee, WI",
-    //notes: "w/ TBA"
+    location: "Dundee, WI"
+  },
+  {
+    datetime: "2023-07-21T19:30",
+    venue: "Private Party",
+    location: "TBD",
   },
   {
     datetime: "2023-07-22T14:00",
