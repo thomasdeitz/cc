@@ -766,14 +766,19 @@ const shows = [
     location: "Watertown, WI"
   },
   {
-    datetime: "2023-06-17T14:00",
-    venue: "Private Party",
-    location: "Hartford, WI"
+    datetime: "2022-06-11T16:00",
+    venue: "the baaree",
+    location: "Theinsville, WI"
   },
   {
     datetime: "2023-06-16T17:30",
     venue: "SoLu Estate Winery",
     location: "Cascade, WI"
+  },
+  {
+    datetime: "2023-06-17T14:00",
+    venue: "Private Party",
+    location: "Hartford, WI"
   },
   {
     datetime: "2023-06-30T16:00",
@@ -806,6 +811,11 @@ const shows = [
     datetime: "2023-07-26T19:00",
     venue: "Red Rooster",
     location: "Madison, WI"
+  },
+  {
+    datetime: "2022-09-03T16:00",
+    venue: "the baaree",
+    location: "Theinsville, WI"
   },
   //{
    //datetime: "2023-10-09T19:00",
