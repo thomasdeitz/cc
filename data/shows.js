@@ -771,6 +771,11 @@ const shows = [
     location: "Theinsville, WI"
   },
   {
+    datetime: "2023-06-14T17:00",
+    venue: "Wednesday Night Markt at Belfrē",
+    location: "Delafield, WI"
+  },
+  {
     datetime: "2023-06-16T17:30",
     venue: "SoLu Estate Winery",
     location: "Cascade, WI"
@@ -811,6 +816,11 @@ const shows = [
     datetime: "2023-07-26T19:00",
     venue: "Red Rooster",
     location: "Madison, WI"
+  },
+  {
+    datetime: "2023-08-16T17:00",
+    venue: "Duo - Wednesday Night Markt at Belfrē",
+    location: "Delafield, WI"
   },
   {
     datetime: "2022-09-03T16:00",
