@@ -700,8 +700,8 @@ const shows = [
     location: "Dousman, WI",
   },
   {
-    datetime: "2023-02-17T12:00",
-    venue: "Big Turn Music Festival",
+    datetime: "2023-02-17T18:30",
+    venue: "Big Turn Music Festival - Mandy's Coffee & Cafe",
     location: "Red Wing, MN"
   },
   {
