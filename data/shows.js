@@ -709,6 +709,12 @@ const shows = [
     venue: "Duo - Thirsty Bird Saloon",
     location: "Oconomowoc, WI",
   },
+  //{
+    //datetime: "2023-03-01T18:00",
+    //venue: "IndieTuneUp",
+    //location: "Fitchburg, WI",
+    //notes: "w/ Katie Scullin & TBD"
+  //},
   {
     datetime: "2023-03-04T14:30",
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
@@ -766,7 +772,7 @@ const shows = [
     location: "Watertown, WI"
   },
   {
-    datetime: "2022-06-11T16:00",
+    datetime: "2023-06-11T16:00",
     venue: "the baaree",
     location: "Theinsville, WI"
   },
@@ -823,7 +829,7 @@ const shows = [
     location: "Delafield, WI"
   },
   {
-    datetime: "2022-09-03T16:00",
+    datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Theinsville, WI"
   },
