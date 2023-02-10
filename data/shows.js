@@ -778,7 +778,7 @@ const shows = [
   },
   {
     datetime: "2023-06-14T17:00",
-    venue: "Wednesday Night Markt at Belfrē",
+    venue: "Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
   {
@@ -825,7 +825,7 @@ const shows = [
   },
   {
     datetime: "2023-08-16T17:00",
-    venue: "Duo - Wednesday Night Markt at Belfrē",
+    venue: "Duo - Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
   {
