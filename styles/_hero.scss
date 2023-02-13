@@ -7,11 +7,12 @@
 
     &:after {
         content: '';
-        background-image: url(././assets/CC3sm.png);
+        background-image: url(././assets/CandyCigarette7.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        top:0px;
+        filter: saturate(0);
+        top: 0px;
         height: 90vh;
         left: 0px;
         right: 0px;
