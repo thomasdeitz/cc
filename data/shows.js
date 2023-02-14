@@ -709,12 +709,12 @@ const shows = [
     venue: "Duo - Thirsty Bird Saloon",
     location: "Oconomowoc, WI",
   },
-  //{
-    //datetime: "2023-03-01T18:00",
-    //venue: "IndieTuneUp",
-    //location: "Fitchburg, WI",
-    //notes: "w/ Katie Scullin & TBD"
-  //},
+  {
+    datetime: "2023-03-01T18:00",
+    venue: "IndieTuneUp",
+    location: "Fitchburg, WI",
+    notes: "w/ TSG: AP! & Ella Loup"
+  },
   {
     datetime: "2023-03-04T14:30",
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
