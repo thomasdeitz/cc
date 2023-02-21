@@ -720,12 +720,12 @@ const shows = [
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
     location: "Thiensville, WI",
   },
-  //{
-    //datetime: "2023-03-17T19:00",
-    //venue: "Main Street Music",
-    //location: "Brooklyn, WI",
-    //notes: "Supporting The Katie Scullin Band"
-  //},
+  {
+    datetime: "2023-03-17T19:00",
+    venue: "Main Street Music",
+    location: "Brooklyn, WI",
+    notes: "Supporting The Katie Scullin Band"
+  },
   {
     datetime: "2023-04-19T19:00",
     venue: "Red Rooster",
