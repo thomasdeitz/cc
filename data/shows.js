@@ -843,4 +843,9 @@ const shows = [
     //venue: "Wide Open Wisconsin",
     //location: "West Bend, WI"
   //},
+  {
+    datetime: "2023-11-11T20:30",
+    venue: "Stolley's Hogg Alley",
+    location: "Oconomowoc, WI"
+  },
 ];
