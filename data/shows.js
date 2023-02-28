@@ -739,7 +739,7 @@ const shows = [
   {
     datetime: "2023-04-22T16:00",
     venue: "Private Party",
-    location: "TBD",
+    location: "Helenville, WI",
   },
   {
     datetime: "2023-04-28T16:30",
@@ -769,7 +769,7 @@ const shows = [
   },
   {
      datetime: "2023-05-21T12:00",
-     venue: "Duo - TBD",
+     venue: "Duo - To Be Announced",
      location: "Kewaskum, WI"
   },
   {
@@ -786,6 +786,12 @@ const shows = [
     datetime: "2023-06-03T19:00",
     venue: "River Bend RV Resort",
     location: "Watertown, WI"
+  },
+  {
+    datetime: "2023-06-08T18:00",
+    venue: "Nixon Park Concert Series",
+    location: "Hartland, WI",
+    notes: "Supporting Depot Express"
   },
   {
     datetime: "2023-06-11T16:00",
@@ -809,7 +815,7 @@ const shows = [
   },
   {
     datetime: "2023-06-24T12:00",
-    venue: "TBA",
+    venue: "To Be Announced",
     location: "Winter Park, CO"
   },
   {
@@ -823,9 +829,15 @@ const shows = [
     location: "Dundee, WI"
   },
   {
+    datetime: "2023-07-13T18:00",
+    venue: "Nixon Park Concert Series",
+    location: "Hartland, WI",
+    notes: "Supporting Devon Huckstep"
+  },
+  {
     datetime: "2023-07-21T15:00",
     venue: "Private Party",
-    location: "TBD",
+    location: "Saukville, WI",
   },
   {
     datetime: "2023-07-22T14:00",
@@ -841,7 +853,7 @@ const shows = [
   //},
   {
     datetime: "2023-07-23T16:30",
-    venue: "TBA",
+    venue: "To Be Announced",
     location: "Shawano, WI"
   },
   {
@@ -849,6 +861,12 @@ const shows = [
     venue: "Red Rooster",
     location: "Madison, WI"
   },
+  //{
+    //datetime: "2023-07-27T18:00",
+    //venue: "Nixon Park Concert Series",
+    //location: "Hartland, WI",
+    //notes: "Supporting Twang Dragons"
+  //},
   {
     datetime: "2023-07-29T08:00",
     venue: "West Bend Farmers Market",
