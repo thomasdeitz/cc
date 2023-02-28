@@ -727,6 +727,11 @@ const shows = [
     notes: "Supporting The Katie Scullin Band"
   },
   {
+    datetime: "2023-04-15T20:00",
+    venue: "Lumber Axe & BrewCade Pub",
+    location: "Waukesha, WI"
+  },
+  {
     datetime: "2023-04-19T19:00",
     venue: "Red Rooster",
     location: "Madison, WI"
@@ -751,6 +756,12 @@ const shows = [
     venue: "Rustic Woods Campground Bar",
     location: "Waupaca, WI"
   },
+  //{
+    //datetime: "2023-05-13T19:00",
+     //venue: "Studio 301",
+     //location: "Portage, WI",
+     //notes: "w/ TBD"
+   //},
   {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
@@ -761,6 +772,11 @@ const shows = [
      venue: "Duo - TBD",
      location: "Kewaskum, WI"
   },
+  {
+    datetime: "2023-05-27T08:00",
+    venue: "West Bend Farmers Market",
+    location: "West Bend, WI",
+   },
   {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
@@ -792,7 +808,12 @@ const shows = [
     location: "Hartford, WI"
   },
   {
-    datetime: "2023-06-30T16:00",
+    datetime: "2023-06-24T12:00",
+    venue: "TBA",
+    location: "Winter Park, CO"
+  },
+  {
+    datetime: "2023-07-01T16:00",
     venue: "Grassway Organics - Pizza on the Farm",
     location: "East Troy, WI"
   },
@@ -802,7 +823,7 @@ const shows = [
     location: "Dundee, WI"
   },
   {
-    datetime: "2023-07-21T19:30",
+    datetime: "2023-07-21T15:00",
     venue: "Private Party",
     location: "TBD",
   },
@@ -813,15 +834,25 @@ const shows = [
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
   //{
-   //datetime: "2023-07-23T14:00",
+   //datetime: "2023-07-23T16:30",
     //venue: "Brothers' Pub",
     //location: "Shawano, WI",
-    //notes: "w/ The Champ Jaxon Band"
+    //notes: "Supporting The Champ Jaxon Band"
   //},
+  {
+    datetime: "2023-07-23T16:30",
+    venue: "TBA",
+    location: "Shawano, WI"
+  },
   {
     datetime: "2023-07-26T19:00",
     venue: "Red Rooster",
     location: "Madison, WI"
+  },
+  {
+    datetime: "2023-07-29T08:00",
+    venue: "West Bend Farmers Market",
+    location: "West Bend, WI",
   },
   {
     datetime: "2023-08-16T17:00",
@@ -829,20 +860,35 @@ const shows = [
     location: "Delafield, WI"
   },
   {
+    datetime: "2023-08-26T08:00",
+    venue: "West Bend Farmers Market",
+    location: "West Bend, WI",
+  },
+  {
+    datetime: "2023-09-01T18:30",
+    venue: "Lumber Axe & BrewCade Pub",
+    location: "Waukesha, WI"
+  },
+  {
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Theinsville, WI"
   },
   //{
-   //datetime: "2023-10-09T19:00",
+   //datetime: "2023-09-09T19:00",
     //venue: "Martifest",
     //location: "Oconomowoc, WI",
   //},
-  //{
-   //datetime: "2023-10-23T15:00",
-    //venue: "Wide Open Wisconsin",
-    //location: "West Bend, WI"
-  //},
+  {
+   datetime: "2023-09-23T14:00",
+    venue: "Wide Open Wisconsin",
+    location: "West Bend, WI"
+  },
+  {
+    datetime: "2023-10-07T08:00",
+    venue: "West Bend Farmers Market",
+    location: "West Bend, WI",
+  },
   {
     datetime: "2023-11-11T20:30",
     venue: "Stolley's Hogg Alley",
