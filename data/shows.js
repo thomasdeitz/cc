@@ -756,12 +756,12 @@ const shows = [
     venue: "Rustic Woods Campground Bar",
     location: "Waupaca, WI"
   },
-  //{
-    //datetime: "2023-05-13T19:00",
-     //venue: "Studio 301",
-     //location: "Portage, WI",
-     //notes: "w/ TBD"
-   //},
+  {
+    datetime: "2023-05-13T17:00",
+     venue: "Studio 301",
+     location: "Portage, WI",
+     notes: "w/ Ginseng & The Coves"
+   },
   {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
