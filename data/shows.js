@@ -731,11 +731,11 @@ const shows = [
     venue: "Henny's DugOut",
     location: "Lanon, WI",
   },
-  {
-    datetime: "2023-04-15T20:00",
-    venue: "Lumber Axe & BrewCade Pub",
-    location: "Waukesha, WI"
-  },
+  //{ Canceled - Venue did no get licenses in time
+    //datetime: "2023-04-15T20:00",
+    //venue: "Lumber Axe & BrewCade Pub",
+    //location: "Waukesha, WI"
+  //},
   {
     datetime: "2023-04-19T19:00",
     venue: "Red Rooster",
