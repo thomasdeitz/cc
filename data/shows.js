@@ -476,7 +476,7 @@ const shows = [
   {
     datetime: "2022-08-21T16:00",
     venue: "the baaree",
-    location: "Theinsville, WI"
+    location: "Thiensville, WI"
   },
   {
     datetime: "2022-08-24T18:00",
@@ -727,6 +727,11 @@ const shows = [
     notes: "Supporting The Katie Scullin Band"
   },
   {
+    datetime: "2023-04-14T19:00",
+    venue: "Henny's DugOut",
+    location: "Lanon, WI",
+  },
+  {
     datetime: "2023-04-15T20:00",
     venue: "Lumber Axe & BrewCade Pub",
     location: "Waukesha, WI"
@@ -776,7 +781,12 @@ const shows = [
     datetime: "2023-05-27T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
-   },
+  },
+  //{
+    //datetime: "2023-05-28T10:00",
+    //venue: "5K Afterparty Belfrē",
+    //location: "Delafield, WI",
+  //},
   {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
@@ -796,7 +806,7 @@ const shows = [
   {
     datetime: "2023-06-11T16:00",
     venue: "the baaree",
-    location: "Theinsville, WI"
+    location: "Thiensville, WI"
   },
   {
     datetime: "2023-06-14T17:00",
@@ -868,6 +878,11 @@ const shows = [
     //notes: "Supporting Twang Dragons"
   //},
   {
+    datetime: "2023-07-28T19:00",
+    venue: "Henny's DugOut",
+    location: "Lanon, WI",
+  },
+  {
     datetime: "2023-07-29T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
@@ -890,7 +905,7 @@ const shows = [
   {
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
-    location: "Theinsville, WI"
+    location: "Thiensville, WI"
   },
   //{
    //datetime: "2023-09-09T19:00",
