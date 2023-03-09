@@ -899,7 +899,7 @@ const shows = [
   },
   {
     datetime: "2023-09-01T18:30",
-    venue: "Lumber Axe & BrewCade Pub",
+    venue: "Duo - Lumber Axe & BrewCade Pub - Friday Night Live",
     location: "Waukesha, WI"
   },
   {
