@@ -903,6 +903,11 @@ const shows = [
     location: "Waukesha, WI"
   },
   {
+    datetime: "2023-09-02T19:00",
+    venue: "Vaudette Theatre",
+    location: "Kaukauna, WI"
+  },
+  {
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Thiensville, WI"
