@@ -726,16 +726,16 @@ const shows = [
     location: "Brooklyn, WI",
     notes: "Supporting The Katie Scullin Band"
   },
-  {
-    datetime: "2023-04-14T19:00",
-    venue: "Henny's DugOut",
-    location: "Lanon, WI",
-  },
   //{ Canceled - Venue did no get licenses in time
     //datetime: "2023-04-15T20:00",
     //venue: "Lumber Axe & BrewCade Pub",
     //location: "Waukesha, WI"
   //},
+  {
+    datetime: "2023-04-15T19:00",
+    venue: "Henny's DugOut",
+    location: "Sussex, WI"
+  },
   {
     datetime: "2023-04-19T19:00",
     venue: "Red Rooster",
