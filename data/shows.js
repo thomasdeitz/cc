@@ -766,16 +766,17 @@ const shows = [
      venue: "Studio 301",
      location: "Portage, WI",
      notes: "w/ Ginseng & The Coves"
-   },
+  },
   {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
   {
-     datetime: "2023-05-21T12:00",
-     venue: "Duo - To Be Announced",
-     location: "Kewaskum, WI"
+    datetime: "2023-05-21T12:00",
+    venue: "Duo - HomeGrown Blues Festival - Foundry 45",
+    location: "Kewaskum, WI",
+    notes: "w/ Maple Road, The Stephen Hull Experience, Andy Gelles Band, Luke Cerny & the Toothpickers, Slow Train featuring Sue DaBaco, Pierre Lee, Slim & Turner, Mojo Road and The Incorruptibles"
   },
   {
     datetime: "2023-05-27T08:00",
@@ -825,7 +826,7 @@ const shows = [
   },
   {
     datetime: "2023-06-24T12:00",
-    venue: "To Be Announced",
+    venue: "Blues From The Top - Keeping The Blues Alive Stage",
     location: "Winter Park, CO"
   },
   {
@@ -837,6 +838,11 @@ const shows = [
     datetime: "2023-07-02T16:00",
     venue: "Dundee's Roadhouse",
     location: "Dundee, WI"
+  },
+  {
+    datetime: "2023-07-07T20:00",
+    venue: "Camp Northern Lights",
+    location: "Campbellsport, WI"
   },
   {
     datetime: "2023-07-13T18:00",
