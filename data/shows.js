@@ -804,10 +804,15 @@ const shows = [
     location: "Hartland, WI",
     notes: "Supporting Depot Express"
   },
+  //{ Double booked
+    //datetime: "2023-06-11T16:00",
+    //venue: "the baaree",
+    //location: "Thiensville, WI"
+  //},
   {
-    datetime: "2023-06-11T16:00",
-    venue: "the baaree",
-    location: "Thiensville, WI"
+    datetime: "2023-06-11T12:00",
+    venue: "Crawfish Junction",
+    location: "Johnson Creek, WI"
   },
   {
     datetime: "2023-06-14T17:00",
@@ -849,6 +854,11 @@ const shows = [
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
     notes: "Supporting Devon Huckstep"
+  },
+  {
+    datetime: "2023-07-18T11:00",
+    venue: "Thiensville Village Market",
+    location: "Thiensville, WI",
   },
   {
     datetime: "2023-07-21T15:00",
