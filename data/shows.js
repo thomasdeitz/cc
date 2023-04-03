@@ -768,6 +768,11 @@ const shows = [
      notes: "w/ Ginseng & The Coves"
   },
   {
+    datetime: "2023-05-19T14:00",
+    venue: "Jam for Jam - The Barrel Inn",
+    location: "Marshall, WI"
+  },
+  {
     datetime: "2023-05-20T15:00",
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
@@ -783,11 +788,11 @@ const shows = [
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
   },
-  //{
-    //datetime: "2023-05-28T10:00",
-    //venue: "5K Afterparty Belfrē",
-    //location: "Delafield, WI",
-  //},
+  {
+    datetime: "2023-05-28T10:00",
+    venue: "5K Afterparty Belfrē             ",
+    location: "Delafield, WI",
+  },
   {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
@@ -833,6 +838,11 @@ const shows = [
     datetime: "2023-06-24T12:00",
     venue: "Blues From The Top - Keeping The Blues Alive Stage",
     location: "Winter Park, CO"
+  },
+  {
+    datetime: "2023-06-29T18:00",
+    venue: "The Red Mouse",
+    location: "Cross Plains, WI"
   },
   {
     datetime: "2023-07-01T16:00",
@@ -934,6 +944,16 @@ const shows = [
     //location: "Oconomowoc, WI",
   //},
   {
+    datetime: "2023-09-16T11:00",
+     venue: "SOFA Softball Tournament",
+     location: "Waukesha, WI"
+  },
+  {
+    datetime: "2023-09-16T19:00",
+     venue: "The Hive Taproom",
+     location: "East Troy, WI"
+  },
+  {
    datetime: "2023-09-23T14:00",
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
@@ -948,4 +968,9 @@ const shows = [
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
   },
+  {
+    datetime: "2023-12-01T14:00",
+    venue: "Ope! Brewing - Amplified Artist Sessions",
+    location: "Milwaukee, WI"
+  }
 ];
