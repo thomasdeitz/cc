@@ -881,12 +881,12 @@ const shows = [
     location: "Thiensville, WI",
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
-  //{
-   //datetime: "2023-07-23T16:30",
-    //venue: "Brothers' Pub",
-    //location: "Shawano, WI",
-    //notes: "Supporting The Champ Jaxon Band"
-  //},
+  {
+   datetime: "2023-07-23T16:30",
+    venue: "Brothers' Pub",
+    location: "Shawano, WI",
+    notes: "Supporting The Champ Jaxon Band"
+  },
   {
     datetime: "2023-07-23T16:30",
     venue: "To Be Announced",
