@@ -804,6 +804,11 @@ const shows = [
     location: "Watertown, WI"
   },
   {
+    datetime: "2023-06-07T18:00",
+    venue: "Duo - Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-06-08T18:00",
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
@@ -840,6 +845,11 @@ const shows = [
     location: "Winter Park, CO"
   },
   {
+    datetime: "2023-06-28T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-06-29T18:00",
     venue: "The Red Mouse",
     location: "Cross Plains, WI"
@@ -855,9 +865,19 @@ const shows = [
     location: "Dundee, WI"
   },
   {
+    datetime: "2023-07-05T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-07-07T20:00",
     venue: "Camp Northern Lights",
     location: "Campbellsport, WI"
+  },
+  {
+    datetime: "2023-07-12T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
   },
   {
     datetime: "2023-07-13T18:00",
@@ -914,14 +934,29 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-08-09T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-08-16T17:00",
     venue: "Duo - Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
   {
+    datetime: "2023-08-23T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-08-26T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
+  },
+  {
+    datetime: "2023-08-30T18:00",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
   },
   {
     datetime: "2023-09-01T18:30",
