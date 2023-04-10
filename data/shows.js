@@ -1004,8 +1004,15 @@ const shows = [
     location: "Oconomowoc, WI"
   },
   {
-    datetime: "2023-12-01T14:00",
+    datetime: "2023-12-03T14:00",
     venue: "Ope! Brewing - Amplified Artist Sessions",
-    location: "Milwaukee, WI"
+    location: "Milwaukee, WI",
+    notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
+  },
+  {
+    datetime: "2023-02-04T14:00",
+    venue: "Ope! Brewing - Amplified Artist Sessions",
+    location: "Milwaukee, WI",
+    notes: "In-the-round: TBA / Featured band: Candy Cigarette"
   }
 ];
