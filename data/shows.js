@@ -753,7 +753,7 @@ const shows = [
   },
   {
     datetime: "2023-04-29T16:00",
-    venue: "Duo - The Drafty Cellar",
+    venue: "The Drafty Cellar",
     location: "Watertown, WI",
   },
   {
@@ -779,7 +779,7 @@ const shows = [
   },
   {
     datetime: "2023-05-21T12:00",
-    venue: "Duo - HomeGrown Blues Festival - Foundry 45",
+    venue: "HomeGrown Blues Festival - Foundry 45",
     location: "Kewaskum, WI",
     notes: "w/ Maple Road, The Stephen Hull Experience, Andy Gelles Band, Luke Cerny & the Toothpickers, Slow Train featuring Sue DaBaco, Pierre Lee, Slim & Turner, Mojo Road and The Incorruptibles"
   },
@@ -805,7 +805,7 @@ const shows = [
   },
   {
     datetime: "2023-06-07T18:00",
-    venue: "Duo - Bilda's Friess Lake Pub",
+    venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
