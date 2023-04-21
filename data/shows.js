@@ -784,6 +784,11 @@ const shows = [
     notes: "w/ Maple Road, The Stephen Hull Experience, Andy Gelles Band, Luke Cerny & the Toothpickers, Slow Train featuring Sue DaBaco, Pierre Lee, Slim & Turner, Mojo Road and The Incorruptibles"
   },
   {
+    datetime: "2023-05-21T19:00",
+    venue: "TBD",
+    location: "Milwaukee, WI",
+  },
+  {
     datetime: "2023-05-27T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
@@ -840,7 +845,12 @@ const shows = [
     location: "Hartford, WI"
   },
   {
-    datetime: "2023-06-24T12:00",
+    datetime: "2023-06-23T17:00",
+    venue: "Blues From The Top - Cooper Creek Stage",
+    location: "Winter Park, CO"
+  },
+  {
+    datetime: "2023-06-24T14:20",
     venue: "Blues From The Top - Keeping The Blues Alive Stage",
     location: "Winter Park, CO"
   },
@@ -875,6 +885,16 @@ const shows = [
     location: "Campbellsport, WI"
   },
   {
+    datetime: "2023-07-08T13:00",
+    venue: "TBD",
+    location: "Milwaukee, WI"
+  },
+  {
+    datetime: "2023-07-12T17:00",
+    venue: "Boozhag's Clubhouse - Tuesday Bike Night",
+    location: "Nashotah, WI"
+  },
+  {
     datetime: "2023-07-12T18:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -884,6 +904,11 @@ const shows = [
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
     notes: "Supporting Devon Huckstep"
+  },
+  {
+    datetime: "2023-07-15T11:00",
+    venue: "BLONDIEPOP",
+    location: "West Bend, WI",
   },
   {
     datetime: "2023-07-18T11:00",
@@ -906,11 +931,6 @@ const shows = [
     venue: "Brothers' Pub",
     location: "Shawano, WI",
     notes: "Supporting The Champ Jaxon Band"
-  },
-  {
-    datetime: "2023-07-23T16:30",
-    venue: "To Be Announced",
-    location: "Shawano, WI"
   },
   {
     datetime: "2023-07-26T19:00",
@@ -937,6 +957,11 @@ const shows = [
     datetime: "2023-08-09T18:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
+  },
+  {
+    datetime: "2023-08-12T11:00",
+    venue: "BLONDIEPOP",
+    location: "West Bend, WI",
   },
   {
     datetime: "2023-08-16T17:00",
@@ -999,6 +1024,16 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-10-07T19:00",
+    venue: "Beechwood Blaster",
+    location: "Beechwood, WI",
+  },
+  {
+    datetime: "2023-10-21T11:00",
+    venue: "BLONDIEPOP",
+    location: "West Bend, WI",
+  },
+  {
     datetime: "2023-11-11T20:30",
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
@@ -1008,6 +1043,11 @@ const shows = [
     venue: "Ope! Brewing - Amplified Artist Sessions",
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
+  },
+  {
+    datetime: "2023-12-16T17:00",
+    venue: "1 of Us Brewing Company",
+    location: "Mt Pleasant, WI"
   },
   {
     datetime: "2024-02-04T14:00",
