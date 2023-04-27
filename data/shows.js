@@ -998,11 +998,12 @@ const shows = [
     venue: "the baaree",
     location: "Thiensville, WI"
   },
-  //{
-   //datetime: "2023-09-09T19:00",
-    //venue: "Martifest",
-    //location: "Oconomowoc, WI",
-  //},
+  {
+    datetime: "2023-09-09T14:00",
+    venue: "Martifest",
+    location: "Sullivan, WI",
+    notes: "w/ TBA"
+  },
   {
     datetime: "2023-09-16T11:00",
      venue: "SOFA Softball Tournament",
