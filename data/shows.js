@@ -785,7 +785,7 @@ const shows = [
   },
   {
     datetime: "2023-05-21T19:00",
-    venue: "TBD",
+    venue: "41st WAMI Award Show - Turner Hall Ballroom",
     location: "Milwaukee, WI",
   },
   {
