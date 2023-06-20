@@ -845,13 +845,18 @@ const shows = [
     location: "Hartford, WI"
   },
   {
-    datetime: "2023-06-23T17:00",
+    datetime: "2023-06-23T17:30",
     venue: "Blues From The Top - Cooper Creek Stage",
     location: "Winter Park, CO"
   },
   {
     datetime: "2023-06-24T14:20",
-    venue: "Blues From The Top - Keeping The Blues Alive Stage",
+    venue: "Blues From The Top - Check Out The Music Stage",
+    location: "Winter Park, CO"
+  },
+  {
+    datetime: "2023-06-25T15:00",
+    venue: "Blues From The Top - Check Out The Music Stage",
     location: "Winter Park, CO"
   },
   {
@@ -880,17 +885,22 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
+    datetime: "2023-07-06T20:00",
+    venue: "Summerfest - Guitars For Vets WAMI Stage",
+    location: "Milwaukee, WI"
+  },
+  {
     datetime: "2023-07-07T20:00",
     venue: "Camp Northern Lights",
     location: "Campbellsport, WI"
   },
   {
     datetime: "2023-07-08T13:00",
-    venue: "TBD",
+    venue: "Summerfest - Second Floor Stage",
     location: "Milwaukee, WI"
   },
   {
-    datetime: "2023-07-12T17:00",
+    datetime: "2023-07-11T17:00",
     venue: "Boozhag's Clubhouse - Tuesday Bike Night",
     location: "Nashotah, WI"
   },
@@ -906,14 +916,29 @@ const shows = [
     notes: "Supporting Devon Huckstep"
   },
   {
+    datetime: "2023-07-14T12:00",
+    venue: "Boozhag's Clubhouse",
+    location: "Nashotah, WI"
+  },
+  {
     datetime: "2023-07-15T11:00",
     venue: "BLONDIEPOP",
+    location: "West Bend, WI",
+  },
+  {
+    datetime: "2023-07-15T17:00",
+    venue: "Private Party",
     location: "West Bend, WI",
   },
   {
     datetime: "2023-07-18T11:00",
     venue: "Thiensville Village Market",
     location: "Thiensville, WI",
+  },
+  {
+    datetime: "2023-07-19T15:00",
+    venue: "Waukesha County Fair - Coors Light Stage",
+    location: "Waukesha, WI",
   },
   {
     datetime: "2023-07-21T15:00",
