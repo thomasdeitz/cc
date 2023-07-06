@@ -913,7 +913,7 @@ const shows = [
     datetime: "2023-07-13T18:00",
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
-    notes: "Supporting Devon Huckstep"
+    notes: "Supporting Catelyn Picco and Devon Huckstep featuring Elliot Liebe"
   },
   {
     datetime: "2023-07-14T12:00",
