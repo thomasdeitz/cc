@@ -905,7 +905,7 @@ const shows = [
     location: "Nashotah, WI"
   },
   {
-    datetime: "2023-07-12T18:00",
+    datetime: "2023-07-12T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
@@ -979,7 +979,7 @@ const shows = [
     location: "West Bend, WI",
   },
   {
-    datetime: "2023-08-09T18:00",
+    datetime: "2023-08-09T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
@@ -1004,7 +1004,7 @@ const shows = [
     location: "West Bend, WI",
   },
   {
-    datetime: "2023-08-30T18:00",
+    datetime: "2023-08-30T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
