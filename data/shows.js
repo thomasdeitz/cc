@@ -941,6 +941,11 @@ const shows = [
     location: "Waukesha, WI",
   },
   {
+    datetime: "2023-07-20T18:30",
+    venue: "Galaxie Theatre",
+    location: "Johnson Creek, WI",
+  },
+  {
     datetime: "2023-07-21T15:00",
     venue: "Private Party",
     location: "Saukville, WI",
@@ -962,12 +967,6 @@ const shows = [
     venue: "Red Rooster",
     location: "Madison, WI"
   },
-  //{
-    //datetime: "2023-07-27T18:00",
-    //venue: "Nixon Park Concert Series",
-    //location: "Hartland, WI",
-    //notes: "Supporting Twang Dragons"
-  //},
   {
     datetime: "2023-07-28T19:00",
     venue: "Henny's DugOut",
@@ -995,7 +994,7 @@ const shows = [
   },
   {
     datetime: "2023-08-23T18:00",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Duo - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
@@ -1005,7 +1004,7 @@ const shows = [
   },
   {
     datetime: "2023-08-30T17:00",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Duo - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
@@ -1074,6 +1073,17 @@ const shows = [
     datetime: "2023-12-16T17:00",
     venue: "1 of Us Brewing Company",
     location: "Mt Pleasant, WI"
+  },
+  {
+    datetime: "2024-01-19T12:00",
+    venue: "TBA",
+    location: "TN"
+  },
+  {
+    datetime: "2024-02-09T18:00",
+    venue: "TBA",
+    location: "IN",
+    notes: "Supporting TBA"
   },
   {
     datetime: "2024-02-04T14:00",
