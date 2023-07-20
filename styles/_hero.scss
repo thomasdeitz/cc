@@ -20,6 +20,27 @@
         z-index: -1;
     }
 
+    .connections {
+        bottom: 36px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+
+        a {
+            background-color: transparent;
+            color: white;
+        }
+
+        svg {
+            filter: drop-shadow(0px 0px 3px black);
+            fill: currentColor;
+            height: 36px;
+            width: auto;
+        }
+
+    }
+
     @media only screen and (max-width: 800px) {
         height: 70vh;
 

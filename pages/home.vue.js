@@ -2,9 +2,6 @@ const HomePage = {
     template: 
     `
         <Hero />
-        <Section heading="Stay Connected">
-            <Connections />
-        </Section>
         <Section heading="Videos" background="black">
             <Videos />
         </Section>

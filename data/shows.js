@@ -957,13 +957,13 @@ const shows = [
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
   {
-   datetime: "2023-07-23T16:30",
+   datetime: "2023-07-23T16:00",
     venue: "Brothers' Pub",
     location: "Shawano, WI",
     notes: "Supporting The Champ Jaxon Band"
   },
   {
-    datetime: "2023-07-26T19:00",
+    datetime: "2023-07-26T18:30",
     venue: "Red Rooster",
     location: "Madison, WI"
   },
