@@ -21,11 +21,11 @@
     }
 
     .connections {
-        bottom: 36px;
+        bottom: calc(10vh + 36px);
         width: 100%;
         display: flex;
         justify-content: center;
-        position: absolute;
+        position: fixed;
 
         a {
             background-color: transparent;
@@ -43,6 +43,10 @@
 
     @media only screen and (max-width: 800px) {
         height: 70vh;
+
+        .connections {
+            bottom: calc(30vh + 36px);
+        }
 
         &:after {
             height: 70vh;

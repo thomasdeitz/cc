@@ -7,7 +7,7 @@
 @import "./styles/hero.scss";
 @import "./styles/connections";
 
-  body { margin: 0px; }
+  body { margin: 0px; background-color: var(--black);}
 
   #app * {
     //border: 1px solid red;

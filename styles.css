@@ -143,11 +143,11 @@ footer {
   z-index: -1;
 }
 #hero .connections {
-  bottom: 36px;
+  bottom: calc(10vh + 36px);
   width: 100%;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
 }
 #hero .connections a {
   background-color: transparent;
@@ -162,6 +162,9 @@ footer {
 @media only screen and (max-width: 800px) {
   #hero {
     height: 70vh;
+  }
+  #hero .connections {
+    bottom: calc(30vh + 36px);
   }
   #hero:after {
     height: 70vh;
@@ -195,6 +198,7 @@ footer {
 
 body {
   margin: 0px;
+  background-color: var(--black);
 }
 
 .container {
