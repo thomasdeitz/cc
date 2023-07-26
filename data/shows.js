@@ -1023,7 +1023,13 @@ const shows = [
     location: "Thiensville, WI"
   },
   {
-    datetime: "2023-09-09T14:00",
+    datetime: "2023-09-09T13:00",
+    venue: "TBA",
+    location: "Oconomowoc, WI",
+    notes: "w/ TBA"
+  },
+  {
+    datetime: "2023-09-09T17:00",
     venue: "Martifest",
     location: "Sullivan, WI",
     notes: "w/ TBA"
@@ -1081,9 +1087,9 @@ const shows = [
   },
   {
     datetime: "2024-02-09T18:00",
-    venue: "TBA",
-    location: "IN",
-    notes: "Supporting TBA"
+    venue: "Key Palace Theatre",
+    location: "Redkey, IN",
+    notes: "Supporting Danny Garwood & Company"
   },
   {
     datetime: "2024-02-04T14:00",
