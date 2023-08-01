@@ -989,12 +989,12 @@ const shows = [
   },
   {
     datetime: "2023-08-16T17:00",
-    venue: "Duo - Wednesday Night Market at Belfrē",
+    venue: "Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
   {
     datetime: "2023-08-23T18:00",
-    venue: "Duo - Bilda's Friess Lake Pub",
+    venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
@@ -1003,19 +1003,29 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-08-26T014:30",
+    venue: "Private Party",
+    location: "Campbellsport, WI",
+  },
+  {
     datetime: "2023-08-30T17:00",
-    venue: "Duo - Bilda's Friess Lake Pub",
+    venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2023-09-01T18:30",
-    venue: "Duo - Lumber Axe & BrewCade Pub - Friday Night Live",
+    venue: "Lumber Axe & BrewCade Pub - Friday Night Live",
     location: "Waukesha, WI"
   },
   {
     datetime: "2023-09-02T19:00",
     venue: "Vaudette Theatre",
     location: "Kaukauna, WI"
+  },
+  {
+    datetime: "2023-09-03T11:30",
+    venue: "Wheels on Main - Washington County Fair Park",
+    location: "West Bend, WI"
   },
   {
     datetime: "2023-09-03T16:00",
@@ -1033,6 +1043,11 @@ const shows = [
     venue: "Martifest",
     location: "Sullivan, WI",
     notes: "w/ TBA"
+  },
+  {
+    datetime: "2023-09-10T13:00",
+    venue: "MartifestBlues Challenge 2023",
+    location: "Waubeka, WI",
   },
   {
     datetime: "2023-09-16T11:00",
