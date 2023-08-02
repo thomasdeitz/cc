@@ -978,6 +978,12 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-08-08T13:00",
+    venue: "Wisconsin State Fair",
+    location: "West Allis, WI",
+    notes: "Supporting Sammy Ray"
+  },
+  {
     datetime: "2023-08-09T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -1001,6 +1007,11 @@ const shows = [
     datetime: "2023-08-26T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
+  },
+  {
+    datetime: "2023-08-26T16:30",
+    venue: "Private Party",
+    location: "Campbellsport, WI",
   },
   {
     datetime: "2023-08-26T014:30",
