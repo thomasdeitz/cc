@@ -999,6 +999,11 @@ const shows = [
     location: "Delafield, WI"
   },
   {
+    datetime: "2023-08-22T17:00",
+    venue: "Boozhag's Clubhouse - Tuesday Bike Night",
+    location: "Nashotah, WI"
+  },
+  {
     datetime: "2023-08-23T18:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
