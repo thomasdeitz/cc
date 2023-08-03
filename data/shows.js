@@ -1019,11 +1019,6 @@ const shows = [
     location: "Campbellsport, WI",
   },
   {
-    datetime: "2023-08-26T014:30",
-    venue: "Private Party",
-    location: "Campbellsport, WI",
-  },
-  {
     datetime: "2023-08-30T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -1055,10 +1050,10 @@ const shows = [
     notes: "w/ TBA"
   },
   {
-    datetime: "2023-09-09T17:00",
+    datetime: "2023-09-09T16:00",
     venue: "Martifest",
     location: "Sullivan, WI",
-    notes: "w/ TBA"
+    notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective, & Angsty Beavers"
   },
   {
     datetime: "2023-09-10T13:00",
@@ -1079,6 +1074,12 @@ const shows = [
    datetime: "2023-09-23T14:00",
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
+  },
+  {
+    datetime: "2023-09-30T12:00",
+     venue: "TBA",
+     location: "Lake Mills, WI",
+     notes: "w/ TBA"
   },
   {
     datetime: "2023-10-07T08:00",
