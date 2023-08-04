@@ -130,11 +130,11 @@ footer {
 }
 #hero:after {
   content: "";
-  background-image: url(././assets/NewPhoto2.jpeg);
+  background-image: url(././assets/TJD03459.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  filter: saturate(0);
+  filter: saturate(0.5);
   top: 0px;
   height: 90vh;
   left: 0px;
