@@ -995,7 +995,7 @@ const shows = [
   },
   {
     datetime: "2023-08-16T17:00",
-    venue: "Wednesday Night Market at Belfr\ē",
+    venue: "Wednesday Night Market at Belfre",
     location: "Delafield, WI"
   },
   {
