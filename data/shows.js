@@ -1050,9 +1050,9 @@ const shows = [
   },
   {
     datetime: "2023-09-09T13:00",
-    venue: "TBA",
+    venue: "Fall Fest - Oconomowoc",
     location: "Oconomowoc, WI",
-    notes: "w/ TBA"
+    notes: "w/ Slim Rox - 2PM, Kingfish Band - 4:30PM, Failure to Launch - 7PM"
   },
   {
     datetime: "2023-09-09T16:00",
