@@ -1062,7 +1062,7 @@ const shows = [
   },
   {
     datetime: "2023-09-10T13:00",
-    venue: "MartifestBlues Challenge 2023",
+    venue: "Blues Challenge 2023 - BOOTS BBQ",
     location: "Waubeka, WI",
   },
   {
