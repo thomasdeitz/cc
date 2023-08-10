@@ -1058,12 +1058,13 @@ const shows = [
     datetime: "2023-09-09T16:00",
     venue: "Martifest",
     location: "Sullivan, WI",
-    notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective, & Angsty Beavers"
+    notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective & Angsty Beavers"
   },
   {
     datetime: "2023-09-10T13:00",
     venue: "Blues Challenge 2023 - BOOTS BBQ",
     location: "Waubeka, WI",
+    notes: "w/ Alex Wilson, The Stephen hall Experience & The Katz Sass"
   },
   {
     datetime: "2023-09-16T11:00",
