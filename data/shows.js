@@ -1052,11 +1052,11 @@ const shows = [
     datetime: "2023-09-09T13:00",
     venue: "Fall Fest - Oconomowoc",
     location: "Oconomowoc, WI",
-    notes: "w/ Slim Rox - 2PM, Kingfish Band - 4:30PM, Failure to Launch - 7PM"
+    notes: "w/ Slim Rox, Kingfish Band, Failure to Launch"
   },
   {
     datetime: "2023-09-09T16:00",
-    venue: "Martifest",
+    venue: "Martifest 2023",
     location: "Sullivan, WI",
     notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective & Angsty Beavers"
   },
@@ -1064,7 +1064,7 @@ const shows = [
     datetime: "2023-09-10T13:00",
     venue: "Blues Challenge 2023 - BOOTS BBQ",
     location: "Waubeka, WI",
-    notes: "w/ Alex Wilson, The Stephen hall Experience & The Katz Sass"
+    notes: "w/ Alex Wilson, The Stephen Hall Experience & The Katz Sass"
   },
   {
     datetime: "2023-09-16T11:00",
@@ -1083,9 +1083,9 @@ const shows = [
   },
   {
     datetime: "2023-09-30T12:00",
-     venue: "TBA",
+     venue: "2023 Fall Festival and Boot Stomp - The Sunset Hill Farm",
      location: "Lake Mills, WI",
-     notes: "w/ TBA"
+     notes: "w/ The Nightinjails & Vehicle 6"
   },
   {
     datetime: "2023-10-07T08:00",
@@ -1098,9 +1098,19 @@ const shows = [
     location: "Beechwood, WI",
   },
   {
+    datetime: "2023-10-14T13:00",
+    venue: "Private Party",
+    location: "West Bend, WI",
+  },
+  {
     datetime: "2023-10-21T11:00",
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
+  },
+  {
+    datetime: "2023-11-05T12:00",
+    venue: "TBA",
+    location: "Chicago, IL"
   },
   {
     datetime: "2023-11-11T20:30",
@@ -1109,7 +1119,7 @@ const shows = [
   },
   {
     datetime: "2023-12-03T14:00",
-    venue: "Ope! Brewing - Amplified Artist Sessions",
+    venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
   },
