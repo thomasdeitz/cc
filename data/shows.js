@@ -1004,7 +1004,7 @@ const shows = [
     location: "Nashotah, WI"
   },
   {
-    datetime: "2023-08-23T17s:00",
+    datetime: "2023-08-23T17:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
