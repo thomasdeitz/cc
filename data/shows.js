@@ -1003,11 +1003,11 @@ const shows = [
     venue: "Boozhag's Clubhouse - Tuesday Bike Night",
     location: "Nashotah, WI"
   },
-  {
-    datetime: "2023-08-23T17:00",
-    venue: "Bilda's Friess Lake Pub",
-    location: "Hubertus, WI"
-  },
+  //{ Canceled due to weather
+    //datetime: "2023-08-23T17:00",
+    //venue: "Bilda's Friess Lake Pub",
+    //location: "Hubertus, WI"
+  //},
   {
     datetime: "2023-08-24T18:00",
     venue: "Tumbled Rock Brewery",
@@ -1123,23 +1123,24 @@ const shows = [
     //location: "Waukegan, IL",
     //notes: "Supporting Blackberry Smoke"
   //},
-  //{
-    //datetime: "2023-11-20T19:30",
-    //venue: "High Noon Saloon",
-    //location: "Madison, WI",
-    //notes: "Supporting Jared James Nichols & Cage Willis"
-  //},
+  {
+    datetime: "2023-11-20T19:30",
+    venue: "High Noon Saloon",
+    location: "Madison, WI",
+    notes: "Supporting Jared James Nichols & Cage Willis"
+  },
   {
     datetime: "2023-12-03T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
   },
-  //{
-    //datetime: "2023-12-08T19:30",
-    //venue: "Rockade",
-    //location: "Janesville, WI"
-  //},
+  {
+    datetime: "2023-12-08T20:00",
+    venue: "Retro City Rockade",
+    location: "Janesville, WI",
+    notes: "w/ TBD"
+  },
   {
     datetime: "2023-12-16T17:00",
     venue: "1 of Us Brewing Company",
