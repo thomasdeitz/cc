@@ -1117,12 +1117,12 @@ const shows = [
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
   },
-  //{
-    //datetime: "2023-11-16T19:30",
-    //venue: "Genesee Theatre",
-    //location: "Waukegan, IL",
-    //notes: "Supporting Blackberry Smoke"
-  //},
+  {
+    datetime: "2023-11-16T19:30",
+    venue: "Genesee Theatre",
+    location: "Waukegan, IL",
+    notes: "Supporting Blackberry Smoke"
+  },
   {
     datetime: "2023-11-20T19:30",
     venue: "High Noon Saloon",
