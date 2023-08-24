@@ -1008,11 +1008,11 @@ const shows = [
     //venue: "Bilda's Friess Lake Pub",
     //location: "Hubertus, WI"
   //},
-  {
-    datetime: "2023-08-24T18:00",
-    venue: "Tumbled Rock Brewery",
-    location: "Baraboo, WI",
-  },
+  //{ Canceled due to weather
+    //datetime: "2023-08-24T18:00",
+    //venue: "Tumbled Rock Brewery",
+    //location: "Baraboo, WI",
+  //},
   {
     datetime: "2023-08-26T08:00",
     venue: "West Bend Farmers Market",
