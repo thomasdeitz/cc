@@ -1019,7 +1019,7 @@ const shows = [
     location: "West Bend, WI",
   },
   {
-    datetime: "2023-08-26T16:30",
+    datetime: "2023-08-26T14:30",
     venue: "Private Party",
     location: "Campbellsport, WI",
   },
@@ -1107,11 +1107,11 @@ const shows = [
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
   },
-  {
-    datetime: "2023-11-05T12:00",
-    venue: "TBA",
-    location: "Chicago, IL"
-  },
+  //{
+    //datetime: "2023-11-05T12:00",
+    //venue: "TBA",
+    //location: "Chicago, IL"
+  //},
   {
     datetime: "2023-11-11T20:30",
     venue: "Stolley's Hogg Alley",
