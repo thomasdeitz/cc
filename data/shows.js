@@ -1030,7 +1030,7 @@ const shows = [
   },
   {
     datetime: "2023-09-01T18:30",
-    venue: "Lumber Axe & BrewCade Pub - Friday Night Live",
+    venue: "Friday Night Live - Lumber Axe & BrewCade Pub",
     location: "Waukesha, WI"
   },
   {
@@ -1047,6 +1047,12 @@ const shows = [
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Thiensville, WI"
+  },
+  {
+    datetime: "2023-09-04T12:00",
+    venue: "HagFest - Boozhag's Clubhouse",
+    location: "Nashotah, WI",
+    notes: "Music All Weekend"
   },
   {
     datetime: "2023-09-09T13:00",
@@ -1107,16 +1113,16 @@ const shows = [
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
   },
-  //{
-    //datetime: "2023-11-05T12:00",
-    //venue: "TBA",
-    //location: "Chicago, IL"
-  //},
   {
     datetime: "2023-11-11T20:30",
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
   },
+  //{
+    //datetime: "2023-11-12T12:00",
+    //venue: "TBA",
+    //location: "Chicago, IL"
+  //},
   {
     datetime: "2023-11-16T19:30",
     venue: "Genesee Theatre",
