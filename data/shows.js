@@ -1114,6 +1114,11 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-10-28T20:00",
+    venue: "Lumber Axe & BrewCade Pub",
+    location: "Waukesha, WI"
+  },
+  {
     datetime: "2023-11-11T20:30",
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
@@ -1127,13 +1132,17 @@ const shows = [
     datetime: "2023-11-16T19:30",
     venue: "Genesee Theatre",
     location: "Waukegan, IL",
-    notes: "Supporting Blackberry Smoke"
+    notes: "Supporting Blackberry Smoke",
+    link: "https://www.ticketmaster.com/event/07005EED84B41500?brand=genesee&camefrom=CFC_GENESEE",
+    linkText: "Tickets"
   },
   {
     datetime: "2023-11-20T19:30",
     venue: "High Noon Saloon",
     location: "Madison, WI",
-    notes: "Supporting Jared James Nichols & Cage Willis"
+    notes: "Supporting Jared James Nichols & Cage Willis",
+    link: "https://www.ticketmaster.com/event/07005F089C19196B",
+    linkText: "Tickets"
   },
   {
     datetime: "2023-12-03T14:00",
@@ -1161,7 +1170,9 @@ const shows = [
     datetime: "2024-02-09T18:00",
     venue: "Key Palace Theatre",
     location: "Redkey, IN",
-    notes: "Supporting Danny Garwood & Company"
+    notes: "Supporting Danny Garwood & Company",
+    link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-02-04T14:00",

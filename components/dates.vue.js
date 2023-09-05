@@ -30,14 +30,15 @@ const Dates = {
     <div>
       <div class="show" v-for="show in sortedShows" :key="show.datetime">
         <div>
-          {{new Date(show.datetime).toLocaleDateString('en', {month:'short'})}} {{new Date(show.datetime).getDate()}}, {{new Date(show.datetime).getFullYear()}}
+          <b>{{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}</b>
         </div>
         <div class="name-location">
-          {{show.venue}} @ {{ new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) }}
-          <br/>
+          <b>{{show.location}}</b> - {{show.venue}} @ {{ new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) }}          <br/>
           <small v-if="show.notes">{{show.notes}}</small>
         </div>
-        <div>{{show.location}}</div>
+        <div>
+        <a :href="show.link" title="Link to buy {{linkText}}" v-if="show.link" class="button">{{show.linkText}}</a>
+        </div>
         
         <!-- <div>
           <small>

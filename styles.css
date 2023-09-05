@@ -226,8 +226,7 @@ a.button, .button, button {
   color: var(--white);
 }
 a.button:hover, .button:hover, button:hover {
-  color: currentColor;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 section.black a.button, section.black .button, section.black button {
   background-color: var(--primary);
@@ -239,6 +238,7 @@ section.black a.button, section.black .button, section.black button {
   display: grid;
   gap: 20px;
   padding: 20px 0;
+  line-height: 1.2;
   grid-template-columns: 200px 1fr 200px;
 }
 @media screen and (max-width: 768px) {
@@ -249,6 +249,6 @@ section.black a.button, section.black .button, section.black button {
 .show:not(:last-child) {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
-.show .name-location {
+.show b {
   font-weight: 900;
 }/*# sourceMappingURL=styles.css.map */
