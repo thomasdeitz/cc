@@ -1,6 +1,6 @@
 #hero {
     position: relative;
-    height: 95vh;
+    height: 100vh;
     padding: 0px;
     background-color: transparent !important;
 
@@ -12,7 +12,7 @@
         background-position: top center;
         //filter: saturate(.5);//
         top: 0px;
-        height: 95vh;
+        height: 100vh;
         left: 0px;
         right: 0px;
         position: fixed;
@@ -20,7 +20,7 @@
     }
 
     .connections {
-        bottom: calc(5vh + 60px);
+        bottom: calc(0vh + 60px);
         width: 100%;
         display: flex;
         justify-content: center;
@@ -32,7 +32,7 @@
             color: var(--black);
 
             &:hover {
-                color: var(--white);
+                opacity: .7;
             }
         }
     }

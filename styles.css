@@ -131,7 +131,7 @@ footer {
 
 #hero {
   position: relative;
-  height: 95vh;
+  height: 100vh;
   padding: 0px;
   background-color: transparent !important;
 }
@@ -142,14 +142,14 @@ footer {
   background-repeat: no-repeat;
   background-position: top center;
   top: 0px;
-  height: 95vh;
+  height: 100vh;
   left: 0px;
   right: 0px;
   position: fixed;
   z-index: -1;
 }
 #hero .connections {
-  bottom: calc(5vh + 60px);
+  bottom: calc(0vh + 60px);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -161,7 +161,7 @@ footer {
   color: var(--black);
 }
 #hero .connections a:hover {
-  color: var(--white);
+  opacity: 0.7;
 }
 @media only screen and (max-width: 800px) {
   #hero {
