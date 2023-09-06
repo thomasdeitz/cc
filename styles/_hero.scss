@@ -1,19 +1,18 @@
 #hero {
     position: relative;
-    height: 90vh;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,.5) 50px, rgba(0,0,0,0) 150px);
+    height: 95vh;
     padding: 0px;
-    //background-color: transparent !important;
+    background-color: transparent !important;
 
     &:after {
         content: '';
-        background-image: url(././assets/TJD03459.jpeg);
+        background-image: url(././assets/cclg.png);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
-        filter: saturate(.5);
+        background-position: top center;
+        //filter: saturate(.5);
         top: 0px;
-        height: 90vh;
+        height: 95vh;
         left: 0px;
         right: 0px;
         position: fixed;
@@ -21,7 +20,7 @@
     }
 
     .connections {
-        bottom: calc(10vh + 36px);
+        bottom: calc(5vh + 36px);
         width: 100%;
         display: flex;
         justify-content: center;
@@ -42,14 +41,14 @@
     }
 
     @media only screen and (max-width: 800px) {
-        height: 70vh;
+        height: 80vh;
 
         .connections {
-            bottom: calc(30vh + 36px);
+            bottom: calc(20vh + 36px);
         }
 
         &:after {
-            height: 70vh;
+            height: 80vh;
         }
     }
 }

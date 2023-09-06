@@ -1056,7 +1056,7 @@ const shows = [
   },
   {
     datetime: "2023-09-09T13:00",
-    venue: "Fall Fest - Oconomowoc",
+    venue: "Fall Fest",
     location: "Oconomowoc, WI",
     notes: "w/ Slim Rox, Kingfish Band, Failure to Launch"
   },
@@ -1113,6 +1113,12 @@ const shows = [
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
   },
+  //{
+    //datetime: "2023-10-27T20:00",
+    //venue: "High Noon Saloon",
+    //location: "Madison, WI",
+    //notes: "supporting The Record Company"
+  //},
   {
     datetime: "2023-10-28T20:00",
     venue: "Lumber Axe & BrewCade Pub",
@@ -1150,6 +1156,12 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
   },
+  //{
+    //datetime: "2023-12-04T19:45",
+    //venue: "The Rave II",
+    //location: "Milwaukee, WI",
+    //notes: "supporting Dirty Honey & Austin Meade"
+  //},
   {
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",

@@ -33,7 +33,8 @@ const Dates = {
           <b>{{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}</b>
         </div>
         <div class="name-location">
-          <b>{{show.location}}</b> - {{show.venue}} @ {{ new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) }}          <br/>
+          <b>{{show.venue}} @ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</b><br/>
+          {{show.location}}<br/>
           <small v-if="show.notes">{{show.notes}}</small>
         </div>
         <div>
