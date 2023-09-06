@@ -7,7 +7,7 @@ const Pageheader = {
                 <router-link to="/">
                     <Logo />
                 </router-link>
-                <router-link to="/bio">Bio</router-link>
+                <router-link to="/bio">About</router-link>
                 <!-- <router-link to="/contact">Contact</router-link> -->
             </nav>
         </header>

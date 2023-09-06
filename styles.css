@@ -122,6 +122,7 @@ section .videos {
 }
 
 footer {
+  position: relative;
   padding: 5vw 0;
   background-color: var(--black);
   color: var(--white);
@@ -148,28 +149,26 @@ footer {
   z-index: -1;
 }
 #hero .connections {
-  bottom: calc(5vh + 36px);
+  bottom: calc(5vh + 60px);
   width: 100%;
   display: flex;
   justify-content: center;
   position: fixed;
+  font-size: 32px;
 }
 #hero .connections a {
   background-color: transparent;
-  color: white;
+  color: var(--black);
 }
-#hero .connections svg {
-  filter: drop-shadow(0px 0px 3px black);
-  fill: currentColor;
-  height: 36px;
-  width: auto;
+#hero .connections a:hover {
+  color: var(--white);
 }
 @media only screen and (max-width: 800px) {
   #hero {
     height: 80vh;
   }
   #hero .connections {
-    bottom: calc(20vh + 36px);
+    bottom: calc(20vh + 80px);
   }
   #hero:after {
     height: 80vh;
@@ -181,24 +180,20 @@ footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 8px;
+  font-size: 32px;
 }
 .connections a {
   line-height: 10px;
   background-color: var(--black);
   color: var(--white);
   display: inline-block;
-  padding: 14px;
+  padding: 8px;
   border-radius: 50%;
 }
 .connections a:hover {
   background-color: var(--primary);
   color: var(--white);
-}
-.connections svg {
-  fill: currentColor;
-  height: 18px;
-  width: auto;
 }
 
 body {
