@@ -1067,7 +1067,7 @@ const shows = [
     notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective & Angsty Beavers"
   },
   {
-    datetime: "2023-10-14T19:30",
+    datetime: "2023-09-09T19:30",
     venue: "Private Party",
     location: "Sullivan, WI",
   },
