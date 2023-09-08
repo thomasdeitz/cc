@@ -6,7 +6,7 @@ const HomePage = {
             <Videos />
         </Section>
         <Section heading="Upcoming Dates" background="primary">
-            <Dates length=5  />
+            <Dates length=10  />
         </Section>
         <Section heading="Contact Us">
             <Contacts />

@@ -1114,6 +1114,12 @@ const shows = [
     location: "West Bend, WI",
   },
   //{
+    //datetime: "2023-10-26T20:00",
+    //venue: "Green Bay Distillery",
+    //location: "Green Bay, WI",
+    //notes: "supporting The Record Company"
+  //},
+  //{
     //datetime: "2023-10-27T20:00",
     //venue: "High Noon Saloon",
     //location: "Madison, WI",
