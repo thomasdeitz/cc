@@ -1067,6 +1067,11 @@ const shows = [
     notes: "w/ MWB, Jessica & Stuie, Burnt Coil, Dropbear Collective & Angsty Beavers"
   },
   {
+    datetime: "2023-10-14T19:30",
+    venue: "Private Party",
+    location: "Sullivan, WI",
+  },
+  {
     datetime: "2023-09-10T13:00",
     venue: "Blues Challenge 2023 - BOOTS BBQ",
     location: "Waubeka, WI",
