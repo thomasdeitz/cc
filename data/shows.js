@@ -1105,7 +1105,7 @@ const shows = [
   },
   {
     datetime: "2023-10-07T19:00",
-    venue: "Beechwood Blaster",
+    venue: "Private Party",
     location: "Beechwood, WI",
   },
   {
@@ -1186,8 +1186,8 @@ const shows = [
   },
   {
     datetime: "2024-01-19T12:00",
-    venue: "TBA",
-    location: "TN"
+    venue: "International Blues Challenge",
+    location: "Memphis, TN"
   },
   {
     datetime: "2024-02-09T18:00",
