@@ -1141,8 +1141,8 @@ const shows = [
     location: "Oconomowoc, WI"
   },
   //{
-    //datetime: "2023-11-12T12:00",
-    //venue: "TBA",
+    //datetime: "2023-11-12T17:00",
+    //venue: "Chicago Blues Challenge - Buddy Guys Legends",
     //location: "Chicago, IL"
   //},
   {
