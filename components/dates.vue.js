@@ -11,8 +11,10 @@ const Dates = {
     computed: {
         sortedShows: function () {
             const showCountShows = [...this.shows];
+            console.log('2021 ', showCountShows.filter((show) => {return new Date(show.datetime) >= new Date("2021-01-01T00:00") && new Date(show.datetime) < new Date("2022-01-01T00:00")}).length);
             console.log('2022 ', showCountShows.filter((show) => {return new Date(show.datetime) >= new Date("2022-01-01T00:00") && new Date(show.datetime) < new Date("2023-01-01T00:00")}).length);
             console.log('2023 ', showCountShows.filter((show) => {return new Date(show.datetime) >= new Date("2023-01-01T00:00") && new Date(show.datetime) < new Date("2024-01-01T00:00")}).length);
+            console.log('2023 so far', showCountShows.filter((show) => {return new Date(show.datetime) >= new Date("2023-01-01T00:00") && new Date(show.datetime) < this.today}).length);
             let shows = this.sortShows(this.shows.filter((show) => { return new Date(show.datetime) >= this.today }));
             shows = this.length ? shows.slice(0, this.length) : shows;
             return shows;
