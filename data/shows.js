@@ -1118,18 +1118,6 @@ const shows = [
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
   },
-  //{
-    //datetime: "2023-10-26T20:00",
-    //venue: "Green Bay Distillery",
-    //location: "Green Bay, WI",
-    //notes: "supporting The Record Company"
-  //},
-  //{
-    //datetime: "2023-10-27T20:00",
-    //venue: "High Noon Saloon",
-    //location: "Madison, WI",
-    //notes: "supporting The Record Company"
-  //},
   {
     datetime: "2023-10-28T20:00",
     venue: "Lumber Axe & BrewCade Pub",
@@ -1140,11 +1128,11 @@ const shows = [
     venue: "Stolley's Hogg Alley",
     location: "Oconomowoc, WI"
   },
-  //{
-    //datetime: "2023-11-12T17:00",
-    //venue: "Chicago Blues Challenge - Buddy Guys Legends",
-    //location: "Chicago, IL"
-  //},
+  {
+    datetime: "2023-11-12T17:00",
+    venue: "Chicago Blues Challenge - Buddy Guy's Legends",
+    location: "Chicago, IL"
+  },
   {
     datetime: "2023-11-16T19:30",
     venue: "Genesee Theatre",
@@ -1167,12 +1155,6 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
   },
-  //{
-    //datetime: "2023-12-04T19:45",
-    //venue: "The Rave II",
-    //location: "Milwaukee, WI",
-    //notes: "supporting Dirty Honey & Austin Meade"
-  //},
   {
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",
