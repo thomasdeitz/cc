@@ -1172,6 +1172,12 @@ const shows = [
     location: "Memphis, TN"
   },
   {
+    datetime: "2023-01-26T18:00",
+    venue: "West Bend Moose Lodge",
+    location: "West Bend, WI",
+    notes: "Acoustic Set"
+  },
+  {
     datetime: "2024-02-09T18:00",
     venue: "Key Palace Theatre",
     location: "Redkey, IN",
