@@ -1161,8 +1161,13 @@ const shows = [
     //notes: "Supporting Marcus King",
   },
   {
+    datetime: "2023-12-02T20:00",
+    venue: "JJ's on the Bend",
+    location: "Hartford, WI",
+  },
+  {
     datetime: "2023-12-03T14:00",
-    venue: " Ope! Brewing - Amplified Artist Sessions",
+    venue: "Ope! Brewing - Amplified Artist Sessions",
     location: "Milwaukee, WI",
     notes: "In-the-round: Candy Cigarette & TBA / Featured Band: TBA"
   },
