@@ -1099,6 +1099,11 @@ const shows = [
      notes: "w/ The Nightinjails & Vehicle 6"
   },
   {
+    datetime: "2023-10-06T16:30",
+    venue: "Hawkfest - Arrowhead High School",
+    location: "Hartland, WI",
+  },
+  {
     datetime: "2023-10-07T08:00",
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
@@ -1150,10 +1155,16 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    //datetime: "2023-11-28T19:30",
+    //venue: "The Bluebird",
+    //location: "Bloomington, IN",
+    //notes: "Supporting Marcus King",
+  },
+  {
     datetime: "2023-12-03T14:00",
-    venue: "Amplified Artist Sessions - Ope! Brewing",
+    venue: " Ope! Brewing - Amplified Artist Sessions",
     location: "Milwaukee, WI",
-    notes: "In-the-round: Candy Cigarette & TBA / Featured band: TBA"
+    notes: "In-the-round: Candy Cigarette & TBA / Featured Band: TBA"
   },
   {
     datetime: "2023-12-08T20:00",
@@ -1167,7 +1178,7 @@ const shows = [
     location: "Mt Pleasant, WI"
   },
   {
-    datetime: "2024-01-19T12:00",
+    datetime: "2024-01-19T24:00",
     venue: "International Blues Challenge",
     location: "Memphis, TN"
   },
@@ -1178,6 +1189,12 @@ const shows = [
     notes: "Acoustic Set"
   },
   {
+    datetime: "2024-02-04T14:00",
+    venue: "Amplified Artist Sessions - Ope! Brewing",
+    location: "Milwaukee, WI",
+    notes: "In-the-round: TBA / Featured Band: Candy Cigarette"
+  },
+  {
     datetime: "2024-02-09T18:00",
     venue: "Key Palace Theatre",
     location: "Redkey, IN",
@@ -1185,10 +1202,19 @@ const shows = [
     link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
     linkText: "Tickets"
   },
+  //{
+    //datetime: "2024-02-16T20:00",
+    //venue: "Tootsie Too's - Big Turn Music Fest",
+    //location: "Red Wing, MN"
+  //},
+  //{
+    //datetime: "2024-05-04T16:00",
+    //venue: "Private Party",
+    //location: "Waldo, WI"
+  //}
   {
-    datetime: "2024-02-04T14:00",
-    venue: "Ope! Brewing - Amplified Artist Sessions",
-    location: "Milwaukee, WI",
-    notes: "In-the-round: TBA / Featured band: Candy Cigarette"
+    datetime: "2024-07-19T24:00",
+    venue: "Jimorriefest",
+    location: "Saukville, WI"
   }
 ];
