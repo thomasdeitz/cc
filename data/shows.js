@@ -1155,12 +1155,6 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    //datetime: "2023-11-28T19:30",
-    //venue: "The Bluebird",
-    //location: "Bloomington, IN",
-    //notes: "Supporting Marcus King",
-  },
-  {
     datetime: "2023-12-02T20:00",
     venue: "JJ's on the Bend",
     location: "Hartford, WI",
@@ -1183,7 +1177,7 @@ const shows = [
     location: "Mt Pleasant, WI"
   },
   {
-    datetime: "2024-01-19T24:00",
+    datetime: "2024-01-19T00:00",
     venue: "International Blues Challenge",
     location: "Memphis, TN"
   },
@@ -1218,7 +1212,7 @@ const shows = [
     //location: "Waldo, WI"
   //}
   {
-    datetime: "2024-07-19T24:00",
+    datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
     location: "Saukville, WI"
   }
