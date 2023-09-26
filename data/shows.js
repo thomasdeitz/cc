@@ -1201,11 +1201,11 @@ const shows = [
     link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
     linkText: "Tickets"
   },
-  //{
-    //datetime: "2024-02-16T20:00",
-    //venue: "Tootsie Too's - Big Turn Music Fest",
-    //location: "Red Wing, MN"
-  //},
+  {
+    datetime: "2024-02-16T00:00", //"2024-02-16T20:00",
+    venue: "TBA", //"Tootsie Too's - Big Turn Music Fest",
+    location: "Minnesnowta" //"Red Wing, MN"
+  },
   //{
     //datetime: "2024-05-04T16:00",
     //venue: "Private Party",
