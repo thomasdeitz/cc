@@ -1119,6 +1119,11 @@ const shows = [
     location: "West Bend, WI",
   },
   {
+    datetime: "2023-10-15T13:00",
+    venue: "International Blues Challenge Fundraiser - Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
     datetime: "2023-10-21T11:00",
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
@@ -1211,6 +1216,86 @@ const shows = [
     //venue: "Private Party",
     //location: "Waldo, WI"
   //}
+  // {
+  //   datetime: "2024-05-25T00:00",
+  //   venue: "BratFest 2024",
+  //   location: "Madison, WI"
+  // },
+  {
+    datetime: "2024-06-12T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  // {
+  //   datetime: "2024-06-13T00:00",
+  //   venue: "TBD",
+  //   location: "Champaign, IL"
+  // },
+  // {
+  //   datetime: "2024-06-14T20:00",
+  //   venue: "Bokeh Lounge", //"TBD",
+  //   location: "Evansville, IN"
+  // },
+  // {
+  //   datetime: "2024-06-15T00:00",
+  //   venue: "TBD",
+  //   location: "Chatanooga, TN"
+  // },
+  // {
+  //   datetime: "2024-06-16T19:00",
+  //   venue: "Society Garden",
+  //   location: "Macon, GA"
+  // },
+  // {
+  //   datetime: "2024-06-17T00:00",
+  //   venue: "TBD",
+  //   location: "Asheville, NC"
+  // },
+  // {
+  //   datetime: "2024-06-18T00:00",
+  //   venue: "TBD",
+  //   location: "Lexington, KY"
+  // },
+  {
+    datetime: "2024-06-26T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  // {
+  //   datetime: "2024-06-28T00:00",
+  //   venue: "Blues from the Top",
+  //   location: "Winter Park, CO"
+  // },
+  // {
+  //   datetime: "2024-06-29T00:00",
+  //   venue: "Blues from the Top",
+  //   location: "Winter Park, CO"
+  // },
+  // {
+  //   datetime: "2024-06-30T00:00",
+  //   venue: "Blues from the Top",
+  //   location: "Winter Park, CO"
+  // },
+  {
+    datetime: "2024-07-10T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-07-24T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-08-07T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-08-21T17:30",
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI"
+  },
   {
     datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
