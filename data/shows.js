@@ -1223,7 +1223,7 @@ const shows = [
   // },
   {
     datetime: "2024-06-12T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   // {
@@ -1258,7 +1258,7 @@ const shows = [
   // },
   {
     datetime: "2024-06-26T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   // {
@@ -1278,22 +1278,22 @@ const shows = [
   // },
   {
     datetime: "2024-07-10T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2024-07-24T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2024-08-07T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2024-08-21T17:30",
-    venue: "Bilda's Friess Lake Pub",
+    venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
