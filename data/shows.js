@@ -1211,11 +1211,11 @@ const shows = [
     venue: "TBA", //"Tootsie Too's - Big Turn Music Fest",
     location: "Minnesnowta" //"Red Wing, MN"
   },
-  //{
-    //datetime: "2024-05-04T16:00",
-    //venue: "Private Party",
-    //location: "Waldo, WI"
-  //}
+  {
+    datetime: "2024-05-04T17:00",
+    venue: "Private Party",
+    location: "Waldo, WI"
+  },
   // {
   //   datetime: "2024-05-25T00:00",
   //   venue: "BratFest 2024",
