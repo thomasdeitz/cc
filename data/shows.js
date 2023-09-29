@@ -1168,7 +1168,7 @@ const shows = [
     datetime: "2023-12-03T14:00",
     venue: "Ope! Brewing - Amplified Artist Sessions",
     location: "Milwaukee, WI",
-    notes: "In-the-round: Candy Cigarette & TBA / Featured Band: TBA"
+    notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Would You Kindly"
   },
   {
     datetime: "2023-12-08T20:00",
@@ -1196,7 +1196,7 @@ const shows = [
     datetime: "2024-02-04T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "Milwaukee, WI",
-    notes: "In-the-round: TBA / Featured Band: Candy Cigarette"
+    notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
   },
   {
     datetime: "2024-02-09T18:00",
