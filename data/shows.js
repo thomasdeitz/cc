@@ -1174,7 +1174,7 @@ const shows = [
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",
     location: "Janesville, WI",
-    notes: "w/ TBD"
+    notes: "w/ Take Back The Sun"
   },
   {
     datetime: "2023-12-16T17:00",
