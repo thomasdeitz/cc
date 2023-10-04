@@ -1166,8 +1166,8 @@ const shows = [
   },
   {
     datetime: "2023-12-03T14:00",
-    venue: "Ope! Brewing - Amplified Artist Sessions",
-    location: "Milwaukee, WI",
+    venue: "Amplified Artist Sessions - Ope! Brewing",
+    location: "West Allis, WI",
     notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Would You Kindly"
   },
   {
@@ -1195,7 +1195,7 @@ const shows = [
   {
     datetime: "2024-02-04T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
-    location: "Milwaukee, WI",
+    location: "West Allis, WI",
     notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
   },
   {
