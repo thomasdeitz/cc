@@ -1196,9 +1196,9 @@ const shows = [
     datetime: "2024-02-02T19:30",
     venue: "TBA", //"The Bend Theatre",
     location: "West Bend, WI",
-    //notes: "Supporting Altered Five Blues Band",
+    notes: "Details coming soon!", //"Supporting Altered Five Blues Band",
     //link: "https://thebendwi.org/",
-    linkText: "More Info Coming Soon"
+    linkText: "Teckets"
   },
   {
     datetime: "2024-02-04T14:00",
