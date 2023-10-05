@@ -1099,7 +1099,7 @@ const shows = [
      notes: "w/ The Nightinjails & Vehicle 6"
   },
   {
-    datetime: "2023-10-06T16:30",
+    datetime: "2023-10-06T16:00",
     venue: "Hawkfest - Arrowhead High School",
     location: "Hartland, WI",
   },
