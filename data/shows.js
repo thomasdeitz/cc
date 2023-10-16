@@ -1141,7 +1141,10 @@ const shows = [
   {
     datetime: "2023-11-12T17:00",
     venue: "Chicago Blues Challenge - Buddy Guy's Legends",
-    location: "Chicago, IL"
+    location: "Chicago, IL",
+    notes: "Tickets Available Soon",
+    link: "https://windycityblues.org/blues-challenge-finals",
+    linkText: "Info"
   },
   {
     datetime: "2023-11-16T19:30",
@@ -1198,7 +1201,7 @@ const shows = [
     location: "West Bend, WI",
     notes: "Details coming soon!", //"Supporting Altered Five Blues Band",
     //link: "https://thebendwi.org/",
-    linkText: "Teckets"
+    linkText: "Tickets"
   },
   {
     datetime: "2024-02-04T14:00",
@@ -1290,6 +1293,11 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
+     datetime: "2024-07-13T00:00",
+     venue: "Delafield Block Party",
+     location: "Delafield, WI"
+  },
+  {
     datetime: "2024-07-24T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -1308,5 +1316,10 @@ const shows = [
     datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
     location: "Saukville, WI"
-  }
+  },
+  // {
+  //   datetime: "2024-10-05T18:30",
+  //   venue: "Private Event",
+  //   location: "Beechwood, WI",
+  // }
 ];
