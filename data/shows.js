@@ -1317,11 +1317,11 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  // {
-    // datetime: "2024-08-15T16:00",
-    // venue: "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
-    // location: "Oconomowoc, WI",
-  // }
+  {
+    datetime: "2024-08-15T16:00",
+    venue: "TBA", // "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
+    location: "Oconomowoc, WI",
+  },
   {
     datetime: "2024-08-21T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
