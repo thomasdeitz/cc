@@ -1219,7 +1219,7 @@ const shows = [
   },
   {
     datetime: "2024-02-16T00:00", //"2024-02-16T20:00",
-    venue: "TBA", //"Tootsie Too's - Big Turn Music Fest",
+    venue: "TBA", //Big Turn Music Fest - Tootsie Too's",
     location: "Minnesnowta" //"Red Wing, MN"
   },  
   {
@@ -1297,10 +1297,15 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
+  //{
+     //datetime: "2024-07-13T00:00",
+     //venue: "Delafield Block Party",
+     //location: "Delafield, WI"
+  //},
   {
-     datetime: "2024-07-13T00:00",
-     venue: "Delafield Block Party",
-     location: "Delafield, WI"
+    datetime: "2024-07-19T00:00",
+    venue: "Jimorriefest",
+    location: "Saukville, WI"
   },
   {
     datetime: "2024-07-24T17:30",
@@ -1312,15 +1317,15 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
+  // {
+    // datetime: "2024-08-15T16:00",
+    // venue: "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
+    // location: "Oconomowoc, WI",
+  // }
   {
     datetime: "2024-08-21T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
-  },
-  {
-    datetime: "2024-07-19T00:00",
-    venue: "Jimorriefest",
-    location: "Saukville, WI"
   },
   // {
   //   datetime: "2024-10-05T18:30",
