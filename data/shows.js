@@ -1124,7 +1124,7 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2023-10-21T11:00",
+    datetime: "2023-10-21T10:30",
     venue: "BLONDIEPOP",
     location: "West Bend, WI",
   },
