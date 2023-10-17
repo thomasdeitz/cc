@@ -1142,7 +1142,7 @@ const shows = [
     datetime: "2023-11-12T17:00",
     venue: "Chicago Blues Challenge - Buddy Guy's Legends",
     location: "Chicago, IL",
-    notes: "Performances by Becker/ Davis Duet – Benny Jenkin – Joe Asselin – Candy Cigarette – The Mike Felten Band – The John Millard Band – Indigo Blues Band – The Dave Lumsden Band – The skylar Rogers Band – Stefan Hillesheim Trio – The Sean McKee Band – Ric Harris & The Heat merchants – A Patch of Blues",
+    notes: "Performances by Becker/ Davis Duet – Benny Jenkin – Joe Asselin – Candy Cigarette – The Mike Felten Band – The John Millard Band – Indigo Blues Band – The Dave Lumsden Band – The Skylar Rogers Band – Stefan Hillesheim Trio – The Sean McKee Band – Ric Harris & The Heat merchants – A Patch of Blues",
     link: "https://buddyguy.com/event/chicago-blues-challenge/buddy-guys-legends/chicago-illinois/",
     linkText: "Tickets"
   },
@@ -1177,7 +1177,7 @@ const shows = [
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",
     location: "Janesville, WI",
-    notes: "w/ Take Back The Sun"
+    notes: "w/ Take Back The Sun & Liquid Sky"
   },
   {
     datetime: "2023-12-16T17:00",
@@ -1222,11 +1222,11 @@ const shows = [
     venue: "TBA", //"Tootsie Too's - Big Turn Music Fest",
     location: "Minnesnowta" //"Red Wing, MN"
   },  
-  //{
-    //datetime: "2024-02-25T16:00",
-    //venue: "Red Rooster",
-    //location: "Madison, WI"
-  //},
+  {
+    datetime: "2024-02-25T16:00",
+    venue: "Red Rooster",
+    location: "Madison, WI"
+  },
   {
     datetime: "2024-05-04T17:00",
     venue: "Private Party",
