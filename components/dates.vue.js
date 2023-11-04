@@ -43,7 +43,7 @@ const Dates = {
           <small v-if="show.notes">{{show.notes}}</small>
         </div>
         <div>
-        <a :href="show.link" title="Link to buy {{linkText}}" v-if="show.link" class="button">{{show.linkText}}</a>
+        <a :href="show.link" target="_blank" title="Link to buy {{linkText}}" v-if="show.link" class="button">{{show.linkText}}</a>
         </div>
         
         <!-- <div>
