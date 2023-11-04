@@ -1142,7 +1142,7 @@ const shows = [
     datetime: "2023-11-12T17:00",
     venue: "Chicago Blues Challenge - Buddy Guy's Legends",
     location: "Chicago, IL",
-    notes: "Performances by Becker/ Davis Duet – Benny Jenkin – Joe Asselin – Candy Cigarette – The Mike Felten Band – The John Millard Band – Indigo Blues Band – The Dave Lumsden Band – The Skylar Rogers Band – Stefan Hillesheim Trio – The Sean McKee Band – Ric Harris & The Heat merchants – A Patch of Blues",
+    notes: "Performances by Becker/ Davis Duet – Benny Jenkin – Joe Asselin – Candy Cigarette – The Mike Felten Band – The John Millard Band – Indigo Blues Band – The Dave Lumsden Band – The Skylar Rogers Band – Stefan Hillesheim Trio – The Sean McKee Band – Ric Harris & The Heat Merchants – A Patch of Blues",
     link: "https://buddyguy.com/event/chicago-blues-challenge/buddy-guys-legends/chicago-illinois/",
     linkText: "Tickets"
   },
@@ -1197,10 +1197,10 @@ const shows = [
   },
   {
     datetime: "2024-02-02T19:30",
-    venue: "TBA", //"The Bend Theatre",
+    venue: "The Bend Theatre",
     location: "West Bend, WI",
-    notes: "Details coming soon!", //"Supporting Altered Five Blues Band",
-    //link: "https://thebendwi.org/",
+    notes: "Supporting Altered Five Blues Band",
+    link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195",
     linkText: "Tickets"
   },
   {
@@ -1217,6 +1217,14 @@ const shows = [
     link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
     linkText: "Tickets"
   },
+// {
+  //   datetime: "2024-02-10T20:00",
+  //   venue: "Turner Hall",
+  //   location: "Milwaukee, WI",
+  //   notes: "Supporting The Record Company",
+  //  link: "https://tix.axs.com/XQHUIAAAAAAwBmmKAAAAAABl%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fE1BhYnN0IFRoZWF0ZXIgR3JvdXAA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d/shop/search?locale=en-US&skin=pabst",
+  //  linkText: "Tickets"
+// },
   {
     datetime: "2024-02-16T00:00", //"2024-02-16T20:00",
     venue: "TBA", //Big Turn Music Fest - Tootsie Too's",
