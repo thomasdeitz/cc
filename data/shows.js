@@ -1226,9 +1226,10 @@ const shows = [
   //  linkText: "Tickets"
 // },
   {
-    datetime: "2024-02-16T00:00", //"2024-02-16T20:00",
-    venue: "TBA", //Big Turn Music Fest - Tootsie Too's",
-    location: "Minnesnowta" //"Red Wing, MN"
+    datetime: "2024-02-16T20:00",
+    venue: "Big Turn Music Fest - Tootsie Too's",
+    location: "Red Wing, MN",
+    linkText: "Tickets Coming Soon"
   },  
   {
     datetime: "2024-02-25T16:00",
