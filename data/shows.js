@@ -1171,7 +1171,7 @@ const shows = [
     datetime: "2023-12-03T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "West Allis, WI",
-    notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Would You Kindly"
+    notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Wolves With Virginia"
   },
   {
     datetime: "2023-12-08T20:00",
@@ -1179,10 +1179,27 @@ const shows = [
     location: "Janesville, WI",
     notes: "w/ Take Back The Sun & Liquid Sky"
   },
+  //{ Cancelled due to miscommunication
+    //datetime: "2023-12-16T17:00",
+    //venue: "1 of Us Brewing Company",
+    //location: "Mt Pleasant, WI"
+  //},
   {
-    datetime: "2023-12-16T17:00",
-    venue: "1 of Us Brewing Company",
-    location: "Mt Pleasant, WI"
+    datetime: "2023-12-16T19:00",
+    venue: "Foundry 45",
+    location: "Kewaskum, WI",
+    notes: "Supporting Pete's Diary",
+    link: "https://fb.me/e/365dQJLTY",
+    linkText: "More Info"
+  },
+  {
+    datetime: "2023-12-23T17:00",
+    venue: "MKE Music Night LXIV - Anodyne Coffee Roasting Co. (Walker's Point Roastery)",
+    location: "Milwaukee, WI",
+    notes: "Candy Cigarette Duo w/ Tlalok & Luis Solis, Cullah & Mie, Rob Knapp & The Soul Patrol",
+    link: "https://www.eventbrite.com/e/a-very-merry-mke-music-night-lxiv-tickets-762875961537",
+    linkText: "Tickets"
+
   },
   {
     datetime: "2024-01-19T00:00",
@@ -1200,7 +1217,7 @@ const shows = [
     venue: "The Bend Theatre",
     location: "West Bend, WI",
     notes: "Supporting Altered Five Blues Band",
-    link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195",
+    link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195#smtx-click",
     linkText: "Tickets"
   },
   {
@@ -1306,11 +1323,6 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  //{
-     //datetime: "2024-07-13T00:00",
-     //venue: "Delafield Block Party",
-     //location: "Delafield, WI"
-  //},
   {
     datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
