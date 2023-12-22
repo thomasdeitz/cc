@@ -1299,6 +1299,11 @@ const shows = [
   //   location: "Lexington, KY"
   // },
   {
+    datetime: "2024-06-23T13:00",
+    venue: "Crawfish Junction",
+    location: "Johnson Creek, WI"
+  },
+  {
     datetime: "2024-06-26T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
