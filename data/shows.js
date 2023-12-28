@@ -657,17 +657,17 @@ const shows = [
     venue: "Duo - West Bend Moose Lodge",
     location: "West Bend, WI",
   },
-  {
+  { // Yes
     datetime: "2023-01-13T18:00",
     venue: "Duo - Wisconsin Brewing Company",
     location: "Verona, WI",
   },
-  {
+  { // Yes
     datetime: "2023-01-14T18:00",
     venue: "Miramar Theatre - New Year Kick Off",
     location: "Milwaukee, WI"
   },
-  {
+  { // Yes
     datetime: "2023-01-18T18:30",
     venue: "Red Rooster",
     location: "Madison, WI"
@@ -678,7 +678,7 @@ const shows = [
     location: "West Bend, WI",
     notes: "Hugh Jass Extra Credit"
   },
-  {
+  { // Yes
     datetime: "2023-01-27T17:00",
     venue: "Lilliput Records",
     location: "Milwaukee, WI"
@@ -699,7 +699,7 @@ const shows = [
     venue: "Duo - The Other Bar",
     location: "Dousman, WI",
   },
-  {
+  { // Yes
     datetime: "2023-02-17T18:30",
     venue: "Big Turn Music Festival - Mandy's Coffee & Cafe",
     location: "Red Wing, MN"
@@ -709,7 +709,7 @@ const shows = [
     venue: "Duo - Thirsty Bird Saloon",
     location: "Oconomowoc, WI",
   },
-  {
+  { // Yes
     datetime: "2023-03-01T18:00",
     venue: "IndieTuneUp",
     location: "Fitchburg, WI",
@@ -720,7 +720,7 @@ const shows = [
     venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
     location: "Thiensville, WI",
   },
-  {
+  { // Yes
     datetime: "2023-03-17T19:00",
     venue: "Main Street Music",
     location: "Brooklyn, WI",
@@ -751,7 +751,7 @@ const shows = [
     venue: "Duo - Private Party",
     location: "Milwaukee, WI",
   },
-  {
+  { // Yes
     datetime: "2023-04-29T16:00",
     venue: "The Drafty Cellar",
     location: "Watertown, WI",
@@ -761,13 +761,13 @@ const shows = [
     venue: "Rustic Woods Campground Bar",
     location: "Waupaca, WI"
   },
-  {
+  { // Yes
     datetime: "2023-05-13T17:00",
      venue: "Studio 301",
      location: "Portage, WI",
      notes: "w/ Ginseng & The Coves"
   },
-  {
+  { // Yes
     datetime: "2023-05-19T14:00",
     venue: "Jam for Jam - The Barrel Inn",
     location: "Marshall, WI"
@@ -777,7 +777,7 @@ const shows = [
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
-  {
+  { // Yes
     datetime: "2023-05-21T12:00",
     venue: "HomeGrown Blues Festival - Foundry 45",
     location: "Kewaskum, WI",
@@ -798,7 +798,7 @@ const shows = [
     venue: "5K Afterparty Belfrē             ",
     location: "Delafield, WI",
   },
-  {
+  { // Yes
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
@@ -813,7 +813,7 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  {
+  { // Yes
     datetime: "2023-06-08T18:00",
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
@@ -824,7 +824,7 @@ const shows = [
     //venue: "the baaree",
     //location: "Thiensville, WI"
   //},
-  {
+  { // Yes
     datetime: "2023-06-11T12:00",
     venue: "Crawfish Junction",
     location: "Johnson Creek, WI"
@@ -834,7 +834,7 @@ const shows = [
     venue: "Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
-  {
+  { // Yes
     datetime: "2023-06-16T17:30",
     venue: "SoLu Estate Winery",
     location: "Cascade, WI"
@@ -844,7 +844,7 @@ const shows = [
     venue: "Private Party",
     location: "Hartford, WI"
   },
-  {
+  { // Yes
     datetime: "2023-06-23T17:30",
     venue: "Blues From The Top - Cooper Creek Stage",
     location: "Winter Park, CO"
@@ -884,7 +884,7 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  {
+  { // Yes
     datetime: "2023-07-06T20:00",
     venue: "Summerfest - Guitars For Vets WAMI Stage",
     location: "Milwaukee, WI"
@@ -894,7 +894,7 @@ const shows = [
     venue: "Camp Northern Lights",
     location: "Campbellsport, WI"
   },
-  {
+  { // Yes
     datetime: "2023-07-08T13:00",
     venue: "Summerfest - Second Floor Stage",
     location: "Milwaukee, WI"
@@ -935,7 +935,7 @@ const shows = [
     venue: "Thiensville Village Market",
     location: "Thiensville, WI",
   },
-  {
+  { // Yes
     datetime: "2023-07-19T15:00",
     venue: "Waukesha County Fair - Coors Light Stage",
     location: "Waukesha, WI",
@@ -945,7 +945,7 @@ const shows = [
     venue: "Galaxie Theatre",
     location: "Johnson Creek, WI",
   },
-  {
+  { // Yes Jimorrie
     datetime: "2023-07-21T15:00",
     venue: "Private Party",
     location: "Saukville, WI",
@@ -956,8 +956,8 @@ const shows = [
     location: "Thiensville, WI",
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
-  {
-   datetime: "2023-07-23T16:00",
+  { // Yes
+    datetime: "2023-07-23T16:00",
     venue: "Brothers' Pub",
     location: "Shawano, WI",
     notes: "Supporting The Champ Jaxon Band"
@@ -1043,7 +1043,7 @@ const shows = [
     venue: "Wheels on Main - Washington County Fair Park",
     location: "West Bend, WI"
   },
-  {
+  { // Yes
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Thiensville, WI"
@@ -1054,13 +1054,13 @@ const shows = [
     location: "Nashotah, WI",
     notes: "Music All Weekend"
   },
-  {
+  { // Yes
     datetime: "2023-09-09T13:00",
     venue: "Fall Fest",
     location: "Oconomowoc, WI",
     notes: "w/ Slim Rox, Kingfish Band, Failure to Launch"
   },
-  {
+  { // Yes
     datetime: "2023-09-09T16:00",
     venue: "Martifest 2023",
     location: "Sullivan, WI",
@@ -1108,7 +1108,7 @@ const shows = [
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
   },
-  {
+  { // Yes
     datetime: "2023-10-07T19:00",
     venue: "Private Party",
     location: "Beechwood, WI",
@@ -1146,7 +1146,7 @@ const shows = [
     link: "https://buddyguy.com/event/chicago-blues-challenge/buddy-guys-legends/chicago-illinois/",
     linkText: "Tickets"
   },
-  {
+  { // Yes
     datetime: "2023-11-16T19:30",
     venue: "Genesee Theatre",
     location: "Waukegan, IL",
@@ -1154,7 +1154,7 @@ const shows = [
     link: "https://www.ticketmaster.com/event/07005EED84B41500?brand=genesee&camefrom=CFC_GENESEE",
     linkText: "Tickets"
   },
-  {
+  { // Yes
     datetime: "2023-11-20T19:30",
     venue: "High Noon Saloon",
     location: "Madison, WI",
@@ -1167,13 +1167,13 @@ const shows = [
     venue: "JJ's on the Bend",
     location: "Hartford, WI",
   },
-  {
+  { // Yes
     datetime: "2023-12-03T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "West Allis, WI",
     notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Wolves With Virginia"
   },
-  {
+  { // Yes
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",
     location: "Janesville, WI",
@@ -1184,7 +1184,7 @@ const shows = [
     //venue: "1 of Us Brewing Company",
     //location: "Mt Pleasant, WI"
   //},
-  {
+  { // Yes
     datetime: "2023-12-16T19:00",
     venue: "Foundry 45",
     location: "Kewaskum, WI",
@@ -1192,7 +1192,7 @@ const shows = [
     link: "https://fb.me/e/365dQJLTY",
     linkText: "More Info"
   },
-  {
+  { // Yes
     datetime: "2023-12-23T17:00",
     venue: "MKE Music Night LXIV - Anodyne Coffee Roasting Co. (Walker's Point Roastery)",
     location: "Milwaukee, WI",
@@ -1323,11 +1323,11 @@ const shows = [
   //   venue: "Blues from the Top",
   //   location: "Winter Park, CO"
   // },
-  {
-    datetime: "2024-07-10T17:30",
-    venue: "Open Jam - Bilda's Friess Lake Pub",
-    location: "Hubertus, WI"
-  },
+  //{ Need to Canceled 
+  //  datetime: "2024-07-10T17:30",
+  //  venue: "Open Jam - Bilda's Friess Lake Pub",
+  //  location: "Hubertus, WI"
+  // },
   {
     datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
