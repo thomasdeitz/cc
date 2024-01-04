@@ -1263,6 +1263,11 @@ const shows = [
   //   venue: "BratFest 2024",
   //   location: "Madison, WI"
   // },
+  // {
+  //   datetime: "2024-06-08T00:00",
+  //   venue: "Glacier Valley Music Festival - Glacier Valley Campground",
+  //   location: "Cambria, WI"
+  // },
   {
     datetime: "2024-06-12T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
