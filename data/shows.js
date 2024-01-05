@@ -1304,11 +1304,6 @@ const shows = [
   //   location: "Lexington, KY"
   // },
   {
-    datetime: "2024-06-23T13:00",
-    venue: "Crawfish Junction",
-    location: "Johnson Creek, WI"
-  },
-  {
     datetime: "2024-06-26T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -1352,6 +1347,11 @@ const shows = [
     datetime: "2024-08-15T16:00",
     venue: "TBA", // "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
     location: "Oconomowoc, WI",
+  },
+  {
+    datetime: "2024-08-18T13:00",
+    venue: "Crawfish Junction",
+    location: "Johnson Creek, WI"
   },
   {
     datetime: "2024-08-21T17:30",
