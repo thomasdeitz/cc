@@ -1199,7 +1199,6 @@ const shows = [
     notes: "Candy Cigarette Duo w/ Tlalok & Luis Solis, Cullah & Mie, Rob Knapp & The Soul Patrol",
     link: "https://www.eventbrite.com/e/a-very-merry-mke-music-night-lxiv-tickets-762875961537",
     linkText: "Tickets"
-
   },
   {
     datetime: "2024-01-19T00:00",
@@ -1252,6 +1251,13 @@ const shows = [
     datetime: "2024-02-25T16:00",
     venue: "Red Rooster",
     location: "Madison, WI"
+  },
+  {
+    datetime: "2023-04-19T20:00",
+    venue: "The Back Bar",
+    location: "Janesville, WI",
+    notes: "Supporting Benjamin Trick, Motherwind & Three Left",
+    linkText: "$10 at the door"
   },
   {
     datetime: "2024-05-04T17:00",
