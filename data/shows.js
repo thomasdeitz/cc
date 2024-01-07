@@ -1253,7 +1253,7 @@ const shows = [
     location: "Madison, WI"
   },
   {
-    datetime: "2023-04-19T20:00",
+    datetime: "2024-04-19T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
     notes: "Supporting Benjamin Trick, Motherwind & Three Left",
