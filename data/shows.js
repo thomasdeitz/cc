@@ -1364,6 +1364,11 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
+  {
+    datetime: "2024-08-22T17:30",
+    venue: "TBA", // The Stage at Liberty Park Concert Series
+    location: "Delafield, WI"
+  },
   // {
   //   datetime: "2024-10-05T18:30",
   //   venue: "Private Event",
