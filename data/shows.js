@@ -1212,6 +1212,11 @@ const shows = [
     notes: "Acoustic Set"
   },
   {
+    datetime: "2024-01-27T20:00",
+    venue: "TBA", //"Groovy Wood Studios",
+    location: "Madison, WI"
+  },
+  {
     datetime: "2024-02-02T19:30",
     venue: "The Bend Theatre",
     location: "West Bend, WI",
@@ -1233,19 +1238,12 @@ const shows = [
     link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
     linkText: "Tickets"
   },
-// {
-  //   datetime: "2024-02-10T20:00",
-  //   venue: "Turner Hall",
-  //   location: "Milwaukee, WI",
-  //   notes: "Supporting The Record Company",
-  //  link: "https://tix.axs.com/XQHUIAAAAAAwBmmKAAAAAABl%2fv%2f%2f%2fwD%2f%2f%2f%2f%2fE1BhYnN0IFRoZWF0ZXIgR3JvdXAA%2f%2f%2f%2f%2f%2f%2f%2f%2f%2f8%3d/shop/search?locale=en-US&skin=pabst",
-  //  linkText: "Tickets"
-// },
   {
     datetime: "2024-02-16T20:00",
     venue: "Big Turn Music Fest - Tootsie Too's",
     location: "Red Wing, MN",
-    linkText: "Tickets Coming Soon"
+    linkText: "Tickets",
+    link: "https://aftontickets.com/event/tickets/3px81g1j1k/YnRtZjI0Y2FuZHljaWdhcmV0dGU="
   },  
   {
     datetime: "2024-02-25T16:00",
