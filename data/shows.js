@@ -1348,6 +1348,11 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
+    datetime: "2024-08-09T00:00",
+    venue: "TBA", // "Ashley for the Arts - Side Stage X",
+    location: "Arcadia, WI",
+  },
+  {
     datetime: "2024-08-15T16:00",
     venue: "TBA", // "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
     location: "Oconomowoc, WI",
