@@ -628,23 +628,27 @@ const shows = [
   //},
   {
     datetime: "2022-12-04T13:00",
-    venue: "Duo - Washington County Humane Society - Festival of Trees",
+    venue: "Washington County Humane Society - Festival of Trees",
     location: "Slinger, WI",
+    notes: "Isaac & Lucas"
   },
   {
     datetime: "2022-12-10T16:00",
-    venue: "Duo - Private Party",
+    venue: "Private Party",
     location: "Nashotah, WI",
+    notes: "Isaac & Lucas"
   },
   {
     datetime: "2022-12-14T17:00",
-    venue: "Duo - A+ Power Sports - Annual Customer Appreciation Holiday Party",
+    venue: "A+ Power Sports - Annual Customer Appreciation Holiday Party",
     location: "Elkhorn, WI",
+    notes: "Isaac & Lucas"
   },
   {
     datetime: "2022-12-20T17:00",
-    venue: "Duo - Bilda's Friess Lake Pub",
-    location: "Hubertus, WI"
+    venue: "Bilda's Friess Lake Pub",
+    location: "Hubertus, WI",
+    notes: "Isaac & Lucas"
   },
   {
     datetime: "2022-12-30T19:00",
@@ -654,13 +658,15 @@ const shows = [
   /***** ^ 2022 ^ v 2023 v *****/
   {
     datetime: "2023-01-06T18:00",
-    venue: "Duo - West Bend Moose Lodge",
+    venue: "West Bend Moose Lodge",
     location: "West Bend, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-01-13T18:00",
-    venue: "Duo - Wisconsin Brewing Company",
+    venue: "Wisconsin Brewing Company",
     location: "Verona, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-01-14T18:00",
@@ -696,8 +702,9 @@ const shows = [
   },
   {
     datetime: "2023-02-11T19:00",
-    venue: "Duo - The Other Bar",
+    venue: "The Other Bar",
     location: "Dousman, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-02-17T18:30",
@@ -706,8 +713,9 @@ const shows = [
   },
   {
     datetime: "2023-02-25T20:00",
-    venue: "Duo - Thirsty Bird Saloon",
+    venue: "Thirsty Bird Saloon",
     location: "Oconomowoc, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-03-01T18:00",
@@ -717,8 +725,9 @@ const shows = [
   },
   {
     datetime: "2023-03-04T14:30",
-    venue: "Duo - Daily Taco & Cantina - Tune into Happy Hour",
+    venue: "Daily Taco & Cantina - Tune into Happy Hour",
     location: "Thiensville, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-03-17T19:00",
@@ -748,8 +757,9 @@ const shows = [
   },
   {
     datetime: "2023-04-28T16:30",
-    venue: "Duo - Private Party",
+    venue: "Private Party",
     location: "Milwaukee, WI",
+    notes: "Isaac & Lucas"
   },
   { // Yes
     datetime: "2023-04-29T16:00",
@@ -1164,7 +1174,7 @@ const shows = [
   },
   {
     datetime: "2023-12-02T20:00",
-    venue: "JJ's on the Bend",
+    venue: "JJ's On The Bend",
     location: "Hartford, WI",
   },
   { // Yes
@@ -1196,7 +1206,7 @@ const shows = [
     datetime: "2023-12-23T17:00",
     venue: "MKE Music Night LXIV - Anodyne Coffee Roasting Co. (Walker's Point Roastery)",
     location: "Milwaukee, WI",
-    notes: "Candy Cigarette Duo w/ Tlalok & Luis Solis, Cullah & Mie, Rob Knapp & The Soul Patrol",
+    notes: "Isaac & Lucas w/ Tlalok & Luis Solis, Cullah & Mie, Rob Knapp & The Soul Patrol",
     link: "https://www.eventbrite.com/e/a-very-merry-mke-music-night-lxiv-tickets-762875961537",
     linkText: "Tickets"
   },
@@ -1251,6 +1261,12 @@ const shows = [
     location: "Madison, WI"
   },
   {
+    datetime: "2024-03-16T20:00",
+    venue: "TBA",//"JJs On The Bend",
+    location: "Hartford, WI",
+    //notes: "Isaac & Lucas supporting The Black Moods along with Pete's Diary",
+  },
+  {
     datetime: "2024-04-19T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
@@ -1262,11 +1278,6 @@ const shows = [
     venue: "Private Party",
     location: "Waldo, WI"
   },
-  // {
-  //   datetime: "2024-05-25T00:00",
-  //   venue: "BratFest 2024",
-  //   location: "Madison, WI"
-  // },
   // {
   //   datetime: "2024-06-08T00:00",
   //   venue: "Glacier Valley Music Festival - Glacier Valley Campground",
