@@ -1222,11 +1222,6 @@ const shows = [
     notes: "Acoustic Set"
   },
   {
-    datetime: "2024-01-27T20:00",
-    venue: "TBA", //"Groovy Wood Studios",
-    location: "Madison, WI"
-  },
-  {
     datetime: "2024-02-02T19:30",
     venue: "The Bend Theatre",
     location: "West Bend, WI",
@@ -1261,22 +1256,35 @@ const shows = [
     location: "Madison, WI"
   },
   {
-    datetime: "2024-03-16T20:00",
-    venue: "TBA",//"JJs On The Bend",
+    datetime: "2024-03-16T19:00",
+    venue: "JJs On The Bend",
     location: "Hartford, WI",
-    //notes: "Isaac & Lucas supporting The Black Moods along with Pete's Diary",
+    notes: "Isaac & Lucas supporting The Black Moods along with Pete's Diary",
   },
+//  {
+//    datetime: "2024-04-07T13:00",
+//    venue: "Broken Oar Marinia-Bar & Grill",
+//    location: "Port Barrington, IL",
+//    notes: "w/ Pete's Diary",
+//    linkText: "Free Show"
+//  },
   {
     datetime: "2024-04-19T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
     notes: "Supporting Benjamin Trick, Motherwind & Three Left",
-    linkText: "$10 at the door"
+    linkText: "$10 at the Door"
   },
   {
     datetime: "2024-05-04T17:00",
     venue: "Private Party",
     location: "Waldo, WI"
+  },
+  {
+    datetime: "2024-06-08T18:00",
+    venue: "Green Town on the Rocks",
+    location: "Waukegan, IL",
+    notes: "Supporting Pete's Diary",
   },
   // {
   //   datetime: "2024-06-08T00:00",
