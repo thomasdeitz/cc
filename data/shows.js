@@ -1282,9 +1282,9 @@ const shows = [
   },
   {
     datetime: "2024-06-08T18:00",
-    venue: "Green Town on the Rocks",
+    venue: "TBA",//"Green Town on the Rocks",
     location: "Waukegan, IL",
-    notes: "Supporting Pete's Diary",
+    //notes: "Supporting Pete's Diary",
   },
   // {
   //   datetime: "2024-06-08T00:00",
