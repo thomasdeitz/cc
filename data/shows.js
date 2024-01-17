@@ -1259,7 +1259,7 @@ const shows = [
     datetime: "2024-03-16T19:00",
     venue: "JJs On The Bend",
     location: "Hartford, WI",
-    notes: "Isaac & Lucas supporting The Black Moods along with Pete's Diary",
+    notes: "Isaac & Lucas supporting The Black Moods",
   },
 //  {
 //    datetime: "2024-04-07T13:00",
