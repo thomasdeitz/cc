@@ -1268,13 +1268,13 @@ const shows = [
 //    notes: "w/ Pete's Diary",
 //    linkText: "Free Show"
 //  },
-  //{
-    //datetime: "2024-04-19T20:00",
-    //venue: "The Back Bar",
-    //location: "Janesville, WI",
-    //notes: "Supporting Benjamin Trick, Motherwind & Three Left",
-    //linkText: "$10 at the Door"
-  //},
+  {
+    datetime: "2024-04-19T20:00",
+    venue: "The Back Bar",
+    location: "Janesville, WI",
+    notes: "Supporting Benjamin Trick, Motherwind & Three Left",
+    linkText: "$10 at the Door"
+  },
   {
     datetime: "2024-05-04T17:00",
     venue: "Private Party",
