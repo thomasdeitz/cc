@@ -1391,6 +1391,11 @@ const shows = [
     venue: "TBA", // The Stage at Liberty Park Concert Series
     location: "Delafield, WI"
   },
+  {
+    datetime: "2024-09-07T00:00",
+    venue: "MartiFest",
+    location: "Sullivan, WI"
+  },
   // {
   //   datetime: "2024-10-05T18:30",
   //   venue: "Private Event",
