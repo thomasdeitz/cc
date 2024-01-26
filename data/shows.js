@@ -1281,6 +1281,12 @@ const shows = [
     location: "Waldo, WI"
   },
   {
+    datetime: "2024-05-18T15:00",
+    venue: "TBA",//"St Killian FunFest 2024",
+    location: "Hartford, WI"
+    //notes: "TBA",
+  },
+  {
     datetime: "2024-06-08T18:00",
     venue: "TBA",//"Green Town on the Rocks",
     location: "Waukegan, IL",
