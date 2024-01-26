@@ -1235,14 +1235,14 @@ const shows = [
     location: "West Allis, WI",
     notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
   },
-  {
-    datetime: "2024-02-09T18:00",
-    venue: "Key Palace Theatre",
-    location: "Redkey, IN",
-    notes: "Supporting Danny Garwood & Company",
-    link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
-    linkText: "Tickets"
-  },
+  // { Canceled
+  //   datetime: "2024-02-09T18:00",
+  //   venue: "Key Palace Theatre",
+  //   location: "Redkey, IN",
+  //   notes: "Supporting Danny Garwood & Company",
+  //   link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
+  //   linkText: "Tickets"
+  // },
   {
     datetime: "2024-02-16T20:00",
     venue: "Big Turn Music Fest - Tootsie Too's",
