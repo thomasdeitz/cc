@@ -1260,6 +1260,8 @@ const shows = [
     venue: "JJs On The Bend",
     location: "Hartford, WI",
     notes: "Isaac & Lucas supporting The Black Moods",
+    linkText: "Tickets",
+    link: "https://app.promotix.com/events/details/The-Black-Moods-tickets-2"
   },
 //  {
 //    datetime: "2024-04-07T13:00",
