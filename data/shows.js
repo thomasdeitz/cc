@@ -1229,12 +1229,12 @@ const shows = [
     link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195#smtx-click",
     linkText: "Tickets"
   },
-  {
-    datetime: "2024-02-04T14:00",
-    venue: "Amplified Artist Sessions - Ope! Brewing",
-    location: "West Allis, WI",
-    notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
-  },
+  // { Canceled
+  //   datetime: "2024-02-04T14:00",
+  //   venue: "Amplified Artist Sessions - Ope! Brewing",
+  //   location: "West Allis, WI",
+  //   notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
+  // },
   // { Canceled
   //   datetime: "2024-02-09T18:00",
   //   venue: "Key Palace Theatre",
