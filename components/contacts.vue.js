@@ -4,7 +4,7 @@ const Contacts = {
             Reach out via <a href="mailto:candycigaretteband@gmail.com">Email</a> or
             Call <a href="tel:2625678114">262.567.8114.</a>
 
-            <div id="mc_embed_shell">
+            <div id="mc_embed_shell" style="display:none;">
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
                     <style type="text/css">
                             #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
