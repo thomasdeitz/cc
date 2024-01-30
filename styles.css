@@ -251,4 +251,15 @@ section.black a.button, section.black .button, section.black button {
 }
 .show b {
   font-weight: 900;
+}
+
+#mc_embed_signup_scroll {
+  display: none;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto 1fr;
+  grid-template-areas: margin name input button margin;
+}
+#mc_embed_signup_scroll > * {
+  background: blue;
 }/*# sourceMappingURL=styles.css.map */

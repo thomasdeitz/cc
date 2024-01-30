@@ -66,3 +66,15 @@ a.button, .button, button {
     font-weight: 900;
   }
 }
+
+#mc_embed_signup_scroll {
+  display: none;
+  background: red;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto 1fr;
+  grid-template-areas: margin name input button margin;
+
+  & > * {
+    background: blue;
+  }
+}

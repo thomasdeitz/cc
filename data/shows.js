@@ -1263,6 +1263,14 @@ const shows = [
     linkText: "Tickets",
     link: "https://app.promotix.com/events/details/The-Black-Moods-tickets-2"
   },
+  {
+    datetime: "2024-03-21T20:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting Davey Knowles",
+    link: "https://www.ticketweb.com/event/davy-knowles-shank-hall-tickets/13387663",
+    linkText: "Tickets"
+  },
 //  {
 //    datetime: "2024-04-07T13:00",
 //    venue: "Broken Oar Marinia-Bar & Grill",
