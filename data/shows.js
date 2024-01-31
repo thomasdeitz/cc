@@ -1249,7 +1249,13 @@ const shows = [
     location: "Red Wing, MN",
     linkText: "Tickets",
     link: "https://aftontickets.com/event/tickets/3px81g1j1k/YnRtZjI0Y2FuZHljaWdhcmV0dGU="
-  },  
+  },
+  {
+    datetime: "2024-02-24T20:00",
+    venue: "Cactus Menekaunee",
+    location: "Marinette WI",
+    notes: "w/ Wasted Pretty & Soup"
+  },
   {
     datetime: "2024-02-25T16:00",
     venue: "Red Rooster",
