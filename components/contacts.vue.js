@@ -4,18 +4,13 @@ const Contacts = {
             Reach out via <a href="mailto:candycigaretteband@gmail.com">Email</a> or
             Call <a href="tel:2625678114">262.567.8114.</a>
 
-            <div id="mc_embed_shell" style="display:none;">
+            <div id="mc_embed_shell">
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-                    <style type="text/css">
-                            #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: 600px;}
-                            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                    </style>
                     <div id="mc_embed_signup">
                         <form action="https://candycigaretteband.us21.list-manage.com/subscribe/post?u=c6afa7a3a3f37ac9a34c6c3c3&amp;id=b6ea119396&amp;f_id=0063f7e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
                             <div id="mc_embed_signup_scroll">
-                                <p>Sign Up For Updates</p>
-                                <div class="mc-field-group">
+                                <div id="emsignup"><h2>Sign Up For Updates</h2></div>
+                                <div id="eminput"class="mc-field-group">
                                     <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email" required="" value="">
                                     <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                                 </div>
@@ -27,10 +22,10 @@ const Contacts = {
                                     /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
                                     <input type="text" name="b_c6afa7a3a3f37ac9a34c6c3c3_b6ea119396" tabindex="-1" value="">
                                 </div>
-                                <div class="optionalParent">
+                                <div id="emsubmit"class="optionalParent">
                                     <div class="clear foot">
                                         <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                                        <p style="margin: 0px auto; display:none;"><a href="http://eepurl.com/iI1xks" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
+                                        <p style="margin: 0px auto; display:none;"><a href="http://eepurl.com/iI1xks" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
                                     </div>
                                 </div>
                         </div>

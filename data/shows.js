@@ -1298,9 +1298,9 @@ const shows = [
   },
   {
     datetime: "2024-06-08T18:00",
-    venue: "TBA",//"Green Town on the Rocks",
+    venue: "Green Town on the Rocks",
     location: "Waukegan, IL",
-    //notes: "Supporting Pete's Diary",
+    notes: "Supporting Pete's Diary",
   },
   // {
   //   datetime: "2024-06-08T00:00",
@@ -1376,6 +1376,12 @@ const shows = [
     datetime: "2024-07-24T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-07-27T22:00",
+    venue: "TBA", //"Company Brewing",
+    location: "Milwaukee, WI",
+    // notes: "w/ Pete's Diary & Wonderful Bluffer",
   },
   {
     datetime: "2024-08-07T17:30",

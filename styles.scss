@@ -68,14 +68,55 @@ a.button, .button, button {
 }
 
 #mc_embed_signup_scroll {
-  display: none;
-  
-  background: red;
+  padding: 40px 0;
   display: grid;
+  display: none;
   grid-template-columns: 1fr auto auto auto 1fr;
-  grid-template-areas: margin name input button margin;
+  gap: 20px;
+  grid-template-areas: ". cta em sb .";
+  align-items: center;
 
-  & > * {
-    background: blue;
+  @media only screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: "cta" "em" "sb";
+  }
+
+  #emsignup {
+    grid-area: cta;
+  }
+  #eminput {
+    grid-area: em;
+  }
+
+  #emsubmit {
+    grid-area: sb;
+  }
+
+  h2 {
+    margin:0;padding:0;
+  }
+
+  input {
+    font-size: 1.5em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    position: relative;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 0px;
+    outline: none;
+    border-radius: 3px;
+  }
+
+  input[type="email"] {
+    position: relative;
+    width: 300px;
+    border: 1px solid var(--black)
+  }
+
+  input[type="submit"] {
+    height: auto;
+    padding: 10px 30px;
+    text-align: center;
   }
 }
