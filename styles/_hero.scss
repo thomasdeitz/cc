@@ -6,17 +6,18 @@
 
     &:after {
         content: '';
-        background-image: url(././assets/CClg.jpg);
+        background-image: url(././assets/NewHero.JPG);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
-        //filter: saturate(.5);//
+        filter: saturate(0);
         top: 0px;
         height: 100vh;
         left: 0px;
         right: 0px;
         position: fixed;
         z-index: -1;
+        transform: rotateZ(-1.8deg);
     }
 
     .connections {
@@ -29,7 +30,7 @@
 
         a {
             background-color: transparent;
-            color: var(--black);
+            color: var(--primary);
 
             &:hover {
                 opacity: .7;
