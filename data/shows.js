@@ -1387,7 +1387,7 @@ const shows = [
     datetime: "2024-07-27T22:00",
     venue: "TBA", //"Company Brewing",
     location: "Milwaukee, WI",
-    // notes: "w/ Pete's Diary & Wonderful Bluffer",
+    notes: "w/ Pete's Diary & Wonderful Bluffer",
   },
   {
     datetime: "2024-08-07T17:30",
