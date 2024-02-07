@@ -1303,16 +1303,28 @@ const shows = [
     //notes: "TBA",
   },
   {
+    datetime: "2024-05-25T20:00",
+    venue: "TBA", //"The Back Bar",
+    location: "TBA", //"Janesville, WI",
+    //notes: "Supporting The Black Moods",
+  },
+  {
+    datetime: "2024-05-31T18:00",
+    venue: "TBA",//"Regner Park",
+    location: "West Bend, WI",
+  },
+  {
+    datetime: "2024-06-01T20:00",
+    venue: "TBA",//"Cactus Menekaunee - Album Release Show",
+    location: "Marinette WI",
+    //notes: "w/ Wasted Pretty"
+  },
+  {
     datetime: "2024-06-08T18:00",
     venue: "Green Town on the Rocks",
     location: "Waukegan, IL",
     notes: "Supporting Pete's Diary",
   },
-  // {
-  //   datetime: "2024-06-08T00:00",
-  //   venue: "Glacier Valley Music Festival - Glacier Valley Campground",
-  //   location: "Cambria, WI"
-  // },
   {
     datetime: "2024-06-12T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
