@@ -1273,7 +1273,7 @@ const shows = [
     datetime: "2024-03-21T20:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
-    notes: "Supporting Davey Knowles",
+    notes: "Supporting Davy Knowles",
     link: "https://www.ticketweb.com/event/davy-knowles-shank-hall-tickets/13387663",
     linkText: "Tickets"
   },
