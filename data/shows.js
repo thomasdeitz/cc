@@ -1202,7 +1202,7 @@ const shows = [
     link: "https://fb.me/e/365dQJLTY",
     linkText: "More Info"
   },
-  { // Yes
+  {
     datetime: "2023-12-23T17:00",
     venue: "MKE Music Night LXIV - Anodyne Coffee Roasting Co. (Walker's Point Roastery)",
     location: "Milwaukee, WI",
@@ -1304,9 +1304,10 @@ const shows = [
   },
   {
     datetime: "2024-05-25T20:00",
-    venue: "TBA", //"The Back Bar",
-    location: "TBA", //"Janesville, WI",
-    //notes: "Supporting The Black Moods",
+    venue: "The Back Bar",
+    location: "Janesville, WI",
+    notes: "Supporting The Black Moods w/ SIIN, Adaddon's End & Gilded Cages",
+    linkText: "Ticket Info Coming Soon"
   },
   {
     datetime: "2024-05-31T18:00",
