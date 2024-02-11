@@ -1397,13 +1397,18 @@ const shows = [
     location: "Saukville, WI"
   },
   {
+    datetime: "2024-07-20T00:00",
+    venue: "Cheelabration",
+    location: "Thiensville, WI",
+  },
+  {
     datetime: "2024-07-24T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
   {
     datetime: "2024-07-27T22:00",
-    venue: "TBA", //"Company Brewing",
+    venue: "Company Brewing",
     location: "Milwaukee, WI",
     notes: "w/ Pete's Diary & Wonderful Bluffer",
   },
@@ -1416,6 +1421,11 @@ const shows = [
     datetime: "2024-08-09T00:00",
     venue: "TBA", // "Ashley for the Arts - Side Stage X",
     location: "Arcadia, WI",
+  },
+  {
+    datetime: "2024-08-11T00:00",
+    venue: "the baaree",
+    location: "Thiensville, WI",
   },
   {
     datetime: "2024-08-15T16:00",
