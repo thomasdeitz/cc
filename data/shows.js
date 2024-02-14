@@ -1253,7 +1253,7 @@ const shows = [
   {
     datetime: "2024-02-24T20:00",
     venue: "Cactus Menekaunee",
-    location: "Marinette WI",
+    location: "Marinette, WI",
     notes: "w/ Wasted Pretty & Soup"
   },
   {
@@ -1289,7 +1289,7 @@ const shows = [
     venue: "The Back Bar",
     location: "Janesville, WI",
     notes: "Supporting Benjamin Trick, Motherwind & Three Left",
-    linkText: "$10 at the Door"
+    linkText: "$10 Cover"
   },
   {
     datetime: "2024-05-04T17:00",
@@ -1307,19 +1307,20 @@ const shows = [
     venue: "The Back Bar",
     location: "Janesville, WI",
     notes: "Supporting The Black Moods w/ SIIN, Adaddon's End & Gilded Cages",
-    linkText: "Ticket Info Coming Soon"
+    link: "https://the-back-bar.myshopify.com/products/concert-ticket-2024-05-25-2024-the-black-moods-wsg-tba",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-05-31T18:00",
-    venue: "TBA",//"Regner Park",
+    venue: "Regner Park",
     location: "West Bend, WI",
   },
-  {
-    datetime: "2024-06-01T20:00",
-    venue: "TBA",//"Cactus Menekaunee - Album Release Show",
-    location: "Marinette WI",
-    //notes: "w/ Wasted Pretty"
-  },
+  // {
+  //   datetime: "2024-06-01T19:00",
+  //   venue: "Mariner Theatre/Pixels Arcade - Album Release Show",
+  //   location: "Marinette, WI",
+  //   notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
+  // },
   {
     datetime: "2024-06-08T18:00",
     venue: "Green Town on the Rocks",
@@ -1411,6 +1412,7 @@ const shows = [
     venue: "Company Brewing",
     location: "Milwaukee, WI",
     notes: "w/ Pete's Diary & Wonderful Bluffer",
+    linkText: "$10 Cover"
   },
   {
     datetime: "2024-08-07T17:30",
