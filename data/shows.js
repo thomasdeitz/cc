@@ -1415,6 +1415,11 @@ const shows = [
     linkText: "$10 Cover"
   },
   {
+    datetime: "2024-08-03T13:00",
+    venue: "Regner Park",
+    location: "West Bend, WI"
+  },
+  {
     datetime: "2024-08-07T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
