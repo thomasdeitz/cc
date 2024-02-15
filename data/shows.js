@@ -1277,19 +1277,13 @@ const shows = [
     link: "https://www.ticketweb.com/event/davy-knowles-shank-hall-tickets/13387663",
     linkText: "Tickets"
   },
-//  {
-//    datetime: "2024-04-07T13:00",
-//    venue: "Broken Oar Marinia-Bar & Grill",
-//    location: "Port Barrington, IL",
-//    notes: "w/ Pete's Diary",
-//    linkText: "Free Show"
-//  },
   {
     datetime: "2024-04-19T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
     notes: "Supporting Benjamin Trick, Motherwind & Three Left",
-    linkText: "$10 Cover"
+    linkText: "More Info",
+    link: "https://www.facebook.com/events/687651603456197",
   },
   {
     datetime: "2024-05-04T17:00",
@@ -1332,36 +1326,6 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  // {
-  //   datetime: "2024-06-13T00:00",
-  //   venue: "TBD",
-  //   location: "Champaign, IL"
-  // },
-  // {
-  //   datetime: "2024-06-14T20:00",
-  //   venue: "Bokeh Lounge", //"TBD",
-  //   location: "Evansville, IN"
-  // },
-  // {
-  //   datetime: "2024-06-15T00:00",
-  //   venue: "TBD",
-  //   location: "Chatanooga, TN"
-  // },
-  // {
-  //   datetime: "2024-06-16T19:00",
-  //   venue: "Society Garden",
-  //   location: "Macon, GA"
-  // },
-  // {
-  //   datetime: "2024-06-17T00:00",
-  //   venue: "TBD",
-  //   location: "Asheville, NC"
-  // },
-  // {
-  //   datetime: "2024-06-18T00:00",
-  //   venue: "TBD",
-  //   location: "Lexington, KY"
-  // },
   {
     datetime: "2024-06-20T17:30",
     venue: "TBA", // The Stage at Liberty Park Concert Series
