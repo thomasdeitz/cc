@@ -1309,12 +1309,12 @@ const shows = [
     venue: "Regner Park",
     location: "West Bend, WI",
   },
-  // {
-  //   datetime: "2024-06-01T19:00",
-  //   venue: "Mariner Theatre/Pixels Arcade - Album Release Show",
-  //   location: "Marinette, WI",
+  {
+    datetime: "2024-06-01T19:00",
+    venue: "TBA", //"Mariner Theatre/Pixels Arcade - Album Release Show",
+    location: "Marinette, WI",
   //   notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
-  // },
+  },
   {
     datetime: "2024-06-08T18:00",
     venue: "Green Town on the Rocks",
@@ -1328,7 +1328,7 @@ const shows = [
   },
   {
     datetime: "2024-06-20T17:30",
-    venue: "TBA", // The Stage at Liberty Park Concert Series
+    venue: "TBA", // The Stage at Liberty Park Concert Series or Nixon Park Concert Series
     location: "Delafield, WI"
   },
   {
@@ -1380,7 +1380,7 @@ const shows = [
   },
   {
     datetime: "2024-08-03T13:00",
-    venue: "Regner Park",
+    venue: "Regner Park - Moosefest",
     location: "West Bend, WI"
   },
   {
