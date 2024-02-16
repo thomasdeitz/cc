@@ -1292,7 +1292,7 @@ const shows = [
   },
   {
     datetime: "2024-05-18T15:00",
-    venue: "TBA",//"St Killian FunFest 2024",
+    venue: "St Killian FunFest 2024",
     location: "Hartford, WI"
     //notes: "TBA",
   },
