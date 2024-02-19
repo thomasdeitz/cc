@@ -1311,9 +1311,9 @@ const shows = [
   },
   {
     datetime: "2024-06-01T19:00",
-    venue: "TBA", //"Mariner Theatre/Pixels Arcade - Album Release Show",
+    venue: "Mariner Theatre/Pixels Arcade",
     location: "Marinette, WI",
-  //   notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
+    notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
   },
   {
     datetime: "2024-06-08T18:00",
