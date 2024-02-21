@@ -1259,7 +1259,9 @@ const shows = [
   {
     datetime: "2024-02-25T16:00",
     venue: "Red Rooster",
-    location: "Madison, WI"
+    location: "Madison, WI",
+    link: "https://redroostermadison.com/event/candy-cigarette-5/",
+    linkText: "More Info"
   },
   {
     datetime: "2024-03-16T19:00",
@@ -1281,7 +1283,7 @@ const shows = [
     datetime: "2024-04-19T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
-    notes: "Supporting Benjamin Trick, Motherwind & Three Left",
+    notes: "Supporting Benjamin Trick & Motherwind w/ Three Left & Apex Aura",
     linkText: "More Info",
     link: "https://www.facebook.com/events/687651603456197",
   },
@@ -1316,6 +1318,14 @@ const shows = [
     notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
   },
   {
+    datetime: "2024-06-07T17:00",
+    venue: "TBA", //"Glacier Valley Music Fest 2024",
+    location: "WI",
+    //notes: "Three Stages // 30+ Bands",
+    //link: "www.partymartymusic.com/gvmf",
+    //linkText: "More Info"
+  },
+  {
     datetime: "2024-06-08T18:00",
     venue: "Green Town on the Rocks",
     location: "Waukegan, IL",
@@ -1325,6 +1335,13 @@ const shows = [
     datetime: "2024-06-12T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-06-15T20:00",
+    venue: "TBA", //"At The Tracks",
+    location: "Green Bay, WI",
+    //notes: "w/ TBA",
+    //linkText: "$10 Cover"
   },
   {
     datetime: "2024-06-20T17:30",
@@ -1363,7 +1380,7 @@ const shows = [
   },
   {
     datetime: "2024-07-20T00:00",
-    venue: "Cheelabration",
+    venue: "TBA",//"Cheelabration",
     location: "Thiensville, WI",
   },
   {

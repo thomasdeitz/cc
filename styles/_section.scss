@@ -10,13 +10,13 @@ section {
 
     a {    
         &:hover {
-            color: var(--primary);
+            color: var(--white);
         } 
     }
 
     &.primary {
         background-color: var(--primary);
-        color: var(--black);
+        color: var(--white);
 
         a {    
             &:hover {

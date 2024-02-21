@@ -6,7 +6,7 @@
 
     &:after {
         content: '';
-        background-image: url(././assets/IMG_8864.jpeg);
+        background-image: url(././assets/HR-SF-CS1-0102_websize.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
@@ -17,7 +17,7 @@
         right: 0px;
         position: fixed;
         z-index: -1;
-        transform: rotateZ(-1.8deg);
+        //transform: rotateZ(-1.8deg);
     }
 
     .connections {
@@ -30,7 +30,7 @@
 
         a {
             background-color: transparent;
-            color: var(--primary);
+            color: var(--white);
 
             &:hover {
                 opacity: .7;
