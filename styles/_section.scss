@@ -4,6 +4,31 @@ section {
     position: relative;
     z-index: 1000;
 
+    &.split .container {
+        @media only screen and (min-width: 801px) {
+            display: grid;
+            grid-template-columns: 44fr 2fr 44fr;
+            grid-template-areas: "i g h" "i g t";
+
+            h2 {
+                grid-area: h;
+            }
+
+            div {
+                grid-area: t; 
+            }
+
+            figure {
+                grid-area: i;
+                background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: top center;
+                margin: 0px;
+            }
+        }
+    }
+
     &#hero {
         z-index: auto;
     }

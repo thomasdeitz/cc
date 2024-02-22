@@ -94,6 +94,27 @@ section {
   position: relative;
   z-index: 1000;
 }
+@media only screen and (min-width: 801px) {
+  section.split .container {
+    display: grid;
+    grid-template-columns: 44fr 2fr 44fr;
+    grid-template-areas: "i g h" "i g t";
+  }
+  section.split .container h2 {
+    grid-area: h;
+  }
+  section.split .container div {
+    grid-area: t;
+  }
+  section.split .container figure {
+    grid-area: i;
+    background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 0px;
+  }
+}
 section#hero {
   z-index: auto;
 }
