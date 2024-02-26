@@ -1287,11 +1287,11 @@ const shows = [
     linkText: "More Info",
     link: "https://www.facebook.com/events/687651603456197",
   },
-  {
-    datetime: "2024-05-04T17:00",
-    venue: "Private Party",
-    location: "Waldo, WI"
-  },
+  // { Canceled
+  //   datetime: "2024-05-04T17:00",
+  //   venue: "Private Party",
+  //   location: "Waldo, WI"
+  // },
   {
     datetime: "2024-05-18T15:00",
     venue: "St Killian FunFest 2024",
@@ -1315,12 +1315,12 @@ const shows = [
     datetime: "2024-06-01T19:00",
     venue: "Mariner Theatre/Pixels Arcade",
     location: "Marinette, WI",
-    notes: "Album release show for Wasted Pretty w/ Soup, Too Much Tension & Candy Cigarette"
+    notes: "Album release show for Wasted Pretty w/ Too Much Tension & Candy Cigarette"
   },
   {
     datetime: "2024-06-07T17:00",
     venue: "TBA", //"Glacier Valley Music Fest 2024",
-    location: "WI",
+    location: "Cambria, WI",
     //notes: "Three Stages // 30+ Bands",
     //link: "www.partymartymusic.com/gvmf",
     //linkText: "More Info"
@@ -1336,17 +1336,25 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
+  // {
+  //   datetime: "2024-06-20T17:00",
+  //   venue: "Old Settler's Park - Music on Main", // The Stage at Liberty Park Concert Series or Nixon Park Concert Series
+  //   location: "West Bend, WI",
+  //   notes: "Supporting the Twang Dragons"
+  // },
+  // {
+  //   datetime: "2024-06-22T20:00",
+  //   venue: "At The Tracks",
+  //   location: "Green Bay, WI",
+  //   notes: "w/ TBA",
+  //   linkText: "$10 Cover"
+  // },
   {
-    datetime: "2024-06-15T20:00",
-    venue: "TBA", //"At The Tracks",
-    location: "Green Bay, WI",
-    //notes: "w/ TBA",
-    //linkText: "$10 Cover"
-  },
-  {
-    datetime: "2024-06-20T17:30",
-    venue: "TBA", // The Stage at Liberty Park Concert Series or Nixon Park Concert Series
-    location: "Delafield, WI"
+    datetime: "2024-06-23T16:00",
+    venue: "Red Rooster",
+    location: "Madison, WI",
+    //link: "https://redroostermadison.com/event/",
+    //linkText: "More Info"
   },
   {
     datetime: "2024-06-26T17:30",
@@ -1406,7 +1414,7 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2024-08-09T00:00",
+    datetime: "2024-08-09T15:00",
     venue: "TBA", // "Ashley for the Arts - Side Stage X",
     location: "Arcadia, WI",
   },
@@ -1435,9 +1443,17 @@ const shows = [
     venue: "MartiFest",
     location: "Sullivan, WI"
   },
+  {
+    datetime: "2024-09-20T19:30",
+    venue: "The Bend Theatre",
+    location: "West Bend, WI",
+    notes: "Supporting Lil Ed & The Blues Imperials",
+    link: "https://thebendwi.org/",
+    linkText: "Tickets"
+  },
   // {
   //   datetime: "2024-10-05T18:30",
   //   venue: "Private Event",
   //   location: "Beechwood, WI",
-  // }
+  // },
 ];
