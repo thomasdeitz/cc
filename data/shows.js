@@ -1318,9 +1318,9 @@ const shows = [
     notes: "Album release show for Wasted Pretty w/ Too Much Tension & Candy Cigarette"
   },
   {
-    datetime: "2024-06-07T17:00",
+    datetime: "2024-06-07T00:00",
     venue: "TBA", //"Glacier Valley Music Fest 2024",
-    location: "Cambria, WI",
+    location: "WI",
     //notes: "Three Stages // 30+ Bands",
     //link: "www.partymartymusic.com/gvmf",
     //linkText: "More Info"
@@ -1342,13 +1342,13 @@ const shows = [
   //   location: "West Bend, WI",
   //   notes: "Supporting the Twang Dragons"
   // },
-  // {
-  //   datetime: "2024-06-22T20:00",
-  //   venue: "At The Tracks",
-  //   location: "Green Bay, WI",
+  {
+     datetime: "2024-06-22T00:00",
+     venue: "TBA", //"At The Tracks",
+     location: "Green Bay, WI",
   //   notes: "w/ TBA",
   //   linkText: "$10 Cover"
-  // },
+  },
   {
     datetime: "2024-06-23T16:00",
     venue: "Red Rooster",
@@ -1419,7 +1419,7 @@ const shows = [
     location: "Arcadia, WI",
   },
   {
-    datetime: "2024-08-11T00:00",
+    datetime: "2024-08-11T16:00",
     venue: "the baaree",
     location: "Thiensville, WI",
   },
@@ -1445,11 +1445,11 @@ const shows = [
   },
   {
     datetime: "2024-09-20T19:30",
-    venue: "The Bend Theatre",
+    venue: "TBA",//"The Bend Theatre",
     location: "West Bend, WI",
-    notes: "Supporting Lil Ed & The Blues Imperials",
-    link: "https://thebendwi.org/",
-    linkText: "Tickets"
+    //notes: "Supporting Lil Ed & The Blues Imperials",
+    //link: "https://thebendwi.org/",
+    //linkText: "Tickets"
   },
   // {
   //   datetime: "2024-10-05T18:30",
