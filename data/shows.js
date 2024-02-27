@@ -1343,10 +1343,10 @@ const shows = [
   //   notes: "Supporting the Twang Dragons"
   // },
   {
-     datetime: "2024-06-22T00:00",
-     venue: "TBA", //"At The Tracks",
-     location: "Green Bay, WI",
-  //   notes: "w/ TBA",
+    datetime: "2024-06-22T00:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "w/ TBA",
   //   linkText: "$10 Cover"
   },
   {
@@ -1442,6 +1442,12 @@ const shows = [
     datetime: "2024-09-07T00:00",
     venue: "MartiFest",
     location: "Sullivan, WI"
+  },
+  {
+    datetime: "2024-09-14T20:00",
+    venue: "Cactus Menekaunee",
+    location: "Marinette, WI",
+    notes: "w/ Wasted Pretty & Soup"
   },
   {
     datetime: "2024-09-20T19:30",
