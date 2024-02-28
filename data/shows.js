@@ -1319,11 +1319,11 @@ const shows = [
   },
   {
     datetime: "2024-06-07T00:00",
-    venue: "TBA", //"Glacier Valley Music Fest 2024",
-    location: "WI",
-    //notes: "Three Stages // 30+ Bands",
-    //link: "www.partymartymusic.com/gvmf",
-    //linkText: "More Info"
+    venue: "Glacier Valley Music Fest 2024",
+    location: "Cambria, WI",
+    notes: "Three Stages // 30+ Bands",
+    link: "www.partymartymusic.com/gvmf",
+    linkText: "More Info"
   },
   {
     datetime: "2024-06-08T18:00",
@@ -1336,18 +1336,12 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  // {
-  //   datetime: "2024-06-20T17:00",
-  //   venue: "Old Settler's Park - Music on Main", // The Stage at Liberty Park Concert Series or Nixon Park Concert Series
-  //   location: "West Bend, WI",
-  //   notes: "Supporting the Twang Dragons"
-  // },
   {
     datetime: "2024-06-22T00:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
     notes: "w/ TBA",
-  //   linkText: "$10 Cover"
+    //linkText: "$10 Cover"
   },
   {
     datetime: "2024-06-23T16:00",
