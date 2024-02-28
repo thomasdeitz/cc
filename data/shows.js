@@ -1322,7 +1322,7 @@ const shows = [
     venue: "Glacier Valley Music Fest 2024",
     location: "Cambria, WI",
     notes: "Three Stages // 30+ Bands",
-    link: "www.partymartymusic.com/gvmf",
+    link: "https://www.partymartymusic.com/gvmf",
     linkText: "More Info"
   },
   {
