@@ -5,10 +5,10 @@ const HomePage = {
         <Section heading="Videos" background="black">
             <Videos />
         </Section>
-        <Section heading="Upcoming Dates" background="primary">
+        <Section heading="Upcoming Dates">
             <Dates length=15  />
         </Section>
-        <Section heading="Contact Us">
+        <Section background="primary" heading="Contact Us">
             <Contacts />
         </Section>
     `

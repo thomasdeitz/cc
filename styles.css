@@ -2,7 +2,7 @@
   --black: #0B0F0E;
   --white: #DCE4DF;
   --primary: #613721;
-  --accent: darkyellow;
+  --accent: #BB8549;
   --breakpoint-phone: 600px;
   --breakpoint-tablet: 900px;
   --breakpoint-laptop: 1440px;
@@ -13,10 +13,13 @@
   --breakpoint-desktop: 1440px;
 }
 
+@font-face {}
 :root {
+  font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 1.1vw;
   line-height: 1.8;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 800px) {
@@ -41,7 +44,6 @@ a:hover {
 header {
   position: relative;
   background-color: var(--black);
-  z-index: 100;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -57,9 +59,23 @@ header img {
   }
 }
 header svg {
-  height: 50px;
+  position: relative;
+  height: 280px;
   width: auto;
-  fill: var(--black);
+  color: var(--accent);
+}
+@media only screen and (max-width: 800px) {
+  header svg {
+    height: 240px;
+  }
+}
+.home header svg {
+  top: calc(100vh - 320px);
+}
+@media only screen and (max-width: 800px) {
+  .home header svg {
+    top: calc(80vh - 280px);
+  }
 }
 header nav {
   display: flex;
@@ -73,7 +89,7 @@ header, header a {
 header a {
   display: inline-block;
   text-decoration: none;
-  padding: 0.7vw 1.2vw;
+  padding: 0.7vw 2.4vw;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -156,7 +172,7 @@ footer {
   padding: 0px;
   background-color: transparent !important;
 }
-#hero:after {
+#hero:before {
   content: "";
   background-image: url(././assets/HR-SF-CS1-0102_websize.jpg);
   background-size: cover;
@@ -164,6 +180,16 @@ footer {
   background-position: top center;
   top: 0px;
   height: 100vh;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+  z-index: -1;
+}
+#hero:after {
+  content: "";
+  background: linear-gradient(rgba(11, 15, 14, 0) 0, rgb(11, 15, 14) 50%);
+  top: 60vh;
+  height: 40vh;
   left: 0px;
   right: 0px;
   position: fixed;
@@ -191,8 +217,11 @@ footer {
   #hero .connections {
     bottom: calc(20vh + 80px);
   }
-  #hero:after {
+  #hero:before {
     height: 80vh;
+  }
+  #hero:after {
+    top: 40vh;
   }
 }
 
@@ -277,7 +306,6 @@ section.black a.button, section.black .button, section.black button {
 #mc_embed_signup_scroll {
   padding: 40px 0;
   display: grid;
-  display: none;
   grid-template-columns: 1fr auto auto auto 1fr;
   gap: 20px;
   grid-template-areas: ". cta em sb .";

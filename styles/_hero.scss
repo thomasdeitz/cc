@@ -4,7 +4,7 @@
     padding: 0px;
     background-color: transparent !important;
 
-    &:after {
+    &:before {
         content: '';
         background-image: url(././assets/HR-SF-CS1-0102_websize.jpg);
         background-size: cover;
@@ -12,6 +12,17 @@
         background-position: top center;
         top: 0px;
         height: 100vh;
+        left: 0px;
+        right: 0px;
+        position: fixed;
+        z-index: -1;
+    }
+
+    &:after {
+        content: '';
+        background: linear-gradient(rgba(11, 15, 14,0) 0, rgba(11, 15, 14,1) 50%,);
+        top: 60vh;
+        height: 40vh;
         left: 0px;
         right: 0px;
         position: fixed;
@@ -43,8 +54,12 @@
             bottom: calc(20vh + 80px);
         }
 
-        &:after {
+        &:before {
             height: 80vh;
+        }
+
+        &:after {
+            top: 40vh;
         }
     }
 }

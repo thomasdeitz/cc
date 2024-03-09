@@ -33,10 +33,10 @@ const Dates = {
     <div>
       <div class="show" v-for="show in sortedShows" :key="show.datetime">
         <div>
-          {{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}
+          <b>{{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}</b>
         </div>
         <div class="name-location">
-          {{show.location}}
+          <b>{{show.location}}</b>
           <br/>
           <small>{{show.venue}} <span v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'">@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span></small>
           <br/>

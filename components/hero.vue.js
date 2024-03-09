@@ -1,7 +1,5 @@
 const Hero = {
     template: `
-        <section id="hero">
-            <Connections></Conections>
-        </section>
+        <section id="hero"></section>
     `
 }

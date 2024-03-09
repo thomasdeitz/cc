@@ -6,7 +6,8 @@ const Pagefooter = {
     },
     template: `
         <footer>
-            <div class="container">
+            <div class="container" background="black">
+                <Connections />
                 All rights reserved &copy; {{today.toLocaleDateString('en', { year: 'numeric' })}} Candy Cigarette
             </div>
         </footer>

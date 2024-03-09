@@ -1,5 +1,6 @@
 @import "./styles/variables.scss";
 @import "./styles/typography.scss";
+@import "./styles/subscribe.scss";
 @import "./styles/base.scss";
 @import "./styles/header.scss";
 @import "./styles/section.scss";
@@ -70,7 +71,7 @@ a.button, .button, button {
 #mc_embed_signup_scroll {
   padding: 40px 0;
   display: grid;
-  display: none;
+  //display: none;
   grid-template-columns: 1fr auto auto auto 1fr;
   gap: 20px;
   grid-template-areas: ". cta em sb .";
