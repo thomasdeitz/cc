@@ -1287,11 +1287,17 @@ const shows = [
     linkText: "More Info",
     link: "https://www.facebook.com/events/687651603456197",
   },
-  // { Canceled
-  //   datetime: "2024-05-04T17:00",
-  //   venue: "Private Party",
-  //   location: "Waldo, WI"
-  // },
+  {
+    datetime: "2024-04-27T20:00",
+    venue: "JC's Pub and Grub",
+    location: "West Allis, WI",
+    notes: "Isaac & Lucas supporting Whiskey and the Devil"
+  },
+  {
+     datetime: "2024-05-04T16:00",
+     venue: "Cars & Guitars - Sunset Hill Farms",
+     location: "Lake Mills, WI"
+   },
   {
     datetime: "2024-05-18T15:00",
     venue: "St Killian FunFest 2024",
@@ -1335,6 +1341,11 @@ const shows = [
     datetime: "2024-06-12T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
+  },
+  {
+    datetime: "2024-06-16T18:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
   },
   {
     datetime: "2024-06-22T00:00",
@@ -1396,6 +1407,11 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "w/ Pete's Diary & Wonderful Bluffer",
     linkText: "$10 Cover"
+  },
+  {
+    datetime: "2024-08-02T18:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
   },
   {
     datetime: "2024-08-03T13:00",
