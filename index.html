@@ -1,183 +1,152 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5VDC2FEB0"></script>
-  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-  <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5VDC2FEB0"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
 
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-K5VDC2FEB0");
-  </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Candy Cigarette Band</title>
-  <meta name="description" content="Candy Cigarette is an original blues-rock band made up of Lucas -
-      vocals / guitar / piano & his twin Isaac - vocals / bass. These two
-      prove rock & roll is far from dead." />
-  <meta name="keywords"
-    content="Candy Cigarette, Candy Cigarettes, Candy Cigarette Band, Band, Acoustic, Blues, Country, Rock, Southern, Southern Rock, Heavy Blues, Isaac, Lucas, Deitz, WI, Wisconsin, Waukesha, Oconomowoc, Milwaukee, West Bend, Watertown, East Troy" />
-  <link rel="shortcut icon" href="./assets/Candy_Cigarette_Band_EP_Stickers.png" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Playfair+Display:wght@700&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.cdnfonts.com/css/excalibur-nouveau" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-
-  <!-- pages -->
-  <script src="./pages/bio.vue.js"></script>
-  <script src="./pages/contact.vue.js"></script>
-  <script src="./pages/dates.vue.js"></script>
-  <script src="./pages/home.vue.js"></script>
-  <script src="./pages/music.vue.js"></script>
-
-  <!-- components -->
-  <script src="./components/header.vue.js"></script>
-  <script src="./components/footer.vue.js"></script>
-  <script src="./components/section.vue.js"></script>
-  <script src="./components/icons.vue.js"></script>
-  <script src="./components/logo.vue.js"></script>
-  <script src="./components/connections.vue.js"></script>
-  <script src="./components/hero.vue.js"></script>
-  <script src="./components/dates.vue.js"></script>
-  <script src="./components/contacts.vue.js"></script>
-  <script src="./components/subscribe.vue.js"></script>
-  <script src="./components/setlist.vue.js"></script>
-  <script src="./components/videos.vue.js"></script>
-
-  <!-- data -->
-  <script src="./data/shows.js"></script>
-  <script src="./data/songs.js"></script>
-  <script>
-
-    const routes = [
-      {
-        path: "/",
-        name: "Home",
-        component: HomePage,
-        meta: {
-          props: {bodyClass: "home"}
-        },
-      },
-      {
-        path: "/dates",
-        component: DatesPage,
-        meta: {
-          props: {bodyClass: ""}
-        },
-      },
-      {
-        path: "/music",
-        component: MusicPage,
-        meta: {
-          props: {bodyClass: ""}
-        },
-      },
-      {
-        path: "/bio",
-        component: BioPage,
-        meta: {
-          props: {bodyClass: ""}
-        },
-      },
-      {
-        path: "/contact",
-        component: ContactPage,
-        meta: {
-          props: {bodyClass: ""}
-        },
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    ];
+      gtag("js", new Date());
 
-    const router = VueRouter.createRouter({
-      // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-      history: VueRouter.createWebHashHistory(),
-      scrollBehavior(to, from, savedPosition) {
-        // always scroll to top
-        return { top: 0 }
-      },
-      routes, // short for `routes: routes`
-    });
+      gtag("config", "G-K5VDC2FEB0");
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Candy Cigarette Band</title>
+    <meta name="description" content="Candy Cigarette is an original blues-rock band made up of Lucas -
+        vocals / guitar / piano & his twin Isaac - vocals / bass. These two
+        prove rock & roll is far from dead." />
+    <meta name="keywords"
+      content="Candy Cigarette, Candy Cigarettes, Candy Cigarette Band, Band, Acoustic, Blues, Country, Rock, Southern, Southern Rock, Heavy Blues, Isaac, Lucas, Deitz, WI, Wisconsin, Waukesha, Oconomowoc, Milwaukee, West Bend, Watertown, East Troy" />
+    <link rel="shortcut icon" href="./assets/Candy_Cigarette_Band_EP_Stickers.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/excalibur-nouveau" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-    // when life is settled, load up the fun stuff
-    document.addEventListener("DOMContentLoaded", function () {
-      const CandyCigarette = { 
-        el: "#app"
-      };
+    <!-- pages -->
+    <script src="./pages/bio.vue.js"></script>
+    <script src="./pages/contact.vue.js"></script>
+    <script src="./pages/dates.vue.js"></script>
+    <script src="./pages/home.vue.js"></script>
+    <script src="./pages/music.vue.js"></script>
 
-      const app = Vue.createApp(CandyCigarette);
-        app.component("Contacts", Contacts);
-        app.component("Subscribe", Subscribe);
-        app.component("Connections", Connections);
-        app.component("Hero", Hero);
-        app.component("Logo", Logo);
-        app.component("Videos", Videos);
-        app.component("Dates", Dates);
-        app.component("Setlist", Setlist);
-        app.component("Pageheader", Pageheader);
-        app.component("Pagefooter", Pagefooter);
-        app.component("Section", Section);
-        app.component("Facebook", Facebook);
-        app.component("Instagram", Instagram);
-        app.component("AppleMusic", AppleMusic);
-        app.component("Spotify", Spotify);
-        app.component("SoundCloud", SoundCloud);
-        app.component("Bandcamp", Bandcamp);
-        app.component("YouTube", YouTube);
-        app.use(router);
-        app.mount("#app");
-    });
-  </script>
-</head>
+    <!-- components -->
+    <script src="./components/header.vue.js"></script>
+    <script src="./components/footer.vue.js"></script>
+    <script src="./components/section.vue.js"></script>
+    <script src="./components/icons.vue.js"></script>
+    <script src="./components/logo.vue.js"></script>
+    <script src="./components/connections.vue.js"></script>
+    <script src="./components/hero.vue.js"></script>
+    <script src="./components/dates.vue.js"></script>
+    <script src="./components/contacts.vue.js"></script>
+    <script src="./components/subscribe.vue.js"></script>
+    <script src="./components/setlist.vue.js"></script>
+    <script src="./components/videos.vue.js"></script>
 
-<body>
-  <!-- Messenger Chat Plugin Code -->
-  <div id="fb-root"></div>
+    <!-- data -->
+    <script src="./data/shows.js"></script>
+    <script src="./data/songs.js"></script>
+    <script>
 
-  <!-- Your Chat Plugin code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
-  </div>
+      const routes = [
+        {
+          path: "/",
+          name: "Home",
+          component: HomePage,
+          meta: {
+            props: {bodyClass: "home"}
+          },
+        },
+        {
+          path: "/dates",
+          component: DatesPage,
+          meta: {
+            props: {bodyClass: ""}
+          },
+        },
+        {
+          path: "/music",
+          component: MusicPage,
+          meta: {
+            props: {bodyClass: ""}
+          },
+        },
+        {
+          path: "/bio",
+          component: BioPage,
+          meta: {
+            props: {bodyClass: ""}
+          },
+        },
+        {
+          path: "/contact",
+          component: ContactPage,
+          meta: {
+            props: {bodyClass: ""}
+          },
+        }
+      ];
 
-  <script>
-    var chatbox = document.getElementById('fb-customer-chat');
-    chatbox.setAttribute("page_id", "102256468452358");
-    chatbox.setAttribute("attribution", "biz_inbox");
-  </script>
-
-  <!-- Your SDK code -->
-  <script>
-    window.fbAsyncInit = function () {
-      FB.init({
-        xfbml: true,
-        version: 'v12.0'
+      const router = VueRouter.createRouter({
+        // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
+        history: VueRouter.createWebHashHistory(),
+        scrollBehavior(to, from, savedPosition) {
+          // always scroll to top
+          return { top: 0 }
+        },
+        routes, // short for `routes: routes`
       });
-    };
 
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-  <div id="app">
-    <div :class="$route.meta.props.bodyClass">
-      <Pageheader></Pageheader>
-      <main>
-        <router-view></router-view>
-      </main>
-      <Pagefooter></Pagefooter>
+      // when life is settled, load up the fun stuff
+      document.addEventListener("DOMContentLoaded", function () {
+        const CandyCigarette = { 
+          el: "#app"
+        };
+
+        const app = Vue.createApp(CandyCigarette);
+          app.component("Contacts", Contacts);
+          app.component("Subscribe", Subscribe);
+          app.component("Connections", Connections);
+          app.component("Hero", Hero);
+          app.component("Logo", Logo);
+          app.component("Videos", Videos);
+          app.component("Dates", Dates);
+          app.component("Setlist", Setlist);
+          app.component("Pageheader", Pageheader);
+          app.component("Pagefooter", Pagefooter);
+          app.component("Section", Section);
+          app.component("Facebook", Facebook);
+          app.component("Instagram", Instagram);
+          app.component("AppleMusic", AppleMusic);
+          app.component("Spotify", Spotify);
+          app.component("SoundCloud", SoundCloud);
+          app.component("Bandcamp", Bandcamp);
+          app.component("YouTube", YouTube);
+          app.use(router);
+          app.mount("#app");
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div :class="$route.meta.props.bodyClass">
+        <Pageheader></Pageheader>
+        <main>
+          <router-view></router-view>
+        </main>
+        <Pagefooter></Pagefooter>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
