@@ -33,13 +33,14 @@ const Dates = {
     <div>
       <div class="show" v-for="show in sortedShows" :key="show.datetime">
         <div>
-          <b>{{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}</b>
+          {{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}
         </div>
         <div class="name-location">
-          <b>{{show.venue}} <span
-            v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'"
-            >@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span></b><br/>
-          {{show.location}}<br/>
+          {{show.location}}
+          <span v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'">@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span>
+          <br/>
+          <small>{{show.venue}}</small>
+          <br/>
           <small v-if="show.notes">{{show.notes}}</small>
         </div>
         <div>
