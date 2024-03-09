@@ -37,9 +37,8 @@ const Dates = {
         </div>
         <div class="name-location">
           {{show.location}}
-          <span v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'">@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span>
           <br/>
-          <small>{{show.venue}}</small>
+          <small>{{show.venue}} <span v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'">@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span></small>
           <br/>
           <small v-if="show.notes">{{show.notes}}</small>
         </div>
