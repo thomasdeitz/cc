@@ -1294,11 +1294,6 @@ const shows = [
     notes: "Isaac & Lucas supporting Whiskey and the Devil"
   },
   {
-     datetime: "2024-05-04T16:00",
-     venue: "Cars & Guitars - Sunset Hill Farms",
-     location: "Lake Mills, WI"
-   },
-  {
     datetime: "2024-05-18T15:00",
     venue: "St Killian FunFest 2024",
     location: "Hartford, WI"
@@ -1351,8 +1346,8 @@ const shows = [
     datetime: "2024-06-22T00:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ TBA",
-    //linkText: "$10 Cover"
+    notes: "w/ Pete's Diary & TBA",
+    linkText: "Cover"
   },
   {
     datetime: "2024-06-23T16:00",
