@@ -1338,8 +1338,8 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2024-06-16T18:00",
-    venue: "Tumbled Rock Brewery",
+    datetime: "2024-06-16T00:00",
+    venue: "TBA",//"Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
   {
@@ -1404,8 +1404,8 @@ const shows = [
     linkText: "$10 Cover"
   },
   {
-    datetime: "2024-08-02T18:00",
-    venue: "Tumbled Rock Brewery",
+    datetime: "2024-08-02T00:00",
+    venue: "TBA",//"Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
   {
