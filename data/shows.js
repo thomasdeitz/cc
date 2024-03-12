@@ -180,11 +180,6 @@ const shows = [
     venue: "Traditions Pub",
     location: "Fillmore, WI"
   },
-  //{ - Cancelled due to conflict
-    //datetime: "2022-02-25T19:45",
-    //venue: "Thirsty Bird Saloon",
-    //location: "Oconomowoc, WI"
-  //},
   {
     datetime: "2022-03-04T19:00",
     venue: "Henny's DugOut",
@@ -545,11 +540,6 @@ const shows = [
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
   },
-  // { - Canceled due to cancelled vendors
-  //   datetime: "2022-09-28T17:00",
-  //   venue: "Belfrē Kitchen",
-  //   location: "Delafield, WI",
-  // },
   {
     datetime: "2022-10-01T08:00",
     venue: "West Bend Farmers Market - Old Settlers Gazebo",
@@ -561,11 +551,6 @@ const shows = [
     location: "West Bend, WI",
     notes: "w/ Batteries Not Included"
   },
-  //{ - Canceled - weather i think
-    //datetime: "2022-10-06T17:00",
-    //venue: "Bike Night at Boozhag's Clubhouse",
-    //location: "Nashotah, WI",
-  //},
   {
     datetime: "2022-10-08T20:00",
     venue: "Heileman's",
@@ -606,11 +591,6 @@ const shows = [
     venue: "West Bend Farmers Market - Antidote",
     location: "West Bend, WI",
   },
-  //{ - Cancelled due to Isaac Illness
-    //datetime: "2022-11-02T18:30",
-    //venue: "Red Rooster",
-    //location: "Madison, WI"
-  //},
   {
     datetime: "2022-11-11T19:00",
     venue: "Henny's DugOut",
@@ -621,11 +601,6 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  //{ - Canceled due to double booking by venue
-    //datetime: "2022-12-17T20:00",
-    //venue: "Knucklehead Pub",
-    //location: "Eagle, WI"
-  //},
   {
     datetime: "2022-12-04T13:00",
     venue: "Washington County Humane Society - Festival of Trees",
@@ -662,18 +637,18 @@ const shows = [
     location: "West Bend, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-01-13T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-01-14T18:00",
     venue: "Miramar Theatre - New Year Kick Off",
     location: "Milwaukee, WI"
   },
-  { // Yes
+  {
     datetime: "2023-01-18T18:30",
     venue: "Red Rooster",
     location: "Madison, WI"
@@ -684,7 +659,7 @@ const shows = [
     location: "West Bend, WI",
     notes: "Hugh Jass Extra Credit"
   },
-  { // Yes
+  {
     datetime: "2023-01-27T17:00",
     venue: "Lilliput Records",
     location: "Milwaukee, WI"
@@ -706,7 +681,7 @@ const shows = [
     location: "Dousman, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-02-17T18:30",
     venue: "Big Turn Music Festival - Mandy's Coffee & Cafe",
     location: "Red Wing, MN"
@@ -717,7 +692,7 @@ const shows = [
     location: "Oconomowoc, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-03-01T18:00",
     venue: "IndieTuneUp",
     location: "Fitchburg, WI",
@@ -729,17 +704,12 @@ const shows = [
     location: "Thiensville, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-03-17T19:00",
     venue: "Main Street Music",
     location: "Brooklyn, WI",
     notes: "Supporting The Katie Scullin Band"
   },
-  //{ Canceled - Venue did no get licenses in time
-    //datetime: "2023-04-15T20:00",
-    //venue: "Lumber Axe & BrewCade Pub",
-    //location: "Waukesha, WI"
-  //},
   {
     datetime: "2023-04-15T19:00",
     venue: "Henny's DugOut",
@@ -761,7 +731,7 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "Isaac & Lucas"
   },
-  { // Yes
+  {
     datetime: "2023-04-29T16:00",
     venue: "The Drafty Cellar",
     location: "Watertown, WI",
@@ -771,13 +741,13 @@ const shows = [
     venue: "Rustic Woods Campground Bar",
     location: "Waupaca, WI"
   },
-  { // Yes
+  {
     datetime: "2023-05-13T17:00",
      venue: "Studio 301",
      location: "Portage, WI",
      notes: "w/ Ginseng & The Coves"
   },
-  { // Yes
+  {
     datetime: "2023-05-19T14:00",
     venue: "Jam for Jam - The Barrel Inn",
     location: "Marshall, WI"
@@ -787,7 +757,7 @@ const shows = [
     venue: "St. Killian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
-  { // Yes
+  {
     datetime: "2023-05-21T12:00",
     venue: "HomeGrown Blues Festival - Foundry 45",
     location: "Kewaskum, WI",
@@ -808,7 +778,7 @@ const shows = [
     venue: "5K Afterparty Belfrē             ",
     location: "Delafield, WI",
   },
-  { // Yes
+  {
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
@@ -823,7 +793,7 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  { // Yes
+  {
     datetime: "2023-06-08T18:00",
     venue: "Nixon Park Concert Series",
     location: "Hartland, WI",
@@ -834,7 +804,7 @@ const shows = [
     //venue: "the baaree",
     //location: "Thiensville, WI"
   //},
-  { // Yes
+  {
     datetime: "2023-06-11T12:00",
     venue: "Crawfish Junction",
     location: "Johnson Creek, WI"
@@ -844,7 +814,7 @@ const shows = [
     venue: "Wednesday Night Market at Belfrē",
     location: "Delafield, WI"
   },
-  { // Yes
+  {
     datetime: "2023-06-16T17:30",
     venue: "SoLu Estate Winery",
     location: "Cascade, WI"
@@ -854,7 +824,7 @@ const shows = [
     venue: "Private Party",
     location: "Hartford, WI"
   },
-  { // Yes
+  {
     datetime: "2023-06-23T17:30",
     venue: "Blues From The Top - Cooper Creek Stage",
     location: "Winter Park, CO"
@@ -894,7 +864,7 @@ const shows = [
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  { // Yes
+  {
     datetime: "2023-07-06T20:00",
     venue: "Summerfest - Guitars For Vets WAMI Stage",
     location: "Milwaukee, WI"
@@ -904,7 +874,7 @@ const shows = [
     venue: "Camp Northern Lights",
     location: "Campbellsport, WI"
   },
-  { // Yes
+  {
     datetime: "2023-07-08T13:00",
     venue: "Summerfest - Second Floor Stage",
     location: "Milwaukee, WI"
@@ -945,7 +915,7 @@ const shows = [
     venue: "Thiensville Village Market",
     location: "Thiensville, WI",
   },
-  { // Yes
+  {
     datetime: "2023-07-19T15:00",
     venue: "Waukesha County Fair - Coors Light Stage",
     location: "Waukesha, WI",
@@ -955,7 +925,7 @@ const shows = [
     venue: "Galaxie Theatre",
     location: "Johnson Creek, WI",
   },
-  { // Yes Jimorrie
+  {
     datetime: "2023-07-21T15:00",
     venue: "Private Party",
     location: "Saukville, WI",
@@ -966,7 +936,7 @@ const shows = [
     location: "Thiensville, WI",
     notes: "w/ Big Al Dorn & The Blues Howlers, Leroy Airmaster, The Blues Disciples, The Jimmys & DJ Trans Am"
   },
-  { // Yes
+  {
     datetime: "2023-07-23T16:00",
     venue: "Brothers' Pub",
     location: "Shawano, WI",
@@ -1013,16 +983,6 @@ const shows = [
     venue: "Boozhag's Clubhouse - Tuesday Bike Night",
     location: "Nashotah, WI"
   },
-  //{ Canceled due to weather
-    //datetime: "2023-08-23T17:00",
-    //venue: "Bilda's Friess Lake Pub",
-    //location: "Hubertus, WI"
-  //},
-  //{ Canceled due to weather
-    //datetime: "2023-08-24T18:00",
-    //venue: "Tumbled Rock Brewery",
-    //location: "Baraboo, WI",
-  //},
   {
     datetime: "2023-08-26T08:00",
     venue: "West Bend Farmers Market",
@@ -1053,7 +1013,7 @@ const shows = [
     venue: "Wheels on Main - Washington County Fair Park",
     location: "West Bend, WI"
   },
-  { // Yes
+  {
     datetime: "2023-09-03T16:00",
     venue: "the baaree",
     location: "Thiensville, WI"
@@ -1064,13 +1024,13 @@ const shows = [
     location: "Nashotah, WI",
     notes: "Music All Weekend"
   },
-  { // Yes
+  {
     datetime: "2023-09-09T13:00",
     venue: "Fall Fest",
     location: "Oconomowoc, WI",
     notes: "w/ Slim Rox, Kingfish Band, Failure to Launch"
   },
-  { // Yes
+  {
     datetime: "2023-09-09T16:00",
     venue: "Martifest 2023",
     location: "Sullivan, WI",
@@ -1118,7 +1078,7 @@ const shows = [
     venue: "West Bend Farmers Market",
     location: "West Bend, WI",
   },
-  { // Yes
+  {
     datetime: "2023-10-07T19:00",
     venue: "Private Party",
     location: "Beechwood, WI",
@@ -1156,7 +1116,7 @@ const shows = [
     link: "https://buddyguy.com/event/chicago-blues-challenge/buddy-guys-legends/chicago-illinois/",
     linkText: "Tickets"
   },
-  { // Yes
+  {
     datetime: "2023-11-16T19:30",
     venue: "Genesee Theatre",
     location: "Waukegan, IL",
@@ -1164,7 +1124,7 @@ const shows = [
     link: "https://www.ticketmaster.com/event/07005EED84B41500?brand=genesee&camefrom=CFC_GENESEE",
     linkText: "Tickets"
   },
-  { // Yes
+  {
     datetime: "2023-11-20T19:30",
     venue: "High Noon Saloon",
     location: "Madison, WI",
@@ -1177,24 +1137,19 @@ const shows = [
     venue: "JJ's On The Bend",
     location: "Hartford, WI",
   },
-  { // Yes
+  {
     datetime: "2023-12-03T14:00",
     venue: "Amplified Artist Sessions - Ope! Brewing",
     location: "West Allis, WI",
     notes: "In-the-round: Candy Cigarette, Cosmic Lovechild & Erin Krebs / Featured Band: Wolves With Virginia"
   },
-  { // Yes
+  {
     datetime: "2023-12-08T20:00",
     venue: "Retro City Rockade",
     location: "Janesville, WI",
     notes: "w/ Take Back The Sun & Liquid Sky"
   },
-  //{ Cancelled due to miscommunication
-    //datetime: "2023-12-16T17:00",
-    //venue: "1 of Us Brewing Company",
-    //location: "Mt Pleasant, WI"
-  //},
-  { // Yes
+  {
     datetime: "2023-12-16T19:00",
     venue: "Foundry 45",
     location: "Kewaskum, WI",
@@ -1229,20 +1184,6 @@ const shows = [
     link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195#smtx-click",
     linkText: "Tickets"
   },
-  // { Canceled
-  //   datetime: "2024-02-04T14:00",
-  //   venue: "Amplified Artist Sessions - Ope! Brewing",
-  //   location: "West Allis, WI",
-  //   notes: "In-the-round: Max Niemann (Diet Lite), Supertenticles & Geoargia Rae / Featured Band: Candy Cigarette"
-  // },
-  // { Canceled
-  //   datetime: "2024-02-09T18:00",
-  //   venue: "Key Palace Theatre",
-  //   location: "Redkey, IN",
-  //   notes: "Supporting Danny Garwood & Company",
-  //   link: "https://www.keypalacetheater.online/event-details/danny-garwood-co-1",
-  //   linkText: "Tickets"
-  // },
   {
     datetime: "2024-02-16T20:00",
     venue: "Big Turn Music Fest - Tootsie Too's",
@@ -1376,7 +1317,7 @@ const shows = [
   //   venue: "Blues from the Top",
   //   location: "Winter Park, CO"
   // },
-  //{ Need to Canceled 
+  //{ Need to Cancel
   //  datetime: "2024-07-10T17:30",
   //  venue: "Open Jam - Bilda's Friess Lake Pub",
   //  location: "Hubertus, WI"
