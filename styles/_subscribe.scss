@@ -24,6 +24,10 @@
       grid-template-columns: 2fr 1fr;
       gap:10px;
     }
+
+    #mc_embed_signup .button {
+      margin: 0px;
+    }
   
     #emsubmit {
       grid-area: sb;
