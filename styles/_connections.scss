@@ -14,8 +14,7 @@
         border-radius: 50%;
 
         &:hover {
-            background-color: var(--primary);
-            color: var(--white);
+            opacity: .5;
         }
     }
 }

@@ -1,0 +1,40 @@
+a.button, .button, button, input[type="submit"] {
+    text-decoration: none;
+    height: 40px;
+    padding: 0 40px;
+    border-radius: 3px;
+    align-items: center;
+    display: inline-flex;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Art Nuvo', 'Barlow Semi Condensed', sans-serif;
+    border: 1px solid var(--black);
+    text-transform: uppercase;
+    
+    &:hover {
+      opacity: .5;
+    }
+  
+    section.black & {
+      background-color: transparent;
+      color: var(--white);
+      border: 1px solid var(--white);
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+
+  input {
+    text-decoration: none;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 3px;
+    align-items: center;
+    display: inline-flex;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: 'Art Nuvo', 'Barlow Semi Condensed', sans-serif;
+    border: 1px solid var(--white);
+    text-transform: uppercase;
+    outline: none;
+  }

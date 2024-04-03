@@ -6,7 +6,7 @@ const Dates = {
         }
     },
     props: {
-      length: Number
+      length: String
     },
     computed: {
         sortedShows: function () {
@@ -31,8 +31,9 @@ const Dates = {
     },
     template: `
     <div>
-      <div class="show" v-for="show in sortedShows" :key="show.datetime">
-        <div>
+    <div class="shows">
+      <template v-for="show in sortedShows" :key="show.datetime">
+        <div class="date">
           <b>{{new Date(show.datetime).toLocaleDateString('en', {month:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {day:'2-digit'})}}.{{new Date(show.datetime).toLocaleDateString('en', {year:'2-digit'})}}</b>
         </div>
         <div class="name-location">
@@ -40,9 +41,9 @@ const Dates = {
           <br/>
           <small>{{show.venue}} <span v-if="new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }) !== '12:00 AM'">@ {{new Date(show.datetime).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })}}</span></small>
           <br/>
-          <small v-if="show.notes">{{show.notes}}</small>
+          <small class="notes" v-if="show.notes">{{show.notes}}</small>
         </div>
-        <div>
+        <div class="action">
           <a :href="show.link" target="_blank" title="Link to buy {{linkText}}" v-if="show.link" class="button">{{show.linkText}}</a>
           <strong v-if="show.linkText && !show.link">{{show.linkText}}</strong>
         </div>
@@ -63,10 +64,12 @@ const Dates = {
           </small>         
         </div> -->
 
-      </div>
+            </template>
       <br v-if="length" />
       <br v-if="length" />
-      <router-link v-if="length" to="/dates" class="button">View All</router-link>
+      
     </div>
+    <router-link v-if="length" to="/dates" class="button">View All</router-link>
+    <div>
     `
 }

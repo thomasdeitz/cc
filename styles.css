@@ -1,7 +1,7 @@
 :root {
   --black: #0B0F0E;
   --white: #DCE4DF;
-  --primary: #613721;
+  --primary: #BB8549;
   --accent: #BB8549;
   --breakpoint-phone: 600px;
   --breakpoint-tablet: 900px;
@@ -13,23 +13,23 @@
   --breakpoint-desktop: 1440px;
 }
 
-@font-face {}
+@font-face {
+  font-family: "Art Nuvo";
+  src: url("./assets/Art-Nuvo.ttf");
+}
 :root {
   font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 1.1vw;
+  font-size: 21px;
   line-height: 1.8;
+}
+
+h1, h2, h4 {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 800px) {
-  :root {
-    font-size: 3vw;
-    line-height: 1.5;
-  }
-}
-h1, h2, h4 {
-  text-transform: uppercase;
+small {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 14px;
 }
 
 a {
@@ -41,67 +41,89 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  position: relative;
+body {
+  margin: 0px;
   background-color: var(--black);
-  width: 100%;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+.home .container {
+  text-align: center;
+}
+
+header {
+  background-color: var(--black);
+  box-shadow: 0 0 160px 160px var(--black);
   display: flex;
   justify-content: center;
-}
-header img {
-  height: 150px;
-  width: auto;
-}
-@media only screen and (max-width: 800px) {
-  header img {
-    height: 100px;
-    margin-top: 20px;
-  }
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1000;
 }
 header svg {
-  position: relative;
-  height: 280px;
-  width: auto;
   color: var(--accent);
-}
-@media only screen and (max-width: 800px) {
-  header svg {
-    height: 240px;
-  }
-}
-.home header svg {
-  top: calc(100vh - 320px);
-}
-@media only screen and (max-width: 800px) {
-  .home header svg {
-    top: calc(80vh - 280px);
-  }
+  flex-grow: 0;
+  height: 60px;
+  line-height: 0;
+  position: relative;
+  width: auto;
 }
 header nav {
-  display: flex;
-  width: 100%;
   align-items: center;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  width: 100%;
 }
-header, header a {
+header ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header ul a {
   color: var(--white);
-}
-header a {
   display: inline-block;
+  font-weight: 300;
+  line-height: 1;
+  padding: 1rem 1rem;
+  position: relative;
   text-decoration: none;
-  padding: 0.7vw 2.4vw;
-  font-weight: 900;
   text-transform: uppercase;
 }
-header a:hover {
-  color: var(--white);
-}
-header a span {
-  display: none;
+header ul a:hover {
+  opacity: 0.5;
+  text-decoration: none;
 }
 .home header {
-  background-color: transparent;
-  position: fixed;
+  bottom: 0px;
+  padding-bottom: 40px;
+  position: absolute;
+}
+.home header svg {
+  height: 120px;
+}
+@media only screen and (max-width: 800px) {
+  .home header {
+    bottom: 50vh;
+    box-shadow: 0 0 70px 100px var(--black);
+    padding-bottom: 0px;
+  }
+  .home header svg {
+    height: 60px;
+  }
 }
 
 section {
@@ -139,7 +161,7 @@ section a:hover {
 }
 section.primary {
   background-color: var(--primary);
-  color: var(--white);
+  color: var(--black);
 }
 section.primary a:hover {
   color: var(--white);
@@ -158,14 +180,6 @@ section .videos {
   gap: 20px;
 }
 
-footer {
-  position: relative;
-  padding: 5vw 0;
-  background-color: var(--black);
-  color: var(--white);
-  box-shadow: 50vh 0 0 50vh var(--black);
-}
-
 #hero {
   position: relative;
   height: 100vh;
@@ -174,7 +188,7 @@ footer {
 }
 #hero:before {
   content: "";
-  background-image: url(././assets/HR-SF-CS1-0102_websize.jpg);
+  background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -185,44 +199,25 @@ footer {
   position: fixed;
   z-index: -1;
 }
-#hero:after {
-  content: "";
-  background: linear-gradient(rgba(11, 15, 14, 0) 0, rgb(11, 15, 14) 50%);
-  top: 60vh;
-  height: 40vh;
-  left: 0px;
-  right: 0px;
-  position: fixed;
-  z-index: -1;
-}
-#hero .connections {
-  bottom: calc(0vh + 60px);
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  font-size: 32px;
-}
-#hero .connections a {
-  background-color: transparent;
-  color: var(--white);
-}
-#hero .connections a:hover {
-  opacity: 0.7;
-}
 @media only screen and (max-width: 800px) {
   #hero {
-    height: 80vh;
-  }
-  #hero .connections {
-    bottom: calc(20vh + 80px);
+    height: 50vh;
   }
   #hero:before {
-    height: 80vh;
+    height: 50vh;
   }
-  #hero:after {
-    top: 40vh;
-  }
+}
+
+footer {
+  position: relative;
+  padding: 5vw 0;
+  background-color: var(--black);
+  color: var(--white);
+  box-shadow: 50vh 0 0 50vh var(--black);
+  text-transform: uppercase;
+}
+footer h2 {
+  margin-bottom: 0px;
 }
 
 .connections {
@@ -242,30 +237,45 @@ footer {
   border-radius: 50%;
 }
 .connections a:hover {
-  background-color: var(--primary);
-  color: var(--white);
+  opacity: 0.5;
 }
 
-body {
-  margin: 0px;
-  background-color: var(--black);
+.shows {
+  text-align: left;
+  display: grid;
+  gap: 20px;
+  line-height: 0.8;
+  grid-template-columns: auto 1fr auto;
+  text-transform: uppercase;
 }
-
-.container {
-  margin: auto;
-  width: 90%;
-  max-width: 1200px;
+.shows > div {
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
 }
 @media screen and (max-width: 768px) {
-  .container {
-    max-width: 90%;
+  .shows {
+    grid-template-columns: 1fr;
+  }
+  .shows > div {
+    padding: 0;
   }
 }
-.home .container {
-  text-align: center;
+.shows .date {
+  color: var(--accent);
+}
+.shows b {
+  font-weight: 900;
+}
+.shows .notes {
+  opacity: 0.5;
+}
+.shows .button {
+  justify-content: center;
+  display: flex;
 }
 
-a.button, .button, button {
+a.button, .button, button, input[type=submit] {
   text-decoration: none;
   height: 40px;
   padding: 0 40px;
@@ -274,37 +284,37 @@ a.button, .button, button {
   display: inline-flex;
   background-color: var(--black);
   color: var(--white);
+  font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
+  border: 1px solid var(--black);
+  text-transform: uppercase;
 }
-a.button:hover, .button:hover, button:hover {
-  opacity: 0.9;
+a.button:hover, .button:hover, button:hover, input[type=submit]:hover {
+  opacity: 0.5;
 }
-section.black a.button, section.black .button, section.black button {
-  background-color: var(--primary);
-  color: var(--black);
+section.black a.button, section.black .button, section.black button, section.black input[type=submit] {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
-.show {
-  text-align: left;
-  display: grid;
-  gap: 20px;
-  padding: 20px 0;
-  line-height: 1.2;
-  grid-template-columns: 200px 1fr 200px;
-}
-@media screen and (max-width: 768px) {
-  .show {
-    grid-template-columns: 1fr;
-  }
-}
-.show:not(:last-child) {
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-}
-.show b {
-  font-weight: 900;
+input {
+  text-decoration: none;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 3px;
+  align-items: center;
+  display: inline-flex;
+  background-color: var(--white);
+  color: var(--black);
+  font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
+  border: 1px solid var(--white);
+  text-transform: uppercase;
+  outline: none;
 }
 
 #mc_embed_signup_scroll {
-  padding: 40px 0;
   display: grid;
   grid-template-columns: 1fr auto auto auto 1fr;
   gap: 20px;
@@ -322,6 +332,9 @@ section.black a.button, section.black .button, section.black button {
 }
 #mc_embed_signup_scroll #eminput {
   grid-area: em;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
 }
 #mc_embed_signup_scroll #emsubmit {
   grid-area: sb;
@@ -331,22 +344,22 @@ section.black a.button, section.black .button, section.black button {
   padding: 0;
 }
 #mc_embed_signup_scroll input {
-  font-size: 1.5em;
-  font-family: "Barlow Semi Condensed", sans-serif;
   position: relative;
+  display: inline-block;
   font-weight: bold;
   padding: 10px;
   text-transform: uppercase;
   border: 0px;
   outline: none;
   border-radius: 3px;
+  line-height: 0.8;
+  height: auto;
 }
 #mc_embed_signup_scroll input[type=email] {
   position: relative;
-  width: 300px;
-  border: 1px solid var(--black);
 }
 #mc_embed_signup_scroll input[type=submit] {
+  position: relative;
   height: auto;
   padding: 10px 30px;
   text-align: center;

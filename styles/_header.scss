@@ -1,71 +1,71 @@
 header {
-    position: relative;
     background-color: var(--black);
-    width: 100%;
+    box-shadow: 0 0 160px 160px var(--black);
     display: flex;
     justify-content: center;
-
-    img {
-        height: 150px;
-        width: auto;
-
-        @media only screen and (max-width: 800px) {
-            height: 100px;
-            margin-top: 20px;
-        }
-    }
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+    
 
     svg {
-        position: relative;
-        height: 280px;
-        width: auto;
         color: var(--accent);
-
-        @media only screen and (max-width: 800px) {
-            height: 240px;
-        }
-
-        .home & {
-            top: calc(100vh - 320px);
-
-            @media only screen and (max-width: 800px) {
-                top: calc(80vh - 280px);
-            }
-        }
-        
-       
+        flex-grow: 0;
+        height: 60px;
+        line-height: 0;
+        position: relative;
+        width: auto;   
     }
 
     nav {
-        display: flex;
-        width: 100%;
         align-items: center;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        width: 100%;
     }
 
-    &, a {
-        color: var(--white);
-    }
+    ul {
+        display: flex;
+        flex-grow: 1;
+        justify-content: end;
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
-    a { display: inline-block;
-        text-decoration: none;
-        padding: .7vw 2.4vw;
-        font-weight: 900;
-        text-transform: uppercase;
-
-        &:hover {
+        a { 
             color: var(--white);
-        }
+            display: inline-block;
+            font-weight: 300;
+            line-height: 1;
+            padding: 1rem 1rem;
+            position: relative;
+            text-decoration: none;
+            text-transform: uppercase;     
 
-        span {
-            display: none;
+            &:hover {
+                opacity: .5;
+                text-decoration: none;
+            }
         }
     }
-
 
     .home & {
-        background-color: transparent;
-        position: fixed;
+        bottom: 0px;
+        padding-bottom: 40px;
+        position: absolute;
+
+        svg {
+            height: 120px;
+        }
+
+        @media only screen and (max-width: 800px) {
+            bottom: 50vh;
+            box-shadow: 0 0 70px 100px var(--black);
+            padding-bottom: 0px;
+
+            svg { height: 60px; }
+        }
     }
 }
-

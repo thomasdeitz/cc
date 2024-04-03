@@ -2,13 +2,15 @@ const Pageheader = {
     template: `
         <header>
             <nav>
-                <!-- <router-link to="/">Home</router-link> -->
-                <!-- <router-link to="/dates">Dates</router-link> -->
                 <router-link to="/">
                     <Logo />
                 </router-link>
-                <!-- <router-link to="/bio">About</router-link> -->
-                <!-- <router-link to="/contact">Contact</router-link> -->
+                <!-- <ul>
+                    <li><router-link to="/band">Band</router-link></li>
+                    <li><router-link to="/shows">Shows</router-link></li>
+                    <li><router-link to="/store">Store</router-link></li>
+                    <li><router-link to="/contact">Contact</router-link></li>
+                </ul> -->
             </nav>
         </header>
     `

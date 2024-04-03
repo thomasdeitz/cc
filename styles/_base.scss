@@ -7,3 +7,19 @@ a {
         text-decoration: underline;
     } 
 }
+
+body { margin: 0px; background-color: var(--black);}
+
+.container {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+
+    @media screen and (max-width: 768px) {
+        max-width: 90%;
+    }
+
+    .home & {
+      text-align: center;
+    }
+}

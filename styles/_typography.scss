@@ -1,24 +1,24 @@
 @font-face {
-    //font-family: "Art Nuvo";
-    //src: url("./assets/Art-Nuvo.ttf");
+    font-family: "Art Nuvo";
+    src: url("./assets/Art-Nuvo.ttf");
   }
 
 :root {
     font-family: 'Art Nuvo', 'Barlow Semi Condensed', sans-serif;
     //font-family: 'Excalibur Nouveau', sans-serif;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 1.1vw;
+    //font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 21px;
     line-height: 1.8;
-    text-transform: uppercase;
   }
   
-  @media only screen and (max-width: 800px) {
-    :root {
-      font-size: 3vw;
-      line-height: 1.5;
-    }
-  }
+  @media only screen and (max-width: 800px) {}
 
   h1, h2, h4 {
     text-transform: uppercase;
+  }
+
+  small {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 14px;
+    //line-height: .5;
   }

@@ -4,4 +4,9 @@ footer {
     background-color: var(--black);
     color: var(--white);
     box-shadow: 50vh 0 0 50vh var(--black);
+    text-transform: uppercase;
+
+    h2 {
+        margin-bottom: 0px;
+    }
 }

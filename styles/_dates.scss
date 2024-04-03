@@ -1,0 +1,38 @@
+.shows {
+    text-align: left;
+    display: grid;
+    gap: 20px;
+    line-height: .8;
+    grid-template-columns: auto 1fr auto;
+    text-transform: uppercase;
+
+    & > div {
+      padding: 20px 0;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    @media screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+
+      & > div {
+        padding: 0;
+      }
+    }
+
+    .date {
+      color: var(--accent)
+    }
+  
+   b {
+      font-weight: 900;
+      
+    }
+
+    .notes {opacity:.5;}
+
+    .button {
+      justify-content: center;
+      display: flex;
+    }
+  }

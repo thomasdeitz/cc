@@ -1232,7 +1232,17 @@ const shows = [
     datetime: "2024-04-27T20:00",
     venue: "JC's Pub and Grub",
     location: "West Allis, WI",
-    notes: "Isaac & Lucas supporting Whiskey and the Devil"
+    notes: "Isaac & Lucas w/ Whiskey and the Devil, Sharp Left Turn & Adorner (Solo)",
+    linkText: "More Info",
+    link: "https://www.facebook.com/events/739631575028741",
+  },
+  {
+    datetime: "2024-05-17T14:00",
+    venue: "Jam for Jam - The Barrel Inn",
+    location: "Marshall, WI",
+    notes: "May 16-19, 20 Bands, Free Tent Camping & Firewood",
+    linkText: "Tickets",
+    link: "https://www.etix.com/ticket/p/30380058/jam-for-jam-music-and-camping-festival-2024-marshall-jam-for-jam-festival",
   },
   {
     datetime: "2024-05-18T15:00",
@@ -1250,20 +1260,22 @@ const shows = [
   },
   {
     datetime: "2024-05-31T18:00",
-    venue: "Regner Park",
+    venue: "Beach House Beer Garden - Regner Park",
     location: "West Bend, WI",
+    link: "https://www.facebook.com/events/433209072564796",
+    linkText: "More Info"
   },
   {
     datetime: "2024-06-01T19:00",
-    venue: "Mariner Theatre/Pixels Arcade",
+    venue: "Mariner Theatre / Pixels Arcade - Wasted Pretty Album Release Show",
     location: "Marinette, WI",
-    notes: "Album release show for Wasted Pretty w/ Too Much Tension & Candy Cigarette"
+    notes: "w/ Wasted Pretty & Too Much Tension"
   },
   {
     datetime: "2024-06-07T00:00",
     venue: "Glacier Valley Music Fest 2024",
     location: "Cambria, WI",
-    notes: "Three Stages // 30+ Bands",
+    notes: "Three Stages, 30+ Bands",
     link: "https://www.partymartymusic.com/gvmf",
     linkText: "More Info"
   },
@@ -1272,6 +1284,8 @@ const shows = [
     venue: "Green Town on the Rocks",
     location: "Waukegan, IL",
     notes: "Supporting Pete's Diary",
+    link: "https://www.facebook.com/events/944647243887316",
+    linkText: "More Info"
   },
   {
     datetime: "2024-06-12T17:30",
@@ -1280,22 +1294,23 @@ const shows = [
   },
   {
     datetime: "2024-06-16T00:00",
-    venue: "TBA",//"Tumbled Rock Brewery",
+    venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
   {
-    datetime: "2024-06-22T00:00",
+    datetime: "2024-06-22T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ Pete's Diary & TBA",
-    linkText: "Cover"
+    notes: "w/ Pete's Diary & The Spencer Smet Band",
+    linkText: "$10 Cover"
   },
   {
     datetime: "2024-06-23T16:00",
     venue: "Red Rooster",
     location: "Madison, WI",
     //link: "https://redroostermadison.com/event/",
-    //linkText: "More Info"
+    //notes: "w/ Take Back The Sun",
+    linkText: "$8 Cover"
   },
   {
     datetime: "2024-06-26T17:30",
@@ -1303,20 +1318,37 @@ const shows = [
     location: "Hubertus, WI"
   },
   // {
-  //   datetime: "2024-06-28T00:00",
-  //   venue: "Blues from the Top",
-  //   location: "Winter Park, CO"
+  //   datetime: "2024-06-27T17:15",
+  //   venue: "Pal's Brewing Company",
+  //   location: "North Platte, NE"
   // },
-  // {
-  //   datetime: "2024-06-29T00:00",
-  //   venue: "Blues from the Top",
-  //   location: "Winter Park, CO"
-  // },
-  // {
-  //   datetime: "2024-06-30T00:00",
-  //   venue: "Blues from the Top",
-  //   location: "Winter Park, CO"
-  // },
+  {
+    datetime: "2024-06-28T00:00",
+    //venue: "Music on the Square - Cooper Creek Square",
+    location: "Winter Park, CO"
+  },
+  {
+    datetime: "2024-06-29T00:00",
+    venue: "Blues from the Top - Check out the Music Stage",
+    location: "Winter Park, CO",
+    notes: "Ben Harper & The Innocent Criminals, Charlie Musselwhite, Ally Venable Band, GA-20 & Taj Farrant",
+    link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-855642839767?aff=BluesFromTheTopwebsite",
+    linkText: "Tickets"
+  },
+  {
+    datetime: "2024-06-29T00:00", //"2024-06-29T19:30",
+    //venue: "Devil's Craft",
+    location: "Winter Park, CO",
+    //notes: "Supporting Emanuel Casablanca",
+  },
+  {
+    datetime: "2024-06-30T00:00",
+    venue: "Blues from the Top - Check out the Music Stage",
+    location: "Winter Park, CO",
+    notes: "Eric Gales Canned Heat, Tommy Castro & Deanna Bogart & Toronzo Cannon",
+    link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-855642839767?aff=BluesFromTheTopwebsite",
+    linkText: "Tickets"
+  },
   //{ Need to Cancel
   //  datetime: "2024-07-10T17:30",
   //  venue: "Open Jam - Bilda's Friess Lake Pub",
@@ -1329,7 +1361,7 @@ const shows = [
   },
   {
     datetime: "2024-07-20T00:00",
-    venue: "TBA",//"Cheelabration",
+    //venue: "Cheelabration",
     location: "Thiensville, WI",
   },
   {
@@ -1345,13 +1377,19 @@ const shows = [
     linkText: "$10 Cover"
   },
   {
+    datetime: "2024-07-28T12:00",
+    //venue: "AtwoodFest",
+    location: "Madison, WI",
+    //notes: "w/ TBA",
+  },
+  {
     datetime: "2024-08-02T00:00",
-    venue: "TBA",//"Tumbled Rock Brewery",
+    venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
   {
     datetime: "2024-08-03T13:00",
-    venue: "Regner Park - Moosefest",
+    venue: "Moosefest - Regner Park",
     location: "West Bend, WI"
   },
   {
@@ -1361,7 +1399,7 @@ const shows = [
   },
   {
     datetime: "2024-08-09T15:00",
-    venue: "TBA", // "Ashley for the Arts - Side Stage X",
+    //venue: "Ashley for the Arts - Side Stage",
     location: "Arcadia, WI",
   },
   {
@@ -1371,7 +1409,7 @@ const shows = [
   },
   {
     datetime: "2024-08-15T16:00",
-    venue: "TBA", // "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
+    venue: "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
     location: "Oconomowoc, WI",
   },
   {
@@ -1385,6 +1423,12 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
+    datetime: "2024-08-23T20:00",
+    venue: "Retro City Rockade",
+    location: "Janesville, WI",
+    //notes: "w/ TBD"
+  },
+  {
     datetime: "2024-09-07T00:00",
     venue: "MartiFest",
     location: "Sullivan, WI"
@@ -1396,8 +1440,8 @@ const shows = [
     notes: "w/ Wasted Pretty & Soup"
   },
   {
-    datetime: "2024-09-20T19:30",
-    venue: "TBA",//"The Bend Theatre",
+    datetime: "2024-09-20T00:00",
+    //venue: "The Bend Theatre",
     location: "West Bend, WI",
     //notes: "Supporting Lil Ed & The Blues Imperials",
     //link: "https://thebendwi.org/",

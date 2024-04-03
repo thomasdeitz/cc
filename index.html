@@ -6,7 +6,8 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5VDC2FEB0"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js"></script>
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -16,19 +17,16 @@
 
       gtag("config", "G-K5VDC2FEB0");
     </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Candy Cigarette Band</title>
-    <meta name="description" content="Candy Cigarette is an original blues-rock band made up of Lucas -
-        vocals / guitar / piano & his twin Isaac - vocals / bass. These two
-        prove rock & roll is far from dead." />
-    <meta name="keywords"
-      content="Candy Cigarette, Candy Cigarettes, Candy Cigarette Band, Band, Acoustic, Blues, Country, Rock, Southern, Southern Rock, Heavy Blues, Isaac, Lucas, Deitz, WI, Wisconsin, Waukesha, Oconomowoc, Milwaukee, West Bend, Watertown, East Troy" />
+    <meta name="description" content="Candy Cigarette is an original progressive blues rock band. Lucas Deitz: Vocals / Guitar / Piano // Isaac Deitz: Vocals / Bass / Guitar / Organ // Evan Sterken: Drums" />
+    <meta name="keywords" content="Candy Cigarette, Candy Cigarettes, Candy Cigarette Band, Band, Acoustic, Blues, Country, Rock, Southern, Southern Rock, Heavy Blues, Isaac, Lucas, Deitz, WI, Wisconsin, Waukesha, Oconomowoc, Milwaukee, West Bend, Watertown, East Troy, Evan Sterken, Evan, Sterken" />
+    
     <link rel="shortcut icon" href="./assets/Candy_Cigarette_Band_EP_Stickers.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Playfair+Display:wght@700&display=swap"
-      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
     <link href="https://fonts.cdnfonts.com/css/excalibur-nouveau" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
@@ -39,6 +37,7 @@
     <script src="./pages/dates.vue.js"></script>
     <script src="./pages/home.vue.js"></script>
     <script src="./pages/music.vue.js"></script>
+    <script src="./pages/store.vue.js"></script>
 
     <!-- components -->
     <script src="./components/header.vue.js"></script>
@@ -57,57 +56,8 @@
     <!-- data -->
     <script src="./data/shows.js"></script>
     <script src="./data/songs.js"></script>
+    <script src="./components/routes.vue.js"></script>
     <script>
-
-      const routes = [
-        {
-          path: "/",
-          name: "Home",
-          component: HomePage,
-          meta: {
-            props: {bodyClass: "home"}
-          },
-        },
-        {
-          path: "/dates",
-          component: DatesPage,
-          meta: {
-            props: {bodyClass: ""}
-          },
-        },
-        {
-          path: "/music",
-          component: MusicPage,
-          meta: {
-            props: {bodyClass: ""}
-          },
-        },
-        {
-          path: "/bio",
-          component: BioPage,
-          meta: {
-            props: {bodyClass: ""}
-          },
-        },
-        {
-          path: "/contact",
-          component: ContactPage,
-          meta: {
-            props: {bodyClass: ""}
-          },
-        }
-      ];
-
-      const router = VueRouter.createRouter({
-        // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
-        history: VueRouter.createWebHashHistory(),
-        scrollBehavior(to, from, savedPosition) {
-          // always scroll to top
-          return { top: 0 }
-        },
-        routes, // short for `routes: routes`
-      });
-
       // when life is settled, load up the fun stuff
       document.addEventListener("DOMContentLoaded", function () {
         const CandyCigarette = { 
