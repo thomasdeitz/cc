@@ -327,6 +327,9 @@ input {
     grid-template-areas: "cta" "em" "sb";
   }
 }
+#mc_embed_signup_scroll #mce-EMAIL-HELPERTEXT {
+  display: none;
+}
 #mc_embed_signup_scroll #emsignup {
   grid-area: cta;
 }
