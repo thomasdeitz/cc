@@ -1247,8 +1247,10 @@ const shows = [
   {
     datetime: "2024-05-18T15:00",
     venue: "St Killian FunFest 2024",
-    location: "Hartford, WI"
-    //notes: "TBA",
+    location: "Hartford, WI",
+    notes: "w/ Cherry Pie & Rebel Grace",
+    linkText: "More Info",
+    link: "https://www.facebook.com/events/1820924161707905",
   },
   {
     datetime: "2024-05-25T20:00",
