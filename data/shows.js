@@ -1425,10 +1425,12 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2024-08-23T20:00",
+    datetime: "2024-08-23T19:30",
     venue: "Retro City Rockade",
     location: "Janesville, WI",
-    //notes: "w/ TBD"
+    notes: "w/ Take Back The Sun & LARGEMOUTH",
+    link: "https://www.facebook.com/events/2422227154636270",
+    linkText: "More Info"
   },
   {
     datetime: "2024-09-07T00:00",
