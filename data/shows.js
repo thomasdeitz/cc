@@ -1295,9 +1295,19 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
+    datetime: "2024-06-14T00:00",
+    venue: "TBA",
+    location: "Round Lake Heights, IL"
+  },
+  {
     datetime: "2024-06-16T00:00",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
+  },
+  {
+    datetime: "2024-06-21T18:30",
+    venue: "TBA", //"Friday Night Live - Vinyl Vault",
+    location: "Waukesha, WI",
   },
   {
     datetime: "2024-06-22T20:00",
