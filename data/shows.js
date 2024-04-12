@@ -1306,7 +1306,7 @@ const shows = [
   },
   {
     datetime: "2024-06-21T18:30",
-    venue: "TBA", //"Friday Night Live - Vinyl Vault",
+    venue: "Friday Night Live - Vinyl Vault",
     location: "Waukesha, WI",
   },
   {
