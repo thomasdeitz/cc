@@ -1443,6 +1443,11 @@ const shows = [
     linkText: "More Info"
   },
   {
+    datetime: "2024-08-24T19:00",
+    venue: "The Hive Taproom",
+    location: "East Troy, WI"
+  },
+  {
     datetime: "2024-09-07T00:00",
     venue: "MartiFest",
     location: "Sullivan, WI"
