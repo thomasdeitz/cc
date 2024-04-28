@@ -1454,7 +1454,7 @@ const shows = [
   },
   {
     datetime: "2024-09-13T00:00",
-    venue: "Rally Point",
+    venue: "RallyPoint",
     location: "Oconomowoc, WI",
     notes: "w/ Radiation"
   },
