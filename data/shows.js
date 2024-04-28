@@ -1453,6 +1453,12 @@ const shows = [
     location: "Sullivan, WI"
   },
   {
+    datetime: "2024-09-13T00:00",
+    venue: "Rally Point",
+    location: "Oconomowoc, WI",
+    notes: "w/ Radiation"
+  },
+  {
     datetime: "2024-09-14T20:00",
     venue: "Cactus Menekaunee",
     location: "Marinette, WI",
