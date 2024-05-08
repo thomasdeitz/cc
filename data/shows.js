@@ -1313,7 +1313,7 @@ const shows = [
     datetime: "2024-06-22T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ Pete's Diary & The Spencer Smet Band",
+    notes: "w/ TBD & The Spencer Smet Band",
     linkText: "$10 Cover"
   },
   {
@@ -1348,7 +1348,7 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2024-06-29T00:00", //"2024-06-29T19:30",
+    datetime: "2024-06-29T20:30",
     //venue: "Devil's Craft",
     location: "Winter Park, CO",
     //notes: "Supporting Emanuel Casablanca",
@@ -1361,15 +1361,10 @@ const shows = [
     link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-855642839767?aff=BluesFromTheTopwebsite",
     linkText: "Tickets"
   },
-  //{ Need to Cancel
-  //  datetime: "2024-07-10T17:30",
-  //  venue: "Open Jam - Bilda's Friess Lake Pub",
-  //  location: "Hubertus, WI"
-  // },
   {
     datetime: "2024-07-19T00:00",
     venue: "Jimorriefest",
-    location: "Saukville, WI"
+    location: "Saukville, WI" 
   },
   {
     datetime: "2024-07-20T00:00",
