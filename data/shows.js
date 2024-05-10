@@ -1349,9 +1349,9 @@ const shows = [
   },
   {
     datetime: "2024-06-29T20:30",
-    //venue: "Devil's Craft",
+    venue: "Devil's Craft",
     location: "Winter Park, CO",
-    //notes: "Supporting Emanuel Casablanca",
+    notes: "Supporting Emanuel Casablanca",
   },
   {
     datetime: "2024-06-30T00:00",
@@ -1406,7 +1406,7 @@ const shows = [
   },
   {
     datetime: "2024-08-09T15:00",
-    //venue: "Ashley for the Arts - Side Stage",
+    venue: "Ashley for the Arts - Pavilion Stagee",
     location: "Arcadia, WI",
   },
   {
