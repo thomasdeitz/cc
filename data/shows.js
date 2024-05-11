@@ -1352,6 +1352,8 @@ const shows = [
     venue: "Devil's Craft",
     location: "Winter Park, CO",
     notes: "Supporting Emanuel Casablanca",
+    link: "https://www.eventbrite.com/e/emanuel-casablanca-with-candy-cigarette-tickets-902219993287?aff=oddtdtcreator",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-06-30T00:00",
