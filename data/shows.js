@@ -1408,7 +1408,7 @@ const shows = [
   },
   {
     datetime: "2024-08-09T15:00",
-    venue: "Ashley for the Arts - Pavilion Stagee",
+    venue: "Ashley for the Arts - Pavilion Stage",
     location: "Arcadia, WI",
   },
   {
@@ -1469,9 +1469,9 @@ const shows = [
     //link: "https://thebendwi.org/",
     //linkText: "Tickets"
   },
-  // {
-  //   datetime: "2024-10-05T18:30",
-  //   venue: "Private Event",
-  //   location: "Beechwood, WI",
-  // },
+  {
+    datetime: "2024-10-05T18:30",
+    venue: "TBD",
+    location: "Dubuque, IA",
+  },
 ];
