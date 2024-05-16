@@ -1386,8 +1386,8 @@ const shows = [
     linkText: "$10 Cover"
   },
   {
-    datetime: "2024-07-28T12:00",
-    //venue: "AtwoodFest",
+    datetime: "2024-07-28T00:00",
+    venue: "TBA",//"AtwoodFest",
     location: "Madison, WI",
     //notes: "w/ TBA",
   },
@@ -1470,7 +1470,7 @@ const shows = [
     //linkText: "Tickets"
   },
   {
-    datetime: "2024-10-05T18:30",
+    datetime: "2024-10-05T00:00",
     venue: "TBD",
     location: "Dubuque, IA",
   },

@@ -7,6 +7,14 @@ const routes = [
         props: {bodyClass: "home"}
       },
     },
+    {
+      path: "/presskit",
+      name: "PressKit",
+      component: PressKit,
+      meta: {
+        props: {bodyClass: "presskit"}
+      },
+    },
     { // Redirect
       path: "/dates",
       component: DatesPage,
