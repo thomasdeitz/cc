@@ -754,7 +754,7 @@ const shows = [
   },
   {
     datetime: "2023-05-20T15:00",
-    venue: "St. Killian FunFest - Hartford Town Hall",
+    venue: "St. Kilian FunFest - Hartford Town Hall",
     location: "Hartford, WI"
   },
   {
@@ -1246,7 +1246,7 @@ const shows = [
   },
   {
     datetime: "2024-05-18T15:00",
-    venue: "St Killian FunFest 2024",
+    venue: "St Kilian FunFest 2024",
     location: "Hartford, WI",
     notes: "w/ Cherry Pie & Rebel Grace",
     linkText: "More Info",
