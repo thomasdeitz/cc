@@ -1365,8 +1365,8 @@ const shows = [
   },
   {
     datetime: "2024-07-19T00:00",
-    venue: "Jimorriefest",
-    location: "Saukville, WI" 
+    venue: "Private Party",
+    location: "Wisconsin"
   },
   {
     datetime: "2024-07-20T00:00",
@@ -1379,11 +1379,11 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2024-07-27T22:00",
-    venue: "Company Brewing",
-    location: "Milwaukee, WI",
+    datetime: "2024-07-27T20:00",
+    venue: "TBD",
+    location: "Milwaukee",
     notes: "w/ Pete's Diary & Wonderful Bluffer",
-    linkText: "$10 Cover"
+    //linkText: "$10 Cover"
   },
   {
     datetime: "2024-07-28T00:00",
