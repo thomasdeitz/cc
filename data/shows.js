@@ -1380,9 +1380,9 @@ const shows = [
   },
   {
     datetime: "2024-07-27T20:00",
-    venue: "TBD",
-    location: "Milwaukee",
-    notes: "w/ Pete's Diary & Wonderful Bluffer",
+    venue: "Falcon Bowl",
+    location: "Milwaukee, WI",
+    notes: "w/ Pete's Diary & TBD",
     //linkText: "$10 Cover"
   },
   {
