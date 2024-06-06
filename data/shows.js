@@ -1379,15 +1379,15 @@ const shows = [
     location: "Hubertus, WI"
   },
   {
-    datetime: "2024-07-27T20:00",
-    venue: "Falcon Bowl",
+    datetime: "2024-07-27T19:30:00",
+    venue: "Anodyne Coffee - Walker's Point Roastery",
     location: "Milwaukee, WI",
-    notes: "w/ Pete's Diary & TBD",
-    //linkText: "$10 Cover"
+    notes: "w/ Pete's Diary & Wonderful Bluffer",
+    linkText: "$12 ADV. $15 DOOR"
   },
   {
     datetime: "2024-07-28T00:00",
-    venue: "TBA",//"AtwoodFest",
+    venue: "AtwoodFest",
     location: "Madison, WI",
     //notes: "w/ TBA",
   },
