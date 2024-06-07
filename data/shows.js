@@ -1370,7 +1370,7 @@ const shows = [
   },
   {
     datetime: "2024-07-20T00:00",
-    //venue: "Cheelabration",
+    venue: "Cheelabration",
     location: "Thiensville, WI",
   },
   {
