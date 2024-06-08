@@ -1281,14 +1281,14 @@ const shows = [
     link: "https://www.partymartymusic.com/gvmf",
     linkText: "More Info"
   },
-  {
-    datetime: "2024-06-08T18:00",
-    venue: "Green Town on the Rocks",
-    location: "Waukegan, IL",
-    notes: "Supporting Pete's Diary",
-    link: "https://www.facebook.com/events/944647243887316",
-    linkText: "More Info"
-  },
+  // {
+  //   datetime: "2024-06-08T18:00",
+  //   venue: "Green Town on the Rocks",
+  //   location: "Waukegan, IL",
+  //   notes: "Supporting Pete's Diary",
+  //   link: "https://www.facebook.com/events/944647243887316",
+  //   linkText: "More Info"
+  // },
   {
     datetime: "2024-06-12T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
