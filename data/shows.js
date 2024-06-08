@@ -1281,7 +1281,7 @@ const shows = [
     link: "https://www.partymartymusic.com/gvmf",
     linkText: "More Info"
   },
-  // {
+  // { Cancelled
   //   datetime: "2024-06-08T18:00",
   //   venue: "Green Town on the Rocks",
   //   location: "Waukegan, IL",
