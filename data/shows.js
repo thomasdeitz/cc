@@ -1402,6 +1402,11 @@ const shows = [
     location: "West Bend, WI"
   },
   {
+    datetime: "2024-08-04T00:00",
+    venue: "TBA",
+    location: "Shawano, WI"
+  },
+  {
     datetime: "2024-08-07T17:30",
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
@@ -1444,6 +1449,14 @@ const shows = [
     venue: "The Hive Taproom",
     location: "East Troy, WI"
   },
+    // { Reschedule Pending
+  //   datetime: "2024-08-31T18:00",
+  //   venue: "Green Town on the Rocks",
+  //   location: "Waukegan, IL",
+  //   notes: "Supporting Pete's Diary",
+  //   link: "",
+  //   linkText: "More Info"
+  // },
   {
     datetime: "2024-09-07T00:00",
     venue: "MartiFest",
