@@ -1313,7 +1313,7 @@ const shows = [
     datetime: "2024-06-22T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ TBD & The Spencer Smet Band",
+    notes: "w/ The Spencer Smet Band & Modern Haunting",
     linkText: "$10 Cover"
   },
   {
@@ -1336,7 +1336,7 @@ const shows = [
   // },
   {
     datetime: "2024-06-28T00:00",
-    //venue: "Music on the Square - Cooper Creek Square",
+    venue: "Music on the Square - Cooper Creek Square",
     location: "Winter Park, CO"
   },
   {
@@ -1351,9 +1351,9 @@ const shows = [
     datetime: "2024-06-29T20:30",
     venue: "Devil's Craft",
     location: "Winter Park, CO",
-    notes: "Supporting Emanuel Casablanca",
-    link: "https://www.eventbrite.com/e/emanuel-casablanca-with-candy-cigarette-tickets-902219993287?aff=oddtdtcreator",
-    linkText: "Tickets"
+    notes: "Supporting The Wiedls",
+    //link: "https://www.eventbrite.com/e/emanuel-casablanca-with-candy-cigarette-tickets-902219993287?aff=oddtdtcreator",
+    //linkText: "Tickets"
   },
   {
     datetime: "2024-06-30T00:00",
@@ -1476,15 +1476,18 @@ const shows = [
   },
   {
     datetime: "2024-09-20T00:00",
-    //venue: "The Bend Theatre",
+    venue: "The Bend Theatre",
     location: "West Bend, WI",
-    //notes: "Supporting Lil Ed & The Blues Imperials",
-    //link: "https://thebendwi.org/",
-    //linkText: "Tickets"
+    notes: "Supporting Lil Ed & The Blues Imperials",
+    link: "https://www.simpletix.com/e/lil-ed-the-blues-imperials-w-special-guest-tickets-165821",
+    linkText: "Tickets"
   },
   {
-    datetime: "2024-10-05T00:00",
-    venue: "TBD",
-    location: "Dubuque, IA",
+    datetime: "2024-10-18T00:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting The Steepwater Band",
+    link: "https://www.ticketweb.com/event/the-steepwater-band-shank-hall-tickets/13672963",
+    linkText: "Tickets"
   },
 ];
