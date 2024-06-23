@@ -1317,7 +1317,7 @@ const shows = [
     linkText: "$10 Cover"
   },
   {
-    datetime: "2024-06-23T16:00",
+    datetime: "2024-06-23T15:00",
     venue: "Red Rooster",
     location: "Madison, WI",
     //link: "https://redroostermadison.com/event/",
