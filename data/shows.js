@@ -1329,11 +1329,6 @@ const shows = [
     venue: "Open Jam - Bilda's Friess Lake Pub",
     location: "Hubertus, WI"
   },
-  // {
-  //   datetime: "2024-06-27T17:15",
-  //   venue: "Pal's Brewing Company",
-  //   location: "North Platte, NE"
-  // },
   {
     datetime: "2024-06-28T00:00",
     venue: "Music on the Square - Cooper Creek Square",
@@ -1449,14 +1444,14 @@ const shows = [
     venue: "The Hive Taproom",
     location: "East Troy, WI"
   },
-    // { Reschedule Pending
-  //   datetime: "2024-08-31T18:00",
-  //   venue: "Green Town on the Rocks",
-  //   location: "Waukegan, IL",
-  //   notes: "Supporting Pete's Diary",
-  //   link: "",
-  //   linkText: "More Info"
-  // },
+  {
+    datetime: "2024-09-02T14:00",
+    venue: "Green Town on the Rocks",
+    location: "Waukegan, IL",
+    notes: "Supporting Pete's Diary",
+    link: "https://www.facebook.com/events/1017190212639041",
+    linkText: "More Info"
+  },
   {
     datetime: "2024-09-07T00:00",
     venue: "MartiFest",
@@ -1490,4 +1485,9 @@ const shows = [
     link: "https://www.ticketweb.com/event/the-steepwater-band-shank-hall-tickets/13672963",
     linkText: "Tickets"
   },
+  // {
+  //   datetime: "2025-06-27T17:15",
+  //   venue: "Pal's Brewing Company",
+  //   location: "North Platte, NE"
+  // },
 ];
