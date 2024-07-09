@@ -1398,8 +1398,9 @@ const shows = [
   },
   {
     datetime: "2024-08-04T00:00",
-    venue: "TBA",
-    location: "Shawano, WI"
+    venue: "Brother's Pub",
+    location: "Shawano, WI",
+    notes: "Supporting The Champ Jaxon Band"
   },
   {
     datetime: "2024-08-07T17:30",
