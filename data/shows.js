@@ -1378,13 +1378,13 @@ const shows = [
     venue: "Anodyne Coffee - Walker's Point Roastery",
     location: "Milwaukee, WI",
     notes: "w/ Pete's Diary & Wonderful Bluffer",
-    linkText: "$12 ADV. $15 DOOR"
+    link: "https://anodynecoffee.com/pages/concerts?fbclid=IwZXh0bgNhZW0CMTAAAR1uzqQS7QpRiUcPj4tPTwcJLMSFUavw9MWAk-l_P_Zs4piJiWmFHynnu2o_aem_XMh6gYUJDIQbW2KETBctTA#/events/109101",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-07-28T00:00",
-    venue: "AtwoodFest",
+    venue: "AtwoodFest - Sugar Maple Stage",
     location: "Madison, WI",
-    //notes: "w/ TBA",
   },
   {
     datetime: "2024-08-02T00:00",
@@ -1410,6 +1410,8 @@ const shows = [
     datetime: "2024-08-09T15:00",
     venue: "Ashley for the Arts - Pavilion Stage",
     location: "Arcadia, WI",
+    link: "https://www.etix.com/ticket/k/25448837/3day-weekend-pass-arcadia-ashley-for-the-arts?_gl=1*1t67twe*_gcl_aw*R0NMLjE3MjA0OTEyNzcuQ2p3S0NBanduSzYwQmhBOUVpd0FtcEhadzNGVUNDaU5yVHdhUG80QnkxX0ltRzBpWE1IdHR2SFQxNHY5Ukhjbkw3VjVSbnNpUGhIMWJob0NtRGdRQXZEX0J3RQ..*_gcl_au*MTY5MjcyNDgwLjE3MjA0OTEyNzc.*_ga*MjA0NzE1MjkwLjE3MjA0OTEyNzc.*_ga_7QRHLPDZCZ*MTcyMDQ5MTI3Ny4xLjAuMTcyMDQ5MTI3Ny42MC4wLjA.",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-08-11T16:00",
