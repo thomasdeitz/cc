@@ -1456,7 +1456,12 @@ const shows = [
     linkText: "More Info"
   },
   {
-    datetime: "2024-09-07T00:00",
+    datetime: "2024-09-07T12:30",
+    venue: "Fall Fest - Oconomowoc",
+    location: "Oconomowoc, WI"
+  },
+  {
+    datetime: "2024-09-07T16:30",
     venue: "MartiFest",
     location: "Sullivan, WI"
   },
@@ -1479,6 +1484,14 @@ const shows = [
     notes: "Supporting Lil Ed & The Blues Imperials",
     link: "https://www.simpletix.com/e/lil-ed-the-blues-imperials-w-special-guest-tickets-165821",
     linkText: "Tickets"
+  },
+  {
+    datetime: "2024-10-06T00:00",
+    venue: "Red Rooster",
+    location: "Madison, WI",
+    notes: "Supporting Moon Goons",
+    //link: "https://www.simpletix.com/e/lil-ed-the-blues-imperials-w-special-guest-tickets-165821",
+    //linkText: "Tickets"
   },
   {
     datetime: "2024-10-18T00:00",
