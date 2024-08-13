@@ -1504,17 +1504,17 @@ const shows = [
     location: "IA"
   },
   {
-    datetime: "2024-10-18T00:00",
-    venue: "Shank Hall",
-    location: "Milwaukee, WI",
-    notes: "Supporting The Steepwater Band",
-    link: "https://www.ticketweb.com/event/the-steepwater-band-shank-hall-tickets/13672963",
-    linkText: "Tickets"
-  },
-  {
     datetime: "2024-11-02T00:00",
     venue: "TBD",
     location: "IN"
+  },
+  {
+    datetime: "2024-11-22T00:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting Miles Nielsen & The Rusted Hearts",
+    link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
+    linkText: "Tickets"
   },
   // {
   //   datetime: "2025-06-27T17:15",
