@@ -1420,11 +1420,6 @@ const shows = [
     location: "Thiensville, WI",
   },
   {
-    datetime: "2024-08-15T16:00",
-    venue: "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
-    location: "Oconomowoc, WI",
-  },
-  {
     datetime: "2024-08-18T13:00",
     venue: "Crawfish Junction",
     location: "Johnson Creek, WI"
@@ -1456,6 +1451,11 @@ const shows = [
     linkText: "More Info"
   },
   {
+    datetime: "2024-09-06T16:00",
+    venue: "Moonlit Movies: The Wizard of OZ - Downtown Oconomowoc",
+    location: "Oconomowoc, WI",
+  },
+  {
     datetime: "2024-09-07T12:30",
     venue: "Fall Fest - Oconomowoc",
     location: "Oconomowoc, WI"
@@ -1475,7 +1475,7 @@ const shows = [
     datetime: "2024-09-14T20:00",
     venue: "Cactus Menekaunee",
     location: "Marinette, WI",
-    notes: "w/ Wasted Pretty & Soup"
+    notes: "w/ Wasted Pretty & Lucas Deitz"
   },
   {
     datetime: "2024-09-20T00:00",
