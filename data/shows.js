@@ -1469,7 +1469,9 @@ const shows = [
     datetime: "2024-09-13T00:00",
     venue: "RallyPoint",
     location: "Oconomowoc, WI",
-    notes: "w/ Radiation"
+    notes: "w/ Radiation",
+    link: "https://www.ticketweb.com/event/radiation-candy-cigarette-at-rallypoint-tickets/13839453",
+    linkText: "Tickets"
   },
   {
     datetime: "2024-09-14T20:00",
