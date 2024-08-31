@@ -1488,12 +1488,17 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2024-10-06T00:00",
+    datetime: "2023-10-05T19:00",
+    venue: "Private Party",
+    location: "Beechwood, WI",
+  },
+  {
+    datetime: "2024-10-16T19:00",
     venue: "Red Rooster",
     location: "Madison, WI",
     notes: "Supporting Moon Goons",
-    //link: "https://www.simpletix.com/e/lil-ed-the-blues-imperials-w-special-guest-tickets-165821",
-    //linkText: "Tickets"
+    link: "https://redroostermadison.com/event/moon-goons-candy-cigarette/",
+    linkText: "More Info"
   },
   {
     datetime: "2024-10-12T00:00",
@@ -1501,7 +1506,7 @@ const shows = [
     location: "Green Bay, WI"
   },
   {
-    datetime: "2024-10-26T00:00",
+    datetime: "2024-10-19T00:00",
     venue: "TBD",
     location: "IA"
   },
