@@ -1501,21 +1501,6 @@ const shows = [
     linkText: "More Info"
   },
   {
-    datetime: "2024-10-12T00:00",
-    venue: "TBD",
-    location: "Green Bay, WI"
-  },
-  {
-    datetime: "2024-10-19T00:00",
-    venue: "TBD",
-    location: "IA"
-  },
-  {
-    datetime: "2024-11-02T00:00",
-    venue: "TBD",
-    location: "IN"
-  },
-  {
     datetime: "2024-11-22T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
@@ -1523,6 +1508,24 @@ const shows = [
     link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
     linkText: "Tickets"
   },
+  {
+    datetime: "2024-12-21T00:00",
+    venue: "Studio 301",
+    location: "Portage WI"
+  },
+  // {
+  //   datetime: "2025-01-11T00:00",
+  //   venue: "TBA",
+  //   location: "Minneapolis, MN"
+  // },
+  // {
+  //   datetime: "2025-01-17T20:00",
+  //   venue: "The Vivarium",
+  //   location: "Milwaukee, WI",
+  //   notes: "Supporting Taj Farrant",
+    //link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
+    //linkText: "Tickets"
+  //},
   // {
   //   datetime: "2025-06-27T17:15",
   //   venue: "Pal's Brewing Company",
