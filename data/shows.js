@@ -1488,7 +1488,7 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2023-10-05T19:00",
+    datetime: "2024-10-05T00:00",
     venue: "Private Party",
     location: "Beechwood, WI",
   },
