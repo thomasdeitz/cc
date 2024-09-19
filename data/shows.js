@@ -1519,6 +1519,11 @@ const shows = [
   //   location: "Minneapolis, MN"
   // },
   // {
+  //   datetime: "2025-02-15T00:00",
+  //   venue: "TBA",
+  //   location: "MN"
+  // },
+  // {
   //   datetime: "2025-01-17T20:00",
   //   venue: "The Vivarium",
   //   location: "Milwaukee, WI",
@@ -1531,4 +1536,9 @@ const shows = [
   //   venue: "Pal's Brewing Company",
   //   location: "North Platte, NE"
   // },
+  {
+    datetime: "2025-08-23T00:00",
+    venue: "Private Event",
+    location: "Okauchee, WI"
+  },
 ];
