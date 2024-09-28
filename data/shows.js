@@ -1515,8 +1515,8 @@ const shows = [
   },
   {
     datetime: "2025-01-11T00:00",
-    venue: "TBA",
-    location: "Minneapolis, MN"
+    venue: "The Garage",
+    location: "Burnsville, MN"
   },
   // {
   //   datetime: "2025-01-17T20:00",
@@ -1526,15 +1526,21 @@ const shows = [
     //link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
     //linkText: "Tickets"
   //},
-  // {
-  //   datetime: "2025-02-15T00:00",
-  //   venue: "TBA",
-  //   location: "MN"
-  // },
+    {
+      datetime: "2025-02-15T00:00",
+      venue: "TBA",
+      location: "MN",
+      notes: "Special Acoustic Duo Set"
+    },
   // {
   //   datetime: "2025-06-27T17:15",
   //   venue: "Pal's Brewing Company",
   //   location: "North Platte, NE"
+  // },
+  // {
+  //   datetime: "2024-06-28T00:00",
+  //   venue: "TBA",
+  //   location: "CO",
   // },
   {
     datetime: "2025-07-18T00:00",
