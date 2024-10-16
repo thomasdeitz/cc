@@ -1505,6 +1505,8 @@ const shows = [
     venue: "The Truck Yard At The Tarlton",
     location: "Green Bay, WI",
     notes: "Supporting Motherwind with Broken Arrow",
+    link: "https://www.facebook.com/events/873682151531580",
+    linkText: "More Info"
   },
   {
     datetime: "2024-11-22T00:00",
