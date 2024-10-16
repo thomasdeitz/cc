@@ -1501,6 +1501,12 @@ const shows = [
     linkText: "More Info"
   },
   {
+    datetime: "2024-10-30T18:00",
+    venue: "The Truck Yard At The Tarlton",
+    location: "Green Bay, WI",
+    notes: "Supporting Motherwind with Broken Arrow",
+  },
+  {
     datetime: "2024-11-22T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
@@ -1511,12 +1517,13 @@ const shows = [
   {
     datetime: "2024-12-21T00:00",
     venue: "Studio 301",
-    location: "Portage WI"
+    location: "Portage, WI"
   },
   {
     datetime: "2025-01-11T00:00",
     venue: "The Garage",
-    location: "Burnsville, MN"
+    location: "Burnsville, MN",
+    notes: "w/ TBA"
   },
   // {
   //   datetime: "2025-01-17T20:00",
