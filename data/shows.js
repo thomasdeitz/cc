@@ -1517,6 +1517,11 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    datetime: "2024-12-12T00:00",
+    venue: "Private Event",
+    location: "Grafton, WI"
+  },
+  {
     datetime: "2024-12-21T00:00",
     venue: "Studio 301",
     location: "Portage, WI"
