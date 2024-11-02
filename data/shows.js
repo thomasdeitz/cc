@@ -1546,9 +1546,11 @@ const shows = [
   //   location: "Green Bay, WI"
   // },
   {
-      datetime: "2025-02-15T00:00",
-      venue: "TBA",
-      location: "MN",
+      datetime: "2025-02-15T20:30",
+      venue: "Big Turn Music Fest - Tootsie Too's",
+      location: "Red Wing, MN",
+      linkText: "Tickets",
+      link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
       notes: "Special Acoustic Duo Set"
   },
   {
