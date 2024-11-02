@@ -1554,7 +1554,7 @@ const shows = [
   {
       datetime: "2025-06-14T19:00",
       venue: "The Hive",
-      location: "MN",
+      location: "East Troy, WI",
       notes: "An Evening with Candy Cigarette"
   },
   // {
