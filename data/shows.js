@@ -1500,20 +1500,28 @@ const shows = [
     link: "https://redroostermadison.com/event/moon-goons-candy-cigarette/",
     linkText: "More Info"
   },
-  {
-    datetime: "2024-10-30T18:00",
-    venue: "The Truck Yard At The Tarlton",
-    location: "Green Bay, WI",
-    notes: "Supporting Motherwind with Broken Arrow",
-    link: "https://www.facebook.com/events/873682151531580",
-    linkText: "More Info"
-  },
+  // { Canceled Due to Weather
+  //   datetime: "2024-10-30T18:00",
+  //   venue: "The Truck Yard At The Tarlton",
+  //   location: "Green Bay, WI",
+  //   notes: "Supporting Motherwind with Broken Arrow",
+  //   link: "https://www.facebook.com/events/873682151531580",
+  //   linkText: "More Info"
+  // },
   {
     datetime: "2024-11-22T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
     notes: "Supporting Miles Nielsen & The Rusted Hearts",
     link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
+    linkText: "Tickets"
+  },
+  {
+    datetime: "2024-11-23T20:00",
+    venue: "GoodFellas Pub",
+    location: "Marshfield, WI",
+    notes: "Supporting Motherwind w/ Public Meltdown",
+    link: "https://www.songkick.com/concerts/42183412-motherwind-at-goodfellas-pub?utm_source=11593&utm_medium=partner&utm_campaign=ticket-link&utm_content=10153875",
     linkText: "Tickets"
   },
   {
@@ -1532,29 +1540,42 @@ const shows = [
     location: "Burnsville, MN",
     notes: "w/ TBA"
   },
-  // {
-  //   datetime: "2025-01-17T20:00",
-  //   venue: "The Vivarium",
-  //   location: "Milwaukee, WI",
-  //   notes: "Supporting Taj Farrant",
-    //link: "https://www.ticketweb.com/event/miles-nielsen-the-rusted-shank-hall-tickets/13672973",
-    //linkText: "Tickets"
-  //},
-    {
+    // {
+  //   datetime: "2025-01-18T00:00",
+  //   venue: "At The Tracks",
+  //   location: "Green Bay, WI"
+  // },
+  {
       datetime: "2025-02-15T00:00",
       venue: "TBA",
       location: "MN",
       notes: "Special Acoustic Duo Set"
-    },
+  },
+  {
+      datetime: "2025-06-14T19:00",
+      venue: "The Hive",
+      location: "MN",
+      notes: "An Evening with Candy Cigarette"
+  },
   // {
   //   datetime: "2025-06-27T17:15",
-  //   venue: "Pal's Brewing Company",
-  //   location: "North Platte, NE"
+  //   venue: "TBD",
+  //   location: "Lincoln, NE"
   // },
   // {
   //   datetime: "2024-06-28T00:00",
   //   venue: "TBA",
-  //   location: "CO",
+  //   location: "WP, CO",
+  // },
+  // {
+  //   datetime: "2024-06-29T00:00",
+  //   venue: "TBA",
+  //   location: "WP, CO",
+  // },
+  // {
+  //   datetime: "2025-07-03T00:00",
+  //   venue: "TBD",
+  //   location: "Des Moines, IA"
   // },
   {
     datetime: "2025-07-18T00:00",
