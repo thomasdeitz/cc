@@ -167,13 +167,13 @@ const shows = [
   {
     datetime: "2022-02-12T12:00",
     venue: "Private Event",
-    location: "Oconomowoc, WI" 
+    location: "Oconomowoc, WI"
   },
   {
     datetime: "2022-02-12T20:00",
     venue: "Mad Steintist",
     location: "Waukesha, WI",
-    notes: 'w/ Dropbear Collective, HoneyFingers, & Nick Bacardi and The Rum Runners' 
+    notes: 'w/ Dropbear Collective, HoneyFingers, & Nick Bacardi and The Rum Runners'
   },
   {
     datetime: "2022-02-19T20:00",
@@ -305,9 +305,9 @@ const shows = [
     location: "New Berlin, WI"
   },
   {
-      datetime: "2022-06-10T19:30",
-      venue: "Camp Northern Lights",
-      location: "Campbellsport, WI"
+    datetime: "2022-06-10T19:30",
+    venue: "Camp Northern Lights",
+    location: "Campbellsport, WI"
   },
   {
     datetime: "2022-06-12T16:30",
@@ -503,7 +503,7 @@ const shows = [
     datetime: "2022-09-10T08:00",
     venue: "West Bend Farmers Market - Old Settlers Gazebo",
     location: "West Bend, WI",
-  }, 
+  },
   {
     datetime: "2022-09-10T14:30",
     venue: "11th Annual Fall Festival",
@@ -515,10 +515,10 @@ const shows = [
     location: "Oconomowoc, WI"
   },
   //{
-    //datetime: "2022-09-15T17:00",
-    //venue: "Interstate Music",
-    //location: "Butler, WI",
-    //notes: "w/ Kristine Kabbes & The Skallywags"
+  //datetime: "2022-09-15T17:00",
+  //venue: "Interstate Music",
+  //location: "Butler, WI",
+  //notes: "w/ Kristine Kabbes & The Skallywags"
   //},
   {
     datetime: "2022-09-17T11:30",
@@ -743,9 +743,9 @@ const shows = [
   },
   {
     datetime: "2023-05-13T17:00",
-     venue: "Studio 301",
-     location: "Portage, WI",
-     notes: "w/ Ginseng & The Coves"
+    venue: "Studio 301",
+    location: "Portage, WI",
+    notes: "w/ Ginseng & The Coves"
   },
   {
     datetime: "2023-05-19T14:00",
@@ -782,7 +782,7 @@ const shows = [
     datetime: "2023-06-02T18:00",
     venue: "Wisconsin Brewing Company",
     location: "Verona, WI"
-  }, 
+  },
   {
     datetime: "2023-06-03T19:00",
     venue: "River Bend RV Resort",
@@ -800,9 +800,9 @@ const shows = [
     notes: "Supporting Depot Express"
   },
   //{ Double booked
-    //datetime: "2023-06-11T16:00",
-    //venue: "the baaree",
-    //location: "Thiensville, WI"
+  //datetime: "2023-06-11T16:00",
+  //venue: "the baaree",
+  //location: "Thiensville, WI"
   //},
   {
     datetime: "2023-06-11T12:00",
@@ -1049,24 +1049,24 @@ const shows = [
   },
   {
     datetime: "2023-09-16T11:00",
-     venue: "SOFA Softball Tournament",
-     location: "Waukesha, WI"
+    venue: "SOFA Softball Tournament",
+    location: "Waukesha, WI"
   },
   {
     datetime: "2023-09-16T19:00",
-     venue: "The Hive Taproom",
-     location: "East Troy, WI"
+    venue: "The Hive Taproom",
+    location: "East Troy, WI"
   },
   {
-   datetime: "2023-09-23T14:00",
+    datetime: "2023-09-23T14:00",
     venue: "Wide Open Wisconsin",
     location: "West Bend, WI"
   },
   {
     datetime: "2023-09-30T12:00",
-     venue: "2023 Fall Festival and Boot Stomp - The Sunset Hill Farm",
-     location: "Lake Mills, WI",
-     notes: "w/ The Nightinjails & Vehicle 6"
+    venue: "2023 Fall Festival and Boot Stomp - The Sunset Hill Farm",
+    location: "Lake Mills, WI",
+    notes: "w/ The Nightinjails & Vehicle 6"
   },
   {
     datetime: "2023-10-06T16:00",
@@ -1525,6 +1525,12 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    datetime: "2025-11-30T20:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "Supporting Motherwind with Broken Arrow",
+  },
+  {
     datetime: "2024-12-12T00:00",
     venue: "Private Event",
     location: "Grafton, WI"
@@ -1540,44 +1546,64 @@ const shows = [
     location: "Burnsville, MN",
     notes: "w/ TBA"
   },
-    // {
-  //   datetime: "2025-01-18T00:00",
-  //   venue: "At The Tracks",
-  //   location: "Green Bay, WI"
-  // },
   {
-      datetime: "2025-02-15T20:30",
-      venue: "Big Turn Music Fest - Tootsie Too's",
-      location: "Red Wing, MN",
-      linkText: "Tickets",
-      link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
-      notes: "Special Acoustic Duo Set"
+    datetime: "2025-02-15T20:30",
+    venue: "Big Turn Music Fest - Tootsie Too's",
+    location: "Red Wing, MN",
+    linkText: "Tickets",
+    link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
+    notes: "Special Acoustic Duo Set"
   },
   {
-      datetime: "2025-06-14T19:00",
-      venue: "The Hive",
-      location: "East Troy, WI",
-      notes: "An Evening with Candy Cigarette"
+    datetime: "2025-06-14T19:00",
+    venue: "The Hive",
+    location: "East Troy, WI",
+    notes: "An Evening with Candy Cigarette"
   },
   // {
-  //   datetime: "2025-06-27T17:15",
+  //   datetime: "2025-06-21T00:00",
   //   venue: "TBD",
+  //   location: "MKE"
+  // },
+  // {
+  //   datetime: "2025-06-23T00:00",
+  //   venue: "Lefty's Live Music", // ?
+  //   location: "Des Moines, IA"
+  // },
+  // {
+  //   datetime: "2025-06-24T00:00",
+  //   venue: "TBD", // ?
+  //   location: "Kansas City, MO"
+  // },
+  // {
+  //   datetime: "2025-06-25T00:00",
+  //   venue: "Duffy's Tavern",
   //   location: "Lincoln, NE"
   // },
   // {
-  //   datetime: "2024-06-28T00:00",
-  //   venue: "TBA",
-  //   location: "WP, CO",
+  //   datetime: "2025-06-26T00:00",
+  //   venue: "Pals Brewing Company", // ?
+  //   location: "North Platte, NE"
   // },
   // {
-  //   datetime: "2024-06-29T00:00",
-  //   venue: "TBA",
-  //   location: "WP, CO",
+  //   datetime: "2025-06-27T00:00",
+  //   venue: "Blues From the Top", //?
+  //   location: "Winter Park, CO"
   // },
   // {
-  //   datetime: "2025-07-03T00:00",
+  //   datetime: "2025-06-28T00:00",
+  //   venue: "Blues From the Top", //
+  //   location: "Winter Park, CO"
+  // },
+  // {
+  //   datetime: "2025-06-29T00:00",
+  //   venue: "TBA", // ?
+  //   location: "Cheyenne, WY"
+  // },
+  // {
+  //   datetime: "2025-07-05T00:00",
   //   venue: "TBD",
-  //   location: "Des Moines, IA"
+  //   location: "MKE"
   // },
   {
     datetime: "2025-07-18T00:00",
