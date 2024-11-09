@@ -1525,7 +1525,7 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2025-11-30T20:00",
+    datetime: "2024-11-30T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
     notes: "Supporting Motherwind with Broken Arrow",
