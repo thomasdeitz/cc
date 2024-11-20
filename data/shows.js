@@ -1541,11 +1541,17 @@ const shows = [
     location: "Portage, WI"
   },
   {
-    datetime: "2025-01-11T00:00",
+    datetime: "2025-01-11T19:00",
     venue: "The Garage",
     location: "Burnsville, MN",
-    notes: "w/ TBA"
+    notes: "w/ Stone Ark & Seagull Hazard"
   },
+  // {
+  //   datetime: "2025-02-12T00:00",
+  //   venue: "High Noon Saloon",
+  //   location: "Madison, WI",
+  //   notes: "Supporting/ Eddie 9V"
+  // },
   {
     datetime: "2025-02-15T20:30",
     venue: "Big Turn Music Fest - Tootsie Too's",
@@ -1609,6 +1615,11 @@ const shows = [
     datetime: "2025-07-18T00:00",
     venue: "Private Event",
     location: "Wisconsin"
+  },
+  {
+    datetime: "2025-07-19T00:00",
+    venue: "Delafield Block Party",
+    location: "Delafield, WI"
   },
   {
     datetime: "2025-08-23T00:00",
