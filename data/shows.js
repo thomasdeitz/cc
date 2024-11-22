@@ -1544,7 +1544,9 @@ const shows = [
     datetime: "2025-01-11T19:00",
     venue: "The Garage",
     location: "Burnsville, MN",
-    notes: "w/ Stone Ark & Seagull Hazard"
+    notes: "w/ Stone Ark & Seagull Hazard",
+    linkText: "Tickets",
+    link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
   },
   // {
   //   datetime: "2025-02-12T00:00",
