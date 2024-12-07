@@ -1536,18 +1536,19 @@ const shows = [
     location: "Grafton, WI"
   },
   {
-    datetime: "2024-12-21T00:00",
+    datetime: "2024-12-21T18:00",
     venue: "Studio 301",
-    location: "Portage, WI"
+    location: "Portage, WI",
+    notes: "w/ Take Back the Sun, Skinny & the Fat Bastards and Thorgrim",
   },
-  {
-    datetime: "2025-01-11T19:00",
-    venue: "The Garage",
-    location: "Burnsville, MN",
-    notes: "w/ Stone Ark & Seagull Hazard",
-    linkText: "Tickets",
-    link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
-  },
+  // { Canceled due to venue closing
+  //   datetime: "2025-01-11T19:00",
+  //   venue: "The Garage",
+  //   location: "Burnsville, MN",
+  //   notes: "w/ Stone Ark & Seagull Hazard",
+  //   linkText: "Tickets",
+  //   link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
+  // },
   // {
   //   datetime: "2025-02-12T00:00",
   //   venue: "High Noon Saloon",
@@ -1562,6 +1563,12 @@ const shows = [
     link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
     notes: "Special Acoustic Duo Set"
   },
+  // {
+  //   datetime: "2025-04-12T00:00",
+  //   venue: "Falcon Bowl",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ Broken Arrow & TBD",
+  // },
   {
     datetime: "2025-06-14T19:00",
     venue: "The Hive",
