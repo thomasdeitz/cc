@@ -1539,7 +1539,7 @@ const shows = [
     datetime: "2024-12-21T18:00",
     venue: "Studio 301",
     location: "Portage, WI",
-    notes: "w/ Take Back the Sun, Skinny & the Fat Bastards and Thorgrim",
+    notes: "w/ Skinny & the Fat Bastards, Take Back the Sun and Thorgrim",
   },
   // { Canceled due to venue closing
   //   datetime: "2025-01-11T19:00",
@@ -1549,12 +1549,6 @@ const shows = [
   //   linkText: "Tickets",
   //   link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
   // },
-  // {
-  //   datetime: "2025-02-12T00:00",
-  //   venue: "High Noon Saloon",
-  //   location: "Madison, WI",
-  //   notes: "Supporting/ Eddie 9V"
-  // },
   {
     datetime: "2025-02-15T20:30",
     venue: "Big Turn Music Fest - Tootsie Too's",
@@ -1563,12 +1557,18 @@ const shows = [
     link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
     notes: "Special Acoustic Duo Set"
   },
-  // {
-  //   datetime: "2025-04-12T00:00",
-  //   venue: "Falcon Bowl",
-  //   location: "Milwaukee, WI",
-  //   notes: "w/ Broken Arrow & TBD",
-  // },
+  {
+    datetime: "2025-04-12T00:00",
+    venue: "Falcon Bowl",
+    location: "Milwaukee, WI",
+    notes: "w/ Broken Arrow & The Coves",
+  },
+  {
+    datetime: "2025-04-25T00:00",
+    venue: "The Rigby",
+    location: "Madison, WI",
+    notes: "w/ Voltsea & Public Meltdown",
+  },
   {
     datetime: "2025-06-14T19:00",
     venue: "The Hive",
@@ -1590,11 +1590,11 @@ const shows = [
   //   venue: "TBD", // ?
   //   location: "Kansas City, MO"
   // },
-  // {
-  //   datetime: "2025-06-25T00:00",
-  //   venue: "Duffy's Tavern",
-  //   location: "Lincoln, NE"
-  // },
+  {
+    datetime: "2025-06-25T00:00",
+    venue: "Duffy's Tavern",
+    location: "Lincoln, NE"
+  },
   // {
   //   datetime: "2025-06-26T00:00",
   //   venue: "Pals Brewing Company", // ?
