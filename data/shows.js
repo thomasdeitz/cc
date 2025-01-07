@@ -1550,6 +1550,13 @@ const shows = [
   //   link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
   // },
   {
+    datetime: "2024-01-26T16:00",
+    venue: "Red Rooster",
+    location: "Madison, WI",
+    link: "https://redroostermadison.com/event/candy-cigarette-7/",
+    linkText: "More Info"
+  },
+  {
     datetime: "2025-02-15T20:30",
     venue: "Big Turn Music Fest - Tootsie Too's",
     location: "Red Wing, MN",
@@ -1558,7 +1565,7 @@ const shows = [
     notes: "Special Acoustic Duo Set"
   },
   {
-    datetime: "2025-04-12T00:00",
+    datetime: "2025-04-11T00:00",
     venue: "Falcon Bowl",
     location: "Milwaukee, WI",
     notes: "w/ Broken Arrow & The Coves",
