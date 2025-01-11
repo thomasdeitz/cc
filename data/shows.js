@@ -1528,7 +1528,7 @@ const shows = [
     datetime: "2024-11-30T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "Supporting Motherwind with Broken Arrow",
+    notes: "Supporting Motherwind w/ Broken Arrow",
   },
   {
     datetime: "2024-12-12T00:00",
@@ -1550,11 +1550,12 @@ const shows = [
   //   link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
   // },
   {
-    datetime: "2024-01-26T16:00",
+    datetime: "2025-01-26T16:00",
     venue: "Red Rooster",
     location: "Madison, WI",
     link: "https://redroostermadison.com/event/candy-cigarette-7/",
-    linkText: "More Info"
+    linkText: "More Info",
+    notes: "An afternoon with Candy Cigarette"
   },
   {
     datetime: "2025-02-15T20:30",
@@ -1563,6 +1564,20 @@ const shows = [
     linkText: "Tickets",
     link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
     notes: "Special Acoustic Duo Set"
+  },
+  {
+    datetime: "2025-02-22T19:30",
+    venue: "Appleton Music Factory",
+    location: "Appleton, WI",
+    linkText: "Tickets",
+    link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
+    notes: "Supporting Stay Outside w/ TBA"
+  },
+  {
+    datetime: "2025-03-15T00:00",
+    venue: "Heroes Venture Arcade",
+    location: "Two Rivers, WI",
+    notes: "w/ TBD",
   },
   {
     datetime: "2025-04-11T00:00",
