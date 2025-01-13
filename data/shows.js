@@ -1645,7 +1645,7 @@ const shows = [
   {
     datetime: "2025-07-18T00:00",
     venue: "Private Event",
-    location: "WI"
+    location: "Wisconsin"
   },
   {
     datetime: "2025-07-19T00:00",
