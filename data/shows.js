@@ -1550,7 +1550,7 @@ const shows = [
   //   link: "https://dice.fm/event/539bxw-candy-cigarette-stone-ark-seagull-hazard-11th-jan-the-garage-minnesota-burnsville-tickets?fbclid=IwY2xjawGsvnxleHRuA2FlbQIxMAABHYNKquoLyvKFcuIASaHwLxsHiP4PAQm45kl13R_01VhFRXI8PTIcQyYIQg_aem_xP255MscIKWQMsbY203l-Q"
   // },
   {
-    datetime: "2025-01-26T16:00",
+    datetime: "2025-01-26T15:00",
     venue: "Red Rooster",
     location: "Madison, WI",
     link: "https://redroostermadison.com/event/candy-cigarette-7/",
