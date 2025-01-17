@@ -1580,6 +1580,12 @@ const shows = [
     notes: "w/ TBD",
   },
   {
+    datetime: "2025-04-04T00:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "w/ Age of Fables & Searchlights"
+  },
+  {
     datetime: "2025-04-11T00:00",
     venue: "Falcon Bowl",
     location: "Milwaukee, WI",
@@ -1590,12 +1596,6 @@ const shows = [
     venue: "The Rigby",
     location: "Madison, WI",
     notes: "w/ Voltsea & Public Meltdown",
-  },
-  {
-    datetime: "2025-05-02T00:00",
-    venue: "At The Tracks",
-    location: "Green Bay, WI",
-    notes: "w/ TBD"
   },
   {
     datetime: "2025-06-14T19:00",
