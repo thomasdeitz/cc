@@ -1592,6 +1592,12 @@ const shows = [
     notes: "w/ Voltsea & Public Meltdown",
   },
   {
+    datetime: "2025-05-02T00:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "w/ TBD"
+  },
+  {
     datetime: "2025-06-14T19:00",
     venue: "The Hive",
     location: "East Troy, WI",
