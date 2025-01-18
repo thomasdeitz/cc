@@ -1571,7 +1571,7 @@ const shows = [
     location: "Appleton, WI",
     linkText: "Tickets",
     link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
-    notes: "Supporting Stay Outside w/ TBA"
+    notes: "Supporting Stay Outside w/ Modern Haunting"
   },
   {
     datetime: "2025-03-15T00:00",
