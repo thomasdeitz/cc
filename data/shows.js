@@ -1585,12 +1585,12 @@ const shows = [
     location: "Green Bay, WI",
     notes: "w/ Age of Fables & Searchlights"
   },
-  {
-    datetime: "2025-04-11T00:00",
-    venue: "Falcon Bowl",
-    location: "Milwaukee, WI",
-    notes: "w/ Broken Arrow & The Coves",
-  },
+  // {
+  //   datetime: "2025-04-11T00:00",
+  //   venue: "Falcon Bowl",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ Broken Arrow & The Coves",
+  // },
   {
     datetime: "2025-04-25T00:00",
     venue: "The Rigby",
