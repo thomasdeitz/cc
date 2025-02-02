@@ -1574,6 +1574,12 @@ const shows = [
     notes: "Supporting Stay Outside w/ Modern Haunting"
   },
   {
+    datetime: "2025-03-08T10:00",
+    venue: "Tribe Bar & Grill",
+    location: "Cudahy, WI",
+    notes: "w/ Broken Arrow & The Coves",
+  },
+  {
     datetime: "2025-03-15T00:00",
     venue: "Heroes Venture Arcade",
     location: "Two Rivers, WI",
@@ -1585,12 +1591,6 @@ const shows = [
     location: "Green Bay, WI",
     notes: "w/ Age of Fables & Searchlights"
   },
-  // {
-  //   datetime: "2025-04-11T00:00",
-  //   venue: "Falcon Bowl",
-  //   location: "Milwaukee, WI",
-  //   notes: "w/ Broken Arrow & The Coves",
-  // },
   {
     datetime: "2025-04-25T00:00",
     venue: "The Rigby",
@@ -1658,6 +1658,12 @@ const shows = [
     venue: "Delafield Block Party",
     location: "Delafield, WI"
   },
+  // {
+  //   datetime: "2025-08-22T00:00",
+  //   venue: "Falcon Bowl",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ Broken Arrow & The Coves",
+  // },
   {
     datetime: "2025-08-23T00:00",
     venue: "Private Event",
