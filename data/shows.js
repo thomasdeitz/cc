@@ -1320,8 +1320,6 @@ const shows = [
     datetime: "2024-06-23T15:00",
     venue: "Red Rooster",
     location: "Madison, WI",
-    //link: "https://redroostermadison.com/event/",
-    //notes: "w/ Take Back The Sun",
     linkText: "$8 Cover"
   },
   {
@@ -1590,6 +1588,12 @@ const shows = [
     venue: "At The Tracks",
     location: "Green Bay, WI",
     notes: "w/ Age of Fables & Searchlights"
+  },
+  {
+    datetime: "2025-04-11T19:30",
+    venue: "5 Bar",
+    location: "Beloit, WI",
+    notes: "w/ mollifi & TBD"
   },
   {
     datetime: "2025-04-25T00:00",
