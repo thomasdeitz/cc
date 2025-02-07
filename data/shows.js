@@ -1578,10 +1578,10 @@ const shows = [
     notes: "w/ Broken Arrow & The Coves",
   },
   {
-    datetime: "2025-03-15T00:00",
+    datetime: "2025-03-15T18:00",
     venue: "Heroes Venture Arcade",
     location: "Two Rivers, WI",
-    notes: "w/ TBD",
+    notes: "w/ The Coves & Sherry Lane",
   },
   {
     datetime: "2025-04-04T00:00",
@@ -1593,13 +1593,18 @@ const shows = [
     datetime: "2025-04-11T19:30",
     venue: "5 Bar",
     location: "Beloit, WI",
-    notes: "w/ mollifi & TBD"
+    notes: "w/ mollifi & TBA"
   },
   {
     datetime: "2025-04-25T00:00",
     venue: "The Rigby",
     location: "Madison, WI",
     notes: "w/ Voltsea & Public Meltdown",
+  },
+  {
+    datetime: "2025-05-02T17:00",
+    venue: "TBA",  //"Kettle Moraine Global High School - She's the First",
+    location: "Wales, WI"
   },
   {
     datetime: "2025-06-14T19:00",
@@ -1662,12 +1667,12 @@ const shows = [
     venue: "Delafield Block Party",
     location: "Delafield, WI"
   },
-  // {
-  //   datetime: "2025-08-22T00:00",
-  //   venue: "Falcon Bowl",
-  //   location: "Milwaukee, WI",
-  //   notes: "w/ Broken Arrow & The Coves",
-  // },
+  {
+     datetime: "2025-08-22T00:00",
+     venue: "TBA", //"Falcon Bowl",
+     location: "Milwaukee, WI",
+     notes: "w/ Broken Arrow & The Coves",
+  },
   {
     datetime: "2025-08-23T00:00",
     venue: "Private Event",
