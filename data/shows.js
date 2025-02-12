@@ -1571,12 +1571,14 @@ const shows = [
     link: "https://aftontickets.com/event/buyticket/8qj4l2v79m",
     notes: "Supporting Stay Outside w/ Modern Haunting"
   },
-  // {
-  //   datetime: "2025-03-08T10:00",
-  //   venue: "Tribe Bar & Grill",
-  //   location: "Cudahy, WI",
-  //   notes: "w/ Broken Arrow & The Coves",
-  // },
+  {
+    datetime: "2025-03-08T10:00",
+    venue: "The Sugar Maple",
+    location: "Milwaukee, WI",
+    notes: "w/ Broken Arrow & The Coves",
+    link: "https://www.facebook.com/share/162yR4VJdK/",
+    linkText: "More Info",
+  },
   {
     datetime: "2025-03-15T18:00",
     venue: "Heroes Venture Arcade",
