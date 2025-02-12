@@ -1572,7 +1572,7 @@ const shows = [
     notes: "Supporting Stay Outside w/ Modern Haunting"
   },
   {
-    datetime: "2025-03-08T10:00",
+    datetime: "2025-03-08T08:30",
     venue: "The Sugar Maple",
     location: "Milwaukee, WI",
     notes: "w/ Broken Arrow & The Coves",
