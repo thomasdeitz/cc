@@ -1598,6 +1598,11 @@ const shows = [
     notes: "w/ mollifi & TBA"
   },
   {
+    datetime: "2025-04-19T00:00",
+    venue: "Private Event",
+    location: "Wisconsin"
+  },
+  {
     datetime: "2025-04-25T00:00",
     venue: "The Rigby",
     location: "Madison, WI",
