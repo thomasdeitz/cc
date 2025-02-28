@@ -1572,7 +1572,7 @@ const shows = [
     notes: "Supporting Stay Outside w/ Modern Haunting"
   },
   {
-    datetime: "2025-03-08T08:30",
+    datetime: "2025-03-08T18:30",
     venue: "The Sugar Maple",
     location: "Milwaukee, WI",
     notes: "w/ Broken Arrow & The Coves",
@@ -1595,7 +1595,7 @@ const shows = [
     datetime: "2025-04-11T19:30",
     venue: "5 Bar",
     location: "Beloit, WI",
-    notes: "w/ mollifi & TBA"
+    notes: "w/ Radiation & mollifi"
   },
   {
     datetime: "2025-04-19T00:00",
@@ -1610,8 +1610,18 @@ const shows = [
   },
   {
     datetime: "2025-05-02T17:00",
-    venue: "TBA",  //"Kettle Moraine Global High School - She's the First",
+    venue: "Kettle Moraine Global High School - She's the First",
     location: "Wales, WI"
+  },
+  {
+    datetime: "2025-05-24T13:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
+  },
+  {
+    datetime: "2025-06-07T18:30",
+    venue: "Glacier Valley Music Fest 2025",
+    location: "Cambria, WI"
   },
   {
     datetime: "2025-06-14T19:00",
@@ -1624,16 +1634,11 @@ const shows = [
   //   venue: "TBD",
   //   location: "MKE"
   // },
-  // {
-  //   datetime: "2025-06-23T00:00",
-  //   venue: "Lefty's Live Music", // ?
-  //   location: "Des Moines, IA"
-  // },
-  // {
-  //   datetime: "2025-06-24T00:00",
-  //   venue: "TBD", // ?
-  //   location: "Kansas City, MO"
-  // },
+   {
+     datetime: "2025-06-24T00:00",
+     venue: "TBA", // "Lefty's Live Music", // ?
+     location: "Des Moines, IA"
+  },
   {
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
@@ -1655,15 +1660,20 @@ const shows = [
   //   location: "Winter Park, CO"
   // },
   // {
-  //   datetime: "2025-06-29T00:00",
-  //   venue: "TBA", // ?
-  //   location: "Cheyenne, WY"
+  //   datetime: "2025-06-24T00:00",
+  //   venue: "TBD", // ?
+  //   location: "Kansas City, MO"
   // },
   // {
   //   datetime: "2025-07-05T00:00",
   //   venue: "TBD",
   //   location: "MKE"
   // },
+  {
+    datetime: "2025-07-04T17:30",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
+  },
   {
     datetime: "2025-07-18T00:00",
     venue: "Private Event",
@@ -1676,7 +1686,7 @@ const shows = [
   },
   {
      datetime: "2025-08-22T00:00",
-     venue: "TBA", //"Falcon Bowl",
+     venue: "Falcon Bowl",
      location: "Milwaukee, WI",
      notes: "w/ Broken Arrow & The Coves",
   },
@@ -1684,5 +1694,10 @@ const shows = [
     datetime: "2025-08-23T00:00",
     venue: "Private Event",
     location: "Okauchee, WI"
+  },
+  {
+    datetime: "2025-08-30T13:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
   },
 ];
