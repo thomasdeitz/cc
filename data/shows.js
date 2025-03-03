@@ -1618,11 +1618,11 @@ const shows = [
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
-  // {
-  //   datetime: "2025-06-07T18:30",
-  //   venue: "Glacier Valley Music Fest 2025",
-  //   location: "Cambria, WI"
-  // },
+   {
+     datetime: "2025-06-07T18:30",
+     venue: "Glacier Valley Music Fest 2025",
+     location: "Cambria, WI"
+  },
   {
     datetime: "2025-06-14T19:00",
     venue: "The Hive",
