@@ -1649,16 +1649,16 @@ const shows = [
   //   venue: "Pals Brewing Company", // ?
   //   location: "North Platte, NE"
   // },
-  // {
-  //   datetime: "2025-06-27T00:00",
-  //   venue: "Blues From the Top", //?
-  //   location: "Winter Park, CO"
-  // },
-  // {
-  //   datetime: "2025-06-28T00:00",
-  //   venue: "Blues From the Top", //
-  //   location: "Winter Park, CO"
-  // },
+  {
+    datetime: "2025-06-27T00:00",
+    venue: "TBA",
+    location: "Winter Park, CO"
+  },
+  {
+    datetime: "2025-06-28T00:00",
+    venue: "TBA",
+    location: "Winter Park, CO"
+  },
   // {
   //   datetime: "2025-06-24T00:00",
   //   venue: "TBD", // ?
