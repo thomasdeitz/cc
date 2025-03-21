@@ -1592,6 +1592,11 @@ const shows = [
     notes: "w/ Age of Fables & Searchlights"
   },
   {
+    datetime: "2025-04-05T00:00",
+    venue: "TBA",
+    location: "IL"
+  },
+  {
     datetime: "2025-04-11T19:30",
     venue: "5 Bar",
     location: "Beloit, WI",
@@ -1629,50 +1634,55 @@ const shows = [
     location: "East Troy, WI",
     notes: "An Evening with Candy Cigarette"
   },
-  // {
-  //   datetime: "2025-06-21T00:00",
-  //   venue: "TBD",
-  //   location: "MKE"
-  // },
+  {
+    datetime: "2025-06-22T13:00",
+    venue: "Crawfish Junction",
+    location: "Johnson Creek, WI"
+  },
    {
      datetime: "2025-06-24T00:00",
-     venue: "TBA", // "Lefty's Live Music", // ?
-     location: "Des Moines, IA"
+     venue: "TBD", // "Lefty's Live Music", // ?
+     location: "IA"
   },
   {
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
     location: "Lincoln, NE"
   },
-  // {
-  //   datetime: "2025-06-26T00:00",
-  //   venue: "Pals Brewing Company", // ?
-  //   location: "North Platte, NE"
-  // },
+  {
+    datetime: "2025-06-26T00:00",
+    venue: "TBD",
+    location: "CO"
+  },
   {
     datetime: "2025-06-27T00:00",
     venue: "TBA",
-    location: "Winter Park, CO"
+    location: "CO"
   },
   {
     datetime: "2025-06-28T00:00",
     venue: "TBA",
-    location: "Winter Park, CO"
+    location: "CO"
+  },
+  {
+    datetime: "2025-06-29T00:00",
+    venue: "TBA",
+    location: "CO"
   },
   // {
   //   datetime: "2025-06-24T00:00",
   //   venue: "TBD", // ?
   //   location: "Kansas City, MO"
   // },
-  // {
-  //   datetime: "2025-07-05T00:00",
-  //   venue: "TBD",
-  //   location: "MKE"
-  // },
   {
     datetime: "2025-07-04T17:30",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
+  },
+  {
+    datetime: "2025-07-12T00:00",
+    venue: "Red Rooster",
+    location: "Madison, WI"
   },
   {
     datetime: "2025-07-18T00:00",
