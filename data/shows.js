@@ -1593,8 +1593,8 @@ const shows = [
   },
   {
     datetime: "2025-04-05T00:00",
-    venue: "TBA",
-    location: "IL"
+    venue: "Lakes Radio",
+    location: "Round Lake, IL"
   },
   {
     datetime: "2025-04-11T19:30",
@@ -1605,7 +1605,7 @@ const shows = [
   {
     datetime: "2025-04-19T00:00",
     venue: "Private Event",
-    location: "Wisconsin"
+    location: "Slinger, WI"
   },
   {
     datetime: "2025-04-25T00:00",
