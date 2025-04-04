@@ -1585,17 +1585,17 @@ const shows = [
     location: "Two Rivers, WI",
     notes: "w/ The Coves & Sherry Lane",
   },
-  {
-    datetime: "2025-04-04T00:00",
-    venue: "At The Tracks",
-    location: "Green Bay, WI",
-    notes: "w/ Age of Fables & Searchlights"
-  },
-  {
-    datetime: "2025-04-05T00:00",
-    venue: "Lakes Radio",
-    location: "Round Lake, IL"
-  },
+  // { Cancelled - Illness
+  //   datetime: "2025-04-04T00:00",
+  //   venue: "At The Tracks",
+  //   location: "Green Bay, WI",
+  //   notes: "w/ Age of Fables & Searchlights"
+  // },
+  // {
+  //   datetime: "2025-04-05T00:00",
+  //   venue: "Lakes Radio",
+  //   location: "Round Lake, IL"
+  // },
   {
     datetime: "2025-04-11T19:30",
     venue: "5 Bar",
