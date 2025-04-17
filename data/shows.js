@@ -1614,6 +1614,14 @@ const shows = [
     notes: "w/ Voltsea & Public Meltdown",
   },
   {
+    datetime: "2025-04-26T20:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting Chris Cain",
+    link: "https://www.ticketweb.com/event/chris-cain-shank-hall-tickets/14217883",
+    linkText: "Tickets",
+  },
+  {
     datetime: "2025-05-02T17:00",
     venue: "Kettle Moraine Global High School - She's the First",
     location: "Wales, WI"
