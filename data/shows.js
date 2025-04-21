@@ -1612,6 +1612,8 @@ const shows = [
     venue: "The Rigby",
     location: "Madison, WI",
     notes: "w/ Voltsea & Public Meltdown",
+    link: "https://www.facebook.com/events/9557654384258250",
+    linkText: "More Info"
   },
   {
     datetime: "2025-04-26T20:00",
@@ -1649,13 +1651,15 @@ const shows = [
   },
    {
      datetime: "2025-06-24T00:00",
-     venue: "TBD", // "Lefty's Live Music", // ?
-     location: "IA"
+     venue: "TBD", // "Gabes", // ?
+     location: "IA",
+     //notes: "w/ Kobe Williams and The Fantasy & TBD"
   },
   {
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
-    location: "Lincoln, NE"
+    location: "Lincoln, NE",
+    //notes: "w/ Kobe Williams and The Fantasy & TBD"
   },
   {
     datetime: "2025-06-26T00:00",
@@ -1665,17 +1669,17 @@ const shows = [
   {
     datetime: "2025-06-27T00:00",
     venue: "TBA",
-    location: "CO"
+    location: "Winter Park, CO"
   },
   {
     datetime: "2025-06-28T00:00",
     venue: "TBA",
-    location: "CO"
+    location: "Winter Park, CO"
   },
   {
     datetime: "2025-06-29T00:00",
-    venue: "TBA",
-    location: "CO"
+    venue: "Blues From The Top",
+    location: "Winter Park, CO"
   },
   // {
   //   datetime: "2025-06-24T00:00",
