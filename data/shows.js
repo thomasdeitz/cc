@@ -1633,16 +1633,40 @@ const shows = [
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
   },
+  {
+    datetime: "2025-05-30T11:30",
+    venue: "Oconomowoc High School - Grill 2 Give",
+    location: "Oconomowoc, WI",
+  },
+  {
+    datetime: "2025-05-30T20:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "w/ The Over Unders & John Forrest and The Model Citizens",
+    link: "https://thetarlton.com/at-the-tracks",
+    linkText: "More Info",
+  },
    {
      datetime: "2025-06-07T18:30",
      venue: "Glacier Valley Music Fest 2025",
      location: "Cambria, WI"
   },
   {
+    datetime: "2025-06-13T17:30",
+    venue: "Bitter Jester Music Festival",
+    location: "Highland Park, IL",
+    //notes: "w/ "
+  },
+  {
     datetime: "2025-06-14T19:00",
     venue: "The Hive",
     location: "East Troy, WI",
     notes: "An Evening with Candy Cigarette"
+  },
+  {
+    datetime: "2025-06-20T18:30",
+    venue: "Friday Night Live - Vinyl Vault Records Stage",
+    location: "Waukesha, WI"
   },
   {
     datetime: "2025-06-22T13:00",
@@ -1659,21 +1683,21 @@ const shows = [
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
     location: "Lincoln, NE",
-    //notes: "w/ Kobe Williams and The Fantasy & TBD"
+    //notes: "w/ Kobe Williams and The Fantasy & The Breakroom"
   },
   {
     datetime: "2025-06-26T00:00",
-    venue: "TBD",
-    location: "CO"
+    venue: "TBD",//"Lion's Lair",
+    location: "CO"//"Denver, CO"
   },
   {
     datetime: "2025-06-27T00:00",
-    venue: "TBA",
+    venue: "Cooper Creek Square - ",
     location: "Winter Park, CO"
   },
   {
     datetime: "2025-06-28T00:00",
-    venue: "TBA",
+    venue: "TBA", //"Devil's Craft",
     location: "Winter Park, CO"
   },
   {
@@ -1681,11 +1705,6 @@ const shows = [
     venue: "Blues From The Top",
     location: "Winter Park, CO"
   },
-  // {
-  //   datetime: "2025-06-24T00:00",
-  //   venue: "TBD", // ?
-  //   location: "Kansas City, MO"
-  // },
   {
     datetime: "2025-07-04T17:30",
     venue: "Tumbled Rock Brewery",
