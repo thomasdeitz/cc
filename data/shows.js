@@ -1692,7 +1692,7 @@ const shows = [
   },
   {
     datetime: "2025-06-27T00:00",
-    venue: "Cooper Creek Square - ",
+    venue: "Cooper Creek Square",
     location: "Winter Park, CO"
   },
   {
