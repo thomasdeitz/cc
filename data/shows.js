@@ -1629,6 +1629,14 @@ const shows = [
     location: "Wales, WI"
   },
   {
+    datetime: "2025-05-15T13:00",
+    venue: "Appleton Music Factory",
+    location: "Appleton, WI",
+    notes: "Supporting THE BAND FEEL",
+    link: "https://app.showslinger.com/standalone_external_events/27884",
+    linkText: "Tickets",
+  },
+  {
     datetime: "2025-05-24T13:00",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
@@ -1683,7 +1691,7 @@ const shows = [
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
     location: "Lincoln, NE",
-    //notes: "w/ Kobe Williams and The Fantasy & The Breakroom"
+    notes: "w/ Wicked Bones & The Breakroom"
   },
   {
     datetime: "2025-06-26T00:00",
@@ -1715,6 +1723,11 @@ const shows = [
     venue: "Red Rooster",
     location: "Madison, WI"
   },
+  // {
+  //   datetime: "2025-07-15T00:00",
+  //   venue: "TBA",
+  //   location: "Wisconsin"
+  // },
   {
     datetime: "2025-07-18T00:00",
     venue: "Private Event",
