@@ -1629,7 +1629,7 @@ const shows = [
     location: "Wales, WI"
   },
   {
-    datetime: "2025-05-15T13:00",
+    datetime: "2025-05-15T19:00",
     venue: "Appleton Music Factory",
     location: "Appleton, WI",
     notes: "Supporting THE BAND FEEL",
