@@ -1663,7 +1663,7 @@ const shows = [
     datetime: "2025-06-13T17:30",
     venue: "Bitter Jester Music Festival",
     location: "Highland Park, IL",
-    //notes: "w/ "
+    notes: "Featured Showcase Artist"
   },
   {
     datetime: "2025-06-14T19:00",
@@ -1677,15 +1677,15 @@ const shows = [
     location: "Waukesha, WI"
   },
   {
-    datetime: "2025-06-22T13:00",
-    venue: "Crawfish Junction",
-    location: "Johnson Creek, WI"
+    datetime: "2025-06-21T00:00",
+    venue: "Appleton Music Factory",
+    location: "Appleton, WI",
+    notes: "Supporting HERO Jr."
   },
    {
      datetime: "2025-06-24T00:00",
      venue: "TBD", // "Gabes", // ?
      location: "IA",
-     //notes: "w/ Kobe Williams and The Fantasy & TBD"
   },
   {
     datetime: "2025-06-25T00:00",
@@ -1717,6 +1717,11 @@ const shows = [
     datetime: "2025-07-04T17:30",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
+  },
+  {
+    datetime: "2025-07-06T13:00",
+    venue: "Crawfish Junction",
+    location: "Johnson Creek, WI"
   },
   {
     datetime: "2025-07-12T00:00",
@@ -1753,5 +1758,10 @@ const shows = [
     datetime: "2025-08-30T13:00",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
+  },
+  {
+    datetime: "2025-09-06T00:00",
+    venue: "MARTIFEST",
+    location: "Sullivan, WI",
   },
 ];
