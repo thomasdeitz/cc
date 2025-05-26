@@ -1680,7 +1680,9 @@ const shows = [
     datetime: "2025-06-21T00:00",
     venue: "Appleton Music Factory",
     location: "Appleton, WI",
-    notes: "Supporting HERO Jr."
+    notes: "Supporting Hero Jr."
+    link: "https://app.showslinger.com/standalone_external_event_v4/29210?from=%2Fpromo_widget%2Fcalendar_list%3Fvenue_id%3D46738&old_promo_widget_id=120",
+    linkText: "Tickets"
   },
    {
      datetime: "2025-06-24T00:00",
@@ -1693,25 +1695,31 @@ const shows = [
     location: "Lincoln, NE",
     notes: "w/ Wicked Bones & The Breakroom"
   },
-  {
-    datetime: "2025-06-26T00:00",
-    venue: "TBD",//"Lion's Lair",
-    location: "CO"//"Denver, CO"
-  },
+  //{
+    //datetime: "2025-06-26T20:30",
+    //venue: "830 North - Chipper's Lanes",
+    //location: "Fort Collins, CO"
+  //},
   {
     datetime: "2025-06-27T00:00",
     venue: "Cooper Creek Square",
-    location: "Winter Park, CO"
+    location: "Winter Park, CO",
+    notes: "w/ Orion Ilgner & Joe Waters"
   },
   {
     datetime: "2025-06-28T00:00",
-    venue: "TBA", //"Devil's Craft",
-    location: "Winter Park, CO"
+    venue: "Devil's Craft",
+    location: "Winter Park, CO",
+    notes: "",
+    link: "https://www.tickpick.com/organizer/event/tyron-benoit-band-with-candy-cigarette-94533878?referrer=venuepage",
+    linkText: "Tickets"
   },
   {
     datetime: "2025-06-29T00:00",
     venue: "Blues From The Top",
-    location: "Winter Park, CO"
+    location: "Winter Park, CO",
+    link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-1266071456809",
+    linkText: "Tickets"
   },
   {
     datetime: "2025-07-04T17:30",
@@ -1728,11 +1736,12 @@ const shows = [
     venue: "Red Rooster",
     location: "Madison, WI"
   },
-  // {
-  //   datetime: "2025-07-15T00:00",
-  //   venue: "TBA",
-  //   location: "Wisconsin"
-  // },
+  {
+    datetime: "2025-07-16T00:00",
+    venue: "5 Bar",
+    location: "Beloit, WI",
+    notes: "w/ ZNORA"
+  },
   {
     datetime: "2025-07-18T00:00",
     venue: "Private Event",
