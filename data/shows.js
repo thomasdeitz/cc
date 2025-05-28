@@ -1695,11 +1695,11 @@ const shows = [
     location: "Lincoln, NE",
     notes: "w/ Wicked Bones & The Breakroom"
   },
-  //{
-    //datetime: "2025-06-26T20:30",
-    //venue: "830 North - Chipper's Lanes",
-    //location: "Fort Collins, CO"
-  //},
+  {
+    datetime: "2025-06-26T00:00",
+    venue: "2454 West - Chipper's Lanes",
+    location: "Greeley, CO"
+  },
   {
     datetime: "2025-06-27T00:00",
     venue: "Cooper Creek Square",
