@@ -1710,7 +1710,7 @@ const shows = [
     datetime: "2025-06-28T00:00",
     venue: "Devil's Craft",
     location: "Winter Park, CO",
-    notes: "",
+    notes: "Supporting the Tyron Benoit Band",
     link: "https://www.tickpick.com/organizer/event/tyron-benoit-band-with-candy-cigarette-94533878?referrer=venuepage",
     linkText: "Tickets"
   },
