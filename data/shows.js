@@ -1680,7 +1680,7 @@ const shows = [
     datetime: "2025-06-21T00:00",
     venue: "Appleton Music Factory",
     location: "Appleton, WI",
-    notes: "Supporting Hero Jr."
+    notes: "Supporting Hero Jr.",
     link: "https://app.showslinger.com/standalone_external_event_v4/29210?from=%2Fpromo_widget%2Fcalendar_list%3Fvenue_id%3D46738&old_promo_widget_id=120",
     linkText: "Tickets"
   },
@@ -1767,6 +1767,12 @@ const shows = [
     datetime: "2025-08-30T13:00",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
+  },
+  {
+    datetime: "2025-08-31T20:00",
+    venue: "In Good Spirits",
+    location: "Sullivan, WI",
+    notes: "Supporting The Steepwater Band"
   },
   {
     datetime: "2025-09-06T00:00",
