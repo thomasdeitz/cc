@@ -1642,7 +1642,7 @@ const shows = [
     location: "Baraboo, WI",
   },
   {
-    datetime: "2025-05-30T11:30",
+    datetime: "2025-05-30T10:10",
     venue: "Oconomowoc High School - Grill 2 Give",
     location: "Oconomowoc, WI",
   },
