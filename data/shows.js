@@ -1684,11 +1684,11 @@ const shows = [
     link: "https://app.showslinger.com/standalone_external_event_v4/29210?from=%2Fpromo_widget%2Fcalendar_list%3Fvenue_id%3D46738&old_promo_widget_id=120",
     linkText: "Tickets"
   },
-   {
-     datetime: "2025-06-24T00:00",
-     venue: "TBD", // "Gabes", // ?
-     location: "IA",
-  },
+  //  {
+  //    datetime: "2025-06-24T00:00",
+  //    venue: "TBD", // "Gabes", // ?
+  //    location: "IA",
+  // },
   {
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
@@ -1731,11 +1731,11 @@ const shows = [
     venue: "Crawfish Junction",
     location: "Johnson Creek, WI"
   },
-  {
-    datetime: "2025-07-12T00:00",
-    venue: "Red Rooster",
-    location: "Madison, WI"
-  },
+  // { Venue Closed July 1
+  //   datetime: "2025-07-12T00:00",
+  //   venue: "Red Rooster",
+  //   location: "Madison, WI"
+  // },
   {
     datetime: "2025-07-16T00:00",
     venue: "5 Bar",
