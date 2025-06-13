@@ -1684,11 +1684,6 @@ const shows = [
     link: "https://app.showslinger.com/standalone_external_event_v4/29210?from=%2Fpromo_widget%2Fcalendar_list%3Fvenue_id%3D46738&old_promo_widget_id=120",
     linkText: "Tickets"
   },
-  //  {
-  //    datetime: "2025-06-24T00:00",
-  //    venue: "TBD", // "Gabes", // ?
-  //    location: "IA",
-  // },
   {
     datetime: "2025-06-25T00:00",
     venue: "Duffy's Tavern",
@@ -1698,7 +1693,9 @@ const shows = [
   {
     datetime: "2025-06-26T00:00",
     venue: "2454 West - Chipper's Lanes",
-    location: "Greeley, CO"
+    location: "Greeley, CO",
+    link: "https://chipperslanes.thundertix.com/events/248773",
+    linkText: "Info"
   },
   {
     datetime: "2025-06-27T00:00",
@@ -1772,7 +1769,9 @@ const shows = [
     datetime: "2025-08-31T20:00",
     venue: "In Good Spirits",
     location: "Sullivan, WI",
-    notes: "Supporting The Steepwater Band"
+    notes: "Supporting The Steepwater Band",
+    link:"https://www.bandsintown.com/e/106919524?affil_code=js_www.steepwater.com&app_id=js_www.steepwater.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
+    linkText: "Info"
   },
   {
     datetime: "2025-09-06T00:00",
