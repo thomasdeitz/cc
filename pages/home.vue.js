@@ -5,9 +5,6 @@ const HomePage = {
         <Section heading="Upcoming Dates" background="black">
             <Dates length="10"  />
         </Section>
-        <Section heading="Videos" background="black">
-            <Videos />
-        </Section>
         <Section background="primary" heading="Sign Up for Updates">
             <Subscribe />
         </Section>

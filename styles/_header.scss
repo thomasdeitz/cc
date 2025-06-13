@@ -11,7 +11,7 @@ header {
     
 
     svg {
-        color: var(--accent);
+        color: var(--white);
         flex-grow: 0;
         height: 60px;
         line-height: 0;
@@ -36,17 +36,17 @@ header {
         padding: 0;
 
         a { 
-            color: var(--white);
+            color: var(--primary);
             display: inline-block;
-            font-weight: 300;
+            font-weight: 600;
             line-height: 1;
-            padding: 1rem 1rem;
+            padding: 1rem .5rem;
             position: relative;
             text-decoration: none;
             text-transform: uppercase;     
 
             &:hover {
-                opacity: .5;
+                color: var(--white);
                 text-decoration: none;
             }
         }

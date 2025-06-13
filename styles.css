@@ -1,8 +1,8 @@
 :root {
   --black: #0B0F0E;
-  --white: #DCE4DF;
-  --primary: #BB8549;
-  --accent: #BB8549;
+  --white: #c6d4cd;
+  --primary: #b23211;
+  --accent: #b23211;
   --breakpoint-phone: 600px;
   --breakpoint-tablet: 900px;
   --breakpoint-laptop: 1440px;
@@ -18,7 +18,7 @@
   src: url("./assets/Art-Nuvo.ttf");
 }
 :root {
-  font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 21px;
   line-height: 1.8;
 }
@@ -69,7 +69,7 @@ header {
   z-index: 1000;
 }
 header svg {
-  color: var(--accent);
+  color: var(--white);
   flex-grow: 0;
   height: 60px;
   line-height: 0;
@@ -92,17 +92,17 @@ header ul {
   padding: 0;
 }
 header ul a {
-  color: var(--white);
+  color: var(--primary);
   display: inline-block;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 1;
-  padding: 1rem 1rem;
+  padding: 1rem 0.5rem;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
 }
 header ul a:hover {
-  opacity: 0.5;
+  color: var(--white);
   text-decoration: none;
 }
 .home header {
@@ -185,7 +185,7 @@ section .videos {
 }
 #hero:before {
   content: "";
-  background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
+  background-image: url(././assets/None1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -240,15 +240,16 @@ footer h2 {
 .shows {
   text-align: left;
   display: grid;
-  gap: 20px;
+  gap: 0px;
   line-height: 0.8;
   grid-template-columns: auto 1fr auto;
   text-transform: uppercase;
 }
 .shows > div {
-  padding: 20px 0;
+  padding: 20px;
   position: relative;
   overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 768px) {
   .shows {
@@ -256,6 +257,15 @@ footer h2 {
   }
   .shows > div {
     padding: 0;
+    border: none;
+  }
+  .shows .date {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .shows .button {
+    margin-top: 20px;
   }
 }
 .shows .date {
@@ -281,7 +291,7 @@ a.button, .button, button, input[type=submit] {
   display: inline-flex;
   background-color: var(--black);
   color: var(--white);
-  font-family: "Art Nuvo", "Barlow Semi Condensed", sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   border: 1px solid var(--black);
   text-transform: uppercase;
 }
