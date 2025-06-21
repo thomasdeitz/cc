@@ -206,6 +206,7 @@ section .videos {
 }
 
 footer {
+  text-align: center;
   position: relative;
   padding: 5vw 0;
   background-color: var(--black);
