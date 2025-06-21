@@ -1677,34 +1677,37 @@ const shows = [
     location: "Waukesha, WI"
   },
   {
-    datetime: "2025-06-21T00:00",
+    datetime: "2025-06-21T19:30",
     venue: "Appleton Music Factory",
     location: "Appleton, WI",
-    notes: "Supporting Hero Jr.",
+    notes: "An Evening with Candy Cigarette",
     link: "https://app.showslinger.com/standalone_external_event_v4/29210?from=%2Fpromo_widget%2Fcalendar_list%3Fvenue_id%3D46738&old_promo_widget_id=120",
     linkText: "Tickets"
   },
   {
-    datetime: "2025-06-25T00:00",
+    datetime: "2025-06-25T20:00",
     venue: "Duffy's Tavern",
     location: "Lincoln, NE",
     notes: "w/ Wicked Bones & The Breakroom"
   },
   {
-    datetime: "2025-06-26T00:00",
+    datetime: "2025-06-26T20:00",
     venue: "2454 West - Chipper's Lanes",
     location: "Greeley, CO",
+    notes: "An Evening with Candy Cigarette",
     link: "https://chipperslanes.thundertix.com/events/248773",
     linkText: "Info"
   },
   {
-    datetime: "2025-06-27T00:00",
+    datetime: "2025-06-27T16:00",
     venue: "Cooper Creek Square",
     location: "Winter Park, CO",
-    notes: "w/ Orion Ilgner & Joe Waters"
+    notes: "w/ Orion Ilgner & Joe Waters",
+    link: "https://coopercreeksquare.com/event/music-on-the-square-60/",
+    linkText: "Info"
   },
   {
-    datetime: "2025-06-28T00:00",
+    datetime: "2025-06-28T20:00",
     venue: "Devil's Craft",
     location: "Winter Park, CO",
     notes: "Supporting the Tyron Benoit Band",
@@ -1745,9 +1748,17 @@ const shows = [
     location: "Wisconsin"
   },
   {
-    datetime: "2025-07-19T00:00",
+    datetime: "2025-07-19T15:00",
     venue: "Delafield Block Party",
     location: "Delafield, WI"
+  },
+  {
+    datetime: "2025-07-20T14:00",
+    venue: "Brothers' Pub",
+    location: "Shawano, WI",
+    notes: "Supoorting The Champ Jaxon Band",
+    link: "https://www.facebook.com/events/1829902941125122",
+    linkText: "Info"
   },
   {
      datetime: "2025-08-22T00:00",

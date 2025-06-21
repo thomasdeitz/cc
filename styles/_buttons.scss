@@ -24,7 +24,10 @@ a.button, .button, button, input[type="submit"] {
     }
   }
 
-  input {
+  input,
+  input:autofill,
+  input:-internal-autofill-selected,
+  input:-internal-autofill-previewed {
     text-decoration: none;
     height: 40px;
     padding: 0 10px;

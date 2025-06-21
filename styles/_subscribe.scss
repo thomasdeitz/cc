@@ -39,7 +39,7 @@
   
     input {
       //font-size: 1.5em;
-      //font-family: 'Barlow Semi Condensed', sans-serif;
+      font-family: 'Barlow Semi Condensed', sans-serif;
       position: relative;
       display: inline-block;
       font-weight: bold;
@@ -56,6 +56,19 @@
       position: relative;
       //width: 300px;
       //border: 1px solid var(--black)
+    }
+
+    input:autofill,
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px var(--white) inset !important;
+      -webkit-text-fill-color: var(--black) !important;
+      font-family: 'Barlow Semi Condensed', sans-serif !important;
+      &::first-line {
+        font-family: 'Barlow Semi Condensed', sans-serif !important;
+      }
     }
   
     input[type="submit"] {
