@@ -1789,4 +1789,9 @@ const shows = [
     venue: "MARTIFEST",
     location: "Sullivan, WI",
   },
+  {
+    datetime: "2025-09-13T15:00",
+    venue: "TBA",
+    location: "Green Bay, WI"
+  },
 ];
