@@ -310,7 +310,7 @@ section.black a.button, section.black .button, section.black button, section.bla
 input:-webkit-autofill {
   text-decoration: none;
   height: 40px;
-  padding: 0 10px;
+  padding: 10px;
   border-radius: 3px;
   align-items: center;
   display: inline-flex;
@@ -328,7 +328,7 @@ input:-internal-autofill-selected,
 input:-internal-autofill-previewed {
   text-decoration: none;
   height: 40px;
-  padding: 0 10px;
+  padding: 10px;
   border-radius: 3px;
   align-items: center;
   display: inline-flex;
