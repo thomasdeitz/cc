@@ -1748,7 +1748,7 @@ const shows = [
     location: "Wisconsin"
   },
   {
-    datetime: "2025-07-19T15:00",
+    datetime: "2025-07-19T17:00",
     venue: "Delafield Block Party",
     location: "Delafield, WI"
   },
@@ -1793,5 +1793,5 @@ const shows = [
     datetime: "2025-09-13T15:00",
     venue: "TBA",
     location: "Green Bay, WI"
-  },
+  }
 ];
