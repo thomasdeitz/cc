@@ -1756,7 +1756,7 @@ const shows = [
     datetime: "2025-07-20T14:00",
     venue: "Brothers' Pub",
     location: "Shawano, WI",
-    notes: "Supoorting The Champ Jaxon Band",
+    notes: "Supporting The Champ Jaxon Band",
     link: "https://www.facebook.com/events/1829902941125122",
     linkText: "Info"
   },
@@ -1793,5 +1793,10 @@ const shows = [
     datetime: "2025-09-13T15:00",
     venue: "TBA",
     location: "Green Bay, WI"
+  },
+  {
+    datetime: "2025-10-11T00:00",
+    venue: "TBA",
+    location: "Johnson Creek, WI"
   }
 ];
