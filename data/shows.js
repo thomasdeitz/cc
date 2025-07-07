@@ -1741,8 +1741,8 @@ const shows = [
     venue: "5 Bar",
     location: "Beloit, WI",
     notes: "w/ ZNORA",
-    link: "Info",
-    linkText: "https://www.facebook.com/share/16mdez1mnc/"
+    link: "https://www.facebook.com/share/16mdez1mnc/",
+    linkText: "Info"
   },
   {
     datetime: "2025-07-18T00:00",
