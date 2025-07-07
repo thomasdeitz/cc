@@ -1737,10 +1737,12 @@ const shows = [
   //   location: "Madison, WI"
   // },
   {
-    datetime: "2025-07-16T00:00",
+    datetime: "2025-07-16T18:30",
     venue: "5 Bar",
     location: "Beloit, WI",
-    notes: "w/ ZNORA"
+    notes: "w/ ZNORA",
+    link: "Info",
+    linkText: "https://www.facebook.com/share/16mdez1mnc/"
   },
   {
     datetime: "2025-07-18T00:00",
