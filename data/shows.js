@@ -1763,6 +1763,14 @@ const shows = [
     linkText: "Info"
   },
   {
+    datetime: "2025-07-22T19:00",
+    venue: "The Very Famous X-Ray Arcade",
+    location: "Cudahy, WI",
+    notes: "Supporting Ace Monroe w/ Lunde",
+    link: "https://xrayarcade.com/calendar/2025/07/22/acemonroe",
+    linkText: "Tickets"
+  },
+  {
      datetime: "2025-08-22T00:00",
      venue: "Falcon Bowl",
      location: "Milwaukee, WI",
