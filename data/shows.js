@@ -1806,7 +1806,9 @@ const shows = [
   },
   {
     datetime: "2025-10-11T00:00",
-    venue: "TBA",
-    location: "Johnson Creek, WI"
+    venue: "ROB'S PERFORMANCE MOTORSPORTS - Fall Open House and Ride-in",
+    location: "Johnson Creek, WI",
+    link:"https://www.facebook.com/events/741991571843217/",
+    linkText: "Info"
   }
 ];
