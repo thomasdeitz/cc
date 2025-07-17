@@ -1804,11 +1804,53 @@ const shows = [
     venue: "TBA",
     location: "Green Bay, WI"
   },
+  // {
+  //   datetime: "2025-09-17T00:00",
+  //   venue: "Shank Hall",
+  //   location: "Milwaukee, WI",
+  //   notes: "Supporting The Black Moods",
+  //   link:"https://www.ticketweb.com/event/the-black-moods-shank-hall-tickets/13880194",
+  //   linkText: "Tickets"
+  // },
+  // {
+  //   datetime: "2025-10-02T00:00",
+  //   venue: "",
+  //   location: ", IL"
+  // },
+  // {
+  //   datetime: "2025-10-03T00:00",
+  //   venue: "",
+  //   location: "Nasheville, TN"
+  // },
+  // {
+  //   datetime: "2025-10-04T00:00",
+  //   venue: "",
+  //   location: "Bowling Green, KY"
+  // },
+  // {
+  //   datetime: "2025-10-05T00:00",
+  //   venue: "",
+  //   location: "ST. Louis, MO"
+  // },
   {
     datetime: "2025-10-11T00:00",
     venue: "ROB'S PERFORMANCE MOTORSPORTS - Fall Open House and Ride-in",
     location: "Johnson Creek, WI",
     link:"https://www.facebook.com/events/741991571843217/",
     linkText: "Info"
+  },
+  // {
+  //   datetime: "2025-10-16T00:00",
+  //   venue: "The Very Famous X-Ray Arcade",
+  //   location: "Cudahy, WI",
+  //   notes: "Supporting King Falcon",
+  // },
+  {
+    datetime: "2025-11-21T00:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting The Cold Stares",
+    link:"https://www.ticketweb.com/event/the-cold-stares-shank-hall-tickets/13869014",
+    linkText: "Tickets"
   }
 ];
