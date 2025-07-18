@@ -1,8 +1,8 @@
 :root {
   --black: #0B0F0E;
   --white: #c6d4cd;
-  --primary: #b23211;
-  --accent: #b23211;
+  --primary: #ce9647;
+  --accent: #ce9647;
   --breakpoint-phone: 600px;
   --breakpoint-tablet: 900px;
   --breakpoint-laptop: 1440px;
@@ -185,7 +185,7 @@ section .videos {
 }
 #hero:before {
   content: "";
-  background-image: url(././assets/None1.png);
+  background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -224,11 +224,11 @@ footer h2 {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  font-size: 32px;
+  font-size: 24px;
 }
 .connections a {
   line-height: 10px;
-  background-color: var(--black);
+  background-color: transparent;
   color: var(--white);
   display: inline-block;
   padding: 8px;

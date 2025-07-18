@@ -13,6 +13,8 @@ const Pageheader = {
                         <li><router-link to="/contact">Contact</router-link></li>
                     -->
                 </ul>
+                <br />
+                <Connections />
             </nav>
         </header>
     `
