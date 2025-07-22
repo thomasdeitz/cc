@@ -1836,6 +1836,7 @@ const shows = [
     datetime: "2025-10-11T00:00",
     venue: "ROB'S PERFORMANCE MOTORSPORTS - Fall Open House and Ride-in",
     location: "Johnson Creek, WI",
+    notes: "w/ Bella Cain",
     link:"https://www.facebook.com/events/741991571843217/",
     linkText: "Info"
   },
