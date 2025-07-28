@@ -1795,6 +1795,14 @@ const shows = [
     linkText: "Info"
   },
   {
+    datetime: "2025-09-01T00:00",
+    venue: "TBA", //"Navy Pier",
+    location: "Chicago, IL",
+    //notes: "Bitter Jester - Best Of 2025",
+    //link:"https://www.bandsintown.com/e/106919524?affil_code=js_www.steepwater.com&app_id=js_www.steepwater.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
+    //linkText: "Info"
+  },
+  {
     datetime: "2025-09-06T00:00",
     venue: "MARTIFEST",
     location: "Sullivan, WI",
@@ -1833,7 +1841,7 @@ const shows = [
   //   location: "ST. Louis, MO"
   // },
   {
-    datetime: "2025-10-11T00:00",
+    datetime: "2025-10-11T15:00",
     venue: "ROB'S PERFORMANCE MOTORSPORTS - Fall Open House and Ride-in",
     location: "Johnson Creek, WI",
     notes: "w/ Bella Cain",
