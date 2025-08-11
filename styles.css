@@ -1,5 +1,5 @@
 :root {
-  --black: #0B0F0E;
+  --black: #0b0f0e;
   --white: #c6d4cd;
   --primary: #ce9647;
   --accent: #ce9647;
@@ -11,6 +11,7 @@
   --breakpoint-tablet: 768px;
   --breakpoint-laptop: 1200px;
   --breakpoint-desktop: 1440px;
+  --h1-size: 48px;
 }
 
 @font-face {
@@ -44,6 +45,21 @@ a:hover {
 body {
   margin: 0px;
   background-color: var(--black);
+}
+
+blockquote p {
+  font-size: var(--h1-size);
+  line-height: 1;
+  font-weight: 700;
+  font-style: italic;
+}
+blockquote p:before {
+  font-size: 200%;
+  position: absolute;
+  margin: -50px;
+}
+blockquote cite {
+  font-style: normal;
 }
 
 .container {
@@ -105,20 +121,20 @@ header ul a:hover {
   color: var(--white);
   text-decoration: none;
 }
-.home header {
+.home header, .epk header {
   bottom: 0px;
   padding-bottom: 20px;
   position: absolute;
 }
-.home header svg {
+.home header svg, .epk header svg {
   height: 80px;
 }
 @media only screen and (max-width: 800px) {
-  .home header {
+  .home header, .epk header {
     top: 280px;
     padding-bottom: 0px;
   }
-  .home header svg {
+  .home header svg, .epk header svg {
     height: 60px;
   }
 }
@@ -128,6 +144,10 @@ section {
   background-color: var(--white);
   position: relative;
   z-index: 1000;
+}
+section.center .container {
+  text-align: center;
+  max-width: 900px;
 }
 @media only screen and (min-width: 801px) {
   section.split .container {
@@ -196,6 +216,15 @@ section .videos {
   position: fixed;
   z-index: -1;
 }
+#hero:after {
+  content: "";
+  background: linear-gradient(to bottom, rgba(11, 15, 14, 0) 0%, rgb(11, 15, 14) 100%);
+  top: 70vh;
+  height: 30vh;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
 @media only screen and (max-width: 800px) {
   #hero {
     height: 450px;
@@ -205,6 +234,11 @@ section .videos {
   }
 }
 
+.epk .photo-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
 footer {
   text-align: center;
   position: relative;

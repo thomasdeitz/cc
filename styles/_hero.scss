@@ -18,6 +18,16 @@
         z-index: -1;
     }
 
+    &:after {
+        content: '';
+        background: linear-gradient(to bottom, rgba(11,15,14, 0) 0%, rgba(11,15,14, 1) 100%);
+        top: 70vh;
+        height: 30vh;
+        left: 0px;
+        right: 0px;
+        position: fixed;
+    }
+
     @media only screen and (max-width: 800px) {
         height: 450px;
 

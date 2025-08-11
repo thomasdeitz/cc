@@ -1848,12 +1848,12 @@ const shows = [
     link:"https://www.facebook.com/events/741991571843217/",
     linkText: "Info"
   },
-  // {
-  //   datetime: "2025-10-16T00:00",
-  //   venue: "The Very Famous X-Ray Arcade",
-  //   location: "Cudahy, WI",
-  //   notes: "Supporting King Falcon",
-  // },
+  {
+     datetime: "2025-10-14T00:00",
+     venue: "The Very Famous X-Ray Arcade",
+     location: "Cudahy, WI",
+     notes: "Supporting King Falcon w/ Motherwind",
+  },
   {
     datetime: "2025-11-21T00:00",
     venue: "Shank Hall",

@@ -8,11 +8,11 @@ const routes = [
       },
     },
     {
-      path: "/presskit",
+      path: "/epk",
       name: "PressKit",
       component: PressKit,
       meta: {
-        props: {bodyClass: "presskit"}
+        props: {bodyClass: "epk"}
       },
     },
     { // Redirect
