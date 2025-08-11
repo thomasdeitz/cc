@@ -1796,7 +1796,7 @@ const shows = [
   },
   {
     datetime: "2025-09-01T00:00",
-    venue: "TBA", //"Navy Pier",
+    venue: "Navy Pier",
     location: "Chicago, IL",
     //notes: "Bitter Jester - Best Of 2025",
     //link:"https://www.bandsintown.com/e/106919524?affil_code=js_www.steepwater.com&app_id=js_www.steepwater.com&came_from=242&utm_campaign=event&utm_medium=web&utm_source=widget",
@@ -1809,8 +1809,11 @@ const shows = [
   },
   {
     datetime: "2025-09-13T15:00",
-    venue: "TBA",
-    location: "Green Bay, WI"
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    notes: "All Bands On Deck",
+    link: "https://www.facebook.com/share/19ApiGMwrk/",
+    linkText: "Info"
   },
   // {
   //   datetime: "2025-09-17T00:00",
