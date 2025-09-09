@@ -1833,11 +1833,12 @@ const shows = [
   //   venue: "",
   //   location: "Nasheville, TN"
   // },
-  // {
-  //   datetime: "2025-10-04T00:00",
-  //   venue: "",
-  //   location: "Bowling Green, KY"
-  // },
+  {
+    datetime: "2025-10-04T00:00",
+    venue: "The Blue House",
+    location: "Murfreesboro, TN",
+    notes: "w/ Superimposed & Saint Stranger"
+  },
   // {
   //   datetime: "2025-10-05T00:00",
   //   venue: "",
