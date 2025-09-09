@@ -1857,6 +1857,8 @@ const shows = [
      venue: "The Very Famous X-Ray Arcade",
      location: "Cudahy, WI",
      notes: "Supporting King Falcon w/ Motherwind",
+     link: "https://www.etix.com/ticket/p/84463581/king-falcon-motherwind-candy-cigarette-cudahy-xray-arcade",
+     linkText: "Tickets"
   },
   {
     datetime: "2025-11-21T00:00",
