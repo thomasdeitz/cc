@@ -1861,6 +1861,12 @@ const shows = [
      linkText: "Tickets"
   },
   {
+    datetime: "2025-10-25T15:00",
+    venue: "Gamma Ray Bar",
+    location: "Madison, WI",
+    notes: "w/ No Limit"
+  },
+  {
     datetime: "2025-11-21T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
