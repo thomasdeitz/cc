@@ -1,4 +1,5 @@
-.epk {
+.epk, .about {
+
     .photo-grid,
     .notableshows {
         display: grid;
@@ -20,4 +21,9 @@
             column-count: 1; 
         }
     }
+}
+
+:root .about {
+    --white: rgb(208, 183, 130);
+    --primary: rgb(244,184,65);
 }

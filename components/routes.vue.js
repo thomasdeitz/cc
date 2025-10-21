@@ -47,7 +47,7 @@ const routes = [
       path: "/bio",
       component: BioPage,
       meta: {
-        props: {bodyClass: ""}
+        props: {bodyClass: "about"}
       },
     },
     {

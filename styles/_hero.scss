@@ -28,6 +28,27 @@
         position: fixed;
     }
 
+    .about &.a:before {
+        background-image: url(././assets/TJD01847.JPG);
+    }
+    .about &.b:before {
+        background-image: url(././assets/TJD01873.JPG);
+    }
+    .about &.c:before {
+        background-image: url(././assets/TJD01886.JPG);
+    }
+    .about &.d:before {
+        background-image: url(././assets/TJD01851.JPG);
+    }
+    .about &.e:before {
+        background-image: url(././assets/TJD01854.JPG);
+    }
+
+    .about &:after {
+            top: 30vh;
+            height: 70vh;
+    }
+
     @media only screen and (max-width: 800px) {
         height: 450px;
 
