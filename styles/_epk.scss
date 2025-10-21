@@ -1,11 +1,23 @@
 .epk {
-    .photo-grid {
+    .photo-grid,
+    .notableshows {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
 
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
         & > * {
-            
+        }
+    }
+
+    .two-column {
+        column-count: 2; 
+        text-align: left;
+        @media screen and (max-width: 768px) {
+            column-count: 1; 
         }
     }
 }

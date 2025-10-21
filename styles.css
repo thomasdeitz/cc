@@ -12,6 +12,11 @@
   --breakpoint-laptop: 1200px;
   --breakpoint-desktop: 1440px;
   --h1-size: 48px;
+  --h2-size: 32px;
+  --h3-size: 24px;
+  --h4-size: 21px;
+  --h5-size: 14px;
+  --h6-size: 12px;
 }
 
 @font-face {
@@ -48,18 +53,13 @@ body {
 }
 
 blockquote p {
-  font-size: var(--h1-size);
   line-height: 1;
-  font-weight: 700;
   font-style: italic;
 }
-blockquote p:before {
-  font-size: 200%;
-  position: absolute;
-  margin: -50px;
-}
 blockquote cite {
+  font-weight: 700;
   font-style: normal;
+  font-size: 14px;
 }
 
 .container {
@@ -234,11 +234,30 @@ section .videos {
   }
 }
 
-.epk .photo-grid {
+.epk .photo-grid,
+.epk .notableshows {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+@media screen and (max-width: 768px) {
+  .epk .photo-grid,
+  .epk .notableshows {
+    grid-template-columns: 1fr;
+  }
+}
+.epk .two-column {
+  -moz-column-count: 2;
+       column-count: 2;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .epk .two-column {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+}
+
 footer {
   text-align: center;
   position: relative;

@@ -12,21 +12,14 @@ body { margin: 0px; background-color: var(--black);}
 
 blockquote {
     p {
-        font-size: var(--h1-size);
         line-height: 1;
-        font-weight: 700;
         font-style: italic;
-
-        &:before {
-            //content: "“";
-            font-size: 200%;
-            position: absolute;
-            margin: -50px;
-        }
     }
 
     cite {
+        font-weight: 700;
         font-style: normal;
+        font-size: 14px;
     }
 }
 

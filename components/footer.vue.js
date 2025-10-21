@@ -16,6 +16,8 @@ const Pagefooter = {
                 </small>
                 <br/>
                 <br/>
+                <small><strong><router-link to="/epk">EPK</router-link></strong></small>
+                <br/><br/>
                 <small>All rights reserved &copy; {{today.toLocaleDateString('en', { year: 'numeric' })}} Candy Cigarette</small>
             </div>
         </footer>

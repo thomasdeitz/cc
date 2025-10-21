@@ -40,7 +40,8 @@ const shows = [
     datetime: "2021-10-15T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
-    notes: 'w/ The Other LA, Solar, & Common Threads'
+    notes: 'w/ The Other LA, Solar, & Common Threads',
+    notable: "true"
   },
   {
     datetime: "2021-10-12T18:30",
@@ -238,7 +239,8 @@ const shows = [
     datetime: "2022-04-30T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
-    notes: "w/ The Rumours, Un-Broken, Let Fate Decide & Mickey Magnum"
+    notes: "w/ The Rumours, Un-Broken, Let Fate Decide & Mickey Magnum",
+    notable: "true"
   },
   {
     datetime: "2022-05-05T17:00",
@@ -668,7 +670,8 @@ const shows = [
     datetime: "2023-01-28T17:00",
     venue: "Miramar Theatre",
     location: "Milwaukee, WI",
-    notes: "Supporting Jared James Nichols & Bourbon House"
+    notes: "Supporting Jared James Nichols & Bourbon House",
+    notable: "true"
   },
   {
     datetime: "2023-02-04T19:00",
@@ -761,12 +764,19 @@ const shows = [
     datetime: "2023-05-21T12:00",
     venue: "HomeGrown Blues Festival - Foundry 45",
     location: "Kewaskum, WI",
-    notes: "w/ Maple Road, The Stephen Hull Experience, Andy Gelles Band, Luke Cerny & the Toothpickers, Slow Train featuring Sue DaBaco, Pierre Lee, Slim & Turner, Mojo Road and The Incorruptibles"
+    notes: "w/ Maple Road, The Stephen Hull Experience, Andy Gelles Band, Luke Cerny & the Toothpickers, Slow Train featuring Sue DaBaco, Pierre Lee, Slim & Turner, Mojo Road and The Incorruptibles",
+    notable: "true",
+    notableVenue: "HomeGrown Blues Festival",
+    notableNotes: "false"
+
   },
   {
     datetime: "2023-05-21T19:00",
     venue: "41st WAMI Award Show - Turner Hall Ballroom",
     location: "Milwaukee, WI",
+    notable: "true",
+    notableVenue: "Turner Hall Ballroom",
+    notableNotes: "41st WAMI Award Show"
   },
   {
     datetime: "2023-05-27T08:00",
@@ -826,18 +836,21 @@ const shows = [
   },
   {
     datetime: "2023-06-23T17:30",
-    venue: "Blues From The Top - Cooper Creek Stage",
-    location: "Winter Park, CO"
+    venue: "Blues From The Top Music Festival",
+    location: "Winter Park, CO",
+    notes: "Cooper Creek Stage"
   },
   {
     datetime: "2023-06-24T14:20",
-    venue: "Blues From The Top - Check Out The Music Stage",
-    location: "Winter Park, CO"
+    venue: "Blues From The Top Music Festival",
+    location: "Winter Park, CO",
+    notes: "Check Out The Music Stage"
   },
   {
     datetime: "2023-06-25T15:00",
-    venue: "Blues From The Top - Check Out The Music Stage",
-    location: "Winter Park, CO"
+    venue: "Blues From The Top",
+    location: "Winter Park, CO",
+    notes: "Check Out The Music Stage"
   },
   {
     datetime: "2023-06-28T18:00",
@@ -867,7 +880,10 @@ const shows = [
   {
     datetime: "2023-07-06T20:00",
     venue: "Summerfest - Guitars For Vets WAMI Stage",
-    location: "Milwaukee, WI"
+    location: "Milwaukee, WI",
+    notable: "true",
+    notableVenue: "Summerfest",
+    notableNotes: "2 Years"
   },
   {
     datetime: "2023-07-07T20:00",
@@ -1114,7 +1130,10 @@ const shows = [
     location: "Chicago, IL",
     notes: "Performances by Becker/ Davis Duet – Benny Jenkin – Joe Asselin – Candy Cigarette – The Mike Felten Band – The John Millard Band – Indigo Blues Band – The Dave Lumsden Band – The Skylar Rogers Band – Stefan Hillesheim Trio – The Sean McKee Band – Ric Harris & The Heat Merchants – A Patch of Blues",
     link: "https://buddyguy.com/event/chicago-blues-challenge/buddy-guys-legends/chicago-illinois/",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true",
+    notableVenue: "Buddy Guy's Legends",
+    notableNotes: "Chicago Blues Challenge"
   },
   {
     datetime: "2023-11-16T19:30",
@@ -1122,15 +1141,17 @@ const shows = [
     location: "Waukegan, IL",
     notes: "Supporting Blackberry Smoke",
     link: "https://www.ticketmaster.com/event/07005EED84B41500?brand=genesee&camefrom=CFC_GENESEE",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2023-11-20T19:30",
     venue: "High Noon Saloon",
     location: "Madison, WI",
-    notes: "Supporting Jared James Nichols & Cage Willis",
+    notes: "Supporting Jared James Nichols w/ Cage Willis",
     link: "https://www.ticketmaster.com/event/07005F089C19196B",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2023-12-02T20:00",
@@ -1168,7 +1189,8 @@ const shows = [
   {
     datetime: "2024-01-19T00:00",
     venue: "International Blues Challenge",
-    location: "Memphis, TN"
+    location: "Memphis, TN",
+    notable: "true"
   },
   {
     datetime: "2024-01-26T18:00",
@@ -1182,7 +1204,8 @@ const shows = [
     location: "West Bend, WI",
     notes: "Supporting Altered Five Blues Band",
     link: "https://www.simpletix.com/e/altered-five-blues-band-w-special-guest-ca-tickets-149195#smtx-click",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2024-02-16T20:00",
@@ -1218,7 +1241,8 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "Supporting Davy Knowles",
     link: "https://www.ticketweb.com/event/davy-knowles-shank-hall-tickets/13387663",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2024-04-19T20:00",
@@ -1227,6 +1251,7 @@ const shows = [
     notes: "Supporting Benjamin Trick & Motherwind w/ Three Left & Apex Aura",
     linkText: "More Info",
     link: "https://www.facebook.com/events/687651603456197",
+    notable: "true"
   },
   {
     datetime: "2024-04-27T20:00",
@@ -1258,7 +1283,8 @@ const shows = [
     location: "Janesville, WI",
     notes: "Supporting The Black Moods w/ SIIN, Adaddon's End & Gilded Cages",
     link: "https://the-back-bar.myshopify.com/products/concert-ticket-2024-05-25-2024-the-black-moods-wsg-tba",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2024-05-31T18:00",
@@ -1334,7 +1360,7 @@ const shows = [
   },
   {
     datetime: "2024-06-29T00:00",
-    venue: "Blues from the Top - Check out the Music Stage",
+    venue: "Blues from the Top Music Festival",
     location: "Winter Park, CO",
     notes: "Ben Harper & The Innocent Criminals, Charlie Musselwhite, Ally Venable Band, GA-20 & Taj Farrant",
     link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-855642839767?aff=BluesFromTheTopwebsite",
@@ -1350,7 +1376,7 @@ const shows = [
   },
   {
     datetime: "2024-06-30T00:00",
-    venue: "Blues from the Top - Check out the Music Stage",
+    venue: "Blues from the Top Music Festival",
     location: "Winter Park, CO",
     notes: "Eric Gales Canned Heat, Tommy Castro & Deanna Bogart & Toronzo Cannon",
     link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-855642839767?aff=BluesFromTheTopwebsite",
@@ -1383,6 +1409,8 @@ const shows = [
     datetime: "2024-07-28T00:00",
     venue: "AtwoodFest - Sugar Maple Stage",
     location: "Madison, WI",
+    notable: "true",
+    notableVenue: "AtwoodFest Music Festival",
   },
   {
     datetime: "2024-08-02T00:00",
@@ -1410,7 +1438,9 @@ const shows = [
     venue: "Ashley for the Arts - Pavilion Stage",
     location: "Arcadia, WI",
     link: "https://www.etix.com/ticket/k/25448837/3day-weekend-pass-arcadia-ashley-for-the-arts?_gl=1*1t67twe*_gcl_aw*R0NMLjE3MjA0OTEyNzcuQ2p3S0NBanduSzYwQmhBOUVpd0FtcEhadzNGVUNDaU5yVHdhUG80QnkxX0ltRzBpWE1IdHR2SFQxNHY5Ukhjbkw3VjVSbnNpUGhIMWJob0NtRGdRQXZEX0J3RQ..*_gcl_au*MTY5MjcyNDgwLjE3MjA0OTEyNzc.*_ga*MjA0NzE1MjkwLjE3MjA0OTEyNzc.*_ga_7QRHLPDZCZ*MTcyMDQ5MTI3Ny4xLjAuMTcyMDQ5MTI3Ny42MC4wLjA.",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true",
+    notableVenue: "Ashley for the Arts Music Festival",
   },
   {
     datetime: "2024-08-11T16:00",
@@ -1483,7 +1513,8 @@ const shows = [
     location: "West Bend, WI",
     notes: "Supporting Lil Ed & The Blues Imperials",
     link: "https://www.simpletix.com/e/lil-ed-the-blues-imperials-w-special-guest-tickets-165821",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2024-10-05T00:00",
@@ -1622,6 +1653,7 @@ const shows = [
     notes: "Supporting Chris Cain",
     link: "https://www.ticketweb.com/event/chris-cain-shank-hall-tickets/14217883",
     linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2025-05-02T17:00",
@@ -1635,6 +1667,7 @@ const shows = [
     notes: "Supporting THE BAND FEEL",
     link: "https://app.showslinger.com/standalone_external_events/27884",
     linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2025-05-24T13:00",
@@ -1712,14 +1745,17 @@ const shows = [
     location: "Winter Park, CO",
     notes: "Supporting the Tyron Benoit Band",
     link: "https://www.tickpick.com/organizer/event/tyron-benoit-band-with-candy-cigarette-94533878?referrer=venuepage",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2025-06-29T00:00",
-    venue: "Blues From The Top",
+    venue: "Blues From The Top Music Festival",
     location: "Winter Park, CO",
     link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-tickets-1266071456809",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true",
+    notableNotes: "4 Years"
   },
   {
     datetime: "2025-07-04T17:30",
@@ -1768,7 +1804,8 @@ const shows = [
     location: "Cudahy, WI",
     notes: "Supporting Ace Monroe w/ Lunde",
     link: "https://xrayarcade.com/calendar/2025/07/22/acemonroe",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
      datetime: "2025-08-22T00:00",
@@ -1800,7 +1837,8 @@ const shows = [
     location: "Chicago, IL",
     notes: "Bitter Jester - Best Of 2023-2025",
     link:"https://www.instagram.com/p/DNiuYIMRpYb/",
-    linkText: "Info"
+    linkText: "Info",
+    notable: "true"
   },
   {
     datetime: "2025-09-06T00:00",
@@ -1858,7 +1896,8 @@ const shows = [
      location: "Cudahy, WI",
      notes: "Supporting King Falcon w/ Motherwind",
      link: "https://www.etix.com/ticket/p/84463581/king-falcon-motherwind-candy-cigarette-cudahy-xray-arcade",
-     linkText: "Tickets"
+     linkText: "Tickets",
+     notable: "true"
   },
   {
     datetime: "2025-10-25T15:00",
