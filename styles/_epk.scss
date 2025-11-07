@@ -26,4 +26,11 @@
 :root .about {
     --white: rgb(208, 183, 130);
     --primary: rgb(244,184,65);
+
+    ul li a {
+        color: var(--primary);
+        &:hover {
+            opacity:.5;
+        }
+    }
 }

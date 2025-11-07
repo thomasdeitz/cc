@@ -1912,5 +1912,11 @@ const shows = [
     notes: "Supporting The Cold Stares",
     link:"https://www.ticketweb.com/event/the-cold-stares-shank-hall-tickets/13869014",
     linkText: "Tickets"
-  }
+  },
+  {
+    datetime: "2026-02-07T20:00",
+    venue: "At The Tracks",
+    location: "Green Bay, WI",
+    //notes: "Supporting Motherwind w/ Broken Arrow",
+  },
 ];

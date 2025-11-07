@@ -283,6 +283,12 @@ section .videos {
   --white: rgb(208, 183, 130);
   --primary: rgb(244,184,65);
 }
+:root .about ul li a {
+  color: var(--primary);
+}
+:root .about ul li a:hover {
+  opacity: 0.5;
+}
 
 footer {
   text-align: center;
