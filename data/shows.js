@@ -1917,7 +1917,7 @@ const shows = [
     datetime: "2026-02-07T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ TBD",
+    notes: "w/ No Limit & TBD",
   },
   {
     datetime: "2026-03-07T00:00",
