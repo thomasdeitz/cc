@@ -124,14 +124,14 @@ const shows = [
     notes: "w/ 5 Card Studs",
   },
   {
-    datetime: "2021-07-03T12:00",
-    venue: "Okauchee Lions Park - Okauchee Lake Music Festival",
-    location: "Okauchee, WI",
-  },
-  {
     datetime: "2021-06-18T18:30",
     venue: "EP Release Party - Private Event",
     location: "Oconomowoc, WI",
+  },
+  {
+    datetime: "2021-07-03T12:00",
+    venue: "Okauchee Lions Park - Okauchee Lake Music Festival",
+    location: "Okauchee, WI",
   },
   /***** ^ 2021 ^ v 2022 v *****/
   {
@@ -1917,6 +1917,23 @@ const shows = [
     datetime: "2026-02-07T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    //notes: "Supporting Motherwind w/ Broken Arrow",
+    notes: "w/ TBD",
   },
+  {
+    datetime: "2026-03-07T200:00",
+    venue: "Lake Louie Brewing",
+    location: "Verona, WI"
+  }
+  // {
+  //   datetime: "2026-03-12T20:00",
+  //   venue: "The Bend Theatre",
+  //   location: "West Bend, WI",
+  //   notes: "Acoustic Duo",
+  // },
+  // {
+  //   datetime: "2026-04-17T20:00",
+  //   venue: "The Bend Theatre",
+  //   location: "West Bend, WI",
+  //   notes: "w/ TBD",
+  // },
 ];
