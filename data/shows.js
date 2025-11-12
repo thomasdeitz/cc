@@ -1922,7 +1922,8 @@ const shows = [
   {
     datetime: "2026-03-07T200:00",
     venue: "Lake Louie Brewing",
-    location: "Verona, WI"
+    location: "Verona, WI",
+    notes: "Acoustic Duo"
   }
   // {
   //   datetime: "2026-03-12T20:00",
