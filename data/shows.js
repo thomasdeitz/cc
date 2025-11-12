@@ -1920,7 +1920,7 @@ const shows = [
     notes: "w/ TBD",
   },
   {
-    datetime: "2026-03-07T200:00",
+    datetime: "2026-03-07T00:00",
     venue: "Lake Louie Brewing",
     location: "Verona, WI",
     notes: "Acoustic Duo"
