@@ -1924,17 +1924,26 @@ const shows = [
     venue: "Lake Louie Brewing",
     location: "Verona, WI",
     notes: "Acoustic Duo"
-  }
+  },
   // {
   //   datetime: "2026-03-12T20:00",
   //   venue: "The Bend Theatre",
   //   location: "West Bend, WI",
   //   notes: "Acoustic Duo",
   // },
+  {
+    datetime: "2026-04-17T00:00",
+    venue: "TBA", //"River's Bend Blues Revival @ The Bend Theatre",
+    location: "West Bend, WI",
+    //notes: "w/ The Bone Shakers",
+    //link: "Tickets",
+    //linkText: "holder"
+  
+  },
   // {
-  //   datetime: "2026-04-17T20:00",
-  //   venue: "The Bend Theatre",
-  //   location: "West Bend, WI",
-  //   notes: "w/ TBD",
+  //   datetime: "2026-05-15T00:00",
+  //   venue: "Booze Hags",
+  //   location: "Nashotah, WI",
+  //   notes: "Acoustic Duo"
   // },
 ];
