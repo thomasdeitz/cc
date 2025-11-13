@@ -1906,7 +1906,7 @@ const shows = [
     notes: "w/ No Limit"
   },
   {
-    datetime: "2025-11-21T00:00",
+    datetime: "2025-11-21T20:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
     notes: "Supporting The Cold Stares",
@@ -1920,7 +1920,7 @@ const shows = [
     notes: "w/ No Limit & TBD",
   },
   {
-    datetime: "2026-03-07T00:00",
+    datetime: "2026-03-07T18:00",
     venue: "Lake Louie Brewing",
     location: "Verona, WI",
     notes: "Acoustic Duo"
