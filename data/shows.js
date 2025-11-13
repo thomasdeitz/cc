@@ -1925,6 +1925,14 @@ const shows = [
     location: "Verona, WI",
     notes: "Acoustic Duo"
   },
+  {
+    datetime: "2026-03-19T00:00",
+    venue: "TBA", //"The Bend Theatre",
+    location: "West Bend, WI",
+    notes: "Acoustic Duo",
+    //link: "Tickets",
+    //linkText: "Info"
+  },
   // {
   //   datetime: "2026-03-12T20:00",
   //   venue: "The Bend Theatre",
@@ -1936,8 +1944,8 @@ const shows = [
     venue: "TBA", //"River's Bend Blues Revival @ The Bend Theatre",
     location: "West Bend, WI",
     //notes: "w/ The Bone Shakers",
-    //link: "Tickets",
-    //linkText: "holder"
+    //link: "holder",
+    //linkText: "Tickets"
   
   },
   // {
