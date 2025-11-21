@@ -1914,6 +1914,20 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    datetime: "2025-12-15T19:00",
+    //venue: "Appleton Music Factory",
+    location: "Appleton, WI",
+    //notes: "Supporting THE BAND FEEL",
+    //link: "https://app.showslinger.com/standalone_external_events/27884",
+    //linkText: "Tickets"
+  },
+  {
+    datetime: "2026-01-02T00:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    //notes: "w/ Whiskey and the Devil & Stone Theory",
+  },
+  {
     datetime: "2026-02-07T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
@@ -1934,7 +1948,7 @@ const shows = [
     //linkText: "Info"
   },
   // {
-  //   datetime: "2026-03-12T20:00",
+  //   datetime: "2026-03-19T20:00",
   //   venue: "The Bend Theatre",
   //   location: "West Bend, WI",
   //   notes: "Acoustic Duo",
