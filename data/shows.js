@@ -1915,17 +1915,17 @@ const shows = [
   },
   {
     datetime: "2025-12-15T19:00",
-    //venue: "Appleton Music Factory",
+    venue: "Appleton Music Factory",
     location: "Appleton, WI",
-    //notes: "Supporting THE BAND FEEL",
-    //link: "https://app.showslinger.com/standalone_external_events/27884",
-    //linkText: "Tickets"
+    notes: "Supporting THE BAND FEEL",
+    link: "https://app.showslinger.com/v4/the-band-feel-with-pearl-#_=_",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-01-02T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
-    //notes: "w/ Whiskey and the Devil & Stone Theory",
+    notes: "w/ Whiskey and the Devil & BLind Hill",
   },
   {
     datetime: "2026-02-07T20:00",
@@ -1960,7 +1960,6 @@ const shows = [
     //notes: "w/ The Bone Shakers",
     //link: "holder",
     //linkText: "Tickets"
-  
   },
   // {
   //   datetime: "2026-05-15T00:00",
@@ -1968,4 +1967,9 @@ const shows = [
   //   location: "Nashotah, WI",
   //   notes: "Acoustic Duo"
   // },
+  {
+    datetime: "2025-07-18T00:00",
+    venue: "TBA",
+    location: "Fox Valley",
+  },
 ];
