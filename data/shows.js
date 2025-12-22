@@ -1925,13 +1925,23 @@ const shows = [
     datetime: "2026-01-02T00:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
-    notes: "w/ Whiskey and the Devil & BLind Hill",
+    notes: "w/ Whiskey and the Devil & Blind Hill",
+    link:"https://www.ticketweb.com/event/candy-cigarette-whiskey-and-the-shank-hall-tickets/13980924",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-02-07T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
     notes: "w/ No Limit & TBD",
+  },
+  {
+    datetime: "2026-02-18T20:00",
+    venue: "Shank Hall",
+    location: "Milwaukee, WI",
+    notes: "Supporting Deraps",
+    link:"https://www.ticketweb.com/event/deraps-shank-hall-tickets/14667693",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-03-07T18:00",
@@ -1947,12 +1957,6 @@ const shows = [
     //link: "Tickets",
     //linkText: "Info"
   },
-  // {
-  //   datetime: "2026-03-19T20:00",
-  //   venue: "The Bend Theatre",
-  //   location: "West Bend, WI",
-  //   notes: "Acoustic Duo",
-  // },
   {
     datetime: "2026-04-17T00:00",
     venue: "TBA", //"River's Bend Blues Revival @ The Bend Theatre",
