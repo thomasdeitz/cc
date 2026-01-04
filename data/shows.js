@@ -1972,6 +1972,11 @@ const shows = [
   //   notes: "Acoustic Duo"
   // },
   {
+    datetime: "2025-05-30T00:00",
+    venue: "TBA",
+    location: "Fox Valley",
+  },
+  {
     datetime: "2025-07-18T00:00",
     venue: "TBA",
     location: "Fox Valley",
