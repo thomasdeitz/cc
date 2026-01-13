@@ -1911,7 +1911,8 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "Supporting The Cold Stares",
     link:"https://www.ticketweb.com/event/the-cold-stares-shank-hall-tickets/13869014",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2025-12-15T19:00",
