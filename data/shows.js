@@ -1981,4 +1981,10 @@ const shows = [
     venue: "TBA",
     location: "Fox Valley",
   },
+  {
+    datetime: "2026-09-06T00:00",
+    venue: "TBA",
+    location: "Hubertus, WI",
+    notes: "Acoustic Duo"
+  },
 ];
