@@ -7,19 +7,15 @@ const PressKit = {
             Candy Cigarette delivers a blistering brand of raw, high-energy blues-rock, fueled by an unapologetic spirit that defies their age. Hailing from Oconomowoc, Wisconsin, identical twins Isaac (bass/vocals) and Lucas Deitz (guitar/vocals), both 15, and drummer Evan Sterken, 17, have been igniting stages across the Midwest and beyond. Their sound, a potent blend of 70s rock giants like Led Zeppelin and the modern fire of Rival Sons, captivates audiences with electrifying live performances. Searing guitar riffs and blood harmonies, coupled with a thunderous rhythmic drive, create an undeniable sonic force. Having shared stages with acclaimed artists such as Blackberry Smoke, Jared James Nichols, and many more, Candy Cigarette has proven their ability to command any crowd. Their latest single, "REVOLUTION," marks a powerful step forward, positioning Candy Cigarette as torchbearers for the future of rock and roll.
         </div>
     </Section>
-    <Section background="black" heading="Music" alignment="center">
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3o7cVfvCZaT1Gjt23SjHfX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </Section>
-    <Section heading="Video" alignment="center">
-         <div class="photo-grid">
-            <iframe style="display:none; border-radius:12px; margin:auto;" width="auto" height="315" src="https://www.youtube.com/embed/NG2uxuxIwm4?si=W_QSNH1WcqXMvRUT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
-            <iframe style="border-radius:12px; margin:auto; aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/COho60KAbxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <Section background="black" heading="Video" alignment="center">      
+        <iframe style="border-radius:12px; margin:auto; aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/COho60KAbxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="photo-grid">
             <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/FAaUJWI6jEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/nd0Qm3J6IuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/xUkYu6VVd7o?si=fuYHrk7Aflkqovua" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style="display:none;" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/5maVQrBwrq5t6SoOiUsfVk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
+    </Section>
+    <Section heading="Music" alignment="center">
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3o7cVfvCZaT1Gjt23SjHfX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </Section>
     <Section background="black" heading="Photos" alignment="center">
         <div class="photo-grid">
