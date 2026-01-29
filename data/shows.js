@@ -1853,35 +1853,12 @@ const shows = [
     link: "https://www.facebook.com/share/19ApiGMwrk/",
     linkText: "Info"
   },
-  // {
-  //   datetime: "2025-09-17T00:00",
-  //   venue: "Shank Hall",
-  //   location: "Milwaukee, WI",
-  //   notes: "Supporting The Black Moods",
-  //   link:"https://www.ticketweb.com/event/the-black-moods-shank-hall-tickets/13880194",
-  //   linkText: "Tickets"
-  // },
-  // {
-  //   datetime: "2025-10-02T00:00",
-  //   venue: "",
-  //   location: ", IL"
-  // },
-  // {
-  //   datetime: "2025-10-03T00:00",
-  //   venue: "",
-  //   location: "Nasheville, TN"
-  // },
   {
     datetime: "2025-10-04T00:00",
     venue: "The Blue House",
     location: "Murfreesboro, TN",
     notes: "w/ Superimposed & Saint Stranger"
   },
-  // {
-  //   datetime: "2025-10-05T00:00",
-  //   venue: "",
-  //   location: "ST. Louis, MO"
-  // },
   {
     datetime: "2025-10-11T15:00",
     venue: "ROB'S PERFORMANCE MOTORSPORTS - Fall Open House and Ride-in",
@@ -1934,7 +1911,7 @@ const shows = [
     datetime: "2026-02-07T20:00",
     venue: "At The Tracks",
     location: "Green Bay, WI",
-    notes: "w/ No Limit & TBD",
+    notes: "w/ No Limit & The Band Spot",
   },
   {
     datetime: "2026-02-18T20:00",
