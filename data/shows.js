@@ -1951,20 +1951,20 @@ const shows = [
     notes: "Acoustic Duo"
   },
   {
-    datetime: "2026-03-19T00:00",
-    venue: "TBA", //"The Bend Theatre",
+    datetime: "2026-03-19T19:00",
+    venue: "The Bend Theatre: ",
     location: "West Bend, WI",
-    notes: "Acoustic Duo",
-    //link: "Tickets",
-    //linkText: "Info"
+    notes: "ORIGINS – A Fresh Singer-Songwriter Series - Acoustic Duo",
+    link: "https://thebendwi.org/event/origins-a-fresh-singer-songwriter-series-march-19-candy-cigarette/",
+    linkText: "Info"
   },
   {
     datetime: "2026-04-17T00:00",
-    venue: "TBA", //"River's Bend Blues Revival @ The Bend Theatre",
+    venue: "River's Bend Blues Revival @ The Bend Theatre",
     location: "West Bend, WI",
-    //notes: "w/ The Bone Shakers",
-    //link: "holder",
-    //linkText: "Tickets"
+    notes: "w/ The Bone Shakers",
+    link: "https://thebendwi.org/event/rivers-bend-blues-revival/",
+    linkText: "Tickets"
   },
   // {
   //   datetime: "2026-05-15T00:00",
