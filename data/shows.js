@@ -1929,7 +1929,7 @@ const shows = [
   },
   {
     datetime: "2026-03-19T19:00",
-    venue: "The Bend Theatre: ",
+    venue: "The Bend Theatre",
     location: "West Bend, WI",
     notes: "ORIGINS – A Fresh Singer-Songwriter Series - Acoustic Duo",
     link: "https://thebendwi.org/event/origins-a-fresh-singer-songwriter-series-march-19-candy-cigarette/",
@@ -1950,9 +1950,16 @@ const shows = [
   //   notes: "Acoustic Duo"
   // },
   {
+    datetime: "2026-03-06T00:00",
+    venue: "Thoughts for Food @ the Eagles Club",
+    location: "Racine, WI",
+  },
+  {
     datetime: "2026-05-30T00:00",
-    venue: "TBA",
-    location: "Fox Valley",
+    venue: "FARMAPALOOZA V",
+    location: "Kaukauna, WI",
+    link: "https://brodazoffawi.com/",
+    linkText: "Info"
   },
   {
     datetime: "2026-07-18T00:00",
