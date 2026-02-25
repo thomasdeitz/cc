@@ -1922,6 +1922,20 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    datetime: "2026-02-28T18:00",
+    venue: "Live From The Mad City on Max Ink Radio",
+    location: "Madison, WI",
+    link:"https://civicmedia.us/shows/max-ink-radio",
+    linkText: "Listen"
+  },
+  {
+    datetime: "2026-03-06T17:30",
+    venue: "Thoughts for Food @ the Eagles Club",
+    location: "Racine, WI",
+    link:"https://www.facebook.com/events/1553103032624048/",
+    linkText: "Info"
+  },
+  {
     datetime: "2026-03-07T18:00",
     venue: "Lake Louie Brewing",
     location: "Verona, WI",
@@ -1950,17 +1964,32 @@ const shows = [
   //   notes: "Acoustic Duo"
   // },
   {
-    datetime: "2026-03-06T00:00",
-    venue: "Thoughts for Food @ the Eagles Club",
-    location: "Racine, WI",
-  },
-  {
     datetime: "2026-05-30T00:00",
     venue: "FARMAPALOOZA V",
     location: "Kaukauna, WI",
     link: "https://brodazoffawi.com/",
     linkText: "Info"
   },
+  {
+    datetime: "2026-06-26T00:00",
+    venue: "TBA",
+    location: "Colorado",
+  },
+  {
+    datetime: "2026-06-27T00:00",
+    venue: "TBA",
+    location: "Colorado",
+  },
+  {
+    datetime: "2026-06-28T00:00",
+    venue: "TBA",
+    location: "Colorado",
+  },
+  // {
+  //   datetime: "2026-07-11T00:00",
+  //   venue: "TBA",
+  //   location: "Wisconsin",
+  // },
   {
     datetime: "2026-07-18T00:00",
     venue: "TBA",
