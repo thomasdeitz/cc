@@ -1921,13 +1921,13 @@ const shows = [
     link:"https://www.ticketweb.com/event/deraps-shank-hall-tickets/14667693",
     linkText: "Tickets"
   },
-  {
-    datetime: "2026-02-28T18:00",
-    venue: "Live From The Mad City on Max Ink Radio",
-    location: "Madison, WI",
-    link:"https://civicmedia.us/shows/max-ink-radio",
-    linkText: "Listen"
-  },
+  // { Cancelled - Illness
+  //   datetime: "2026-02-28T18:00",
+  //   venue: "Live From The Mad City on Max Ink Radio",
+  //   location: "Madison, WI",
+  //   link:"https://civicmedia.us/shows/max-ink-radio",
+  //   linkText: "Listen"
+  // },
   {
     datetime: "2026-03-06T17:30",
     venue: "Thoughts for Food @ the Eagles Club",
@@ -1945,9 +1945,16 @@ const shows = [
     datetime: "2026-03-19T19:00",
     venue: "The Bend Theatre",
     location: "West Bend, WI",
-    notes: "ORIGINS – A Fresh Singer-Songwriter Series - Acoustic Duo",
+    notes: "ORIGINS - A Fresh Singer-Songwriter Series - Acoustic Duo",
     link: "https://thebendwi.org/event/origins-a-fresh-singer-songwriter-series-march-19-candy-cigarette/",
     linkText: "Info"
+  },  
+  {
+    datetime: "2026-04-11T18:00",
+    venue: "Live From The Mad City on Max Ink Radio",
+    location: "Madison, WI",
+    link:"https://civicmedia.us/shows/max-ink-radio",
+    linkText: "Listen"
   },
   {
     datetime: "2026-04-17T00:00",
@@ -1956,6 +1963,11 @@ const shows = [
     notes: "w/ The Bone Shakers",
     link: "https://thebendwi.org/event/rivers-bend-blues-revival/",
     linkText: "Tickets"
+  },
+  {
+    datetime: "2026-05-09T00:00",
+    venue: "A+ Power Sports - Off-Road Fest",
+    location: "Elkorn, WI"
   },
   // {
   //   datetime: "2026-05-15T00:00",
@@ -1970,6 +1982,31 @@ const shows = [
     link: "https://brodazoffawi.com/",
     linkText: "Info"
   },
+  {
+    datetime: "2026-06-05T00:00",
+    venue: "Private Event",
+    location: "Red Wing, MN"
+  },
+  {
+    datetime: "2026-06-06T13:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI"
+  },
+  // {
+  //   datetime: "2026-06-23T00:00",
+  //   venue: "xBk Live, Greenwood Lounge, Woolys",
+  //   location: "Des Moines, IA",
+  // },
+  // {
+  //   datetime: "2026-06-24T00:00",
+  //   venue: "The Slowdown, The Waiting Room, Harney Street Tavern",
+  //   location: "Omaha, NE",
+  // },
+  // {
+  //   datetime: "2026-06-26T00:00",
+  //   venue: "Hi-Dive, Lost Lake Lounge, Marquis Theater",
+  //   location: "Denver, CO",
+  // },
   {
     datetime: "2026-06-26T00:00",
     venue: "TBA",
@@ -1986,9 +2023,24 @@ const shows = [
     location: "Colorado",
   },
   // {
-  //   datetime: "2026-07-11T00:00",
-  //   venue: "TBA",
-  //   location: "Wisconsin",
+  //   datetime: "2026-06-29T00:00",
+  //   venue: "Surfside 7, Magic Rat, The Mishawaka",
+  //   location: "Fort Collins, CO",
+  // },
+  // {
+  //   datetime: "2026-06-30T00:00",
+  //   venue: "The Bottleneck, Replay Lounge, The Granada",
+  //   location: "Lawrence, KS",
+  // },
+  // {
+  //   datetime: "2026-07-01T00:00",
+  //   venue: "Gabes, Elrays Live & Dive, Tavern Blue",
+  //   location: "Iowa City, IA",
+  // },
+  // {
+  //   datetime: "2026-07-17T00:00",
+  //   venue: "Tumbled Rock Brewery",
+  //   location: "Baraboo, WI",
   // },
   {
     datetime: "2026-07-18T00:00",
@@ -1997,7 +2049,7 @@ const shows = [
   },
   {
     datetime: "2026-09-06T00:00",
-    venue: "TBA",
+    venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI",
     notes: "Acoustic Duo"
   },
