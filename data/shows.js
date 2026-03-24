@@ -2034,8 +2034,8 @@ const shows = [
   // },
   // {
   //   datetime: "2026-07-01T00:00",
-  //   venue: "Gabes, Elrays Live & Dive, Tavern Blue",
-  //   location: "Iowa City, IA",
+  //   venue: "Shenanigans",
+  //   location: "West Plains, MO",
   // },
   // {
   //   datetime: "2026-07-17T00:00",
@@ -2043,14 +2043,37 @@ const shows = [
   //   location: "Baraboo, WI",
   // },
   {
+    datetime: "2026-07-11T13:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI"
+  },
+  {
     datetime: "2026-07-18T00:00",
     venue: "TBA",
     location: "Fox Valley",
   },
   {
+    datetime: "2026-08-29T13:00",
+    venue: "Tumbled Rock Brewery",
+    location: "Baraboo, WI",
+    notes: "The Twins",
+  },
+  {
     datetime: "2026-09-06T00:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI",
-    notes: "Acoustic Duo"
+    notes: "The Twins"
   },
+  // {
+  //   datetime: "2026-10-11T00:00",
+  //   venue: "Holy Hill Art Farm",
+  //   location: "Hubertus, WI",
+  //   notes: "The Twins",
+  // },
+  // {
+  //   datetime: "2026-10-16T00:00",
+  //   venue: "The Bend Theatre",
+  //   location: "West Bend, WI",
+  //   notes: "w/ Some National Act",
+  // },
 ];
