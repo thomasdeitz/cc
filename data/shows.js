@@ -1972,7 +1972,7 @@ const shows = [
     location: "Elkorn, WI"
   },
   {
-    datetime: "2025-05-29T00:00",
+    datetime: "2026-05-29T00:00",
     venue: "Oconomowoc High School - Grill 2 Give",
     location: "Oconomowoc, WI",
   },
@@ -2049,7 +2049,7 @@ const shows = [
     notable: "true",
   },
   {
-    datetime: "2025-07-19T00:00",
+    datetime: "2026-07-19T00:00",
     venue: "TBA",
     location: "Shawano, WI",
   },
