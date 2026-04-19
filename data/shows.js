@@ -1897,7 +1897,8 @@ const shows = [
     location: "Appleton, WI",
     notes: "Supporting THE BAND FEEL",
     link: "https://app.showslinger.com/v4/the-band-feel-with-pearl-#_=_",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2026-01-02T00:00",
@@ -1960,27 +1961,29 @@ const shows = [
     datetime: "2026-04-17T00:00",
     venue: "River's Bend Blues Revival @ The Bend Theatre",
     location: "West Bend, WI",
-    notes: "w/ The Bone Shakers",
+    notes: "w/ The Boneshakers",
     link: "https://thebendwi.org/event/rivers-bend-blues-revival/",
-    linkText: "Tickets"
+    linkText: "Tickets",
+    notable: "true"
   },
   {
     datetime: "2026-05-09T00:00",
     venue: "A+ Power Sports - Off-Road Fest",
     location: "Elkorn, WI"
   },
-  // {
-  //   datetime: "2026-05-15T00:00",
-  //   venue: "Booze Hags",
-  //   location: "Nashotah, WI",
-  //   notes: "Acoustic Duo"
-  // },
   {
     datetime: "2026-05-30T00:00",
     venue: "FARMAPALOOZA V",
     location: "Kaukauna, WI",
     link: "https://brodazoffawi.com/",
     linkText: "Info"
+  },
+  {
+    datetime: "2026-05-31T00:00",
+    venue: "The Very Famous X-Ray Arcade",
+    location: "Cudahy, WI",
+    link: "https://xrayarcade.com/calendar",
+    linkText: "Ticket"
   },
   {
     datetime: "2026-06-05T00:00",
@@ -1993,34 +1996,29 @@ const shows = [
     location: "Baraboo, WI"
   },
   // {
-  //   datetime: "2026-06-23T00:00",
-  //   venue: "xBk Live, Greenwood Lounge, Woolys",
-  //   location: "Des Moines, IA",
+  //   datetime: "2026-06-19T13:00",
+  //   venue: "Rockonsin State Finals at Summerfest",
+  //   location: "Milwaukee, WI"
   // },
   // {
-  //   datetime: "2026-06-24T00:00",
-  //   venue: "The Slowdown, The Waiting Room, Harney Street Tavern",
-  //   location: "Omaha, NE",
-  // },
-  // {
-  //   datetime: "2026-06-26T00:00",
-  //   venue: "Hi-Dive, Lost Lake Lounge, Marquis Theater",
-  //   location: "Denver, CO",
+  //   datetime: "2026-06-25T00:00",
+  //   venue: "Pals Brewing",
+  //   location: "North Platte, NE",
   // },
   {
     datetime: "2026-06-26T00:00",
     venue: "TBA",
-    location: "Colorado",
+    location: "Winter Park, CO",
   },
   {
     datetime: "2026-06-27T00:00",
     venue: "TBA",
-    location: "Colorado",
+    location: "Winter Park, CO",
   },
   {
     datetime: "2026-06-28T00:00",
     venue: "TBA",
-    location: "Colorado",
+    location: "Winter Park, CO",
   },
   // {
   //   datetime: "2026-06-29T00:00",
@@ -2028,19 +2026,9 @@ const shows = [
   //   location: "Fort Collins, CO",
   // },
   // {
-  //   datetime: "2026-06-30T00:00",
-  //   venue: "The Bottleneck, Replay Lounge, The Granada",
-  //   location: "Lawrence, KS",
-  // },
-  // {
-  //   datetime: "2026-07-01T00:00",
-  //   venue: "Shenanigans",
-  //   location: "West Plains, MO",
-  // },
-  // {
-  //   datetime: "2026-07-17T00:00",
-  //   venue: "Tumbled Rock Brewery",
-  //   location: "Baraboo, WI",
+  //   datetime: "2026-07-04T13:00",
+  //   venue: "Rockonsin Winner Showcase at Summerfest",
+  //   location: "Milwaukee, WI"
   // },
   {
     datetime: "2026-07-11T13:00",
@@ -2049,9 +2037,33 @@ const shows = [
   },
   {
     datetime: "2026-07-18T00:00",
-    venue: "TBA",
-    location: "Fox Valley",
+    venue: "Paperfest",
+    location: "Kimberly, WI",
+    link: "https://www.paperfest.com/",
+    linkText: "Info",
+    notable: "true",
   },
+  {
+     datetime: "2026-08-13T00:00",
+     venue: "The Bend Theatre",
+     location: "West Bend, WI",
+     notes: "w/ The Fabulous Thunderbirds",
+     link: "https://thebendwi.org/event/the-fabulous-thunderbirds-a-tribute-to-chicago-blues/",
+    linkText: "Tickets",
+    notable: "true",
+  },
+  // {
+  //   datetime: "2026-08-14T00:00",
+  //   venue: "The Annex",
+  //   location: "Madison, WI",
+  //   notes: "w/ American Vanity",
+  // },
+  // {
+  //   datetime: "2026-08-15T00:00",
+  //   venue: "The Vivarium",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ American Vanity",
+  // },
   {
     datetime: "2026-08-29T13:00",
     venue: "Tumbled Rock Brewery",
@@ -2071,9 +2083,9 @@ const shows = [
   //   notes: "The Twins",
   // },
   // {
-  //   datetime: "2026-10-16T00:00",
+  //   datetime: "2027-01-16T00:00",
   //   venue: "The Bend Theatre",
   //   location: "West Bend, WI",
-  //   notes: "w/ Some National Act",
+  //   notes: "w/ The Jimmys",
   // },
 ];
