@@ -1972,6 +1972,11 @@ const shows = [
     location: "Elkorn, WI"
   },
   {
+    datetime: "2025-05-29T00:00",
+    venue: "Oconomowoc High School - Grill 2 Give",
+    location: "Oconomowoc, WI",
+  },
+  {
     datetime: "2026-05-30T00:00",
     venue: "FARMAPALOOZA V",
     location: "Kaukauna, WI",
