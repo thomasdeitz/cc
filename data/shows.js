@@ -2049,6 +2049,11 @@ const shows = [
     notable: "true",
   },
   {
+    datetime: "2025-07-19T00:00",
+    venue: "TBA",
+    location: "Shawano, WI",
+  },
+  {
      datetime: "2026-08-13T00:00",
      venue: "The Bend Theatre",
      location: "West Bend, WI",
