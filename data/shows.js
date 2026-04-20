@@ -2001,6 +2001,12 @@ const shows = [
     location: "Baraboo, WI"
   },
   // {
+  //   datetime: "2026-06-14T00:00",
+  //   venue: "High Noon Saloon",
+  //   location: "Madison, WI",
+  //   notes: "Supporting Genevieve Heyward",
+  // },
+  // {
   //   datetime: "2026-06-19T13:00",
   //   venue: "Rockonsin State Finals at Summerfest",
   //   location: "Milwaukee, WI"
@@ -2041,6 +2047,11 @@ const shows = [
     location: "Baraboo, WI"
   },
   {
+    datetime: "2026-07-17T00:00",
+    venue: "TBA", //"Kernel Benny's",
+    location: "MI", //Frankenmuth,
+  },
+  {
     datetime: "2026-07-18T00:00",
     venue: "Paperfest",
     location: "Kimberly, WI",
@@ -2054,11 +2065,11 @@ const shows = [
     location: "Shawano, WI",
   },
   {
-     datetime: "2026-08-13T00:00",
-     venue: "The Bend Theatre",
-     location: "West Bend, WI",
-     notes: "w/ The Fabulous Thunderbirds",
-     link: "https://thebendwi.org/event/the-fabulous-thunderbirds-a-tribute-to-chicago-blues/",
+    datetime: "2026-08-13T00:00",
+    venue: "The Bend Theatre",
+    location: "West Bend, WI",
+    notes: "w/ The Fabulous Thunderbirds",
+    link: "https://thebendwi.org/event/the-fabulous-thunderbirds-a-tribute-to-chicago-blues/",
     linkText: "Tickets",
     notable: "true",
   },
@@ -2086,12 +2097,6 @@ const shows = [
     location: "Hubertus, WI",
     notes: "The Twins"
   },
-  // {
-  //   datetime: "2026-10-11T00:00",
-  //   venue: "Holy Hill Art Farm",
-  //   location: "Hubertus, WI",
-  //   notes: "The Twins",
-  // },
   // {
   //   datetime: "2027-01-16T00:00",
   //   venue: "The Bend Theatre",
