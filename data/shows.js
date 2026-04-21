@@ -2020,19 +2020,19 @@ const shows = [
     datetime: "2026-06-26T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
-    notes: "The Twins",
+    notes: "Duo",
   },
   {
     datetime: "2026-06-27T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
-    notes: "The Twins",
+    notes: "Duo",
   },
   {
     datetime: "2026-06-28T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
-    notes: "The Twins",
+    notes: "Duo",
   },
   // {
   //   datetime: "2026-06-29T00:00",
@@ -2053,7 +2053,7 @@ const shows = [
     datetime: "2026-07-17T00:00",
     venue: "TBA", //"Kernel Benny's",
     location: "Frankenmuth, MI",
-    notes: "The Twins",
+    notes: "Duo",
   },
   {
     datetime: "2026-07-18T00:00",
@@ -2065,9 +2065,9 @@ const shows = [
   },
   {
     datetime: "2026-07-19T00:00",
-    venue: "TBA",
+    venue: "Brothers' Pub",
     location: "Shawano, WI",
-    notes: "The Twins",
+    notes: "Duo - Supporting The Champ Jaxon Band",
   },
   {
     datetime: "2026-08-13T00:00",
@@ -2094,13 +2094,13 @@ const shows = [
     datetime: "2026-08-29T13:00",
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI",
-    notes: "The Twins",
+    notes: "Duo",
   },
   {
     datetime: "2026-09-06T00:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI",
-    notes: "The Twins"
+    notes: "Duo"
   },
   // {
   //   datetime: "2027-01-16T00:00",
