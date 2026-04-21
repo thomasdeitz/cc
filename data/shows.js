@@ -2063,6 +2063,7 @@ const shows = [
     datetime: "2026-07-19T00:00",
     venue: "TBA",
     location: "Shawano, WI",
+    notes: "The Twins",
   },
   {
     datetime: "2026-08-13T00:00",
