@@ -2020,16 +2020,19 @@ const shows = [
     datetime: "2026-06-26T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
+    notes: "The Twins",
   },
   {
     datetime: "2026-06-27T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
+    notes: "The Twins",
   },
   {
     datetime: "2026-06-28T00:00",
     venue: "TBA",
     location: "Winter Park, CO",
+    notes: "The Twins",
   },
   // {
   //   datetime: "2026-06-29T00:00",
