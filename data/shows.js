@@ -2049,7 +2049,7 @@ const shows = [
   {
     datetime: "2026-07-17T00:00",
     venue: "TBA", //"Kernel Benny's",
-    location: "MI", //Frankenmuth,
+    location: "Frankenmuth, MI",
   },
   {
     datetime: "2026-07-18T00:00",
