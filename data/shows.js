@@ -1972,6 +1972,12 @@ const shows = [
     location: "Elkorn, WI"
   },
   {
+    datetime: "2026-05-16T18:00",
+    venue: "The Hive Taproom",
+    location: "East Troy, WI",
+    notes: "Duo"
+  },
+  {
     datetime: "2026-05-29T00:00",
     venue: "Oconomowoc High School - Grill 2 Give",
     location: "Oconomowoc, WI",
@@ -2000,12 +2006,6 @@ const shows = [
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI"
   },
-  // {
-  //   datetime: "2026-06-14T00:00",
-  //   venue: "High Noon Saloon",
-  //   location: "Madison, WI",
-  //   notes: "Supporting Genevieve Heyward",
-  // },
   // {
   //   datetime: "2026-06-19T13:00",
   //   venue: "Rockonsin State Finals at Summerfest",
@@ -2089,6 +2089,13 @@ const shows = [
   //   venue: "The Vivarium",
   //   location: "Milwaukee, WI",
   //   notes: "w/ American Vanity",
+  // },
+  // {
+  //   datetime: "2026-08-27T00:00",
+  //   venue: "High Noon Saloon",
+  //   location: "Madison, WI",
+  //   notes: "w/ Them Dirty Roses",
+  //   notable: "true",
   // },
   {
     datetime: "2026-08-29T13:00",
