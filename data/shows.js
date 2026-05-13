@@ -2084,12 +2084,12 @@ const shows = [
   //   location: "Madison, WI",
   //   notes: "w/ American Vanity",
   // },
-  // {
-  //   datetime: "2026-08-15T00:00",
-  //   venue: "The Vivarium",
-  //   location: "Milwaukee, WI",
-  //   notes: "w/ American Vanity",
-  // },
+  {
+    datetime: "2026-08-15T00:00",
+    venue: "TBA", //"The Vivarium"
+    location: "Milwaukee, WI",
+    //notes: "w/ American Vanity",
+  },
   // {
   //   datetime: "2026-08-27T00:00",
   //   venue: "High Noon Saloon",
