@@ -2086,9 +2086,11 @@ const shows = [
   // },
   {
     datetime: "2026-08-15T00:00",
-    venue: "TBA", //"The Vivarium"
+    venue: "The Vivarium",
     location: "Milwaukee, WI",
-    //notes: "w/ American Vanity",
+    notes: "w/ American Vanity & Oh Geez, Not Again",
+    link: "https://www.pabsttheatergroup.com/events/detail/american-vanity-2026",
+    linkText: "Tickets",
   },
   // {
   //   datetime: "2026-08-27T00:00",
