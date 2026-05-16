@@ -2006,11 +2006,18 @@ const shows = [
     venue: "Tumbled Rock Brewery",
     location: "Baraboo, WI"
   },
-  // {
-  //   datetime: "2026-06-19T13:00",
-  //   venue: "Rockonsin State Finals at Summerfest",
-  //   location: "Milwaukee, WI"
-  // },
+  {
+    datetime: "2026-06-19T12:15",
+    venue: "Summerfest - Aurora Pavilion Stage",
+    location: "Milwaukee, WI",
+    notes: "Rockonsin State Finals - Day TBD",
+  },
+  {
+    datetime: "2026-06-20T12:15",
+    venue: "Summerfest - Aurora Pavilion Stage",
+    location: "Milwaukee, WI",
+    notes: "Rockonsin State Finals - Day TBD",
+  },
   // {
   //   datetime: "2026-06-25T00:00",
   //   venue: "Pals Brewing",
@@ -2051,7 +2058,7 @@ const shows = [
   },
   {
     datetime: "2026-07-17T00:00",
-    venue: "TBA", //"Kernel Benny's",
+    venue: "Kernel Benny's",
     location: "Frankenmuth, MI",
     notes: "Duo",
   },
@@ -2078,12 +2085,6 @@ const shows = [
     linkText: "Tickets",
     notable: "true",
   },
-  // {
-  //   datetime: "2026-08-14T00:00",
-  //   venue: "The Annex",
-  //   location: "Madison, WI",
-  //   notes: "w/ American Vanity",
-  // },
   {
     datetime: "2026-08-15T00:00",
     venue: "The Vivarium",
