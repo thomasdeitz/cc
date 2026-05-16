@@ -2007,16 +2007,10 @@ const shows = [
     location: "Baraboo, WI"
   },
   {
-    datetime: "2026-06-19T12:15",
+    datetime: "2026-06-20T14:15",
     venue: "Summerfest - Aurora Pavilion Stage",
     location: "Milwaukee, WI",
-    notes: "Rockonsin State Finals - Day TBD",
-  },
-  {
-    datetime: "2026-06-20T12:15",
-    venue: "Summerfest - Aurora Pavilion Stage",
-    location: "Milwaukee, WI",
-    notes: "Rockonsin State Finals - Day TBD",
+    notes: "Rockonsin State Finals",
   },
   // {
   //   datetime: "2026-06-25T00:00",
