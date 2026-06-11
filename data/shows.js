@@ -1888,8 +1888,7 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "Supporting The Cold Stares",
     link:"https://www.ticketweb.com/event/the-cold-stares-shank-hall-tickets/13869014",
-    linkText: "Tickets",
-    notable: "true"
+    linkText: "Tickets"
   },
   {
     datetime: "2025-12-15T19:00",
@@ -2018,20 +2017,20 @@ const shows = [
   //   location: "North Platte, NE",
   // },
   {
-    datetime: "2026-06-26T00:00",
-    venue: "TBA",
+    datetime: "2026-06-26T18:00",
+    venue: "Cooper Creek Square",
     location: "Winter Park, CO",
     notes: "Duo",
   },
   {
-    datetime: "2026-06-27T00:00",
-    venue: "TBA",
+    datetime: "2026-06-27T20:00",
+    venue: "Devil's Craft",
     location: "Winter Park, CO",
-    notes: "Duo",
+    notes: "Duo w/ Earl Nelson & The Company",
   },
   {
     datetime: "2026-06-28T00:00",
-    venue: "TBA",
+    venue: "Blues From The Top",
     location: "Winter Park, CO",
     notes: "Duo",
   },
@@ -2051,7 +2050,7 @@ const shows = [
     location: "Baraboo, WI"
   },
   {
-    datetime: "2026-07-17T00:00",
+    datetime: "2026-07-17T19:00",
     venue: "Kernel Benny's",
     location: "Frankenmuth, MI",
     notes: "Duo",
@@ -2070,6 +2069,24 @@ const shows = [
     location: "Shawano, WI",
     notes: "Duo - Supporting The Champ Jaxon Band",
   },
+  // {
+  //   datetime: "2026-24-07T20:00",
+  //   venue: "Shank Hall",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ The Cold Stares",
+  //   link: "",
+  //   linkText: "Tickets",
+  //   notable: "true",
+  // },
+  // {
+  //   datetime: "2026-08-07T20:00",
+  //   venue: "Shank Hall",
+  //   location: "Milwaukee, WI",
+  //   notes: "Duo w/ Goodbye June",
+  //   link: "https://www.ticketweb.com/event/goodbye-june-shank-hall-tickets/14914883",
+  //   linkText: "Tickets",
+  //   notable: "true",
+  // },
   {
     datetime: "2026-08-13T00:00",
     venue: "The Bend Theatre",
@@ -2087,13 +2104,6 @@ const shows = [
     link: "https://www.pabsttheatergroup.com/events/detail/american-vanity-2026",
     linkText: "Tickets",
   },
-  // {
-  //   datetime: "2026-08-27T00:00",
-  //   venue: "High Noon Saloon",
-  //   location: "Madison, WI",
-  //   notes: "w/ Them Dirty Roses",
-  //   notable: "true",
-  // },
   {
     datetime: "2026-08-29T13:00",
     venue: "Tumbled Rock Brewery",
@@ -2104,7 +2114,32 @@ const shows = [
     datetime: "2026-09-06T00:00",
     venue: "Bilda's Friess Lake Pub",
     location: "Hubertus, WI",
-    notes: "Duo"
+    notes: "Duo",
+  },
+  {
+    datetime: "2026-09-12T18:00",
+    venue: "MartiFest",
+    location: "Sullivan, WI"
+  },
+  {
+    datetime: "2026-10-22T00:00",
+    venue: "TBD",
+    location: "Illinois"
+  },
+  {
+    datetime: "2026-10-23T00:00",
+    venue: "TBD",
+    location: "Missouri"
+  },
+  {
+    datetime: "2026-10-24T00:00",
+    venue: "TBD",
+    location: "Missouri"
+  },
+  {
+    datetime: "2026-10-25T00:00",
+    venue: "TBD",
+    location: "Illinois"
   },
   // {
   //   datetime: "2027-01-16T00:00",
