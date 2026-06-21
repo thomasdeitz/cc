@@ -2039,11 +2039,14 @@ const shows = [
   //   venue: "Surfside 7, Magic Rat, The Mishawaka",
   //   location: "Fort Collins, CO",
   // },
-  // {
-  //   datetime: "2026-07-04T13:00",
-  //   venue: "Rockonsin Winner Showcase at Summerfest",
-  //   location: "Milwaukee, WI"
-  // },
+  {
+    datetime: "2026-07-04T12:45",
+    venue: "Summerfest - Aurora Pavilion Stage",
+    location: "Milwaukee, WI",
+    link: "https://www.paperfest.com/",
+    linkText: "Info",
+    notable: "true"
+  },
   {
     datetime: "2026-07-11T13:00",
     venue: "Tumbled Rock Brewery",
@@ -2100,7 +2103,7 @@ const shows = [
     datetime: "2026-08-15T00:00",
     venue: "The Vivarium",
     location: "Milwaukee, WI",
-    notes: "w/ American Vanity & Oh Geez, Not Again",
+    notes: "w/ American Vanity & Oh Geeez, Not Again",
     link: "https://www.pabsttheatergroup.com/events/detail/american-vanity-2026",
     linkText: "Tickets",
   },
@@ -2124,7 +2127,7 @@ const shows = [
   {
     datetime: "2026-10-22T00:00",
     venue: "TBD",
-    location: "Illinois"
+    location: "Rockford, IL"
   },
   {
     datetime: "2026-10-23T00:00",
@@ -2133,8 +2136,8 @@ const shows = [
   },
   {
     datetime: "2026-10-24T00:00",
-    venue: "TBD",
-    location: "Missouri"
+    venue: "Shenanigans",
+    location: "West Plaines, MO"
   },
   {
     datetime: "2026-10-25T00:00",
