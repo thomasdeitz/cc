@@ -2073,7 +2073,7 @@ const shows = [
     notes: "Duo - Supporting The Champ Jaxon Band",
   },
   {
-    datetime: "2026-24-07T20:00",
+    datetime: "2026-07-24T20:00",
     venue: "Shank Hall",
     location: "Milwaukee, WI",
     notes: "w/ The Cold Stares",
