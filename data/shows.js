@@ -2021,24 +2021,25 @@ const shows = [
     venue: "Cooper Creek Square",
     location: "Winter Park, CO",
     notes: "Duo",
+    link: "https://coopercreeksquare.com/blog/music-on-the-square2/june-26-blues-allstars/",
+    linkText: "Info"
   },
   {
     datetime: "2026-06-27T20:00",
     venue: "Devil's Craft",
     location: "Winter Park, CO",
     notes: "Duo w/ Earl Nelson & The Company",
+    link: "https://www.tickpick.com/organizer/event/earl-nelson-the-company-33217996?referrer=venuepage",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-06-28T00:00",
     venue: "Blues From The Top",
     location: "Winter Park, CO",
     notes: "Duo",
+    link: "https://www.eventbrite.com/e/blues-from-the-top-music-festival-2026-tickets-1984074412979?aff=bfttwebsitelineup",
+    linkText: "Tickets"
   },
-  // {
-  //   datetime: "2026-06-29T00:00",
-  //   venue: "Surfside 7, Magic Rat, The Mishawaka",
-  //   location: "Fort Collins, CO",
-  // },
   {
     datetime: "2026-07-04T12:45",
     venue: "Summerfest - Aurora Pavilion Stage",
@@ -2050,13 +2051,17 @@ const shows = [
   {
     datetime: "2026-07-11T13:00",
     venue: "Tumbled Rock Brewery",
-    location: "Baraboo, WI"
+    location: "Baraboo, WI",
+    link: "https://tockify.com/tumbledrockmusic/detail/133/1783792800000",
+    linkText: "Info"
   },
   {
     datetime: "2026-07-17T19:00",
     venue: "Kernel Benny's",
     location: "Frankenmuth, MI",
     notes: "Duo",
+    link: "https://www.facebook.com/photo/?fbid=122285303600188508&set=gm.1325924419038741&idorvanity=1282427720055078",
+    linkText: "Info"
   },
   {
     datetime: "2026-07-18T00:00",
