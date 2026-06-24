@@ -6,10 +6,10 @@
 
     &:before {
         content: '';
-        background-image: url(././assets/HR-SF-CS1-0069_websize.jpg);
+        background-image: url(././assets/TJD01873.JPG);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: top center;
+        background-position: bottom center;
         top: 0px;
         height: 100vh;
         left: 0px;
@@ -39,9 +39,6 @@
     }
     .about &.d:before {
         background-image: url(././assets/TJD01851.JPG);
-    }
-    .about &.e:before {
-        background-image: url(././assets/TJD01854.JPG);
     }
 
     .about &:after {
