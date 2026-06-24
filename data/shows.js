@@ -2044,8 +2044,8 @@ const shows = [
     datetime: "2026-07-04T12:45",
     venue: "Summerfest - Aurora Pavilion Stage",
     location: "Milwaukee, WI",
-    link: "https://www.paperfest.com/",
-    linkText: "Info",
+    link: "https://store.summerfest.com/tickets",
+    linkText: "Tickets",
     notable: "true"
   },
   {
