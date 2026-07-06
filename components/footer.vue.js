@@ -11,10 +11,8 @@ const Pagefooter = {
             <Connections />
             <br />
                 <small>
-                    <strong>Management & Booking</strong><br />
-                    Thomas Deitz  /  <a href="mailto:candycigaretteband@gmail.com">Email</a>  /  <a href="tel:2625678114">262.567.8114</a>
+                    <strong>Management & Booking:</strong> Thomas Deitz / <a href="mailto:candycigaretteband@gmail.com">Email</a> / <a href="tel:2625678114">262.567.8114</a>
                 </small>
-                <br/>
                 <br/>
                 <small><strong><router-link to="/epk">EPK</router-link></strong></small>
                 <br/><br/>
