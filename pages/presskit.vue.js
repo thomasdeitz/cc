@@ -10,14 +10,14 @@ Their sound blends the massive swagger of vintage-era rock with the raw fire of 
         </div>
     </Section>
     <Section background="black" heading="Video" alignment="center">      
-        <iframe style="border-radius:12px; margin:auto; aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/COho60KAbxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style="border-radius:12px; margin:auto; aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/COho60KAbxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <div class="photo-grid">
-            <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/FAaUJWI6jEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/nd0Qm3J6IuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/FAaUJWI6jEc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            <iframe style="border-radius:12px; margin:auto;aspect-ratio: 16 / 9;" width="100%" src="https://www.youtube.com/embed/nd0Qm3J6IuA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
     </Section>
     <Section heading="Music" alignment="center">
-        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3o7cVfvCZaT1Gjt23SjHfX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3o7cVfvCZaT1Gjt23SjHfX?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </Section>
     <Section background="black" heading="Photos" alignment="center">
         <div class="photo-grid">
