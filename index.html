@@ -16,22 +16,30 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  // Helper function to format /#/dates into /v-page/dates so GA4 natively logs it
+  function getCleanPath() {
+    var hash = window.location.hash;
+    if (!hash || hash === '#/') return '/';
+    return '/v-page/' + hash.replace('#/', '').replace('#', '');
+  }
+
+  // 1. Tell GA4 to pause automatic tracking
   gtag('config', 'G-K5VDC2FEB0', {
     send_page_view: false
   });
 
-  // Track initial load using a custom parameter name
+  // 2. Fire initial page view with a clean pseudo-path
   gtag('event', 'page_view', {
-    virtual_page_path: window.location.pathname + window.location.search + window.location.hash
+    page_path: getCleanPath()
   });
 
-  // Track hash changes using a custom parameter name
+  // 3. Fire on hash change with the pseudo-path
   window.addEventListener('hashchange', function() {
     setTimeout(function() {
       gtag('event', 'page_view', {
         page_location: window.location.href,
-        virtual_page_path: window.location.pathname + window.location.search + window.location.hash,
-        page_title: document.title + ' | ' + window.location.hash.replace('#/', '')
+        page_path: getCleanPath(),
+        page_title: document.title
       });
     }, 100);
   });
