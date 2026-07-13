@@ -6,7 +6,7 @@
 
     &:before {
         content: '';
-        background-image: url(././assets/TJD01873.JPG);
+        background-image: url(././assets/TJD01873.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
@@ -29,16 +29,16 @@
     }
 
     .about &.a:before {
-        background-image: url(././assets/TJD01847.JPG);
+        background-image: url(././assets/TJD01847.webp);
     }
     .about &.b:before {
-        background-image: url(././assets/TJD01873.JPG);
+        background-image: url(././assets/TJD01873.webp);
     }
     .about &.c:before {
-        background-image: url(././assets/TJD01886.JPG);
+        background-image: url(././assets/TJD01886.webp);
     }
     .about &.d:before {
-        background-image: url(././assets/TJD01851.JPG);
+        background-image: url(././assets/TJD01851.webp);
     }
 
     .about &:after {
