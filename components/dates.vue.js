@@ -55,6 +55,6 @@ const Dates = {
         
       </div>
       <router-link v-if="length" to="/dates" class="button">View All</router-link>
-    <div>
+  </div>
     `
 }
