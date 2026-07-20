@@ -1,8 +1,8 @@
 :root {
-  --black: #0b0f0e;
-  --white: rgb(250,240,220);
-  --primary: rgb(128,45,35);
-  --accent: rgb(128,45,35);
+  --black: rgb(32, 38,23);
+  --white: rgb(220,192,172);
+  --primary: rgb(175,95,56);
+  --accent: rgb(175,95,56);
   --breakpoint-phone: 600px;
   --breakpoint-tablet: 900px;
   --breakpoint-laptop: 1440px;
@@ -208,7 +208,7 @@ section .videos {
   background-image: url(././assets/DuoHero.webp);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: center center;
   top: 0px;
   height: 100vh;
   left: 0px;
