@@ -205,7 +205,7 @@ section .videos {
 }
 #hero:before {
   content: "";
-  background-image: url(././assets/cc-hero-2000x1333.webp);
+  background-image: url(././assets/DuoHero.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -226,16 +226,16 @@ section .videos {
   position: fixed;
 }
 .about #hero.a:before {
-  background-image: url(././assets/cc-hero-2000x1333.webp);
+  background-image: url(././assets/DuoHero.webp);
 }
 .about #hero.b:before {
-  background-image: url(././assets/cc-hero-2000x1333.webp);
+  background-image: url(././assets/DuoHero.webp);
 }
 .about #hero.c:before {
-  background-image: url(././assets/cc-hero-2000x1333.webp);
+  background-image: url(././assets/DuoHero.webp);
 }
 .about #hero.d:before {
-  background-image: url(././assets/cc-hero-2000x1333.webp);
+  background-image: url(././assets/DuoHero.webp);
 }
 .about #hero:after {
   top: 30vh;

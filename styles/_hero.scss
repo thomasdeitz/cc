@@ -6,7 +6,7 @@
 
     &:before {
         content: '';
-        background-image: url(././assets/cc-hero-2000x1333.webp);
+        background-image: url(././assets/DuoHero.webp);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom center;
@@ -29,16 +29,16 @@
     }
 
     .about &.a:before {
-        background-image: url(././assets/cc-hero-2000x1333.webp);
+        background-image: url(././assets/DuoHero.webp);
     }
     .about &.b:before {
-        background-image: url(././assets/cc-hero-2000x1333.webp);
+        background-image: url(././assets/DuoHero.webp);
     }
     .about &.c:before {
-        background-image: url(././assets/cc-hero-2000x1333.webp);
+        background-image: url(././assets/DuoHero.webp);
     }
     .about &.d:before {
-        background-image: url(././assets/cc-hero-2000x1333.webp);
+        background-image: url(././assets/DuoHero.webp);
     }
 
     .about &:after {
