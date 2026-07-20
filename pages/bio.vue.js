@@ -3,9 +3,7 @@ const BioPage = {
     <Hero />
     <Section alignment="center" heading="About the Band">
         <div class="">
-Out of Oconomowoc, Wisconsin, Candy Cigarette delivers a blistering brand of raw, high-energy blues-rock fueled by an unapologetic spirit. Identical twins Isaac (bass/vocals) and Lucas Deitz (guitar/vocals), alongside drummer Evan Sterken, are igniting stages across the Midwest and beyond.
-<br/><br/>
-Their sound blends the massive swagger of vintage-era rock with the raw fire of heavy blues, captivating audiences through electrifying live performances, searing guitar riffs, blood harmonies, and a thunderous rhythmic drive. Built for the stage, Candy Cigarette commands any crowd. Their latest single, "REVOLUTION," marks a powerful step forward, with more new music on the horizon.
+            Powered by identical twin brothers Isaac and Lucas Deitz, Candy Cigarette brings a loud, fresh spin to classic blues-rock. Blending gritty vocal harmonies, riffy guitars, and deep grooves into a high-energy live show, they deliver a real and organic sound built for the stage. No gimmicks, no backing tracks, just pure live energy.
         </div>
     </Section>
     `
