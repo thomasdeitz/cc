@@ -2011,11 +2011,6 @@ const shows = [
     location: "Milwaukee, WI",
     notes: "Rockonsin State Finals",
   },
-  // {
-  //   datetime: "2026-06-25T00:00",
-  //   venue: "Pals Brewing",
-  //   location: "North Platte, NE",
-  // },
   {
     datetime: "2026-06-26T18:00",
     venue: "Cooper Creek Square",
@@ -2104,14 +2099,14 @@ const shows = [
     linkText: "Tickets",
     notable: "true",
   },
-  {
-    datetime: "2026-08-15T00:00",
-    venue: "The Vivarium",
-    location: "Milwaukee, WI",
-    notes: "w/ American Vanity & Oh Geeez, Not Again",
-    link: "https://www.pabsttheatergroup.com/events/detail/american-vanity-2026",
-    linkText: "Tickets",
-  },
+  // { Tour Canceled
+  //   datetime: "2026-08-15T00:00",
+  //   venue: "The Vivarium",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ American Vanity & Oh Geeez, Not Again",
+  //   link: "https://www.pabsttheatergroup.com/events/detail/american-vanity-2026",
+  //   linkText: "Tickets",
+  // },
   {
     datetime: "2026-08-29T13:00",
     venue: "Tumbled Rock Brewery",
@@ -2129,6 +2124,12 @@ const shows = [
     venue: "MartiFest",
     location: "Sullivan, WI"
   },
+  // {
+  //   datetime: "2026-10-14T00:00",
+  //   venue: "The Vivarium",
+  //   location: "Milwaukee, WI",
+  //   notes: "w/ Sawyer Hill",
+  // },
   {
     datetime: "2026-10-22T00:00",
     venue: "TBD",
@@ -2149,6 +2150,22 @@ const shows = [
     venue: "TBD",
     location: "Illinois"
   },
+  // {
+  //   datetime: "2026-11-21T00:00",
+  //   venue: "Appleton Music Factory",
+  //   location: "Appleton, WI",
+  //   notes: "w/ Lightwatch",
+  //   link: "",
+  //   linkText: "Needs Link",
+  // },
+  // {
+  //   datetime: "2026-12-06T00:00",
+  //   venue: "High Noon Saloon",
+  //   location: "Appleton, WI",
+  //   notes: "w/ Anthony Gomes",
+  //   link: "",
+  //   linkText: "Needs Link",
+  // },
   // {
   //   datetime: "2027-01-16T00:00",
   //   venue: "The Bend Theatre",
