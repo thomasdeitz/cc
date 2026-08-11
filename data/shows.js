@@ -2150,14 +2150,14 @@ const shows = [
     venue: "TBD",
     location: "Illinois"
   },
-  // {
-  //   datetime: "2026-11-21T00:00",
-  //   venue: "Appleton Music Factory",
-  //   location: "Appleton, WI",
-  //   notes: "w/ Lightwatch",
-  //   link: "",
-  //   linkText: "Needs Link",
-  // },
+  {
+    datetime: "2026-11-21T00:00",
+    venue: "TBA", //"Appleton Music Factory",
+    location: "Appleton, WI",
+    //notes: "w/ Lightwatch",
+    //link: "",
+    //linkText: "Needs Link",
+  },
   // {
   //   datetime: "2026-12-06T00:00",
   //   venue: "High Noon Saloon",
