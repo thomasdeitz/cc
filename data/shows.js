@@ -2120,9 +2120,12 @@ const shows = [
     notes: "Duo",
   },
   {
-    datetime: "2026-09-12T18:00",
+    datetime: "2026-09-12T17:45",
     venue: "MartiFest",
-    location: "Sullivan, WI"
+    location: "Sullivan, WI",
+    notes: "Music fsrom 3PM - 10:30PM",
+    link: "https://www.facebook.com/events/1063154179952440",
+    linkText: "Info",
   },
   // {
   //   datetime: "2026-10-14T00:00",
