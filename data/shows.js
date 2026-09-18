@@ -2135,7 +2135,7 @@ const shows = [
   {
     datetime: "2026-10-23T00:00",
     venue: "TBD",
-    location: "Missouri"
+    location: ""
   },
   {
     datetime: "2026-10-24T00:00",
@@ -2145,7 +2145,7 @@ const shows = [
   {
     datetime: "2026-10-25T00:00",
     venue: "TBD",
-    location: "Illinois"
+    location: ""
   },
   {
     datetime: "2026-11-21T00:00",
