@@ -2127,16 +2127,10 @@ const shows = [
     link: "https://www.facebook.com/events/1063154179952440",
     linkText: "Info",
   },
-  // {
-  //   datetime: "2026-10-14T00:00",
-  //   venue: "The Vivarium",
-  //   location: "Milwaukee, WI",
-  //   notes: "w/ Sawyer Hill",
-  // },
   {
     datetime: "2026-10-22T00:00",
-    venue: "TBD",
-    location: "Rockford, IL"
+    venue: "Law Office Pub and Music Hall",
+    location: "Yorkville, IL"
   },
   {
     datetime: "2026-10-23T00:00",
