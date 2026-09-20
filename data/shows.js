@@ -2128,9 +2128,11 @@ const shows = [
     linkText: "Info",
   },
   {
-    datetime: "2026-10-22T00:00",
+    datetime: "2026-10-22T19:00",
     venue: "Law Office Pub and Music Hall",
-    location: "Yorkville, IL"
+    location: "Yorkville, IL",
+    link: "https://www.prekindle.com/event/48978-candy-cigarette-yorkville",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-10-23T00:00",
@@ -2138,9 +2140,11 @@ const shows = [
     location: ""
   },
   {
-    datetime: "2026-10-24T00:00",
+    datetime: "2026-10-24T20:00",
     venue: "Shenanigans",
-    location: "West Plaines, MO"
+    location: "West Plaines, MO",
+    link: "https://shenanigansmo.com/event/6704132/776713221/candy-cigarette",
+    linkText: "Tickets"
   },
   {
     datetime: "2026-10-25T00:00",
