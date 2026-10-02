@@ -40,14 +40,14 @@ const shows = [
     datetime: "2021-10-15T20:00",
     venue: "The Back Bar",
     location: "Janesville, WI",
-    notes: 'w/ The Other LA, Solar, & Common Threads',
+    notes: 'w/ The Other LA, Solar & Common Threads',
     notable: "true"
   },
   {
     datetime: "2021-10-12T18:30",
     venue: "the BCKYRD",
     location: "Fitchburg, WI",
-    notes: 'w/ Jeffrey Dallet, & The Lonesome Cobras'
+    notes: 'w/ Jeffrey Dallet & The Lonesome Cobras'
   },
   {
     datetime: "2021-10-09T19:45",
@@ -174,7 +174,7 @@ const shows = [
     datetime: "2022-02-12T20:00",
     venue: "Mad Steintist",
     location: "Waukesha, WI",
-    notes: 'w/ Dropbear Collective, HoneyFingers, & Nick Bacardi and The Rum Runners'
+    notes: 'w/ Dropbear Collective, HoneyFingers & Nick Bacardi and The Rum Runners'
   },
   {
     datetime: "2022-02-19T20:00",
@@ -397,9 +397,9 @@ const shows = [
   },
   {
     datetime: "2022-07-23T14:00",
-    venue: "Daily Taco & Cantina - Cheelabration - 3:30, 5:30, 7:30, & 9:30 PM",
+    venue: "Daily Taco & Cantina - Cheelabration - 3:30, 5:30, 7:30 & 9:30 PM",
     location: "Thiensville, WI",
-    notes: 'w/ Buffalo Gospel, Reverend Raven and the Chain Smokin\' Altar Boys feat. Westside Andy, Maple Road Blues Band, & Mississippi Leg Hounds'
+    notes: 'w/ Buffalo Gospel, Reverend Raven and the Chain Smokin\' Altar Boys feat. Westside Andy, Maple Road Blues Band & Mississippi Leg Hounds'
   },
   {
     datetime: "2022-07-24T12:00",
@@ -2136,8 +2136,9 @@ const shows = [
   },
   {
     datetime: "2026-10-23T00:00",
-    venue: "",
-    location: "TBD"
+    venue: "Platypus",
+    location: "St. Louis, MO",
+    notes: "w/ Leave No Trace, Harpo Jarvi & Cloud Machine",
   },
   {
     datetime: "2026-10-24T20:00",
