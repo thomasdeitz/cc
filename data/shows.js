@@ -2148,6 +2148,11 @@ const shows = [
     linkText: "Tickets"
   },
   {
+    datetime: "2026-10-31T00:00",
+    venue: "Private Event",
+    location: "Oconomowoc, WI"
+  },
+  {
     datetime: "2026-11-21T00:00",
     venue: "TBA", //"Appleton Music Factory",
     location: "Appleton, WI",
