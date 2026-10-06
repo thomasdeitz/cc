@@ -2160,18 +2160,8 @@ const shows = [
     //link: "",
     //linkText: "Needs Link",
   },
-  // {
-  //   datetime: "2026-12-06T00:00",
-  //   venue: "High Noon Saloon",
-  //   location: "Appleton, WI",
-  //   notes: "w/ Anthony Gomes",
-  //   link: "",
-  //   linkText: "Needs Link",
-  // },
-  // {
-  //   datetime: "2027-01-16T00:00",
-  //   venue: "The Bend Theatre",
-  //   location: "West Bend, WI",
-  //   notes: "w/ The Jimmys",
-  // },
+  {
+    datetime: "2027-01-02T00:00",
+    location: "TBA",
+  }
 ];

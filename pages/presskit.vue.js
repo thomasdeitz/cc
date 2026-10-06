@@ -4,7 +4,7 @@ const PressKit = {
     
     <Section background="" heading="Biography" alignment="center">
         <div class="">
-            Powered by identical twin brothers Isaac and Lucas Deitz, Candy Cigarette brings a loud, fresh spin to classic blues-rock. Blending gritty vocal harmonies, riffy guitars, and deep grooves into a high-energy live show, they deliver a real and organic sound built for the stage. No gimmicks, no backing tracks, just pure live energy.
+            Powered by identical twin brothers Isaac and Lucas Deitz, Candy Cigarette brings a loud, fresh spin to the classic blues-rock power trio. Blending raw vocal harmonies, gritty guitars, and heavy grooves into a high-energy live show, they deliver an authentic sound built for the stage. No gimmicks, no backing tracks, just pure live energy.
         </div>
     </Section>
     <Section background="black" heading="Video" alignment="center">      
