@@ -2138,7 +2138,7 @@ const shows = [
     datetime: "2026-10-23T00:00",
     venue: "Platypus",
     location: "St. Louis, MO",
-    notes: "w/ Leave No Trace, Harpo Jarvi & Cloud Machine",
+    notes: "w/ Harpo Jarvi, Cloud Machine & Leave No Trace",
   },
   {
     datetime: "2026-10-24T20:00",
