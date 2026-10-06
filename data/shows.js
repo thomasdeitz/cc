@@ -2148,11 +2148,6 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2026-10-25T00:00",
-    venue: "",
-    location: "TBD"
-  },
-  {
     datetime: "2026-11-21T00:00",
     venue: "TBA", //"Appleton Music Factory",
     location: "Appleton, WI",
