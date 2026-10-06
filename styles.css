@@ -333,7 +333,7 @@ footer h2 {
   position: relative;
   overflow: hidden;
 }
-.shows > div:not(:last-child) {
+.shows > div:not(:nth-last-child(-n+3)) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 768px) {

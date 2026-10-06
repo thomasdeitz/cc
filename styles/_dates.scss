@@ -10,7 +10,7 @@
       padding: 20px;
       position: relative;
       overflow: hidden;
-      &:not(:last-child) {
+      &:not(:nth-last-child(-n+3)) {
         border-bottom: 1px solid rgba(0,0,0,.2);
       }
     }
