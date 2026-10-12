@@ -2135,7 +2135,7 @@ const shows = [
     linkText: "Tickets"
   },
   {
-    datetime: "2026-10-23T00:00",
+    datetime: "2026-10-23T19:30",
     venue: "Platypus",
     location: "St. Louis, MO",
     notes: "w/ Harpo Jarvi, Cloud Machine & Leave No Trace",
