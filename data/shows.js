@@ -2162,6 +2162,6 @@ const shows = [
   },
   {
     datetime: "2027-01-02T00:00",
-    location: "TBA",
+    location: "Milwaukee, WI",
   }
 ];
