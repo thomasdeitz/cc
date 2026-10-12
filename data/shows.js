@@ -2153,12 +2153,12 @@ const shows = [
     location: "Oconomowoc, WI"
   },
   {
-    datetime: "2026-11-21T00:00",
-    venue: "TBA", //"Appleton Music Factory",
+    datetime: "2026-11-21T19:30",
+    venue: "Appleton Music Factory",
     location: "Appleton, WI",
-    //notes: "w/ Lightwatch",
-    //link: "",
-    //linkText: "Needs Link",
+    notes: "w/ Lightwatch",
+    link: "https://app.showslinger.com/e/lightwatch-with-candy-cig?from=%2Fe1%2F17%2Fappleton-beer-factory%2F7900043eee%3Fis_embedded%3Dtrue&promo_widget_v3_id=17",
+    linkText: "Tickets",
   },
   {
     datetime: "2027-01-02T00:00",
