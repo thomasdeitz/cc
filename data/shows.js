@@ -2139,6 +2139,8 @@ const shows = [
     venue: "Platypus",
     location: "St. Louis, MO",
     notes: "w/ Harpo Jarvi, Cloud Machine & Leave No Trace",
+    link: "https://bandsintown.com/e/109025885?came_from=297&utm_medium=web&utm_source=copy_link&utm_campaign=event_social_share",
+    linkText: "Info"
   },
   {
     datetime: "2026-10-24T20:00",
